@@ -9,16 +9,23 @@
     <title>Document</title>
 </head>
 <body>
-    <main>
+    <main class="contenedor">
      <header class="header">
-            <p>Horarios</p>
+            <p>kioraicoletivo?</p>
      </header>
      <div class="topside" >
-     <form name=menu action="">
+     <form class="menu" name=menu action="">
             <select id="selector" class="select"name="selector">
                 <option value="default" disabled selected>¿Donde Estás?</option>
                 <option value="florida" >Florida</option>
                 <option value="sanM">San Miguel de Tucumán</option>
+            </select>
+        </form>
+        <form class="menu2" name=menu2 action="">
+            <select id="selector" class="select"name="selector">
+                <option value="default" disabled selected>¿Viajas por..?</option>
+                <option value="alderetes" >Alderetes</option>
+                <option value="posse">Posse</option>
             </select>
         </form>
         <form class="input-reloj-cont"name="form_reloj">
@@ -26,12 +33,9 @@
         </form>
     </div>
         
-        <div class=" boton-cont"action="">
-            <button id ="boton" class="boton">Consultar</button>
-        </div>
         <form class="resultados-cont" name="resultados">
-            <input class="resultados"type="text" name="alderete" id="alderete">
-            <input class="resultados"type="text" name="posse" id="posse">
+            <input class="resultados"type="text" name="alderete-pasado" id="pasado">
+            <input class="resultados"type="text" name="alderete-futuro" id="futuro">
         </form>
      
     </main>

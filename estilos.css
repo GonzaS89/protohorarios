@@ -1,19 +1,44 @@
+body{
+    background-color: rgb(255, 0, 0);
+}
+.contenedor{
+    max-width:1200px;
+}
 .header{
-    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     height:50px;
-    background-color: rgb(255, 23, 132);
+    background-color: rgb(255, 251, 39);
 }
 .header p{
     text-align: center;
+    background-color:rgb(255, 0, 0);
     font-size:30px;
     font-family:'Nunito', sans-serif;
+    width:200px;
+    border-radius: 10px;
+    color:white;
+    font-size: bold;
 }
 .topside{
     display: flex;
-    justify-content: space-around;
+    width:100%;
+    justify-content: center;
     align-items: center;
-    height:50px;
-    background-color:rgb(213, 245, 32)
+    background-color: rgb(255, 251, 39);
+
+}
+@media(max-width:600px){
+    .topside{
+        flex-direction: column
+    }
+    .select{
+        height:50px
+    }
+    .input-reloj{
+        height:50px;
+    }
 }
 .select{
     background-color:transparent;
@@ -21,45 +46,45 @@
     font-size:20px;
     border: none;
     text-align: center;
+    width:200px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 20px;
+
 }
 .select > option{
     font-family: 'Nunito', sans-serif;
     font-size: 15px;
+    color: white;
 }
-.resultadoposse-cont{
-    display: flex;
+.input-reloj-cont{
+
+    margin: 10px auto;
 }
 .input-reloj{
 background-color:transparent;
 text-align: center;
-font-size:30px;
+font-size:40px;
+width:400px;
+border-radius: 20px;
+border:none;
+background-color:red;
+color: white;
+text-decoration: rgb(255,50,40);
 font-family: 'Nunito', sans-serif;
-border: none;
+
 }
-.boton-cont{
-    display: flex;
-    justify-content:center;
-    margin-top:10px ;
-}
-.boton{
-    height:75px;
-    width:150px;
-    font-size:20px;
-    border-radius: 30px;
-    background-color:rgb(231, 242, 18)
-}
-.boton:hover{
-    cursor: pointer;
-}
+
 .resultados-cont{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
     height:200px;
     width:80%;
-    margin: 10px auto;
+    margin: 75px auto;
 }
 .resultados{
 width: 100%;
@@ -67,10 +92,16 @@ height: 100px;
 font-size:12px;
 text-align:center;
 border-radius: 20px;
-background-color:lightgreen;
+background-color:rgb(255, 259, 31);
 margin:10px;
 padding: 0;
 }
-#alderete{
+#pasado{
     font-size:20px;
+    font-family: 'Nunito', sans-serif;
+    
+}
+#futuro{
+    font-size:20px;
+    font-family: 'Nunito', sans-serif;
 }
