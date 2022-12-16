@@ -49,9 +49,6 @@ selector.addEventListener('click', function(){
     let horariosEnEnterosFloPo=[];
    ;
    
-    
-
-        /* Funcion para  comparar la hora con los horarios */
     const boton = document.getElementById('boton')
 
     boton.addEventListener('click', function(){
@@ -71,35 +68,36 @@ selector.addEventListener('click', function(){
         let horaMinutosEnEnteros = horasEnEnteros + minutosEnEnteros;
         horariosEnEnterosFloAl.push(horaMinutosEnEnteros);
         }
-        
-     
-       
-      
-    
-             
-      
 
-      for(horario of horariosFloPo){
-            let horasEnEnteros=  (Math.trunc(horario)  * 60);
-            let minutosEnEnteros = ((horario - (Math.trunc(horario)))*100);
+        for(let i=0 ; i < horariosFloPo.length ; i++){
+            let horasEnEnteros=  (Math.trunc(horariosFloPo[i])  * 60);
+            let minutosEnEnteros = ((horariosFloPo[i] - (Math.trunc(horariosFloAl[i])))*100);
             let horaMinutosEnEnteros = horasEnEnteros + minutosEnEnteros;
-            horariosEnEnterosFloPo.push(horaMinutosEnEnteros)
-    }
+            horariosEnEnterosFloPo.push(horaMinutosEnEnteros);
+            }
+   
     /* ---------------------------------------------------------------------*/
     
     /*Recorremos el array y buscamos coincidencias con el horario actual*/
+    let elMasCercano;
 
-    let listaDifHorariosFloAl = [];
-    for(horarioEnEnterosFloAl of horariosEnEnterosFloAl){
-        let difHoraHorario = horaEnEnteros - horarioEnEnterosFloAl;
-        let difHorarioHora = horarioEnEnterosFloAl - horaEnEnteros;
-        listaDifHorariosFloAl.push(difHoraHorario);
-        
+   for(i = 0; i < horariosEnEnterosFloAl.length; i++){
+    let difHoraHorarios = horaEnEnteros - horariosEnEnterosFloAl[i];
+    let difHorariosHora = horariosEnEnterosFloAl[i] - horaEnEnteros;
+    if((difHoraHorarios > 0)&&(difHoraHorarios < 60)){
+        elMasCercano = difHoraHorarios;
     }
+   } 
+   console.log(elMasCercano)
+
+   document.resultados.alderete.value = `El proximo bondi por Alderetes viene en ${Math.ceil(elMasCercano)} minutos`
+
+   
+ 
    
    
 })
-    }
+}
 })
 
     
