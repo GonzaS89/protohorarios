@@ -13,6 +13,9 @@ function reloj(){
     let hora = momentoActual.getHours();
     let minuto = momentoActual.getMinutes();
     let segundo = momentoActual.getSeconds();
+    let fecha = momentoActual.getDate();
+    let dia = momentoActual.getDay()
+    let mes = momentoActual.getMonth()
 
        if(minuto <=9){
         minuto = "0"+minuto
@@ -23,10 +26,21 @@ function reloj(){
        if(hora <= 9){
         hora= "0"+hora;
        }
+       if(fecha <=9){
+        fecha = "0"+fecha;
+       }
+       if(mes <=9){
+        mes="0"+mes;
+       }
+       let horaImprimible = hora + " : " + minuto + " : " + segundo;  
+    let f = document.getElementById('fecha')   
+    let diasDeLaSemana = ['Lunes','Martes','Miercoles','Jueves','Viernes','Sabado','Domingo'];
+    let mesesDelAño = ['Enero', 'Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre']
+    f.textContent = `${diasDeLaSemana[(dia -1)]}, ${fecha} de ${mesesDelAño[(mes)]}-- ${horaImprimible}`;
+   
+      
 
-
-    let horaImprimible = hora + " : " + minuto + " : " + segundo;
-    document.form_reloj.reloj.value = horaImprimible;
+   
     /*MOVER RELOJ A TIEMPO ACTUAL*/
     setTimeout("reloj()",1000)
     /*                          */

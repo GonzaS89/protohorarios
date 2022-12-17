@@ -6,21 +6,31 @@ body{
 }
 .header{
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height:50px;
-    background-color: rgb(255, 251, 39);
+    background-color: rgb(255, 0, 0);
+    margin-top: 20px;
 }
 .header p{
-    text-align: center;
-    background-color:rgb(255, 0, 0);
-    font-size:30px;
     font-family:'Nunito', sans-serif;
-    width:200px;
-    border-radius: 10px;
-    color:white;
     font-size: bold;
+    border-radius: 10px;
 }
+#nombre{
+    font-size: 40px;
+    margin: 0;
+    background-color: rgb(255, 259, 31);
+    width: 300px;
+    text-align: center;
+    
+}
+.fecha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .topside{
     display: flex;
     width:100%;
@@ -29,17 +39,7 @@ body{
     background-color: rgb(255, 251, 39);
 
 }
-@media(max-width:600px){
-    .topside{
-        flex-direction: column
-    }
-    .select{
-        height:50px
-    }
-    .input-reloj{
-        height:50px;
-    }
-}
+
 .select{
     background-color:transparent;
     font-family: 'Nunito', sans-serif;
@@ -59,23 +59,8 @@ body{
     font-size: 15px;
     color: white;
 }
-.input-reloj-cont{
 
-    margin: 10px auto;
-}
-.input-reloj{
-background-color:transparent;
-text-align: center;
-font-size:40px;
-width:400px;
-border-radius: 20px;
-border:none;
-background-color:red;
-color: white;
-text-decoration: rgb(255,50,40);
-font-family: 'Nunito', sans-serif;
 
-}
 
 .resultados-cont{
     display: flex;
@@ -104,4 +89,32 @@ padding: 0;
 #futuro{
     font-size:20px;
     font-family: 'Nunito', sans-serif;
+}
+@media(max-width:600px){
+    .header{
+        flex-direction: column;
+        height: 150px;
+    }
+    .topside{
+        flex-direction: column;
+    }
+    .select{
+        height:50px
+    }
+    .input-reloj{
+        height:50px;
+        width: 200px;
+    }
+    #futuro, #pasado{
+        font-size: 15px;
+    }
+    #fecha{
+        font-size: 20px;
+        background-color: rgb(255, 259, 31);
+        height: 100px;
+        color: black;
+        width: 400px;
+        font-weight: bold;
+    }
+
 }
