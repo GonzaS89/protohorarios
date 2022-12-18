@@ -26,20 +26,11 @@ function reloj(){
        if(hora <= 9){
         hora= "0"+hora;
        }
-       if(fecha <=9){
-        fecha = "0"+fecha;
-       }
-       if(mes <=9){
-        mes="0"+mes;
-       }
        let horaImprimible = hora + " : " + minuto + " : " + segundo;  
     let f = document.getElementById('fecha')   
-    let diasDeLaSemana = ['Lunes','Martes','Miercoles','Jueves','Viernes','Sabado','Domingo'];
+    let diasDeLaSemana = ['Domingo','Lunes','Martes','Miercoles','Jueves','Viernes','Sabado'];
     let mesesDelAño = ['Enero', 'Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre']
-    f.textContent = `${diasDeLaSemana[(dia -1)]}, ${fecha} de ${mesesDelAño[(mes)]}-- ${horaImprimible}`;
-   
-      
-
+    f.textContent = `${diasDeLaSemana[dia]}, ${fecha} de ${mesesDelAño[mes]} ~~ ${horaImprimible}`;
    
     /*MOVER RELOJ A TIEMPO ACTUAL*/
     setTimeout("reloj()",1000)
@@ -85,6 +76,12 @@ selector.addEventListener('click', function(){
                 let horaMinutosEnEnteros = horasEnEnteros + minutosEnEnteros;
               horariosEnEnterosFloAl.push(horaMinutosEnEnteros);
 
+              const boton = document.getElementById('boton');
+
+              boton.addEventListener('click',function(){
+
+              
+
                /*Recorremos el array y buscamos coincidencias con el horario actual*/
 
               for(i = 0; i < horariosEnEnterosFloAl.length; i++){
@@ -110,7 +107,8 @@ selector.addEventListener('click', function(){
                 }
                 document.resultados.futuro.value = `El proximo colectivo viene en ${Math.ceil(elMasCercano)} minutos`
            
-               }                
+               }         
+            })       
 
         }
     }
@@ -126,6 +124,8 @@ selector.addEventListener('click', function(){
             let hora = momentoActual.getHours();
             let minutos = momentoActual.getMinutes();
             let horaEnEnteros = (hora * 60) + minutos;
+
+           
             
         /*/Convertimos los horarios en enteros y los mandamos a un nuevo array"*/
         
@@ -136,6 +136,10 @@ selector.addEventListener('click', function(){
                         let minutosEnEnteros = ((horariosFloPo[i] - (Math.trunc(horariosFloPo[i])))*100);
                         let horaMinutosEnEnteros = horasEnEnteros + minutosEnEnteros;
                       horariosEnEnterosFloPo.push(horaMinutosEnEnteros);
+
+                      const boton = document.getElementById('boton');
+
+                      boton.addEventListener('click',function(){
         
                        /*Recorremos el array y buscamos coincidencias con el horario actual*/
         
@@ -161,8 +165,11 @@ selector.addEventListener('click', function(){
                             elMasCercano = difHorariosHora;    
                         }
                         document.resultados.futuro.value = `El proximo colectivo viene en ${Math.ceil(elMasCercano)} minutos`
+
+                        
                    
-                       }                
+                       }           
+                    })     
         
                 }
         

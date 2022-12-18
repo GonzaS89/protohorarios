@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
@@ -15,22 +16,31 @@
             <p class="fecha" id="fecha"></p>
      </header>
      <div class="topside" >
-     <form class="menu" name=menu action="">
-            <select id="selector" class="select"name="selector">
-                <option value="default" disabled selected>¿Donde Estás?</option>
-                <option value="florida" >Florida</option>
-                <option value="sanM">San Miguel de Tucumán</option>
-            </select>
-        </form>
-        <form class="menu2" name=menu2 action="">
-            <select id="selector" class="select"name="selector">
-                <option value="default" disabled selected>¿Viajas por..?</option>
-                <option value="alderetes" >Alderetes</option>
-                <option value="posse">Posse</option>
-            </select>
-        </form>
-        
+        <div class="topsidehijo1">
+            <p>Estas en:</p>
+            <p>Queres viajar por:</p>
+        </div>
+        <div class="topsidehijo2">
+            <form class="menu" name=menu action="">
+                <select id="selector" class="select"name="selector">
+                    <option value="default" disabled selected>Elige un origen</option>
+                    <option value="florida" >Florida</option>
+                    <option value="sanM">San Miguel de Tucumán</option>
+                </select>
+            </form>
+            <form class="menu2" name=menu2 action="">
+                <select id="selector" class="select"name="selector">
+                    <option value="default" disabled selected>¿Viajas por..?</option>
+                    <option value="alderetes" >Alderetes</option>
+                    <option value="posse">Posse</option>
+                </select>
+            </form>
+        </div>
     </div>
+    <div class="boton-cont">
+        <button id='boton'>Mostrar</button>   
+    </div>
+    
         
         <form class="resultados-cont" name="resultados">
             <input class="resultados"type="text" name="alderete-pasado" id="pasado">

@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(150, 0, 255);
 }
 .contenedor{
     max-width:1200px;
@@ -9,7 +9,7 @@ body{
     justify-content: space-around;
     align-items: center;
     height:50px;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(150, 0,255);
     margin-top: 20px;
 }
 .header p{
@@ -20,47 +20,89 @@ body{
 #nombre{
     font-size: 40px;
     margin: 0;
-    background-color: rgb(255, 259, 31);
-    width: 300px;
+    background-color: lightgray;
+    width: 350px;
     text-align: center;
-    
+    box-shadow: 0 2px 10px black;
+    text-transform: uppercase;
 }
 .fecha{
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 2px 10px black;
 }
-
 .topside{
     display: flex;
     width:100%;
-    justify-content: center;
     align-items: center;
-    background-color: rgb(255, 251, 39);
-
+    justify-content:center;
+    background-color:lightgray;
+    box-shadow: 0 2px 10px black;
+    border-radius: 10px;
 }
-
+.topsidehijo1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.topsidehijo2{
+    display: flex;
+    flex-direction: column;
+}
+.topsidehijo1 p{
+    font-size:20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight:bold;
+}
 .select{
+    flex-basis: 90%;
     background-color:transparent;
     font-family: 'Nunito', sans-serif;
     font-size:20px;
     border: none;
     text-align: center;
     width:200px;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
     color: white;
     font-weight: bold;
     margin: 10px;
     border-radius: 20px;
-
+    box-shadow: 0 2px 5px black;
+}
+.select:hover{
+    cursor: pointer;
 }
 .select > option{
     font-family: 'Nunito', sans-serif;
     font-size: 15px;
     color: white;
+    font-weight: bold;
 }
-
-
+.boton-cont{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-top:20px;
+    height:100px;
+}
+#boton{
+    height:75px;
+    width:150px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+    font-weight: bold;
+}
+#boton:hover{
+    cursor: pointer;
+    background-color:rgb(253, 140, 1);
+    color: white;
+    transition: background-color .5s;
+}
 
 .resultados-cont{
     display: flex;
@@ -69,7 +111,7 @@ body{
     align-items: center;
     height:200px;
     width:80%;
-    margin: 75px auto;
+    margin: 20px auto;
 }
 .resultados{
 width: 100%;
@@ -77,26 +119,26 @@ height: 100px;
 font-size:12px;
 text-align:center;
 border-radius: 20px;
-background-color:rgb(255, 259, 31);
+background-color:lightgray;
 margin:10px;
 padding: 0;
+border:none;
+box-shadow: 0 2px 5px black;
 }
 #pasado{
     font-size:20px;
     font-family: 'Nunito', sans-serif;
-    
+    font-weight: bold;
 }
 #futuro{
     font-size:20px;
     font-family: 'Nunito', sans-serif;
+    font-weight: bold;
 }
 @media(max-width:600px){
     .header{
         flex-direction: column;
         height: 150px;
-    }
-    .topside{
-        flex-direction: column;
     }
     .select{
         height:50px
@@ -110,7 +152,7 @@ padding: 0;
     }
     #fecha{
         font-size: 20px;
-        background-color: rgb(255, 259, 31);
+        background-color: lightgray;
         height: 100px;
         color: black;
         width: 400px;
