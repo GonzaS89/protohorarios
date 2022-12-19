@@ -81,7 +81,8 @@ selector.addEventListener('click', function(){
     
 
 
-              }
+         }
+        })
 
               boton.addEventListener('click',function(){
 
@@ -237,7 +238,7 @@ if(dia > 5){
                 })  
         
         }
-        })
+        
 }
     
 })
