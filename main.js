@@ -62,14 +62,14 @@ selector.addEventListener('click', function(){
     let horariosEnEnteros=[];
    
 
-    if((selector.value == 'florida') && (florida.disabled == false)){
+    // if((selector.value == 'florida') && (florida.disabled == false)){
       
-        selector2.addEventListener('click', function(){
-            const opcionbase2 = selector2[0];
-            const alderetes = selector2[1];
-            const posse = selector2[2];
+    //     selector2.addEventListener('click', function(){
+    //         const opcionbase2 = selector2[0];
+    //         const alderetes = selector2[1];
+    //         const posse = selector2[2];
 
-        if((selector2.value == 'alderetes' )&&(alderetes.disabled == false)){
+    //     if((selector2.value == 'alderetes' )&&(alderetes.disabled == false)){
             
               
 
@@ -82,9 +82,9 @@ selector.addEventListener('click', function(){
     
 
 
-         }
-        })
-    }
+    //      }
+    //     })
+    // }
               boton.addEventListener('click',function(){
 
 /*Aqui definimos el array dependiendo el dia de la semana*/
