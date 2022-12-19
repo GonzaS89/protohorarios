@@ -40,6 +40,7 @@ function reloj(){
 
 const selector = document.menu.selector;
 const selector2 = document.menu2.selector;
+const boton = document.getElementById('boton');
 
 
 selector.addEventListener('click', function(){
@@ -59,7 +60,7 @@ selector.addEventListener('click', function(){
     let anteriorPasado;
     let listaDelDia;
     let horariosEnEnteros=[];
-    const boton = document.getElementById('boton');
+   
 
     if((selector.value == 'florida') && (florida.disabled == false)){
       
@@ -83,7 +84,7 @@ selector.addEventListener('click', function(){
 
          }
         })
-
+    }
               boton.addEventListener('click',function(){
 
 /*Aqui definimos el array dependiendo el dia de la semana*/
@@ -239,7 +240,7 @@ if(dia > 5){
         
         }
         
-}
+
     
 })
 
