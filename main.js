@@ -62,7 +62,7 @@ selector.addEventListener('click', function(){
     let horariosEnEnteros=[];
    
 
-    if((selector.value == 'florida') && (florida.disabled == false)){
+    // if((selector.value == 'florida') && (florida.disabled == false)){
       
     //     selector2.addEventListener('click', function(){
     //         const opcionbase2 = selector2[0];
@@ -82,7 +82,7 @@ selector.addEventListener('click', function(){
     
 
 
-    }
+    // }
               boton.addEventListener('click',function(){
 
 /*Aqui definimos el array dependiendo el dia de la semana*/
