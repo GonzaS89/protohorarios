@@ -48,17 +48,11 @@ body{
     justify-content:space-around;
     width:100%;
 }
-.topsidehijo2{
-    display: flex;
-    align-items: center;
-    width:100%;
-    justify-content:space-around;
-}
 .topsidehijo1 p{
     font-size:15px;
     font-family: 'Nunito', sans-serif;
     font-weight:bold;
-    width: 100%;
+
     padding-left: 20px;
 }
 .topsidehijo2 p{
@@ -138,12 +132,12 @@ padding: 0;
 border:none;
 box-shadow: 0 2px 5px black;
 }
-#pasado{
+#alderete{
     font-size:20px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
 }
-#futuro{
+#posse{
     font-size:20px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
@@ -160,7 +154,7 @@ box-shadow: 0 2px 5px black;
         height:50px;
         width: 200px;
     }
-    #futuro, #pasado{
+    #posse, #alderete{
         font-size: 15px;
     }
     #fecha{
