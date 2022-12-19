@@ -133,12 +133,12 @@ border:none;
 box-shadow: 0 2px 5px black;
 }
 #alderete{
-    font-size:20px;
+    font-size:15px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
 }
 #posse{
-    font-size:20px;
+    font-size:15px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
 }
@@ -155,7 +155,7 @@ box-shadow: 0 2px 5px black;
         width: 200px;
     }
     #posse, #alderete{
-        font-size: 15px;
+        font-size: 11px;
     }
     #fecha{
         font-size: 15px;

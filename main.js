@@ -56,6 +56,7 @@ selector.addEventListener('click', function(){
     let horariosFlorida = [];
     let horariosSanMiguel = [];
     let listaCompletaFloAl = [];
+    let listaCompletaFloPo = []
     let momentoActual = new Date();
     let hora = momentoActual.getHours();
     let minutos = momentoActual.getMinutes();
@@ -69,10 +70,11 @@ selector.addEventListener('click', function(){
    
 
     if((selector.value == 'florida') && (florida.disabled == false)){
-        console.log("444")
-        const horariosLvFloAl = [4.40,5.35,6.1,6.25,6.4,6.5,7.25,7.4,7.5,8.45,9.2,9.5,10.3,11.3,12.3,12.4,13.15,14,15.5,15.5,16.2,16.5,17.5,18.1,18.3,19,20,21,22];/*Horarios de Lunes a Viernes desde Florida/Alderetes/San Miguel*/
+        const horariosLvFloAl = [4.40,5.35,6.1,6.25,6.4,6.5,7.25,7.4,7.5,8.45,9.2,9.5,10.3,11.3,12.3,12.4,13.15,14,15.5,16.2,16.5,17.5,18.1,18.3,19,20,21,22];/*Horarios de Lunes a Viernes desde Florida/Alderetes/San Miguel*/
         const horariosSFloAl = [4.40,5.45,6.1,6.25,6.5,7.18,7.40,7.50,8.45,9.2,10.3,11.40,12.40,13.15,14.50,15.50,16.50,17.5,19];/*Horarios de Sabados desde Florida/Alderetes/San Miguel*/
         const horariosDFloAl = [7.40,10.30,12.40,14.50,16.50,17.5,19.1]; /*Horarios de Domingo desde Florida/Alderetes/San Miguel*/
+        const horariosLvFloPo = [4.50,5.50,6.25,6.50,7.25,7.55,8.25,9.05,9.55,10.25,10.55,11.25,11.55,12.40,13.25,13.55,14.55,15.55,16.55,17.55,18.55,19.25,19.55,20.55,21.2,22.2];/*Horarios de Lunes a Viernes desde Florida/Posse/San Miguel*/
+        const horariosSFloPo=[4.50,5.50,6.25,6.5,]
       
     listaCompletaFloAl.push(horariosDFloAl,horariosLvFloAl,horariosSFloAl);
  
@@ -109,13 +111,13 @@ if(dia > 5){
                 
                 let difHoraHorarios = horaEnEnteros - horariosEnEnteros[i];
                 let difHorariosHora = horariosEnEnteros[i] - horaEnEnteros;
-                // if(difHoraHorarios > 0){
-                //     anteriorPasado = difHoraHorarios;
-                // }
-                // document.resultados.pasado.value = `El colectivo pasó hace ${Math.ceil(anteriorPasado)} minutos`;
-                // if(anteriorPasado >= 60){
-                //     document.resultados.pasado.value = `El colectivo pasó hace 1 hora y ${Math.ceil(anteriorPasado % 60)} minutos`
-                // }
+                if(difHoraHorarios > 0){
+                    anteriorPasado = difHoraHorarios;
+                    document.resultados.alderete.value = `El colectivo pasó hace ${Math.ceil(anteriorPasado)} minutos`;
+                }
+                if(anteriorPasado >= 60){
+                    document.resultados.alderete.value = `El colectivo pasó hace 1 hora y ${Math.ceil(anteriorPasado % 60)} minutos`
+                }
                 
                 
                 if((difHoraHorarios < 0) && (difHorariosHora < 15)){
@@ -130,10 +132,15 @@ if(dia > 5){
                 if((difHoraHorarios < 0) && (difHorariosHora < 60)){
                     elMasCercano = difHorariosHora;    
                 }
+                if((difHoraHorarios < 0) && (difHorariosHora < 120)){
+                    elMasCercano = difHorariosHora;    
+                }    
         }
     }
-    document.resultados.alderete.value = `Por Alderetes, el proximo colectivo viene en ${Math.ceil(elMasCercano)} minutos`
-   
+    console.log(elMasCercano)
+    if(elMasCercano > 60){
+    document.resultados.alderete.value = `Por Alderetes, el proximo colectivo viene en 1 hora y ${Math.ceil(elMasCercano % 60)} minutos`
+    }
 }
 })  
 
