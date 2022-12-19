@@ -57,6 +57,9 @@ selector.addEventListener('click', function(){
             const posse = selector2[2];
 
         if((selector2.value == 'alderetes' )&&(alderetes.disabled == false)){
+            const boton = document.getElementById('boton');
+
+              boton.addEventListener('click',function(){
     
     const horariosLvFloAl = [4.40,5.35,6.1,6.25,6.4,6.5,7.25,7.4,7.5,8.45,9.2,9.5,10.3,11.3,12.3,12.4,13.15,14,15.5,15.5,16.2,16.5,17.5,18.1,18.3,19,20,21,22];/*Horarios de Lunes a Viernes desde Florida/Alderetes/San Miguel*/
     const horariosSFloAl = [4.40,5.45,6.1,6.25,6.5,7.18,7.40,7.50,8.45,9.2,10.3,11.40,12.40,13.15,14.50,15.50,16.50,17.5,19];/*Horarios de Sabados desde Florida/Alderetes/San Miguel*/
@@ -92,10 +95,8 @@ if(dia > 5){
 }
 
 /*/Convertimos los horarios en enteros y los mandamos a un nuevo array"*/
-const boton = document.getElementById('boton');
 
-              boton.addEventListener('click',function(){
-      for(let i=0 ; i < listaDelDia.length ; i++){
+              for(let i=0 ; i < listaDelDia.length ; i++){
               
                let horasEnEnteros=  (Math.trunc(listaDelDia[i])  * 60);
                 let minutosEnEnteros = ((listaDelDia[i] - (Math.trunc(listaDelDia[i])))*100);
@@ -115,8 +116,8 @@ const boton = document.getElementById('boton');
                     anteriorPasado = difHoraHorarios;
                 }
                 document.resultados.pasado.value = `El colectivo pasó hace ${Math.ceil(anteriorPasado)} minutos`;
-                if(anteriorPasado > 60){
-                    document.resultados.pasado.value = `El colectivo pasó hace 1 hora y ${anteriorPasado % 60} minutos`
+                if(anteriorPasado >= 60){
+                    document.resultados.pasado.value = `El colectivo pasó hace 1 hora y ${Math.ceil(anteriorPasado % 60)} minutos`
                 }
                 
                 
