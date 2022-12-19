@@ -46,6 +46,11 @@ const boton = document.getElementById('boton');
 
 
 selector.addEventListener('click', function(){
+    boton.addEventListener('click',function(){
+ 
+       
+    
+    
     
    
     let horariosFlorida = [];
@@ -127,18 +132,10 @@ if(dia > 5){
                 }
         }
     }
-    boton.addEventListener('click',function(){
-        console.log(elMasCercano)
-        if(elMasCercano == 0){
-            console.log(444)
-        }
-        else{
-            console.log(555)
-        }
     document.resultados.alderete.value = `Por Alderetes, el proximo colectivo viene en ${Math.ceil(elMasCercano)} minutos`
-    })
+   
 }
-    
+})  
 
 })
 
