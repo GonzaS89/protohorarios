@@ -6,7 +6,6 @@ function iniciarApp(){
     reloj();
 };
 
-   
 function reloj(){
 
     let momentoActual = new Date();
@@ -40,44 +39,51 @@ function reloj(){
 /* Funcion para determinar la localidad de posicion*/
 
 const selector = document.menu.selector;
+const selector2 = document.menu2.selector;
 
 
 selector.addEventListener('click', function(){
     const opcionbase = selector[0]
     const florida = selector[1];
     const sanM = selector[2];
-   
 
+    let horariosFlorida = [];
+    let horariosSanMiguel = [];
+    let listaCompletaFloAl = [];
+    let momentoActual = new Date();
+    let hora = momentoActual.getHours();
+    let minutos = momentoActual.getMinutes();
+    let horaEnEnteros = (hora * 60) + minutos;
+    let dia = momentoActual.getDay();
+    let elMasCercano = 0;   
+    let anteriorPasado;
+    let listaDelDia;
+    let horariosEnEnteros=[];
+    const boton = document.getElementById('boton');
 
     if((selector.value == 'florida') && (florida.disabled == false)){
-        const selector2 = document.menu2.selector;
+      
         selector2.addEventListener('click', function(){
             const opcionbase2 = selector2[0];
             const alderetes = selector2[1];
             const posse = selector2[2];
 
         if((selector2.value == 'alderetes' )&&(alderetes.disabled == false)){
-            const boton = document.getElementById('boton');
+            
+              
 
-              boton.addEventListener('click',function(){
-    
+
     const horariosLvFloAl = [4.40,5.35,6.1,6.25,6.4,6.5,7.25,7.4,7.5,8.45,9.2,9.5,10.3,11.3,12.3,12.4,13.15,14,15.5,15.5,16.2,16.5,17.5,18.1,18.3,19,20,21,22];/*Horarios de Lunes a Viernes desde Florida/Alderetes/San Miguel*/
     const horariosSFloAl = [4.40,5.45,6.1,6.25,6.5,7.18,7.40,7.50,8.45,9.2,10.3,11.40,12.40,13.15,14.50,15.50,16.50,17.5,19];/*Horarios de Sabados desde Florida/Alderetes/San Miguel*/
     const horariosDFloAl = [7.40,10.30,12.40,14.50,16.50,17.5,19.1]; /*Horarios de Domingo desde Florida/Alderetes/San Miguel*/
-    let listaCompletaFloAl = [];
     listaCompletaFloAl.push(horariosDFloAl,horariosLvFloAl,horariosSFloAl);
-    let horariosEnEnteros=[];
-    let momentoActual = new Date();
-    let hora = momentoActual.getHours();
-    let minutos = momentoActual.getMinutes();
-    let horaEnEnteros = (hora * 60) + minutos;
-    let dia = momentoActual.getDay();
+ 
+    
 
 
+              }
 
-let elMasCercano = 0; 
-let anteriorPasado;
-let listaDelDia;
+              boton.addEventListener('click',function(){
 
 /*Aqui definimos el array dependiendo el dia de la semana*/
 
@@ -144,7 +150,7 @@ if(dia > 5){
 
         }
     }) 
-    }
+    
 
         if(selector2.value == 'posse'){
             const horariosLvFloPo = [5.55,6.20,6.50,7.25,7.55,8.25,9.10,10.05,10.25,11,11.25,12,12.10,12.25,13.3,14,15,15.55,16.55,17.55,18.55,20,21.2,22.2]; /*Horarios desde Florida/Posse/San Miguel - Lunes a Viernes*/
