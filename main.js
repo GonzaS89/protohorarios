@@ -39,14 +39,14 @@ function reloj(){
 /* Funcion para determinar la localidad de posicion*/
 
 const selector = document.menu.selector;
+const opcionbase = selector[0]
+const florida = selector[1];
+const sanM = selector[2];
 const boton = document.getElementById('boton');
 
 
 selector.addEventListener('click', function(){
-    const opcionbase = selector[0]
-    const florida = selector[1];
-    const sanM = selector[2];
-
+   
     let horariosFlorida = [];
     let horariosSanMiguel = [];
     let listaCompletaFloAl = [];
@@ -68,9 +68,6 @@ selector.addEventListener('click', function(){
     const horariosDFloAl = [7.40,10.30,12.40,14.50,16.50,17.5,19.1]; /*Horarios de Domingo desde Florida/Alderetes/San Miguel*/
     listaCompletaFloAl.push(horariosDFloAl,horariosLvFloAl,horariosSFloAl);
  
-    
-
-
     }
               boton.addEventListener('click',function(){
 
