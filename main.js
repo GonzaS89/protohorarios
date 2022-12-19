@@ -125,14 +125,20 @@ if(dia > 5){
                 if((difHoraHorarios < 0) && (difHorariosHora < 60)){
                     elMasCercano = difHorariosHora;    
                 }
-
-                
         }
     }
-}
     boton.addEventListener('click',function(){
+        console.log(elMasCercano)
+        if(elMasCercano == 0){
+            console.log(444)
+        }
+        else{
+            console.log(555)
+        }
     document.resultados.alderete.value = `Por Alderetes, el proximo colectivo viene en ${Math.ceil(elMasCercano)} minutos`
     })
+}
+    
 
 })
 
