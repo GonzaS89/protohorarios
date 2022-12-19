@@ -131,12 +131,7 @@ if(dia > 5){
     }
 }
     boton.addEventListener('click',function(){
-    if(elMasCercano == 0){
-        document.resultados.alderete.value = 'No hay mas colectivos por hoy'
-    }         
-   else{
     document.resultados.alderete.value = `Por Alderetes, el proximo colectivo viene en ${Math.ceil(elMasCercano)} minutos`
-   }
     })
 
 })
