@@ -132,15 +132,20 @@ if(dia > 5){
                 if((difHoraHorarios < 0) && (difHorariosHora < 60)){
                     elMasCercano = difHorariosHora;    
                 }
-                if((difHoraHorarios < 0) && (difHorariosHora < 120)){
-                    elMasCercano = difHorariosHora;    
-                }    
+        
+                  
         }
     }
-    console.log(elMasCercano)
-    if(elMasCercano > 60){
-    document.resultados.alderete.value = `Por Alderetes, el proximo colectivo viene en 1 hora y ${Math.ceil(elMasCercano % 60)} minutos`
-    }
+    console.log(elMasCercano);
+    document.resultados.alderete.value = `Por Alderetes, el proximo colectivo viene en ${elMasCercano} minutos`
+
+
+    
+    
+    
+    
+        document.resultados.alderete.value = `Por Alderetes, el proximo colectivo viene en ${elMasCercano} minutos`
+    
 }
 })  
 
