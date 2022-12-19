@@ -62,10 +62,12 @@ selector.addEventListener('click', function(){
     let minutos = momentoActual.getMinutes();
     let horaEnEnteros = (hora * 60) + minutos;
     let dia = momentoActual.getDay();
-    let elMasCercano = 0;   
+    let elMasCercano = 5000;   
     let anteriorPasado;
-    let listaDelDia;
-    let horariosEnEnteros=[];
+    let listaDelDiaFloAl;
+    let listaDelDiaFloPo;
+    let horariosEnEnterosFloAl=[];
+    let horariosEnEnterosFloPo=[];
    
    
 
@@ -74,72 +76,127 @@ selector.addEventListener('click', function(){
         const horariosSFloAl = [4.40,5.45,6.1,6.25,6.5,7.18,7.40,7.50,8.45,9.2,10.3,11.40,12.40,13.15,14.50,15.50,16.50,17.5,19];/*Horarios de Sabados desde Florida/Alderetes/San Miguel*/
         const horariosDFloAl = [7.40,10.30,12.40,14.50,16.50,17.5,19.1]; /*Horarios de Domingo desde Florida/Alderetes/San Miguel*/
         const horariosLvFloPo = [4.50,5.50,6.25,6.50,7.25,7.55,8.25,9.05,9.55,10.25,10.55,11.25,11.55,12.40,13.25,13.55,14.55,15.55,16.55,17.55,18.55,19.25,19.55,20.55,21.2,22.2];/*Horarios de Lunes a Viernes desde Florida/Posse/San Miguel*/
-        const horariosSFloPo=[4.50,5.50,6.25,6.5,]
+        const horariosSFloPo=[4.50,5.50,6.25,6.5]
       
     listaCompletaFloAl.push(horariosDFloAl,horariosLvFloAl,horariosSFloAl);
+    listaCompletaFloPo.push(horariosLvFloPo,horariosSFloPo);
  
 /*Aqui definimos el array dependiendo el dia de la semana*/
 
 if(dia == 0){
-    listaDelDia = listaCompletaFloAl[0].slice(0,listaCompletaFloAl[0].length)
-
+    listaDelDiaFloAl = listaCompletaFloAl[0].slice(0,listaCompletaFloAl[0].length)
+    listaDelDiaFloPo = listaCompletaFloPo[0].slice(0,listaCompletaFloPo[0].length)
 }
 if(dia >= 1 && dia <=5){
-    listaDelDia = listaCompletaFloAl[1].slice(0,listaCompletaFloAl[1].length);
-
+    listaDelDiaFloAl = listaCompletaFloAl[1].slice(0,listaCompletaFloAl[1].length);
+    listaDelDiaFloPo = listaCompletaFloPo[1].slice(0,listaCompletaFloPo[1].length);
 }
 if(dia > 5){
-    listaDelDia = listaCompletaFloAl[2].slice(0,listaCompletaFloAl[2].length);
-
+    listaDelDiaFloAl = listaCompletaFloAl[2].slice(0,listaCompletaFloAl[2].length);
+    listaDelDiaFloPo = listaCompletaFloPo[2].slice(0,listaCompletaFloPo[2].length);
 }
 
 /*/Convertimos los horarios en enteros y los mandamos a un nuevo array"*/
 
-              for(let i=0 ; i < listaDelDia.length ; i++){
+              for(let i=0 ; i < listaDelDiaFloAl.length ; i++){
               
-               let horasEnEnteros=  (Math.trunc(listaDelDia[i])  * 60);
-                let minutosEnEnteros = ((listaDelDia[i] - (Math.trunc(listaDelDia[i])))*100);
+                let horasEnEnteros=  (Math.trunc(listaDelDiaFloAl[i])  * 60);
+                let minutosEnEnteros = ((listaDelDiaFloAl[i] - (Math.trunc(listaDelDiaFloAl[i])))*100);
                 let horaMinutosEnEnteros = horasEnEnteros + minutosEnEnteros;
-              horariosEnEnteros.push(horaMinutosEnEnteros);
+              horariosEnEnterosFloAl.push(horaMinutosEnEnteros);
 
-              
-
-              
                /*Recorremos el array y buscamos coincidencias con el horario actual*/
 
-              for(i = 0; i < horariosEnEnteros.length; i++){
+              for(i = 0; i < horariosEnEnterosFloAl.length; i++){
                 
-                let difHoraHorarios = horaEnEnteros - horariosEnEnteros[i];
-                let difHorariosHora = horariosEnEnteros[i] - horaEnEnteros;
-                if(difHoraHorarios > 0){
-                    anteriorPasado = difHoraHorarios;
-                    document.resultados.alderete.value = `El colectivo pasó hace ${Math.ceil(anteriorPasado)} minutos`;
-                }
-                if(anteriorPasado >= 60){
-                    document.resultados.alderete.value = `El colectivo pasó hace 1 hora y ${Math.ceil(anteriorPasado % 60)} minutos`
-                }
+                let difHoraHorarios = horaEnEnteros - horariosEnEnterosFloAl[i];
+                let difHorariosHora = horariosEnEnterosFloAl[i] - horaEnEnteros;
+            
+
+                // if(difHoraHorarios > 0){
+                //     anteriorPasado = difHoraHorarios;
+                //     document.resultados.alderete.value = `El colectivo pasó hace ${Math.ceil(anteriorPasado)} minutos`;
+                // }
+                // if(anteriorPasado >= 60){
+                //     document.resultados.alderete.value = `El colectivo pasó hace 1 hora y ${Math.ceil(anteriorPasado % 60)} minutos`
+                // }
+
+               
+                // if((difHoraHorarios < 0) && (difHorariosHora < 15)){
+                //     elMasCercano = difHorariosHora;
+                // }
+                // if((difHoraHorarios < 0) && (difHorariosHora < 30)){
+                //     elMasCercano = difHorariosHora;
+                // }
+                // if((difHoraHorarios < 0) && (difHorariosHora < 45)){
+                //     elMasCercano = difHorariosHora;    
+                // }
+                // if((difHoraHorarios < 0) && (difHorariosHora < 60)){
+                //     elMasCercano = difHorariosHora;    
+                // }  
                 
-                
-                if((difHoraHorarios < 0) && (difHorariosHora < 15)){
-                    elMasCercano = difHorariosHora;
-                }
-                if((difHoraHorarios < 0) && (difHorariosHora < 30)){
-                    elMasCercano = difHorariosHora;
-                }
-                if((difHoraHorarios < 0) && (difHorariosHora < 45)){
-                    elMasCercano = difHorariosHora;    
-                }
-                if((difHoraHorarios < 0) && (difHorariosHora < 60)){
-                    elMasCercano = difHorariosHora;    
-                }
-                if((difHoraHorarios < 0) && (difHorariosHora < 120)){
-                    elMasCercano = difHorariosHora;    
-                }    
-        }
+        // if(elMasCercano > 60){
+        // document.resultados.alderete.value = `Por Alderetes, el proximo colectivo viene en 1 hora y ${Math.ceil(elMasCercano % 60)} minutos`
+        // }
+        // else{
+        //     document.resultados.alderete.value = `Por Alderetes, el proximo colectivo viene en ${elMasCercano} minutos`
+        // }
+        
+        }   
+       
+        
+       
     }
-    console.log(elMasCercano)
+   
+    
+
+    for(let i=0 ; i < listaDelDiaFloPo.length ; i++){
+              
+        let horasEnEnteros=  (Math.trunc(listaDelDiaFloPo[i])  * 60);
+        let minutosEnEnteros = ((listaDelDiaFloPo[i] - (Math.trunc(listaDelDiaFloPo[i])))*100);
+        let horaMinutosEnEnteros = horasEnEnteros + minutosEnEnteros;
+      horariosEnEnterosFloPo.push(horaMinutosEnEnteros);
+      console.log(horariosEnEnterosFloPo)
+
+       /*Recorremos el array y buscamos coincidencias con el horario actual*/
+
+      for(i = 0; i < horariosEnEnterosFloPo.length; i++){
+        
+        let difHoraHorarios = horaEnEnteros - horariosEnEnterosFloPo[i];
+        let difHorariosHora = horariosEnEnterosFloPo[i] - horaEnEnteros;
+        // if(difHoraHorarios > 0){
+        //     anteriorPasado = difHoraHorarios;
+        //     document.resultados.posse.value = `El colectivo pasó hace ${Math.ceil(anteriorPasado)} minutos`;
+        // }
+        // if(anteriorPasado >= 60){
+        //     document.resultados.posse.value = `El colectivo pasó hace 1 hora y ${Math.ceil(anteriorPasado % 60)} minutos`
+        // }
+        
+        
+        if((difHoraHorarios < 0) && (difHorariosHora < 15)){
+            elMasCercano = difHorariosHora;
+        }
+        if((difHoraHorarios < 0) && (difHorariosHora < 30)){
+            elMasCercano = difHorariosHora;
+        }
+        if((difHoraHorarios < 0) && (difHorariosHora < 45)){
+            elMasCercano = difHorariosHora;    
+        }
+        if((difHoraHorarios < 0) && (difHorariosHora < 60)){
+            elMasCercano = difHorariosHora;    
+        }
+        if((difHoraHorarios < 0) && (difHorariosHora < 120)){
+            elMasCercano = difHorariosHora;    
+        }    
+}
+
+}
+  
     if(elMasCercano > 60){
-    document.resultados.alderete.value = `Por Alderetes, el proximo colectivo viene en 1 hora y ${Math.ceil(elMasCercano % 60)} minutos`
+    document.resultados.posse.value = `Por Posse, el proximo colectivo viene en 1 hora y ${Math.ceil(elMasCercano % 60)} minutos`
+    }
+    else{
+        document.resultados.posse.value = `Por Posse, el proximo colectivo viene en ${elMasCercano} minutos`
     }
 }
 })  
