@@ -39,20 +39,17 @@ function reloj(){
 /* Funcion para determinar la localidad de posicion*/
 
 const selector = document.menu.selector;
-const opcionbase = selector[0]
-const florida = selector[1];
-const sanM = selector[2];
+const selector2 = document.menu2.selector2;
+
 const boton = document.getElementById('boton');
 
 
 selector.addEventListener('click', function(){
+    const opcionbase = selector[0]
+    const florida = selector[1];
+    const sanM = selector[2];   
     boton.addEventListener('click',function(){
  
-       
-    
-    
-    
-   
     let horariosFlorida = [];
     let horariosSanMiguel = [];
     let listaCompletaFloAl = [];
@@ -67,14 +64,17 @@ selector.addEventListener('click', function(){
     let listaDelDia;
     let horariosEnEnteros=[];
    
-   
 
     if((selector.value == 'florida') && (florida.disabled == false)){
-        const horariosLvFloAl = [4.40,5.35,6.1,6.25,6.4,6.5,7.25,7.4,7.5,8.45,9.2,9.5,10.3,11.3,12.3,12.4,13.15,14,15.5,16.2,16.5,17.5,18.1,18.3,19,20,21,22];/*Horarios de Lunes a Viernes desde Florida/Alderetes/San Miguel*/
-        const horariosSFloAl = [4.40,5.45,6.1,6.25,6.5,7.18,7.40,7.50,8.45,9.2,10.3,11.40,12.40,13.15,14.50,15.50,16.50,17.5,19];/*Horarios de Sabados desde Florida/Alderetes/San Miguel*/
-        const horariosDFloAl = [7.40,10.30,12.40,14.50,16.50,17.5,19.1]; /*Horarios de Domingo desde Florida/Alderetes/San Miguel*/
-        const horariosLvFloPo = [4.50,5.50,6.25,6.50,7.25,7.55,8.25,9.05,9.55,10.25,10.55,11.25,11.55,12.40,13.25,13.55,14.55,15.55,16.55,17.55,18.55,19.25,19.55,20.55,21.2,22.2];/*Horarios de Lunes a Viernes desde Florida/Posse/San Miguel*/
-        const horariosSFloPo=[4.50,5.50,6.25,6.5,]
+        const opcionbase2 = selector[0]
+        const alderetes = selector[1];
+        const posse = selector[2];  
+
+        if((selector2.value == 'alderetes')&&(alderetes.disabled == false)){
+
+            const horariosLvFloAl = [4.40,5.35,6.1,6.25,6.4,6.5,7.25,7.4,7.5,8.45,9.2,9.5,10.3,11.3,12.3,12.4,13.15,14,15.5,16.2,16.5,17.5,18.1,18.3,19,20,21,22];/*Horarios de Lunes a Viernes desde Florida/Alderetes/San Miguel*/
+            const horariosSFloAl = [4.40,5.45,6.1,6.25,6.5,7.18,7.40,7.50,8.45,9.2,10.3,11.40,12.40,13.15,14.50,15.50,16.50,17.5,19];/*Horarios de Sabados desde Florida/Alderetes/San Miguel*/
+            const horariosDFloAl = [7.40,10.30,12.40,14.50,16.50,17.5,19.1]; /*Horarios de Domingo desde Florida/Alderetes/San Miguel*/
       
     listaCompletaFloAl.push(horariosDFloAl,horariosLvFloAl,horariosSFloAl);
  
@@ -113,10 +113,10 @@ if(dia > 5){
                 let difHorariosHora = horariosEnEnteros[i] - horaEnEnteros;
                 if(difHoraHorarios > 0){
                     anteriorPasado = difHoraHorarios;
-                    document.resultados.alderete.value = `El colectivo pasó hace ${Math.ceil(anteriorPasado)} minutos`;
+                    document.resultados.actual.value = `El colectivo pasó hace ${Math.ceil(anteriorPasado)} minutos`;
                 }
                 if(anteriorPasado >= 60){
-                    document.resultados.alderete.value = `El colectivo pasó hace 1 hora y ${Math.ceil(anteriorPasado % 60)} minutos`
+                    document.resultados.actual.value = `El colectivo pasó hace 1 hora y ${Math.ceil(anteriorPasado % 60)} minutos`
                 }
                 
                 
@@ -132,20 +132,73 @@ if(dia > 5){
                 if((difHoraHorarios < 0) && (difHorariosHora < 60)){
                     elMasCercano = difHorariosHora;    
                 }
-        
-                  
         }
     }
-    console.log(elMasCercano);
-    document.resultados.alderete.value = `Por Alderetes, el proximo colectivo viene en ${elMasCercano} minutos`
+    document.resultados.futuro.value = `El proximo colectivo viene en ${Math.ceil(elMasCercano)} minutos`
+        }
 
+        if((selector2.value == 'posse') && (posse.disabled == false)){
 
-    
-    
-    
-    
-        document.resultados.alderete.value = `Por Alderetes, el proximo colectivo viene en ${elMasCercano} minutos`
-    
+            const horariosLvFloPo = [4.50,5.5,6.25,6.5,7.25,7.55,8.25,9.05,9.55,10.25,10.55,11.25,11.55,12.4,13.25,13.55,14.55,15.55,16.55,17.55,18.55,19.25,19.55,20.55,21.2,22.2]
+            const horariosSFloPo = [4.5,5.5,6.25,6.5,7.25,7.55,8.25,9.05,9.55,10.25,10.55,11.25,11.55,12.4,13.25,13.55,15,15.55,16.55,18.55,19.25,20.25,21.25,22.2]
+            const horariosDFloPo = [4.5,5.5,6.5,7.55,8.1,8.55,9.55,10.55,11.55,12.55,13.55,15,15.55,16.55,17.55,18.55,19.25,20,20.55,22.2];
+            listaCompletaFloPo.push(horariosDFloPo,horariosLvFloPo,horariosSFloPo);
+ 
+            /*Aqui definimos el array dependiendo el dia de la semana*/
+            
+            if(dia == 0){
+                listaDelDia = listaCompletaFloPo[0].slice(0,listaCompletaFloPo[0].length)
+            
+            }
+            if(dia >= 1 && dia <=5){
+                listaDelDia = listaCompletaFloPo[1].slice(0,listaCompletaFloPo[1].length);
+            
+            }
+            if(dia > 5){
+                listaDelDia = listaCompletaFloPo[2].slice(0,listaCompletaFloPo[2].length);
+            
+            }
+            
+            /*/Convertimos los horarios en enteros y los mandamos a un nuevo array"*/
+            
+                          for(let i=0 ; i < listaDelDia.length ; i++){
+                          
+                           let horasEnEnteros=  (Math.trunc(listaDelDia[i])  * 60);
+                            let minutosEnEnteros = ((listaDelDia[i] - (Math.trunc(listaDelDia[i])))*100);
+                            let horaMinutosEnEnteros = horasEnEnteros + minutosEnEnteros;
+                          horariosEnEnteros.push(horaMinutosEnEnteros);
+        
+                           /*Recorremos el array y buscamos coincidencias con el horario actual*/
+            
+                          for(i = 0; i < horariosEnEnteros.length; i++){
+                            
+                            let difHoraHorarios = horaEnEnteros - horariosEnEnteros[i];
+                            let difHorariosHora = horariosEnEnteros[i] - horaEnEnteros;
+                            if(difHoraHorarios > 0){
+                                anteriorPasado = difHoraHorarios;
+                                document.resultados.actual.value = `El colectivo pasó hace ${Math.ceil(anteriorPasado)} minutos`;
+                            }
+                            if(anteriorPasado >= 60){
+                                document.resultados.actual.value = `El colectivo pasó hace 1 hora y ${Math.ceil(anteriorPasado % 60)} minutos`
+                            }
+                            
+                            
+                            if((difHoraHorarios < 0) && (difHorariosHora < 15)){
+                                elMasCercano = difHorariosHora;
+                            }
+                            if((difHoraHorarios < 0) && (difHorariosHora < 30)){
+                                elMasCercano = difHorariosHora;
+                            }
+                            if((difHoraHorarios < 0) && (difHorariosHora < 45)){
+                                elMasCercano = difHorariosHora;    
+                            }
+                            if((difHoraHorarios < 0) && (difHorariosHora < 60)){
+                                elMasCercano = difHorariosHora;    
+                            }
+                    }
+                }
+                document.resultados.futuro.value = `El proximo colectivo viene en ${Math.ceil(elMasCercano)} minutos`
+        }
 }
 })  
 
