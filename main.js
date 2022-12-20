@@ -36,6 +36,16 @@ function reloj(){
     /*                          */
 }
 
+let carros = [
+    {
+        "color" : "morado",
+        "tipo" : "minivan"
+
+    }
+];
+
+
+
 /* Funcion para determinar la localidad de posicion*/
 
 const selector = document.menu.selector;
@@ -63,6 +73,8 @@ selector.addEventListener('click', function(){
     let anteriorPasado;
     let listaDelDia;
     let horariosEnEnteros=[];
+    let actual2 = document.getElementById('actual2');
+    let futuro2 = document.getElementById('futuro2');
    
 
     if((selector.value == 'florida') && (florida.disabled == false)){
@@ -113,10 +125,12 @@ if(dia > 5){
                 let difHorariosHora = horariosEnEnteros[i] - horaEnEnteros;
                 if(difHoraHorarios > 0){
                     anteriorPasado = difHoraHorarios;
-                    document.resultados.actual.value = `El colectivo pasó hace ${Math.ceil(anteriorPasado)} minutos`;
+                    // document.resultados.actual.value = `El colectivo pasó hace ${Math.ceil(anteriorPasado)} minutos`;
+                    actual2.textContent = `El colectivo pasó hace ${Math.ceil(anteriorPasado)} minutos`;
                 }
                 if(anteriorPasado >= 60){
-                    document.resultados.actual.value = `El colectivo pasó hace 1 hora y ${Math.ceil(anteriorPasado % 60)} minutos`
+                    // document.resultados.actual.value = `El colectivo pasó hace 1 hora y ${Math.ceil(anteriorPasado % 60)} minutos`
+                    actual2.textContent = `El colectivo pasó hace 1 hora y ${Math.ceil(anteriorPasado % 60)} minutos`
                 }
                 
                 
@@ -134,7 +148,9 @@ if(dia > 5){
                 }
         }
     }
-    document.resultados.futuro.value = `El proximo colectivo viene en ${Math.ceil(elMasCercano)} minutos`
+    // document.resultados.futuro.value = `El proximo colectivo viene en ${Math.ceil(elMasCercano)} minutos`
+    futuro2.textContent = `El proximo colectivo viene en ${Math.ceil(elMasCercano)} minutos`
+   
         }
 
         if((selector2.value == 'posse') && (posse.disabled == false)){
@@ -176,10 +192,14 @@ if(dia > 5){
                             let difHorariosHora = horariosEnEnteros[i] - horaEnEnteros;
                             if(difHoraHorarios > 0){
                                 anteriorPasado = difHoraHorarios;
-                                document.resultados.actual.value = `El colectivo pasó hace ${Math.ceil(anteriorPasado)} minutos`;
+                                // document.resultados.actual.value = `El colectivo pasó hace ${Math.ceil(anteriorPasado)} minutos`;
+                                actual2.textContent = `El colectivo pasó hace ${Math.ceil(anteriorPasado)} minutos`;
                             }
                             if(anteriorPasado >= 60){
-                                document.resultados.actual.value = `El colectivo pasó hace 1 hora y ${Math.ceil(anteriorPasado % 60)} minutos`
+                                // document.resultados.actual.value = `El colectivo pasó hace 1 hora y ${Math.ceil(anteriorPasado % 60)} minutos`;
+                                actual2.textContent = `El colectivo pasó hace 1 hora y ${Math.ceil(anteriorPasado % 60)} minutos`;
+
+
                             }
                             
                             
@@ -197,9 +217,12 @@ if(dia > 5){
                             }
                     }
                 }
-                document.resultados.futuro.value = `El proximo colectivo viene en ${Math.ceil(elMasCercano)} minutos`
+                // document.resultados.futuro.value = `El proximo colectivo viene en ${Math.ceil(elMasCercano)} minutos`
+                futuro2.textContent = `El proximo colectivo viene en ${Math.ceil(elMasCercano)} minutos`
+               
         }
 }
+    
 })  
 
 })
