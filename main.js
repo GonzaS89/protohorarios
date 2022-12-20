@@ -45,7 +45,139 @@ let carros = [
 ];
 
 
+const horariosJsonFloAl = {
 
+          "lunesAViernes": [
+              {
+                  "nombre":"Servicio de las 04:40",
+                  "valor":4.4,
+                  "recorrido":"Fortin - Banda del Rio Sali"
+              },
+              {
+                  "nombre":"Servicio de las 05:35",
+                  "valor":5.35,
+                  "recorrido":"Fortin - Alternativa"
+              },
+              {
+                  "nombre":"Servicios de las 06:10",
+                  "valor":6.10,
+                  "recorrido":"Fortin - Banda del Rio Sali / Colonia 10 - Autopista"
+              },
+              {
+                  "nombre":"Servicio de las 06:25",
+                  "valor":6.25,
+                  "recorrido":"Colonia 5 hasta Banda del Rio Sali"
+              },
+              {
+                  "nombre":"Servicio de las 06:40",
+                  "valor":6.4,
+                  "recorrido":"B° La Cancha - Alternativa"
+              },
+              {
+                  "nombre":"Servicio de las 06:50",
+                  "valor":6.5,
+                  "recorrido":"Colonia 4 - Fonda - Alternativa"
+              },
+              {
+                  "nombre":"Servicios de las 07:20",
+                  "valor":7.2,
+                  "recorrido":"Colonia 4 - B° La Cancha - Autopista / Fortin - Banda del Rio Sali"
+              },
+              {
+                  "nombre":"Servicio de las 07:40",
+                  "valor":7.4,
+                  "recorrido":"Finca Mayo - Cochuchal - Banda del Rio Sali"
+              },
+              {
+                  "nombre":"Servicios de las 07:50",
+                  "valor":7.5,
+                  "recorrido":"Colonia 4 - B° La Cancha - Autopista"
+              },
+              {
+                  "nombre":"Servicios de las 08:45",
+                  "valor":8.45,
+                  "recorrido":"Colonia 4 - B° La Cancha - Autopista/Alternativa"
+              },
+              {
+                  "nombre":"Servicio de las 09:20",
+                  "valor":9.2,
+                  "recorrido":"Fortin - Banda del Rio Sali"
+              },
+              {
+                  "nombre":"Servicio de las 10:30",
+                  "valor":10.3,
+                  "recorrido":"Fortin - Banda del Rio Sali"
+              },
+              {
+                  "nombre":"Servicio de las 11:30",
+                  "valor":11.30,
+                  "recorrido":"Fortin - Banda del Rio Sali"
+              },
+              {
+                  "nombre":"Servicios de las 12:30",
+                  "valor":12.3,
+                  "recorrido":"Los Perez - Autopista / Fortin - Colonia 4 - Autopista"
+              },
+              {
+                  "nombre":"Servicio de las 12:40",
+                  "valor":12.4,
+                  "recorrido":"Finca Mayo - Talar - Banda del Rio Sali"
+              },
+              {
+                  "nombre":"Servicio de las 13:15",
+                  "valor":13.15,
+                  "recorrido":"Colonia 4 - B° La Cancha - Autopista"
+              },
+              {
+                  "nombre":"Servicio de las 14:00",
+                  "valor":14,
+                  "recorrido":"B° La Cancha - Cochuchal - Banda del Rio Sali"
+              },
+              {
+                  "nombre":"Servicios de las 14:50",
+                  "valor":14.5,
+                  "recorrido":"B° La Cancha - Alternativa/Banda del Rio Sali"
+              },
+              {
+                  "nombre":"Servicios de las 15:50",
+                  "valor":15.5,
+                  "recorrido":"Fortin - Alternativa / Colonia 4 - B° La Cancha - Autopista"
+              },
+              {
+                  "nombre":"Servicio de las 16:20",
+                  "valor":16.2,
+                  "recorrido":"La Marta - Colonia 4 - Autopista"
+              },
+              {
+                  "nombre":"Servicios de las 16:50",
+                  "valor":16.5,
+                  "recorrido":"Colonia 4 - Autopista / Colonia 3 - Banda del Rio Sali"
+              },
+              {
+                  "nombre":"Servicio de las 17:50",
+                  "valor":17.5,
+                  "recorrido":"Fortin - Banda del Rio Sali"
+              },
+              {
+                  "nombre":"Servicio de las 18:10",
+                  "valor":18.1,
+                  "recorrido":"Colonia 4  - Autopista"
+              },
+              {
+                  "nombre":"Servicio de las 18:30",
+                  "valor":18.3,
+                  "recorrido":"Fortin - Banda del Rio Sali"
+              },
+              {
+                  "nombre":"Servicio de las 19:00",
+                  "valor":19,
+                  "recorrido":"La Marta - B° La Cancha - Banda del Rio Sali"
+              }   
+          ]
+      }
+  
+  
+  console.log(horariosJsonFloAl)    
 /* Funcion para determinar la localidad de posicion*/
 
 const selector = document.menu.selector;
@@ -83,6 +215,144 @@ selector.addEventListener('click', function(){
         const posse = selector[2];  
 
         if((selector2.value == 'alderetes')&&(alderetes.disabled == false)){
+
+            const horariosJson = {
+                "horariosFloAl": [
+                  {
+                      "lunesAViernes": [
+                          {
+                              "nombre":"Servicio de las 04:40",
+                              "valor":4.4,
+                              "recorrido":"Fortin - Banda del Rio Sali"
+                          },
+                          {
+                              "nombre":"Servicio de las 05:35",
+                              "valor":5.35,
+                              "recorrido":"Fortin - Alternativa"
+                          },
+                          {
+                              "nombre":"Servicios de las 06:10",
+                              "valor":6.10,
+                              "recorrido":"Fortin - Banda del Rio Sali / Colonia 10 - Autopista"
+                          },
+                          {
+                              "nombre":"Servicio de las 06:25",
+                              "valor":6.25,
+                              "recorrido":"Colonia 5 hasta Banda del Rio Sali"
+                          },
+                          {
+                              "nombre":"Servicio de las 06:40",
+                              "valor":6.4,
+                              "recorrido":"B° La Cancha - Alternativa"
+                          },
+                          {
+                              "nombre":"Servicio de las 06:50",
+                              "valor":6.5,
+                              "recorrido":"Colonia 4 - Fonda - Alternativa"
+                          },
+                          {
+                              "nombre":"Servicios de las 07:20",
+                              "valor":7.2,
+                              "recorrido":"Colonia 4 - B° La Cancha - Autopista / Fortin - Banda del Rio Sali"
+                          },
+                          {
+                              "nombre":"Servicio de las 07:40",
+                              "valor":7.4,
+                              "recorrido":"Finca Mayo - Cochuchal - Banda del Rio Sali"
+                          },
+                          {
+                              "nombre":"Servicios de las 07:50",
+                              "valor":7.5,
+                              "recorrido":"Colonia 4 - B° La Cancha - Autopista"
+                          },
+                          {
+                              "nombre":"Servicios de las 08:45",
+                              "valor":8.45,
+                              "recorrido":"Colonia 4 - B° La Cancha - Autopista/Alternativa"
+                          },
+                          {
+                              "nombre":"Servicio de las 09:20",
+                              "valor":9.2,
+                              "recorrido":"Fortin - Banda del Rio Sali"
+                          },
+                          {
+                              "nombre":"Servicio de las 10:30",
+                              "valor":10.3,
+                              "recorrido":"Fortin - Banda del Rio Sali"
+                          },
+                          {
+                              "nombre":"Servicio de las 11:30",
+                              "valor":11.30,
+                              "recorrido":"Fortin - Banda del Rio Sali"
+                          },
+                          {
+                              "nombre":"Servicios de las 12:30",
+                              "valor":12.3,
+                              "recorrido":"Los Perez - Autopista / Fortin - Colonia 4 - Autopista"
+                          },
+                          {
+                              "nombre":"Servicio de las 12:40",
+                              "valor":12.4,
+                              "recorrido":"Finca Mayo - Talar - Banda del Rio Sali"
+                          },
+                          {
+                              "nombre":"Servicio de las 13:15",
+                              "valor":13.15,
+                              "recorrido":"Colonia 4 - B° La Cancha - Autopista"
+                          },
+                          {
+                              "nombre":"Servicio de las 14:00",
+                              "valor":14,
+                              "recorrido":"B° La Cancha - Cochuchal - Banda del Rio Sali"
+                          },
+                          {
+                              "nombre":"Servicios de las 14:50",
+                              "valor":14.5,
+                              "recorrido":"B° La Cancha - Alternativa/Banda del Rio Sali"
+                          },
+                          {
+                              "nombre":"Servicios de las 15:50",
+                              "valor":15.5,
+                              "recorrido":"Fortin - Alternativa / Colonia 4 - B° La Cancha - Autopista"
+                          },
+                          {
+                              "nombre":"Servicio de las 16:20",
+                              "valor":16.2,
+                              "recorrido":"La Marta - Colonia 4 - Autopista"
+                          },
+                          {
+                              "nombre":"Servicios de las 16:50",
+                              "valor":16.5,
+                              "recorrido":"Colonia 4 - Autopista / Colonia 3 - Banda del Rio Sali"
+                          },
+                          {
+                              "nombre":"Servicio de las 17:50",
+                              "valor":17.5,
+                              "recorrido":"Fortin - Banda del Rio Sali"
+                          },
+                          {
+                              "nombre":"Servicio de las 18:10",
+                              "valor":18.1,
+                              "recorrido":"Colonia 4  - Autopista"
+                          },
+                          {
+                              "nombre":"Servicio de las 18:30",
+                              "valor":18.3,
+                              "recorrido":"Fortin - Banda del Rio Sali"
+                          },
+                          {
+                              "nombre":"Servicio de las 19:00",
+                              "valor":19,
+                              "recorrido":"La Marta - B° La Cancha - Banda del Rio Sali"
+                          }   
+                      ]
+                  }
+              ]
+              } 
+              console.log(horariosJson)           
+          
+          
+            
 
             const horariosLvFloAl = [4.40,5.35,6.1,6.25,6.4,6.5,7.25,7.4,7.5,8.45,9.2,9.5,10.3,11.3,12.3,12.4,13.15,14,15.5,16.2,16.5,17.5,18.1,18.3,19,20,21,22];/*Horarios de Lunes a Viernes desde Florida/Alderetes/San Miguel*/
             const horariosSFloAl = [4.40,5.45,6.1,6.25,6.5,7.18,7.40,7.50,8.45,9.2,10.3,11.40,12.40,13.15,14.50,15.50,16.50,17.5,19];/*Horarios de Sabados desde Florida/Alderetes/San Miguel*/
@@ -150,6 +420,7 @@ if(dia > 5){
     }
     // document.resultados.futuro.value = `El proximo colectivo viene en ${Math.ceil(elMasCercano)} minutos`
     futuro2.textContent = `El proximo colectivo viene en ${Math.ceil(elMasCercano)} minutos`
+  
    
         }
 
@@ -198,11 +469,7 @@ if(dia > 5){
                             if(anteriorPasado >= 60){
                                 // document.resultados.actual.value = `El colectivo pasó hace 1 hora y ${Math.ceil(anteriorPasado % 60)} minutos`;
                                 actual2.textContent = `El colectivo pasó hace 1 hora y ${Math.ceil(anteriorPasado % 60)} minutos`;
-
-
                             }
-                            
-                            
                             if((difHoraHorarios < 0) && (difHorariosHora < 15)){
                                 elMasCercano = difHorariosHora;
                             }
@@ -219,7 +486,6 @@ if(dia > 5){
                 }
                 // document.resultados.futuro.value = `El proximo colectivo viene en ${Math.ceil(elMasCercano)} minutos`
                 futuro2.textContent = `El proximo colectivo viene en ${Math.ceil(elMasCercano)} minutos`
-               
         }
 }
     
