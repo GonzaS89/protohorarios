@@ -156,7 +156,7 @@ const horariosJsonFloAl = {
               {
                   "nombre":"Servicio de las 17:50",
                   "valor":17.5,
-                  "recorrido":"Fortin - Banda del Rio Sali"
+                  "recorrido":"Fortin - Banda del Rio Salis"
               },
               {
                   "nombre":"Servicio de las 18:10",
