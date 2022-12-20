@@ -413,9 +413,7 @@ if(dia > 5){
                 if((difHoraHorarios < 0) && (difHorariosHora < 45)){
                     elMasCercano = difHorariosHora;    
                 }
-                if((difHoraHorarios < 0) && (difHorariosHora < 60)){
-                    elMasCercano = difHorariosHora;    
-                }
+               
         }
     }
     // document.resultados.futuro.value = `El proximo colectivo viene en ${Math.ceil(elMasCercano)} minutos`
