@@ -4,6 +4,7 @@ body{
 .contenedor{
     max-width:1200px;
 }
+
 .header{
     display:flex;
     justify-content: space-around;
@@ -143,6 +144,7 @@ font-size:12px;
 display: flex;
 justify-content: center;
 align-items: center;
+flex-direction: column;
 
 border-radius: 20px;
 background-color:lightgray;
@@ -152,15 +154,20 @@ border:none;
 box-shadow: 0 2px 5px black;
 }
 
-#actual2{
+#actual1,#actual2,#actual3{
     font-size:15px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
+    margin: 5px 0;
+    text-align: center;
 }
-#futuro2{
+
+#futuro1,#futuro2,#futuro3{
     font-size:15px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
+    text-align: center;
+    margin: 5px 0;
 }
 @media(max-width:600px){
     .header{
