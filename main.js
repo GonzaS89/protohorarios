@@ -260,6 +260,7 @@ selector.addEventListener('click', function(){
                             if(listaDiferencias[i] > 0){
                             anteriorPasado = Math.min(anteriorPasado,listaDiferencias[i]);
                             actual1.textContent = `${horariosJsonFloAl[listaDiferencias.indexOf(anteriorPasado)].nombre}`
+                            
                             if(anteriorPasado <= 15){
                                 actual2.textContent = `Inició su recorrido hace ${Math.ceil(anteriorPasado)} minutos`
                             }
@@ -281,11 +282,22 @@ selector.addEventListener('click', function(){
                         for(i=0; i < listaDiferencias2.length; i++){
                             if(listaDiferencias2[i] >0){
                             elMasCercano = Math.min(elMasCercano,listaDiferencias2[i]);
-                            futuro1.textContent = `${horariosJsonFloAl[listaDiferencias2.indexOf(elMasCercano)].nombre}`;
-                            futuro2.textContent = `Inicia su recorrido dentro de ${Math.floor(elMasCercano)} minutos`;
-                            futuro3.textContent = `Recorrido : ${horariosJsonFloAl[listaDiferencias2.indexOf(elMasCercano)].recorrido}`;
-                            }                             
-                        }
+                           
+                            futuro1.textContent = `${horariosJsonFloAl[listaDiferencias2.indexOf(elMasCercano)].nombre}`;  
+                            if(horariosJsonFloAl[listaDiferencias2.indexOf(elMasCercano)].nombre.indexOf("Servicios")){
+                                futuro2.textContent = `Inician sus recorridos dentro de ${Math.floor(elMasCercano)} minutos`;
+                            }else{
+                                futuro2.textContent = `Inicia su recorrido dentro de ${Math.floor(elMasCercano)} minutos`;
+                            }
+                            
+                        futuro2.textContent = `Inicia su recorrido dentro de ${Math.floor(elMasCercano)} minutos`;
+                        
+                        futuro3.textContent = `Recorrido : ${horariosJsonFloAl[listaDiferencias2.indexOf(elMasCercano)].recorrido}`;
+                        }           
+                    }
+                        
+
+                        
               
              
                       
@@ -468,7 +480,7 @@ selector.addEventListener('click', function(){
                     else{
                         actual2.textContent = `Pasó hace ${Math.ceil(anteriorPasado)} minutos`
                     }
-                   actual3.textContent = `Recorrido : ${horariosJsonFloPo[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
+                   actual3.textContent = `Inicio de recorrido : ${horariosJsonFloPo[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
                  }
             }
 
@@ -485,7 +497,7 @@ selector.addEventListener('click', function(){
                     futuro1.textContent = `${horariosJsonFloPo[listaDiferencias2.indexOf(elMasCercano)].nombre}`;
                     futuro2.textContent = `Inicia su recorrido dentro de ${Math.floor(elMasCercano)} minutos`;
                             
-                    futuro3.textContent = `Recorrido : ${horariosJsonFloPo[listaDiferencias2.indexOf(elMasCercano)].recorrido}`;
+                    futuro3.textContent = `Inicio de recorrido : ${horariosJsonFloPo[listaDiferencias2.indexOf(elMasCercano)].recorrido}`;
                     }                             
                 }
 
