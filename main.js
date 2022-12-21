@@ -260,7 +260,13 @@ selector.addEventListener('click', function(){
                             if(listaDiferencias[i] > 0){
                             anteriorPasado = Math.min(anteriorPasado,listaDiferencias[i]);
                             actual1.textContent = `${horariosJsonFloAl[listaDiferencias.indexOf(anteriorPasado)].nombre}`
-                                actual2.textContent = `Pasó hace ${Math.ceil(anteriorPasado)} minutos`
+                            if(anteriorPasado <= 15){
+                                actual2.textContent = `Inició su recorrido hace ${Math.ceil(anteriorPasado)} minutos`
+                            }
+                            else{
+                                actual2.textContent = `Pasó hace hace ${Math.ceil(anteriorPasado)} minutos`
+                            }
+                                
                               actual3.textContent = `Recorrido : ${horariosJsonFloAl[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
                             }
                        }
@@ -270,14 +276,13 @@ selector.addEventListener('click', function(){
                         let difHorariosHora = horariosEnEnteros[i] - horaEnEnteros;;
                          listaDiferencias2.push(difHorariosHora); 
                }
-                                console.log(listaDiferencias2)
+                                
             
                         for(i=0; i < listaDiferencias2.length; i++){
                             if(listaDiferencias2[i] >0){
                             elMasCercano = Math.min(elMasCercano,listaDiferencias2[i]);
                             futuro1.textContent = `${horariosJsonFloAl[listaDiferencias2.indexOf(elMasCercano)].nombre}`;
                             futuro2.textContent = `Inicia su recorrido dentro de ${Math.floor(elMasCercano)} minutos`;
-                                    console.log(elMasCercano);
                             futuro3.textContent = `Recorrido : ${horariosJsonFloAl[listaDiferencias2.indexOf(elMasCercano)].recorrido}`;
                             }                             
                         }
@@ -457,7 +462,12 @@ selector.addEventListener('click', function(){
                  if(listaDiferencias[i] > 0){
                  anteriorPasado = Math.min(anteriorPasado,listaDiferencias[i]);
                  actual1.textContent = `${horariosJsonFloPo[listaDiferencias.indexOf(anteriorPasado)].nombre}`
-                     actual2.textContent = `Pasó hace ${Math.ceil(anteriorPasado)} minutos`
+                    if(anteriorPasado <=15){
+                        actual2.textContent = `Inició su recorrido hace ${Math.ceil(anteriorPasado)} minutos`
+                    }
+                    else{
+                        actual2.textContent = `Pasó hace ${Math.ceil(anteriorPasado)} minutos`
+                    }
                    actual3.textContent = `Recorrido : ${horariosJsonFloPo[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
                  }
             }
