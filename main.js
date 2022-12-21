@@ -68,7 +68,9 @@ selector.addEventListener('click', function(){
     let actual1 = document.getElementById('actual1');
     let actual2 = document.getElementById('actual2');
     let actual3 = document.getElementById('actual3');
+    let futuro1 = document.getElementById('futuro1');
     let futuro2 = document.getElementById('futuro2');
+    let futuro3 = document.getElementById('futuro3');
    
 
     if((selector.value == 'florida') && (florida.disabled == false)){
@@ -80,11 +82,7 @@ selector.addEventListener('click', function(){
         if((selector2.value == 'alderetes')&&(alderetes.disabled == false)){
 
             const horariosJsonFloAl = [
-                {
-                    "nombre":"Servicio de las 01:00",
-                    "valor":1,
-                    "recorrido":"La Marta - B° La Cancha - Banda del Rio Sali"
-                },
+
                 {
                     "nombre":"Servicio de las 04:40",
                     "valor":4.4,
@@ -142,7 +140,7 @@ selector.addEventListener('click', function(){
                 },
                 {
                     "nombre":"Servicio de las 10:30",
-                    "valor":10.3,
+                    "valor":10.30,
                     "recorrido":"Fortin - Banda del Rio Sali"
                 },
                 {
@@ -255,56 +253,33 @@ selector.addEventListener('click', function(){
               for(i = 0; i < horariosEnEnteros.length; i++){
                 
                        let difHoraHorarios = horaEnEnteros - horariosEnEnteros[i];
-                       if(difHoraHorarios >0){
                         listaDiferencias.push(difHoraHorarios); 
-                       }
-                       
               }
                        for(i=0; i < listaDiferencias.length; i++){
-        
+
+                            if(listaDiferencias[i] > 0){
                             anteriorPasado = Math.min(anteriorPasado,listaDiferencias[i]);
-                       
-                               actual1.textContent = `${horariosJsonFloAl[listaDiferencias.indexOf(anteriorPasado)].nombre}`
-                                actual2.textContent = `Pasó hace ${anteriorPasado} minutos`
+                            actual1.textContent = `${horariosJsonFloAl[listaDiferencias.indexOf(anteriorPasado)].nombre}`
+                                actual2.textContent = `Pasó hace ${Math.ceil(anteriorPasado)} minutos`
                               actual3.textContent = `Recorrido : ${horariosJsonFloAl[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
+                            }
                        }
 
                        for(i = 0; i < horariosEnEnteros.length; i++){
                 
                         let difHorariosHora = horariosEnEnteros[i] - horaEnEnteros;;
-                        if(difHorariosHora > 0){
                          listaDiferencias2.push(difHorariosHora); 
-        
-                        }
-                        
                }
+                                console.log(listaDiferencias2)
             
                         for(i=0; i < listaDiferencias2.length; i++){
-         
-                             elMasCercano = Math.min(elMasCercano,listaDiferencias2[i]);
-                            
-                             if(elMasCercano >=180){
-                                futuro2.textContent = `Viene dentro de 3 horas y ${Math.ceil(elMasCercano % 180)} minutos`
-                             }
-                             if(elMasCercano <=120){
-                                futuro2.textContent = `Viene  dentro de 2 horas y ${Math.ceil(elMasCercano % 120)} minutos`
-                             }
-                             if(elMasCercano >=60){
-                                futuro2.textContent = `Viene dentro de 1 hora y ${Math.ceil(elMasCercano % 60)} minutos`
-                             }
-                             else{
-                                futuro2.textContent = `Viene dentro de ${elMasCercano} minutos`
-                             }
-                           
-                             if(horariosJsonFloAl.length > listaDiferencias2.length){
-                                futuro1.textContent = `${horariosJsonFloAl[listaDiferencias2.indexOf(elMasCercano)+1].nombre}`
-                             
-                                futuro3.textContent = `Recorrido : ${horariosJsonFloAl[listaDiferencias2.indexOf(elMasCercano)+1].recorrido}`
-                             }
-                             else{
-                                futuro1.textContent = `${horariosJsonFloAl[listaDiferencias2.indexOf(elMasCercano)].nombre}`
-                                futuro3.textContent = `Recorrido : ${horariosJsonFloAl[listaDiferencias2.indexOf(elMasCercano)].recorrido}`
-                             }
+                            if(listaDiferencias2[i] >0){
+                            elMasCercano = Math.min(elMasCercano,listaDiferencias2[i]);
+                            futuro1.textContent = `${horariosJsonFloAl[listaDiferencias2.indexOf(elMasCercano)].nombre}`;
+                            futuro2.textContent = `Inicia su recorrido dentro de ${Math.floor(elMasCercano)} minutos`;
+                                    console.log(elMasCercano);
+                            futuro3.textContent = `Recorrido : ${horariosJsonFloAl[listaDiferencias2.indexOf(elMasCercano)].recorrido}`;
+                            }                             
                         }
               
              
@@ -318,15 +293,194 @@ selector.addEventListener('click', function(){
     // // document.resultados.futuro.value = `El proximo colectivo viene en ${Math.ceil(elMasCercano)} minutos`
     // futuro2.textContent = `El proximo colectivo viene en ${Math.ceil(elMasCercano)} minutos`
             
-   
+                    }
         
 
-    //     if((selector2.value == 'posse') && (posse.disabled == false)){
+        if((selector2.value == 'posse') && (posse.disabled == false)){
 
-    //         const horariosLvFloPo = [4.50,5.5,6.25,6.5,7.25,7.55,8.25,9.05,9.55,10.25,10.55,11.25,11.55,12.4,13.25,13.55,14.55,15.55,16.55,17.55,18.55,19.25,19.55,20.55,21.2,22.2]
-    //         const horariosSFloPo = [4.5,5.5,6.25,6.5,7.25,7.55,8.25,9.05,9.55,10.25,10.55,11.25,11.55,12.4,13.25,13.55,15,15.55,16.55,18.55,19.25,20.25,21.25,22.2]
-    //         const horariosDFloPo = [4.5,5.5,6.5,7.55,8.1,8.55,9.55,10.55,11.55,12.55,13.55,15,15.55,16.55,17.55,18.55,19.25,20,20.55,22.2];
-    //         listaCompletaFloPo.push(horariosDFloPo,horariosLvFloPo,horariosSFloPo);
+        const horariosJsonFloPo = [
+
+            {
+                "nombre":"Servicio de las 05:50",
+                "valor":5.5,
+                "recorrido":"B° La Cancha"
+            },
+            {
+                "nombre":"Servicio de las 06:20",
+                "valor":6.2,
+                "recorrido":"B° La Cancha"
+            },
+           
+            {
+                "nombre":"Servicio de las 06:50",
+                "valor":6.5,
+                "recorrido":"B° La Cancha"
+            },
+           
+            {
+                "nombre":"Servicio de las 07:25",
+                "valor":7.25,
+                "recorrido":"B° La Cancha"
+            },
+           
+            {
+                "nombre":"Servicio de las 07:55",
+                "valor":7.55,
+                "recorrido":"Fortin"
+            },
+           
+            {
+                "nombre":"Servicio de las 08:25",
+                "valor":8.25,
+                "recorrido":"B° La Cancha - Banda del Rio Sali"
+            },
+           
+            {
+                "nombre":"Servicio de las 09:10",
+                "valor":9.1,
+                "recorrido":"Esquina de Lastra"
+            },
+           
+            {
+                "nombre":"Servicio de las 10:05",
+                "valor":10.05,
+                "recorrido":"B° La Cancha - Banda del Rio Sali"
+            },
+           
+            {
+                "nombre":"Servicio de las 10:25",
+                "valor":10.25,
+                "recorrido":"B° La Cancha - Banda del Rio Sali"
+            },
+            {
+                "nombre":"Servicio de las 11:00",
+                "valor":11,
+                "recorrido":"B° La Cancha"
+            },
+            {
+                "nombre":"Servicio de las 11:25",
+                "valor":11.25,
+                "recorrido":"B° La Cancha"
+            },
+            {
+                "nombre":"Servicio de las 12:00",
+                "valor":12,
+                "recorrido":"B° La Cancha"
+            },
+            {
+                "nombre":"Servicio de las 12:10",
+                "valor":12.10,
+                "recorrido":"Esquina de Lastra"
+            },
+            {
+                "nombre":"Servicio de las 12:25",
+                "valor":12.25,
+                "recorrido":"Fortin hasta Llona"
+            },
+            {
+                "nombre":"Servicio de las 13:30",
+                "valor":13.3,
+                "recorrido":"B° La Cancha"
+            },
+            {
+                "nombre":"Servicio de las 14:00",
+                "valor":14,
+                "recorrido":"B° La Cancha"
+            },
+            {
+                "nombre":"Servicio de las 15:00",
+                "valor":15,
+                "recorrido":"Esquina de Lastra"
+            },
+            {
+                "nombre":"Servicio de las 15:55",
+                "valor":15.55,
+                "recorrido":"Fortin"
+            },
+            {
+                "nombre":"Servicio de las 16:55",
+                "valor":16.55,
+                "recorrido":"B° La Cancha"
+            },
+            {
+                "nombre":"Servicio de las 17:55",
+                "valor":17.55,
+                "recorrido":"B° La Cancha"
+            },
+            {
+                "nombre":"Servicio de las 18:55",
+                "valor":18.55,
+                "recorrido":"B° La Cancha"
+            },
+            {
+                "nombre":"Servicio de las 20:00",
+                "valor":20,
+                "recorrido":"Colonia - B° La Cancha"
+            },
+            {
+                "nombre":"Servicio de las 20:25",
+                "valor":20.25,
+                "recorrido":"B° La Cancha"
+            },
+            {
+                "nombre":"Servicio de las 21:20",
+                "valor":21.2,
+                "recorrido":"Fortin - B° La Cancha"
+            },
+            {
+                "nombre":"Servicio de las 22:20",
+                "valor":22.20,
+                "recorrido":"B° La Cancha"
+            },
+           
+           
+        ]
+        for (i=0; i < horariosJsonFloPo.length; i++){
+            listaDelDia.push(horariosJsonFloPo[i].valor)
+        }
+        
+        for(let i=0 ; i < listaDelDia.length ; i++){
+              
+            let horasEnEnteros=  (Math.trunc(listaDelDia[i])  * 60);
+             let minutosEnEnteros = ((listaDelDia[i] - (Math.trunc(listaDelDia[i])))*100);
+             let horaMinutosEnEnteros = horasEnEnteros + minutosEnEnteros;
+           horariosEnEnteros.push(horaMinutosEnEnteros);
+           }
+
+           for(i = 0; i < horariosEnEnteros.length; i++){
+                
+            let difHoraHorarios = horaEnEnteros - horariosEnEnteros[i];
+             listaDiferencias.push(difHoraHorarios); 
+   }
+            for(i=0; i < listaDiferencias.length; i++){
+
+                 if(listaDiferencias[i] > 0){
+                 anteriorPasado = Math.min(anteriorPasado,listaDiferencias[i]);
+                 actual1.textContent = `${horariosJsonFloPo[listaDiferencias.indexOf(anteriorPasado)].nombre}`
+                     actual2.textContent = `Pasó hace ${Math.ceil(anteriorPasado)} minutos`
+                   actual3.textContent = `Recorrido : ${horariosJsonFloPo[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
+                 }
+            }
+
+            for(i = 0; i < horariosEnEnteros.length; i++){
+                
+                let difHorariosHora = horariosEnEnteros[i] - horaEnEnteros;;
+                 listaDiferencias2.push(difHorariosHora); 
+       }
+                       
+    
+                for(i=0; i < listaDiferencias2.length; i++){
+                    if(listaDiferencias2[i] >0){
+                    elMasCercano = Math.min(elMasCercano,listaDiferencias2[i]);
+                    futuro1.textContent = `${horariosJsonFloPo[listaDiferencias2.indexOf(elMasCercano)].nombre}`;
+                    futuro2.textContent = `Inicia su recorrido dentro de ${Math.floor(elMasCercano)} minutos`;
+                            
+                    futuro3.textContent = `Recorrido : ${horariosJsonFloPo[listaDiferencias2.indexOf(elMasCercano)].recorrido}`;
+                    }                             
+                }
+
+
+
  
     //         /*Aqui definimos el array dependiendo el dia de la semana*/
             
@@ -384,8 +538,9 @@ selector.addEventListener('click', function(){
     //             // document.resultados.futuro.value = `El proximo colectivo viene en ${Math.ceil(elMasCercano)} minutos`
     //             futuro2.textContent = `El proximo colectivo viene en ${Math.ceil(elMasCercano)} minutos`
     //     }
-}
+
     }
+}
     
 })  
 
