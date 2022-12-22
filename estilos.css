@@ -135,7 +135,8 @@ body{
     align-items: center;
     height:200px;
     width:100%;
-    margin: 20px auto;
+    margin: 30px auto;
+    
 }
 .resultados{
 width: 100%;
@@ -148,7 +149,7 @@ flex-direction: column;
 border-radius: 20px;
 background-color:lightgray;
 margin:10px;
-padding: 0;
+
 border:none;
 box-shadow: 0 2px 5px black;
 }

@@ -96,7 +96,7 @@ selector.addEventListener('click', function(){
                 {
                     "nombre":"Servicios de las 06:10",
                     "valor":6.10,
-                    "recorrido":"Fortin - Banda del Rio Sali / Colonia 10 - Autopista"
+                    "recorrido":"1) Fortin - Banda del Rio Sali || 2) Colonia 10 - Autopista"
                 },
                 {
                     "nombre":"Servicio de las 06:25",
@@ -116,7 +116,7 @@ selector.addEventListener('click', function(){
                 {
                     "nombre":"Servicios de las 07:20",
                     "valor":7.2,
-                    "recorrido":"Colonia 4 - B° La Cancha - Autopista / Fortin - Banda del Rio Sali"
+                    "recorrido":"1) Colonia 4 - B° La Cancha - Autopista || 2) Fortin - Banda del Rio Sali"
                 },
                 {
                     "nombre":"Servicio de las 07:40",
@@ -131,7 +131,7 @@ selector.addEventListener('click', function(){
                 {
                     "nombre":"Servicios de las 08:45",
                     "valor":8.45,
-                    "recorrido":"Colonia 4 - B° La Cancha - Autopista/Alternativa"
+                    "recorrido":"1) Colonia 4 - B° La Cancha - Autopista || 2) Alternativa"
                 },
                 {
                     "nombre":"Servicio de las 09:20",
@@ -151,7 +151,7 @@ selector.addEventListener('click', function(){
                 {
                     "nombre":"Servicios de las 12:30",
                     "valor":12.3,
-                    "recorrido":"Los Perez - Autopista / Fortin - Colonia 4 - Autopista"
+                    "recorrido":"1) Los Perez - Autopista || 2) Fortin - Colonia 4 - Autopista"
                 },
                 {
                     "nombre":"Servicio de las 12:40",
@@ -176,7 +176,7 @@ selector.addEventListener('click', function(){
                 {
                     "nombre":"Servicios de las 15:50",
                     "valor":15.5,
-                    "recorrido":"Fortin - Alternativa / Colonia 4 - B° La Cancha - Autopista"
+                    "recorrido":"1) Fortin - Alternativa || 2) Colonia 4 - B° La Cancha - Autopista"
                 },
                 {
                     "nombre":"Servicio de las 16:20",
@@ -186,7 +186,7 @@ selector.addEventListener('click', function(){
                 {
                     "nombre":"Servicios de las 16:50",
                     "valor":16.5,
-                    "recorrido":"Colonia 4 - Autopista / Colonia 3 - Banda del Rio Sali"
+                    "recorrido":"1) Colonia 4 - Autopista || 2) Colonia 3 - Banda del Rio Sali"
                 },
                 {
                     "nombre":"Servicio de las 17:50",
@@ -295,20 +295,7 @@ selector.addEventListener('click', function(){
                         futuro3.textContent = `Recorrido : ${horariosJsonFloAl[listaDiferencias2.indexOf(elMasCercano)].recorrido}`;
                         }           
                     }
-                        
-
-                        
-              
-             
-                      
-             
-        
-
-
-        
-    
-    // // document.resultados.futuro.value = `El proximo colectivo viene en ${Math.ceil(elMasCercano)} minutos`
-    // futuro2.textContent = `El proximo colectivo viene en ${Math.ceil(elMasCercano)} minutos`
+                
             
                     }
         
@@ -562,7 +549,448 @@ selector.addEventListener('click', function(){
     //     }
 
     }
+
 }
+
+    if((selector.value == 'sanM') && (sanM.disabled == false)){
+        const opcionbase2 = selector[0]
+        const alderetes = selector[1];
+        const posse = selector[2];  
+
+
+        if((selector2.value == 'alderetes')&&(alderetes.disabled == false)){
+
+        const horariosJsonSMAl = [
+
+        {
+            "nombre":"Servicio de las 05:20",
+            "valor":5.2,
+            "recorrido":"Terminal - Autopista - B° La Cancha"
+        },
+        {
+            "nombre":"Servicio de las 06:15",
+            "valor":6.15,
+            "recorrido":"Terminal - Autopista - Los Perez"
+        },
+        {
+            "nombre":"Servicio de las 06:25",
+            "valor":6.25,
+            "recorrido":"Terminal - Banda del Rio Sali - Mayo"
+        },
+        {
+            "nombre":"Servicio de las 07:15",
+            "valor":7.15,
+            "recorrido":"Terminal - Banda del Rio Sali - La Marta"
+        },
+        {
+            "nombre":"Servicio de las 08:00",
+            "valor":8,
+            "recorrido":"Terminal - Banda del Rio Sali - Cochuchal"
+        },
+        {
+            "nombre":"Servicio de las 08:35",
+            "valor":8.35,
+            "recorrido":"Terminal - Banda del Rio Sali - Fortin"
+        },
+        {
+            "nombre":"Servicio de las 09.00",
+            "valor":9,
+            "recorrido":"Terminal - Autopista - B° La Cancha - Colonia 4 "
+        },
+        {
+            "nombre":"Servicio de las 09:45",
+            "valor":9.45,
+            "recorrido":"Terminal - Banda del Rio Sali - Fortin"
+        },
+        {
+            "nombre":"Servicio de las 10:45",
+            "valor":10.45,
+            "recorrido":"Terminal - Banda del Rio Sali - Fortin"
+        },
+        {
+            "nombre":"Servicio de las 11:15",
+            "valor":11.15,
+            "recorrido":"Terminal - Autopista - B° La Cancha - Los Perez"
+        },
+        {
+            "nombre":"Servicio de las 11:40",
+            "valor":11.4,
+            "recorrido":"Terminal - Autopista - Cochuchal - Mayo"
+        },
+        {
+            "nombre":"Servicio de las 12:15",
+            "valor":12.15,
+            "recorrido":"Terminal - Alternativa - B° La Cancha"
+        },
+        {
+            "nombre":"Servicio de las 12:20",
+            "valor":12.2,
+            "recorrido":"Terminal - Autopista - B° La Cancha - Colonia 4"
+        },
+        {
+            "nombre":"Servicio de las 12:45",
+            "valor":12.45,
+            "recorrido":"Terminal - Banda del Rio Sali - Colonia 3"
+        },
+        {
+            "nombre":"Servicio de las 13:15",
+            "valor":13.15,
+            "recorrido":"Terminal - Banda del Rio Sali - Cochuchal - Colonia 4"
+        },
+        {
+            "nombre":"Servicio de las 13:30",
+            "valor":13.3,
+            "recorrido":"Terminal - Autopista - B° La Cancha - La Marta"
+        },
+        {
+            "nombre":"Servicio de las 14:00",
+            "valor":14,
+            "recorrido":"Terminal - Banda del Rio Sali - B° La Cancha"
+        },
+        {
+            "nombre":"Servicios de las 14:50",
+            "valor":14.5,
+            "recorrido":"1) Terminal - Banda del Rio Sali || 2)Alternativa - B° La Cancha - Colonia 4"
+        },
+        {
+            "nombre":"Servicios de las 15:50",
+            "valor":15.5,
+            "recorrido":"1) Terminal - Alternativa Colonia 4 || 2) Banda del Rio Sali - Colonia 3"
+        },
+        {
+            "nombre":"Servicio de las 16:50",
+            "valor":16.5,
+            "recorrido":"Terminal - Banda del Rio Sali - Cochuchal - Fortin"
+        },
+        {
+            "nombre":"Servicio de 17:45",
+            "valor":17.45,
+            "recorrido":"Terminal - Banda del Rio Sali - B° La Cancha"
+        },
+        {
+            "nombre":"Servicio de las 18:20",
+            "valor":18.2,
+            "recorrido":"Terminal - Alternativa - B° La Cancha - Colonia 4"
+        },
+        {
+            "nombre":"Servicio de las 18:30",
+            "valor":18.3,
+            "recorrido":"Terminal - Banda del Rio Sali - Colonia 4"
+        },
+        {
+            "nombre":"Servicio de las 19:00",
+            "valor":19,
+            "recorrido":"Terminal - Banda del Rio Sali - Colonia 4"
+        },
+        {
+            "nombre":"Servicios de las 19:45",
+            "valor":19.45,
+            "recorrido":"1) Terminal - Alternativa - Colonia 4 || 2)Banda del Rio Sali - Mayo"
+        },
+        {
+            "nombre":"Servicio de las 20:20",
+            "valor":20.2,
+            "recorrido":"Terminal - Banda del Rio Sali - Fortin"
+        },
+        {
+            "nombre":"Servicio de las 21:15",
+            "valor":21.15,
+            "recorrido":"Terminal - Autopista - B° La Cancha"
+        }
+        
+        ]
+        for (i=0; i < horariosJsonSMAl.length; i++){
+            listaDelDia.push(horariosJsonSMAl[i].valor)
+        }
+
+    
+    // Convertimos los horarios en enteros y los mandamos a un nuevo array
+
+              for(let i=0 ; i < listaDelDia.length ; i++){
+              
+               let horasEnEnteros=  (Math.trunc(listaDelDia[i])  * 60);
+                let minutosEnEnteros = ((listaDelDia[i] - (Math.trunc(listaDelDia[i])))*100);
+                let horaMinutosEnEnteros = horasEnEnteros + minutosEnEnteros;
+              horariosEnEnteros.push(horaMinutosEnEnteros);
+              }
+
+              
+               /*Recorremos el array y buscamos coincidencias con el horario actual*/
+
+              for(i = 0; i < horariosEnEnteros.length; i++){
+                
+                       let difHoraHorarios = horaEnEnteros - horariosEnEnteros[i];
+                        listaDiferencias.push(difHoraHorarios); 
+              }
+                       for(i=0; i < listaDiferencias.length; i++){
+
+                            if(listaDiferencias[i] > 0){
+                            anteriorPasado = Math.min(anteriorPasado,listaDiferencias[i]);
+                            actual1.textContent = `${horariosJsonSMAl[listaDiferencias.indexOf(anteriorPasado)].nombre}`
+                        
+                                actual2.textContent = `Salió de terminal hace ${Math.ceil(anteriorPasado)} minutos`
+                            
+                                
+                              actual3.textContent = `Recorrido : ${horariosJsonSMAl[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
+                            }
+                       }
+
+                       for(i = 0; i < horariosEnEnteros.length; i++){
+                
+                        let difHorariosHora = horariosEnEnteros[i] - horaEnEnteros;;
+                         listaDiferencias2.push(difHorariosHora); 
+               }
+                                
+            
+                        for(i=0; i < listaDiferencias2.length; i++){
+                            if(listaDiferencias2[i] >0){
+                            elMasCercano = Math.min(elMasCercano,listaDiferencias2[i]);
+                           
+                            futuro1.textContent = `${horariosJsonSMAl[listaDiferencias2.indexOf(elMasCercano)].nombre}`;  
+                            if(horariosJsonSMAl[listaDiferencias2.indexOf(elMasCercano)].nombre.indexOf("Servicios")){
+                                futuro2.textContent = `Inician sus recorridos dentro de ${Math.floor(elMasCercano)} minutos`;
+                            }else{
+                                futuro2.textContent = `Sale dentro de ${Math.floor(elMasCercano)} minutos`;
+                            }
+                            
+                        futuro2.textContent = `Sale de terminal dentro de ${Math.floor(elMasCercano)} minutos`;
+                        
+                        futuro3.textContent = `Recorrido : ${horariosJsonSMAl[listaDiferencias2.indexOf(elMasCercano)].recorrido}`;
+                        }           
+                    }
+                }
+
+                
+        if((selector2.value == 'posse') && (posse.disabled == false)){
+        
+            const horariosJsonSMPo = [
+                {
+                    "nombre":"Servicio de las 06:00",
+                    "valor":6,
+                    "recorrido":"Terminal - Colonia 4"
+                },
+                {
+                    "nombre":"Servicio de las 06:40",
+                    "valor":6.1,
+                    "recorrido":"Terminal - b° La Cancha"
+                },
+                {
+                    "nombre":"Servicio de las 07:00",
+                    "valor":7,
+                    "recorrido":"Terminal - Fortin"
+                },
+                {
+                    "nombre":"Servicio de las 08:15",
+                    "valor":8.15,
+                    "recorrido":"Terminal - Esquina Lastra"
+                },
+                {
+                    "nombre":"Servicio de las 09:00",
+                    "valor":9,
+                    "recorrido":"Terminal - B° La Cancha"
+                },
+                {
+                    "nombre":"Servicio de las 09:30",
+                    "valor":9.30,
+                    "recorrido":"Terminal - B° La Cancha"
+                },
+                {
+                    "nombre":"Servicio de las 10:00",
+                    "valor":10,
+                    "recorrido":"Terminal - Colonia 4"
+                },
+                {
+                    "nombre":"Servicio de las 10:30",
+                    "valor":10.3,
+                    "recorrido":"Terminal - B° La Cancha"
+                },
+                {
+                    "nombre":"Servicio de las 11:00",
+                    "valor":11,
+                    "recorrido":"Terminal - B° La Cancha"
+                },
+                {
+                    "nombre":"Servicio de las 11:20",
+                    "valor":11.2,
+                    "recorrido":"Terminal - Fortin"
+                },
+                {
+                    "nombre":"Servicio de las 11:45",
+                    "valor":11.45,
+                    "recorrido":"Terminal - Esquina Lastra"
+                },
+                {
+                    "nombre":"Servicio de las 12:30",
+                    "valor":12.3,
+                    "recorrido":"Terminal - B° La Cancha"
+                },
+                {
+                    "nombre":"Servicio de las 12:40",
+                    "valor":12.4,
+                    "recorrido":"Terminal - Fortin"
+                },
+                {
+                    "nombre":"Servicio de las 13:00",
+                    "valor":13,
+                    "recorrido":"Terminal - B° La Cancha"
+                },
+                {
+                    "nombre":"Servicio de las 13:30",
+                    "valor":13.3,
+                    "recorrido":"Terminal - B° La Cancha"
+                },
+                {
+                    "nombre":"Servicio de las 14:00",
+                    "valor":14,
+                    "recorrido":"Terminal - B° La Cancha"
+                },
+                {
+                    "nombre":"Servicio de las 14:15",
+                    "valor":14.15,
+                    "recorrido":"Terminal - Esquina Lastra"
+                },
+                {
+                    "nombre":"Servicio de las 15:00",
+                    "valor":15,
+                    "recorrido":"Terminal - Fortin"
+                },
+                {
+                    "nombre":"Servicio de las 16:00",
+                    "valor":16,
+                    "recorrido":"Terminal - B° La Cancha"
+                },
+                {
+                    "nombre":"Servicio de las 17:00",
+                    "valor":17,
+                    "recorrido":"Terminal - B° La Cancha"
+                },
+                {
+                    "nombre":"Servicio de las 17:10",
+                    "valor":17.1,
+                    "recorrido":"Terminal - B° La Cancha"
+                },
+                {
+                    "nombre":"Servicio de las 17:30",
+                    "valor":17.3,
+                    "recorrido":"Terminal - Fortin"
+                },
+                {
+                    "nombre":"Servicio de las 18:00",
+                    "valor":18,
+                    "recorrido":"Terminal - B° La Cancha"
+                },
+                {
+                    "nombre":"Servicio de las 16:00",
+                    "valor":16,
+                    "recorrido":"Terminal - B° La Cancha"
+                },
+                {
+                    "nombre":"Servicio de las 18:30",
+                    "valor":18.3,
+                    "recorrido":"Terminal - Fortin"
+                },
+                {
+                    "nombre":"Servicio de las 19:10",
+                    "valor":19.1,
+                    "recorrido":"Terminal - B° La Cancha"
+                },
+                {
+                    "nombre":"Servicio de las 19:30",
+                    "valor":19.3,
+                    "recorrido":"Terminal - B° La Cancha"
+                },
+                {
+                    "nombre":"Servicio de las 20:00",
+                    "valor":20,
+                    "recorrido":"Terminal - B° La Cancha"
+                },
+                {
+                    "nombre":"Servicio de las 20:30",
+                    "valor":20.3,
+                    "recorrido":"Terminal - B° La Cancha"
+                },
+                {
+                    "nombre":"Servicio de las 21:00",
+                    "valor":21,
+                    "recorrido":"Terminal - B° La Cancha"
+                },
+                {
+                    "nombre":"Servicio de las 21:30",
+                    "valor":21.3,
+                    "recorrido":"Terminal - B° La Cancha"
+                },
+                {
+                    "nombre":"Servicio de las 22:00",
+                    "valor":22.3,
+                    "recorrido":"Terminal - B° La Cancha"
+                },
+                {
+                    "nombre":"Servicio de las 22:30",
+                    "valor":22.3,
+                    "recorrido":"Terminal - B° La Cancha"
+                },
+                {
+                    "nombre":"Servicio de las 23:30",
+                    "valor":23.3,
+                    "recorrido":"Terminal - B° La Cancha"
+                },
+                {
+                    "nombre":"Servicio de las 00:30",
+                    "valor":24.3,
+                    "recorrido":"Terminal - B° La Cancha"
+                }
+                ]
+                for (i=0; i < horariosJsonSMPo.length; i++){
+                    listaDelDia.push(horariosJsonSMPo[i].valor)
+                }
+                for(let i=0 ; i < listaDelDia.length ; i++){
+              
+                    let horasEnEnteros=  (Math.trunc(listaDelDia[i])  * 60);
+                     let minutosEnEnteros = ((listaDelDia[i] - (Math.trunc(listaDelDia[i])))*100);
+                     let horaMinutosEnEnteros = horasEnEnteros + minutosEnEnteros;
+                   horariosEnEnteros.push(horaMinutosEnEnteros);
+                   }
+        
+                   for(i = 0; i < horariosEnEnteros.length; i++){
+                        
+                    let difHoraHorarios = horaEnEnteros - horariosEnEnteros[i];
+                     listaDiferencias.push(difHoraHorarios); 
+           }
+                    for(i=0; i < listaDiferencias.length; i++){
+        
+                         if(listaDiferencias[i] > 0){
+                         anteriorPasado = Math.min(anteriorPasado,listaDiferencias[i]);
+                         actual1.textContent = `${horariosJsonSMPo[listaDiferencias.indexOf(anteriorPasado)].nombre}`
+                            if(anteriorPasado <=15){
+                                actual2.textContent = `Salió de terminal hace ${Math.ceil(anteriorPasado)} minutos`
+                            }
+                           
+                           actual3.textContent = `Inicio de recorrido : ${horariosJsonSMPo[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
+                         }
+                    }
+        
+                    for(i = 0; i < horariosEnEnteros.length; i++){
+                        
+                        let difHorariosHora = horariosEnEnteros[i] - horaEnEnteros;;
+                         listaDiferencias2.push(difHorariosHora); 
+               }
+                               
+            
+                        for(i=0; i < listaDiferencias2.length; i++){
+                            if(listaDiferencias2[i] >0){
+                            elMasCercano = Math.min(elMasCercano,listaDiferencias2[i]);
+                            futuro1.textContent = `${horariosJsonSMPo[listaDiferencias2.indexOf(elMasCercano)].nombre}`;
+                            futuro2.textContent = `Sale de la terminal dentro de ${Math.floor(elMasCercano)} minutos`;
+                                    
+                            futuro3.textContent = `Inicio de recorrido : ${horariosJsonSMPo[listaDiferencias2.indexOf(elMasCercano)].recorrido}`;
+                            }                             
+                        }
+
+
+        }
+
+            }
+
     
 })  
 
