@@ -1481,17 +1481,16 @@ selector.addEventListener('click', function(){
         const todos = [todosFlorida,todosSanMiguel];
         
 
-        // if((selector2.value == 'alderetes')&&(alderetes.disabled == false)){
-
-                // Aqui definimos donde estamos 
+    
+                // Aqui definimos donde localidad de salida y camino
 
             
            
           localidad = todos[posicion-1];
           camino = localidad[posicion2-1]
 
-    
-               /*Aqui definimos el array dependiendo el dia de la semana*/
+
+            //    Aqui definimos el array dependiendo el dia de la semana
             
             if(dia == 0){
                 diaRango = camino[0].slice(0,camino[0].length)
@@ -1505,10 +1504,14 @@ selector.addEventListener('click', function(){
                 diaRango = camino[2].slice(0,camino[2].length);
             
             }
+
+            // Aqui extraemos del array de arriba los valores de cada horario y lo agregamos a la lista del dia
            
                           for (i=0; i < diaRango.length; i++){
                         listaDelDia.push(diaRango[i].valor)
             }
+
+                // Aqui usamos la lista con los valores y las pasamos a numero enteros junto con los minutos
        
                           for(let i=0 ; i < listaDelDia.length ; i++){
               
@@ -1530,7 +1533,9 @@ selector.addEventListener('click', function(){
                             if(listaDiferencias[i] > 0){
                             anteriorPasado = Math.min(anteriorPasado,listaDiferencias[i]);
                              actual1.textContent = `${diaRango[listaDiferencias.indexOf(anteriorPasado)].nombre}`
-                            
+                   
+                //  Aqui definimos los mensajes a mostrar en el primer campo         
+
                              if((posicion-1) < 1){
                                 if(anteriorPasado>60){
                                     actual2.textContent = 'Inició su recorrido hace mas de 1 hora'
@@ -1576,7 +1581,7 @@ selector.addEventListener('click', function(){
                     }
                                 
                             
-                            
+                        //   Aqui en el segundo campo  
                        
 
                        for(i = 0; i < horariosEnEnteros.length; i++){
