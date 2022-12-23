@@ -206,7 +206,7 @@ selector.addEventListener('click', function(){
             {
                 "nombre":"Servicios de las 14:50",
                 "valor":14.5,
-                "recorrido":"B° La Cancha - Alternativa/Banda del Rio Sali"
+                "recorrido":"1) B° La Cancha - Alternativa || 2)Banda del Rio Sali"
             },
             {
                 "nombre":"Servicios de las 15:50",
@@ -898,7 +898,7 @@ selector.addEventListener('click', function(){
                 "recorrido":"Terminal - Autopista - B° La Cancha"
             }
             
-            ]
+        ]
         const horariosSSMAl = [
                 {
                     "nombre":"Servicio de las 05:20",
@@ -990,7 +990,7 @@ selector.addEventListener('click', function(){
                     "valor":21.30,
                     "recorrido":"Terminal - Autopista - Fortin - Colonia 4"
                 }
-            ]
+        ]
         const horariosDSMAl = [
     
                 {
@@ -1034,7 +1034,7 @@ selector.addEventListener('click', function(){
                     "recorrido":"Terminal - Banda del Rio Sali - Fortin"
                 }
       
-            ]
+        ]
         const horariosLvSMPo = [
                 {
                     "nombre":"Servicio de las 06:00",
@@ -1211,7 +1211,7 @@ selector.addEventListener('click', function(){
                     "valor":24.3,
                     "recorrido":"Terminal - B° La Cancha"
                 }
-                ]
+        ]
         const horariosSSMPo = [
                 {
                     "nombre":"Servicio de las 06:00",
@@ -1358,7 +1358,7 @@ selector.addEventListener('click', function(){
                     "valor":23.3,
                     "recorrido":"Terminal - B° La Cancha"
                 },
-            ]
+        ]
         const horariosDSMPo = [
                 {
                     "nombre":"Servicio de las 06:00",
@@ -1471,7 +1471,7 @@ selector.addEventListener('click', function(){
                     "valor":23.3,
                     "recorrido":"Terminal - B° La Cancha"
                 }
-            ]
+        ]
         const todosSmAlderetes = [horariosDSMAl,horariosLvSMAl,horariosSSMAl];
         const todosSmPosse = [horariosDSMPo,horariosLvSMPo,horariosSSMPo];    
         const todosFloridaAlderetes = [horariosDFloAl,horariosLvFloAl,horariosSFloAl];
@@ -1565,7 +1565,13 @@ selector.addEventListener('click', function(){
                                 actual2.textContent = 'Está saliendo de la terminal'
                                }
                             }
-                                 actual3.textContent = `Recorrido :${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
+                                 if((posicion-1 < 1) &&(posicion2-1 == 1))    {
+                                    actual3.textContent = `Inicio de reccorido :${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
+                                 }
+                                 else{
+                                    actual3.textContent = `Recorrido :${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
+                                 }                          
+                                
                         } 
                     }
                                 
@@ -1620,7 +1626,13 @@ selector.addEventListener('click', function(){
                                     futuro2.textContent = 'Está saliendo de la terminal'
                                    }
                                 }
-                                     futuro3.textContent = `Recorrido : ${diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido}`
+                                    
+                                 if((posicion-1 < 1) &&(posicion2-1 == 1))    {
+                                    futuro3.textContent = `Inicio de reccorido :${diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido}`
+                                 }
+                                 else{
+                                    futuro3.textContent = `Recorrido :${diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido}`
+                                 }                   
                         }           
                     }
                                   
