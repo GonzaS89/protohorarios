@@ -1614,7 +1614,7 @@ selector.addEventListener('click', function(){
                                     }
                                    
                                    if(elMasCercano < 5){
-                                    futuro2.textContent = 'Sale de la terminal hace menos de 5 minutos'
+                                    futuro2.textContent = 'Sale de la terminal en menos de 5 minutos'
                                    }
                                    if(elMasCercano == 0){
                                     futuro2.textContent = 'Está saliendo de la terminal'
