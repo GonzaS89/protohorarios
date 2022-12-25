@@ -10,36 +10,56 @@
     <title>kioraicoletivo?</title>
 </head>
 <body>
+    <header class="header">
+        <p id="nombre"">kioraicoletivo?</p>
+        <p class="fecha" id="fecha"></p>
     <main class="contenedor">
-     <header class="header">
-            <p id="nombre"">kioraicoletivo?</p>
-            <p class="fecha" id="fecha"></p>
      </header>
-     <div class="topside" >
-        <div class="topsidehijo1">
-            <p>Estas en:</p>
+     <div class="botonManual-cont">
+        <button id="botonManual">Busqueda Manual</button>
+     </div>
+     <div class="botonAuto-cont">
+        <button id="botonAuto">Busqueda Automática</button>
+     </div>
+     <div class="topside">
+     <div class="busquedaAuto-cont" >
+        <div class="busquedaAuto1">
+            <!-- <p>Estas en..</p> -->
             <form class="menu" name=menu action="">
                 <select id="selector" class="select"name="selector">
-                    <option value="default" disabled selected>.......</option>
+                    <option value="default" disabled selected>Estoy en</option>
                     <option value="florida" >Florida</option>
                     <option value="sanM">S.M. de Tucumán</option>
                 </select>
             </form>
         </div>
-        <div class="topsidehijo2">
-            <p>Queres viajar por:</p>
+        <div class="busquedaAuto2">
+            <!-- <p>Queres viajar por..</p> -->
             <form class="menu2" name=menu2 action="">
                 <select id="selector2" class="select"name="selector2">
-                    <option value="default" disabled selected>.......</option>
+                    <option value="default" disabled selected>Quiero viajar por</option>
                     <option value="alderetes">Alderetes</option>
                     <option value="posse">Posse</option>
                 </select>
             </form>
         </div>
-       
     </div>
+        <div class="busquedaManual-cont">
+            <div class="busquedaManual1">
+      
+            <input id="busquedaInput1"type="text" placeholder="Ingresá un día">
+            </div>
+            <div class="busquedaManual2">
+            <input id="busquedaInput2"type="number" placeholder="Ingresá un horario">
+            </div>
+            
+        </div>
+</div>
     <div class="boton-cont">
         <button id='boton'>Mostrar</button>   
+    </div>
+    <div class="boton-cont2">
+        <button id='boton2'>Mostrar</button>   
     </div>
      <div class="resultados-cont">
         <div class="resultados">
@@ -47,7 +67,7 @@
             <p id="actual2"></p>
             <p id="actual3"></p>
         </div>
-        <div class="resultados">
+        <div class="resultados2">
             <p id="futuro1"></p>   
             <p id="futuro2"></p>   
             <p id="futuro3"></p>   
