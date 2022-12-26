@@ -3042,6 +3042,8 @@ botonAuto.addEventListener('click', function(){
     $('.resultados').css('display','flex')
     $('.resultados2').css('display','flex')
     $('.resultados-cont').css('height','200')
+    opcionbase.selected=true;
+    opcionbase2.selected=true;
 })
 
 const botonManual = document.getElementById('botonManual');
@@ -3055,6 +3057,8 @@ botonManual.addEventListener('click', function(){
     $('.boton-cont2').css('display','flex')
     $('.resultados3').css('display','flex')
     $('.resultados-cont').css('height','100')
+    opcionbase.selected=true;
+    opcionbase2.selected=true;
 })   
 const boton2 = document.getElementById('boton2');
 boton2.addEventListener('click',function(){
@@ -3203,20 +3207,8 @@ if(diferencias[i]>=0){
 else{
     mostrar1.textContent = 'No hay bondis cercanos al horario que pusiste';
     mostrar2.textContent = ""
-
 }
-
-
 }
-
-
-
-
-
-
-
-       
-
 })
 
 

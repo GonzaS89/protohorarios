@@ -226,15 +226,16 @@ body{
     height:100px;
 }
 #boton,#boton2{
-    height:75px;
-    width:150px;
-    background-color: lightgray;
+    height:60px;
+    width:120px;
+    background-color: rgb(65, 117, 181);
     border: none;
     border-radius: 20px;
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
     box-shadow: 0 2px 5px rgb(0, 0, 0);
     font-weight: bold;
+    color: white;
 }
 #boton:active{
     cursor: pointer;
@@ -273,7 +274,7 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 border-radius: 20px;
-background-color:lightgray;
+background-color:rgb(65, 117, 181);
 margin:5px;
 border:none;
 box-shadow: 0 2px 5px black;
@@ -287,7 +288,7 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 border-radius: 20px;
-background-color:lightgray;
+background-color:rgb(65, 117, 181);
 margin:5px;
 border:none;
 box-shadow: 0 2px 5px black;
@@ -301,7 +302,7 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 border-radius: 20px;
-background-color:lightgray;
+background-color:rgb(65, 117, 181);
 margin:5px;
 border:none;
 box-shadow: 0 2px 5px black;
@@ -324,11 +325,12 @@ box-shadow: 0 2px 5px black;
 }
 
 #futuro1,#futuro2,#futuro3{
-    font-size:15px;
+    font-size:14px;
     font-family: 'Nunito', sans-serif;
-    font-weight: bold;
     text-align: center;
     margin: 5px 0;
+    font-weight: bold;
+    color: white;
 }
 #mostrar1,#mostrar2{
     font-size:14px;
@@ -336,6 +338,7 @@ box-shadow: 0 2px 5px black;
     font-weight: bold;
     text-align: center;
     margin: 5px 0;
+    color: white;
 }
 @media(max-width:600px){
     .header{
@@ -350,11 +353,12 @@ box-shadow: 0 2px 5px black;
         width: 200px;
     }
     #actual1,#actual2,#actual3{
-        font-size:15px;
+        font-size:14px;
         font-family: 'Nunito', sans-serif;
-        font-weight: bold;
         margin: 5px 0;
         text-align: center;
+        color: white;
+        font-weight: bold;
     }
     #fecha{
         font-size: 15px;
