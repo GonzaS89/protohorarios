@@ -45,7 +45,7 @@ const selector2 = document.menu2.selector2;
 const boton = document.getElementById('boton');
 
 
-selector.addEventListener('click', function(){
+
     const opcionbase = selector[0]
     const opcionbase2 = selector2[0]
     const florida = selector[1];
@@ -1655,7 +1655,7 @@ selector.addEventListener('click', function(){
                     
     }              
                        
-})  
+ 
 })
 
 
@@ -3053,6 +3053,7 @@ botonManual.addEventListener('click', function(){
     $('.resultados-cont').css('height','100')
 })   
 const boton2 = document.getElementById('boton2');
+boton2.addEventListener('click',function(){
 
 
     const selector = document.menu.selector;
@@ -3075,7 +3076,7 @@ const boton2 = document.getElementById('boton2');
     
 
      // Definimos la posicion del selector 1
-    selector.addEventListener('click', function(){
+    
         
         
         for(opcion of selector){
@@ -3091,14 +3092,14 @@ const boton2 = document.getElementById('boton2');
                posicion=valores.indexOf(valorSelecionado)
            }
            
-    })
+    
 
 
 
    
 
        // Definimos la posicion del selector 2
-     selector2.addEventListener('click',function(){
+
         for(opcion of selector2){
             if(opcion.selected && opcion.disabled == false){
                    valorSelecionado2 = opcion
@@ -3112,7 +3113,7 @@ const boton2 = document.getElementById('boton2');
                posicion2=valores2.indexOf(valorSelecionado2)
            }
            
-     })
+    
 
     //  Definimos el dia 
 
@@ -3121,7 +3122,8 @@ const boton2 = document.getElementById('boton2');
     let valores3 = [];
     let posicion3;
     
-    selector3.addEventListener('click', function(){
+
+        
         for(opcion of selector3){
             if(opcion.selected && opcion.disabled == false){
                    valorSelecionado3 = opcion
@@ -3135,8 +3137,8 @@ const boton2 = document.getElementById('boton2');
            for(i=0; i< valores3.length;i++){
                posicion3=valores3.indexOf(valorSelecionado3)
            }
-    })
-    boton2.addEventListener('click',function(){
+   
+   
 
    
       // Aqui definimos donde localidad de salida y camino
