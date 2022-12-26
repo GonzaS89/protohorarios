@@ -3051,6 +3051,7 @@ botonAuto.addEventListener('click', function(){
     $('.resultados-cont').css('height','200')
 })
 const boton2 = document.getElementById('boton2');
+boton2.addEventListener('click',function(){
 
 
     const selector = document.menu.selector;
@@ -3134,7 +3135,7 @@ const boton2 = document.getElementById('boton2');
     })
 
 
-     boton2.addEventListener('click',function(){
+     
 
       
       // Aqui definimos donde localidad de salida y camino
