@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(222, 228, 100);
+    background-color: rgb(242, 34, 82);
 }
 .contenedor{
     max-width:1200px;
@@ -9,7 +9,7 @@ body{
     justify-content: space-around;
     align-items: center;
     height:50px;
-    background-color: rgb(222, 228,100);
+    background-color: rgb(242, 34, 82);
     margin-top: 20px;
 }
 .header p{
@@ -65,7 +65,7 @@ body{
     color: black;
     font-weight: bold;
     padding:0 10px;
-    background-color: rgb(65, 181, 142);
+    background-color: rgb(65, 117, 181);
     color: white;
     width: 85%;
 }
@@ -88,7 +88,7 @@ body{
     margin: 5px auto;
 }
 .busquedaManual-cont{
-    display: flex;
+    display:none;
     align-items: center;
     justify-content:center;
     flex-direction: column;
@@ -155,7 +155,7 @@ body{
     border: none;
     text-align: center;
     width:175px;
-    background-color: rgb(65, 181, 142);
+    background-color: rgb(65, 117, 181);
     color: white;
     border-radius: 20px;
     box-shadow: 0 2px 5px black;
@@ -185,7 +185,7 @@ body{
     height: 50px;
     padding: 0;
     font-weight: bold;
-    border: 3px solid rgb(65, 181, 142);;
+    border: 3px solid rgb(65, 117, 181);
 }
 ::placeholder{
     font-family: 'Nunito', sans-serif;
@@ -218,7 +218,7 @@ body{
 }
 #boton:active{
     cursor: pointer;
-    background-color:rgb(253, 1, 1);
+    background-color:rgb(65, 117, 181);
     color: white;
     height: 70px;
 }
@@ -230,7 +230,7 @@ body{
 }
 #boton2:active{
     cursor: pointer;
-    background-color:rgb(253, 1, 1);
+    background-color:rgb(65, 117, 181);
     color: white;
     height: 70px;
 }

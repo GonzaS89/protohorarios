@@ -3026,16 +3026,7 @@ function busquedaManual(){
     const todosSanMiguel = [todosSmAlderetes,todosSmPosse];
     const todos = [todosFlorida,todosSanMiguel];
 
-    const botonManual = document.getElementById('botonManual');
-botonManual.addEventListener('click', function(){
-    $('.botonManual-cont').css('display', 'none');
-    $('.boton-cont').css('display','none')
-    $('.resultados2').css('display','none')
-    $('.busquedaManual-cont').css('display', 'flex');
-    $('.botonAuto-cont').css('display', 'flex');
-    $('.boton-cont2').css('display','flex')
-    $('.resultados-cont').css('height','100')
-})   
+
     
 
 
@@ -3050,8 +3041,18 @@ botonAuto.addEventListener('click', function(){
     $('.resultados2').css('display','flex')
     $('.resultados-cont').css('height','200')
 })
-const boton2 = document.getElementById('boton2');
 
+const botonManual = document.getElementById('botonManual');
+botonManual.addEventListener('click', function(){
+    $('.botonManual-cont').css('display', 'none');
+    $('.boton-cont').css('display','none')
+    $('.resultados2').css('display','none')
+    $('.busquedaManual-cont').css('display', 'flex');
+    $('.botonAuto-cont').css('display', 'flex');
+    $('.boton-cont2').css('display','flex')
+    $('.resultados-cont').css('height','100')
+})   
+const boton2 = document.getElementById('boton2');
 
 
     const selector = document.menu.selector;
@@ -3071,11 +3072,12 @@ const boton2 = document.getElementById('boton2');
     let actual3 = document.getElementById('actual3');
 
 
-
+    
 
      // Definimos la posicion del selector 1
     selector.addEventListener('click', function(){
-        boton2.addEventListener('click',function(){
+        
+        
         for(opcion of selector){
             if(opcion.selected && opcion.disabled == false){
                    valorSelecionado = opcion
@@ -3091,7 +3093,7 @@ const boton2 = document.getElementById('boton2');
            
     })
 
-   
+
 
    
 
@@ -3134,18 +3136,15 @@ const boton2 = document.getElementById('boton2');
                posicion3=valores3.indexOf(valorSelecionado3)
            }
     })
+    boton2.addEventListener('click',function(){
 
-
-     
-
-      
+   
       // Aqui definimos donde localidad de salida y camino
 
-        
        
       let localidad = todos[posicion-1];
       let camino = localidad[(posicion2)-1];
-      let dia = camino[posicion3]
+      let dia = camino[posicion3];
       let listaDelDia = [];
       let horariosEnEnteros = [];
 
@@ -3190,7 +3189,7 @@ actual1.textContent = dia[diferencias.indexOf(masCercano)].nombre
 actual3.textContent = `Recorrido: ${dia[diferencias.indexOf(masCercano)].recorrido}`
 
 setTimeout(()=>{
-actual1.textContent = "", actual3.textContent = "",opcionbase.selected  = true,opcionbase2.selected = true;inputDia.value = "";inputHora.value = "";
+actual1.textContent = "", actual3.textContent = "",opcionbase.selected  = true,opcionbase2.selected = true,inputHora.value = "";
 },3500)
 
        
