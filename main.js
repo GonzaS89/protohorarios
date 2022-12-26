@@ -3060,7 +3060,7 @@ const inputHora = document.getElementById('busquedaInput2');
 
 const boton2 = document.getElementById('boton2');
 
-
+boton2.addEventListener('click',function(){
 selector.addEventListener('click', function(){
     
     let valorSelecionado; 
@@ -3073,7 +3073,7 @@ selector.addEventListener('click', function(){
     let actual3 = document.getElementById('actual3');
 
    
-    boton2.addEventListener('click',function(){
+    
 
          // Definimos la posicion del selector 1
 
