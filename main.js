@@ -1651,7 +1651,7 @@ const boton = document.getElementById('boton');
                        
                             setTimeout(()=>{
                                 actual1.textContent = "", actual2.textContent="", actual3.textContent = "",futuro1.textContent="", futuro2.textContent="",futuro3.textContent="",opcionbase.selected  = true,opcionbase2.selected = true;
-                              },3500)
+                              },5000)
                     
     }              
                        
@@ -3035,9 +3035,11 @@ botonAuto.addEventListener('click', function(){
     $('.busquedaManual-cont').css('display', 'none');
     $('.botonAuto-cont').css('display', 'none');
     $('.boton-cont2').css('display','none')
+    $('.resultados3').css('display','none')
     $('.busquedaAuto-cont').css('display', 'flex');
     $('.botonManual-cont').css('display', 'flex');
     $('.boton-cont').css('display','flex')
+    $('.resultados').css('display','flex')
     $('.resultados2').css('display','flex')
     $('.resultados-cont').css('height','200')
 })
@@ -3047,9 +3049,11 @@ botonManual.addEventListener('click', function(){
     $('.botonManual-cont').css('display', 'none');
     $('.boton-cont').css('display','none')
     $('.resultados2').css('display','none')
+    $('.resultados').css('display','none')
     $('.busquedaManual-cont').css('display', 'flex');
     $('.botonAuto-cont').css('display', 'flex');
     $('.boton-cont2').css('display','flex')
+    $('.resultados3').css('display','flex')
     $('.resultados-cont').css('height','100')
 })   
 const boton2 = document.getElementById('boton2');
@@ -3060,7 +3064,6 @@ boton2.addEventListener('click',function(){
     const opcionbase = selector[0]
     const selector2 = document.menu2.selector2;
     const opcionbase2 = selector2[0]
-    const inputDia = document.getElementById('busquedaInput1');
     const inputHora = document.getElementById('busquedaInput2');    
 
     let valorSelecionado; 
@@ -3146,7 +3149,7 @@ boton2.addEventListener('click',function(){
        
       let localidad = todos[posicion-1];
       let camino = localidad[(posicion2)-1];
-      let dia = camino[posicion3];
+      let dia = camino[posicion3-1];
       let listaDelDia = [];
       let horariosEnEnteros = [];
 
@@ -3157,6 +3160,7 @@ boton2.addEventListener('click',function(){
        for (i=0; i < dia.length; i++){
         listaDelDia.push(dia[i].valor)
 }
+
 
 
 // Aqui usamos la lista con los valores y las pasamos a numero enteros junto con los minutos
@@ -3170,33 +3174,51 @@ boton2.addEventListener('click',function(){
 }
 
 
-let hora = inputHora.value;
 
+let hora = inputHora.value;
 let horaEnEnteros =  hora * 60;
 let masCercano= 3000;
-let diferencias = []
+let diferencias = [];
+const mensajeError = document.getElementById('mensaje');
 
 for(i=0;i<horariosEnEnteros.length;i++){
     diferencias.push(horariosEnEnteros[i]- horaEnEnteros)
 }
+
 for(i=0;i<diferencias.length;i++){
-if(diferencias[i]>0){
-    masCercano= Math.min(masCercano,diferencias[i])
+if(diferencias[i]>=0){
+    if(hora == ""){
+        $('.mensajeError').css('display','flex')
+        mensajeError.textContent = 'Te faltó agregar un dato en el último campo';
+       
+    }
+    else{
+        masCercano= Math.min(masCercano,diferencias[i])
+    mostrar1.textContent = `El bondi mas cercano al horario que indicaste es el ${dia[diferencias.indexOf(masCercano)].nombre}`
+
+    mostrar2.textContent = `Recorrido: ${dia[diferencias.indexOf(masCercano)].recorrido}`
+    $('.mensajeError').css('display','none')
+    }
 }
+else{
+    mostrar1.textContent = 'No hay bondis cercanos al horario que pusiste';
+    mostrar2.textContent = ""
+
 }
 
 
-actual1.textContent = dia[diferencias.indexOf(masCercano)].nombre
+}
 
-actual3.textContent = `Recorrido: ${dia[diferencias.indexOf(masCercano)].recorrido}`
 
-setTimeout(()=>{
-actual1.textContent = "", actual3.textContent = "",opcionbase.selected  = true,opcionbase2.selected = true,inputHora.value = "";
-},3500)
+
+
+
+
 
        
 
 })
+
 
 }
 
