@@ -3060,8 +3060,9 @@ const inputHora = document.getElementById('busquedaInput2');
 
 const boton2 = document.getElementById('boton2');
 
-boton2.addEventListener('click',function(){
-selector.addEventListener('click', function(){
+
+
+    boton2.addEventListener('click',function(){
     
     let valorSelecionado; 
     let valorSelecionado2;
@@ -3135,8 +3136,6 @@ selector.addEventListener('click', function(){
             listaDelDia.push(camino[dia][i].valor)
 }
 
-
-
     // Aqui usamos la lista con los valores y las pasamos a numero enteros junto con los minutos
 
               for(let i=0 ; i < listaDelDia.length ; i++){
@@ -3174,7 +3173,7 @@ selector.addEventListener('click', function(){
            
   
     })
-    })
+    
 }
 
 
