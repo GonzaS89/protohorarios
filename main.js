@@ -3036,23 +3036,7 @@ botonManual.addEventListener('click', function(){
     $('.boton-cont2').css('display','flex')
     $('.resultados-cont').css('height','100')
     
-    
-})
-const botonAuto = document.getElementById('botonAuto');
-botonAuto.addEventListener('click', function(){
-    $('.busquedaManual-cont').css('display', 'none');
-    $('.botonAuto-cont').css('display', 'none');
-    $('.boton-cont2').css('display','none')
-    $('.busquedaAuto-cont').css('display', 'flex');
-    $('.botonManual-cont').css('display', 'flex');
-    $('.boton-cont').css('display','flex')
-    $('.resultados2').css('display','flex')
-    $('.resultados-cont').css('height','200')
-})
-
-
-
-const boton2 = document.getElementById('boton2');
+    const boton2 = document.getElementById('boton2');
 
     boton2.addEventListener('click',function(){
         const selector = document.menu.selector;
@@ -3171,6 +3155,23 @@ const boton2 = document.getElementById('boton2');
            
   
     })
+    
+})
+const botonAuto = document.getElementById('botonAuto');
+botonAuto.addEventListener('click', function(){
+    $('.busquedaManual-cont').css('display', 'none');
+    $('.botonAuto-cont').css('display', 'none');
+    $('.boton-cont2').css('display','none')
+    $('.busquedaAuto-cont').css('display', 'flex');
+    $('.botonManual-cont').css('display', 'flex');
+    $('.boton-cont').css('display','flex')
+    $('.resultados2').css('display','flex')
+    $('.resultados-cont').css('height','200')
+})
+
+
+
+
     
 }
 
