@@ -3050,28 +3050,26 @@ botonAuto.addEventListener('click', function(){
     $('.resultados-cont').css('height','200')
 })
 
-const selector = document.menu.selector;
-const opcionbase = selector[0]
-const selector2 = document.menu2.selector2;
-const opcionbase2 = selector2[0]
-const inputDia = document.getElementById('busquedaInput1');
-const inputHora = document.getElementById('busquedaInput2');
 
 
 const boton2 = document.getElementById('boton2');
 
-
-
     boton2.addEventListener('click',function(){
+        const selector = document.menu.selector;
+        const opcionbase = selector[0]
+        const selector2 = document.menu2.selector2;
+        const opcionbase2 = selector2[0]
+        const inputDia = document.getElementById('busquedaInput1');
+        const inputHora = document.getElementById('busquedaInput2');    
     
-    let valorSelecionado; 
-    let valorSelecionado2;
-    let valores = [];
-    let valores2= []
-    let posicion;
-    let posicion2;
-    let actual1 = document.getElementById('actual1');
-    let actual3 = document.getElementById('actual3');
+        let valorSelecionado; 
+        let valorSelecionado2;
+        let valores = [];
+        let valores2= []
+        let posicion;
+        let posicion2;
+        let actual1 = document.getElementById('actual1');
+        let actual3 = document.getElementById('actual3');
 
    
     
