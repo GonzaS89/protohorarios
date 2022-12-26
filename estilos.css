@@ -88,7 +88,7 @@ body{
     margin: 5px auto;
 }
 .busquedaManual-cont{
-    display: none;
+    display: flex;
     align-items: center;
     justify-content:center;
     flex-direction: column;
@@ -170,25 +170,28 @@ body{
     color: white;
     font-weight: bold;
 }
-#busquedaInput1,#busquedaInput2{
+#busquedaInput2{
     background-color:transparent;
     font-family: 'Nunito', sans-serif;
     font-size:15px;
     border: none;
     text-align: center;
     width:175px;
-    background-color: rgb(65, 181, 142);
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin: 5px;
     border-radius: 20px;
     box-shadow: 0 2px 5px black;
     height: 50px;
     padding: 0;
+    font-weight: bold;
+    border: 3px solid rgb(65, 181, 142);;
 }
 ::placeholder{
     font-family: 'Nunito', sans-serif;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
 }
 .boton-cont{
     display:flex;

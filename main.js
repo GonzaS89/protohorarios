@@ -3018,10 +3018,10 @@ function busquedaManual(){
                 "recorrido":"Terminal - B° La Cancha"
             }
     ]
-    const todosSmAlderetes = [horariosDSMAl,horariosLvSMAl,horariosSSMAl];
-    const todosSmPosse = [horariosDSMPo,horariosLvSMPo,horariosSSMPo];    
-    const todosFloridaAlderetes = [horariosDFloAl,horariosLvFloAl,horariosSFloAl];
-    const todosFloridaPosse = [horariosDFloPo,horariosLvFloPo,horariosSFloPo];
+    const todosSmAlderetes = [horariosLvSMAl,horariosSSMAl,horariosDSMAl];
+    const todosSmPosse = [horariosLvSMPo,horariosSSMPo,horariosDSMPo];    
+    const todosFloridaAlderetes = [horariosLvFloAl,horariosSFloAl,horariosDFloAl];
+    const todosFloridaPosse = [horariosLvFloPo,horariosSFloPo,horariosDFloPo];
     const todosFlorida = [todosFloridaAlderetes,todosFloridaPosse];
     const todosSanMiguel = [todosSmAlderetes,todosSmPosse];
     const todos = [todosFlorida,todosSanMiguel];
@@ -3035,129 +3035,11 @@ botonManual.addEventListener('click', function(){
     $('.botonAuto-cont').css('display', 'flex');
     $('.boton-cont2').css('display','flex')
     $('.resultados-cont').css('height','100')
-    
-    const boton2 = document.getElementById('boton2');
-
-    boton2.addEventListener('click',function(){
-        const selector = document.menu.selector;
-        const opcionbase = selector[0]
-        const selector2 = document.menu2.selector2;
-        const opcionbase2 = selector2[0]
-        const inputDia = document.getElementById('busquedaInput1');
-        const inputHora = document.getElementById('busquedaInput2');    
-    
-        let valorSelecionado; 
-        let valorSelecionado2;
-        let valores = [];
-        let valores2= []
-        let posicion;
-        let posicion2;
-        let actual1 = document.getElementById('actual1');
-        let actual3 = document.getElementById('actual3');
-
-   
+})   
     
 
-         // Definimos la posicion del selector 1
 
-         for(opcion of selector){
-            if(opcion.selected && opcion.disabled == false){
-                   valorSelecionado = opcion
-                }
-        }
-        for(i=0; i < selector.length;i++){
-         valores.push(selector[i])
-        }
-      
-        for(i=0; i< valores.length;i++){
-            posicion=valores.indexOf(valorSelecionado)
-        }
-
-        // Definimos la posicion del selector 2
-       
-
-        for(opcion of selector2){
-            if(opcion.selected && opcion.disabled == false){
-                   valorSelecionado2 = opcion
-                }
-        }
-        for(i=0; i < selector2.length;i++){
-         valores2.push(selector2[i])
-        }
-      
-        for(i=0; i< valores2.length;i++){
-            posicion2=valores2.indexOf(valorSelecionado2)
-        }
-
-          // Aqui definimos donde localidad de salida y camino
-
-            
-           
-         let localidad = todos[posicion-1];
-          let camino = localidad[posicion2-1];
-          let listaDelDia = [];
-          let horariosEnEnteros = [];
-
-    
-          const diasDeLaSemana=["domingo","lunes","martes","miercoles","jueves","viernes","sabado"];
-          let dia;
-         if(diasDeLaSemana.indexOf(inputDia.value) > 5){
-            dia=2;
-         }
-         if(diasDeLaSemana.indexOf(inputDia.value)<=5 && diasDeLaSemana.indexOf(inputDia.value) >=1){
-            dia=1
-         }
-         if(diasDeLaSemana.indexOf(inputDia.value)<1){
-            dia=diasDeLaSemana.indexOf(inputDia.value);
-         }
-          
-        
-           // Aqui extraemos del array de arriba los valores de cada horario y lo agregamos a la lista del dia
-           
-           for (i=0; i < camino[dia].length; i++){
-            listaDelDia.push(camino[dia][i].valor)
-}
-
-    // Aqui usamos la lista con los valores y las pasamos a numero enteros junto con los minutos
-
-              for(let i=0 ; i < listaDelDia.length ; i++){
-  
-          let horasEnEnteros=  (Math.trunc(listaDelDia[i])  * 60);
-                let minutosEnEnteros = ((listaDelDia[i] - (Math.trunc(listaDelDia[i])))*100);
-                let horaMinutosEnEnteros = horasEnEnteros + minutosEnEnteros;
-           horariosEnEnteros.push(horaMinutosEnEnteros);
-  }
-  
-  let hora = inputHora.value
-
-  let horaEnEnteros =  hora * 60;
-  let masCercano= 3000;
-  let diferencias = []
-
-  for(i=0;i<horariosEnEnteros.length;i++){
-        diferencias.push(horariosEnEnteros[i]- horaEnEnteros)
-  }
-  for(i=0;i<diferencias.length;i++){
-    if(diferencias[i]>0){
-        masCercano= Math.min(masCercano,diferencias[i])
-    }
-  }
-  console.log(camino[dia][diferencias.indexOf(masCercano)].nombre)
-
-  actual1.textContent = camino[dia][diferencias.indexOf(masCercano)].nombre
-  
-  actual3.textContent = `Recorrido: ${camino[dia][diferencias.indexOf(masCercano)].recorrido}`
-
-  setTimeout(()=>{
-    actual1.textContent = "", actual3.textContent = "",opcionbase.selected  = true,opcionbase2.selected = true;inputDia.value = "";inputHora.value = "";
-  },3500)
-
-           
-  
-    })
-    
-})
-const botonAuto = document.getElementById('botonAuto');
+    const botonAuto = document.getElementById('botonAuto');
 botonAuto.addEventListener('click', function(){
     $('.busquedaManual-cont').css('display', 'none');
     $('.botonAuto-cont').css('display', 'none');
@@ -3168,11 +3050,151 @@ botonAuto.addEventListener('click', function(){
     $('.resultados2').css('display','flex')
     $('.resultados-cont').css('height','200')
 })
+const boton2 = document.getElementById('boton2');
+
+
+    const selector = document.menu.selector;
+    const opcionbase = selector[0]
+    const selector2 = document.menu2.selector2;
+    const opcionbase2 = selector2[0]
+    const inputDia = document.getElementById('busquedaInput1');
+    const inputHora = document.getElementById('busquedaInput2');    
+
+    let valorSelecionado; 
+    let valorSelecionado2;
+    let valores = [];
+    let valores2= [];
+    let posicion;
+    let posicion2;
+    let actual1 = document.getElementById('actual1');
+    let actual3 = document.getElementById('actual3');
 
 
 
+
+     // Definimos la posicion del selector 1
+    selector.addEventListener('click', function(){
+        for(opcion of selector){
+            if(opcion.selected && opcion.disabled == false){
+                   valorSelecionado = opcion
+                }
+        }
+        for(i=0; i < selector.length;i++){
+            valores.push(selector[i])
+           }
+         
+           for(i=0; i< valores.length;i++){
+               posicion=valores.indexOf(valorSelecionado)
+           }
+           
+    })
+
+   
+
+   
+
+       // Definimos la posicion del selector 2
+     selector2.addEventListener('click',function(){
+        for(opcion of selector2){
+            if(opcion.selected && opcion.disabled == false){
+                   valorSelecionado2 = opcion
+                }
+        }
+        for(i=0; i < selector2.length;i++){
+            valores2.push(selector2[i])
+           }
+         
+           for(i=0; i< valores2.length;i++){
+               posicion2=valores2.indexOf(valorSelecionado2)
+           }
+           
+     })
+
+    //  Definimos el dia 
+
+    const selector3 = document.menu3.selector3;
+    let valorSelecionado3;
+    let valores3 = [];
+    let posicion3;
+    
+    selector3.addEventListener('click', function(){
+        for(opcion of selector3){
+            if(opcion.selected && opcion.disabled == false){
+                   valorSelecionado3 = opcion
+                }
+        }
+        
+        for(i=0; i < selector3.length;i++){
+            valores3.push(selector3[i])
+           }
+         
+           for(i=0; i< valores3.length;i++){
+               posicion3=valores3.indexOf(valorSelecionado3)
+           }
+    })
+
+
+     boton2.addEventListener('click',function(){
+
+      
+      // Aqui definimos donde localidad de salida y camino
+
+        
+       
+      let localidad = todos[posicion-1];
+      let camino = localidad[(posicion2)-1];
+      let dia = camino[posicion3]
+      let listaDelDia = [];
+      let horariosEnEnteros = [];
 
     
+    
+       // Aqui extraemos del array de arriba los valores de cada horario y lo agregamos a la lista del dia
+       
+       for (i=0; i < dia.length; i++){
+        listaDelDia.push(dia[i].valor)
+}
+
+
+// Aqui usamos la lista con los valores y las pasamos a numero enteros junto con los minutos
+
+          for(let i=0 ; i < listaDelDia.length ; i++){
+
+            let horasEnEnteros = Math.trunc((listaDelDia[i])*60);
+            let minutosEnEnteros = ((listaDelDia[i] - (Math.trunc(listaDelDia[i])))*100);
+            let horaMinutosEnEnteros = horasEnEnteros + minutosEnEnteros;
+       horariosEnEnteros.push(horaMinutosEnEnteros);
+}
+
+
+let hora = inputHora.value;
+
+let horaEnEnteros =  hora * 60;
+let masCercano= 3000;
+let diferencias = []
+
+for(i=0;i<horariosEnEnteros.length;i++){
+    diferencias.push(horariosEnEnteros[i]- horaEnEnteros)
+}
+for(i=0;i<diferencias.length;i++){
+if(diferencias[i]>0){
+    masCercano= Math.min(masCercano,diferencias[i])
+}
+}
+
+
+actual1.textContent = dia[diferencias.indexOf(masCercano)].nombre
+
+actual3.textContent = `Recorrido: ${dia[diferencias.indexOf(masCercano)].recorrido}`
+
+setTimeout(()=>{
+actual1.textContent = "", actual3.textContent = "",opcionbase.selected  = true,opcionbase2.selected = true;inputDia.value = "";inputHora.value = "";
+},3500)
+
+       
+
+})
+
 }
 
 
