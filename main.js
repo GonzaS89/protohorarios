@@ -3051,7 +3051,7 @@ botonAuto.addEventListener('click', function(){
     $('.resultados-cont').css('height','200')
 })
 const boton2 = document.getElementById('boton2');
-boton2.addEventListener('click',function(){
+
 
 
     const selector = document.menu.selector;
@@ -3075,6 +3075,7 @@ boton2.addEventListener('click',function(){
 
      // Definimos la posicion del selector 1
     selector.addEventListener('click', function(){
+        boton2.addEventListener('click',function(){
         for(opcion of selector){
             if(opcion.selected && opcion.disabled == false){
                    valorSelecionado = opcion
