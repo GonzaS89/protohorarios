@@ -60,6 +60,8 @@ const boton = document.getElementById('boton');
    
     boton.addEventListener('click',function(){
 
+        
+
         // Definimos la posicion del selector 1
 
         for(opcion of selector){
@@ -1647,13 +1649,10 @@ const boton = document.getElementById('boton');
                             futuro2.textContent = 'No hay mas colectivos por hoy'
                             futuro3.textContent = ""
                         }         
-                        
-                       
-                            setTimeout(()=>{
-                                actual1.textContent = "", actual2.textContent="", actual3.textContent = "",futuro1.textContent="", futuro2.textContent="",futuro3.textContent="",opcionbase.selected  = true,opcionbase2.selected = true;
-                              },5000)
                     
-    }              
+    }         
+    $('.resultados').css('display','flex')
+        $('.resultados2').css('display','flex')     
                        
  
 })
@@ -3055,13 +3054,13 @@ botonManual.addEventListener('click', function(){
     $('.busquedaManual-cont').css('display', 'flex');
     $('.botonAuto-cont').css('display', 'flex');
     $('.boton-cont2').css('display','flex')
-    $('.resultados3').css('display','flex')
     $('.resultados-cont').css('height','100')
     opcionbase.selected=true;
     opcionbase2.selected=true;
 })   
 const boton2 = document.getElementById('boton2');
 boton2.addEventListener('click',function(){
+    
 
 
     const selector = document.menu.selector;
@@ -3079,8 +3078,6 @@ boton2.addEventListener('click',function(){
     let actual1 = document.getElementById('actual1');
     let actual3 = document.getElementById('actual3');
 
-
-    
 
      // Definimos la posicion del selector 1
     
@@ -3100,11 +3097,6 @@ boton2.addEventListener('click',function(){
            }
            
     
-
-
-
-   
-
        // Definimos la posicion del selector 2
 
         for(opcion of selector2){
@@ -3209,6 +3201,7 @@ else{
     mostrar2.textContent = ""
 }
 }
+$('.resultados3').css('display','flex')
 })
 
 
