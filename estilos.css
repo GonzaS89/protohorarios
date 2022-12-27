@@ -229,8 +229,8 @@ body{
     height:100px;
 }
 #boton,#boton2{
-    height:60px;
-    width:200px;
+    height:50px;
+    width:125px;
     background-color: rgb(65, 117, 181);
     border: none;
     border-radius: 20px;
@@ -265,7 +265,8 @@ body{
     justify-content: center;
     align-items: center;
     height:200px;
-    width:100%;    
+    width:100%;
+    margin-top: 10px;    
 }
 
 .resultados{
@@ -340,7 +341,7 @@ box-shadow: 0 2px 5px black;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     text-align: center;
-    margin: 5px 0;
+    margin: 5px 5px;
     color: white;
 }
 @media(max-width:600px){
