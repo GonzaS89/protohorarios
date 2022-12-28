@@ -228,16 +228,19 @@ body{
 #mensaje{
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: rgb(0, 0, 0);
     font-family: 'Nunito', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
     height: 40px;
     text-align: center;
     border-radius: 10px;
     padding: 0 10px;
     border: none;
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    width:40%;
+    text-align: center;
 }
 
 .boton-cont{
@@ -309,8 +312,6 @@ border:none;
 box-shadow: 0 2px 5px black;
 }
 
-
-
 #actual1,#futuro1{
     padding: 0 10px;
     border-radius: 10px;
@@ -363,6 +364,10 @@ box-shadow: 0 2px 5px black;
     }
     .fecha{
         font-size: 15px;
+    }
+    #mensaje{
+        width:75%;
+        
     }
     #botonAuto,#botonManual{
         height: 40px;

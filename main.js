@@ -2584,6 +2584,11 @@ function busquedaManual(){
   
     ]
     const horariosLvSMPo = [
+             {
+                "nombre":"00:30",
+                "valor":0.3,
+                "recorrido":"Terminal - B° La Cancha"
+            },
             {
                 "nombre":"06:00",
                 "valor":6,
@@ -2753,12 +2758,8 @@ function busquedaManual(){
                 "nombre":"23:30",
                 "valor":23.3,
                 "recorrido":"Terminal - B° La Cancha"
-            },
-            {
-                "nombre":"00:30",
-                "valor":24.3,
-                "recorrido":"Terminal - B° La Cancha"
             }
+           
     ]
     const horariosSSMPo = [
             {
@@ -3171,12 +3172,17 @@ boton2.addEventListener('click',function(){
 }
 
 
-
+const mensajeError = document.getElementById('mensaje');
 let hora = inputHora.value;
-let horaEnEnteros =  hora * 60;
+if(hora < 0 || hora > 23|| hora == "" ){
+    $('.mensajeError').css('display','flex')
+    mensajeError.textContent = 'Ingresa un valor entre 0 y 23';   
+}
+else{
+    let horaEnEnteros =  hora * 60;
 let masCercano= 3000;
 let diferencias = [];
-const mensajeError = document.getElementById('mensaje');
+
 
 for(i=0;i<horariosEnEnteros.length;i++){
     diferencias.push(horariosEnEnteros[i]- horaEnEnteros)
@@ -3184,19 +3190,15 @@ for(i=0;i<horariosEnEnteros.length;i++){
 
 for(i=0;i<diferencias.length;i++){
 if(diferencias[i]>=0){
-    if(hora == ""){
-        $('.mensajeError').css('display','flex')
-        mensajeError.textContent = 'Te faltó agregar un dato en el último campo';
-       
-    }
-    else{
+    
+    
         masCercano= Math.min(masCercano,diferencias[i])
     mostrar1.textContent = `El bondi mas cercano al horario que indicaste es el de las ${dia[diferencias.indexOf(masCercano)].nombre}`
 
     mostrar2.textContent = `Recorrido: ${dia[diferencias.indexOf(masCercano)].recorrido}`
     $('.mensajeError').css('display','none')
     $('.resultados3').css('display','flex')
-    }
+    
 }
 else{
     mostrar1.textContent = 'No hay bondis cercanos al horario que pusiste';
@@ -3204,10 +3206,12 @@ else{
     $('.resultados3').css('display','flex')
 }
 }
-
+}
+inputHora.addEventListener('click',function(){
+    $('.mensajeError').css('display','none')
 })
 
-
+})
 }
 
 
