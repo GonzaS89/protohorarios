@@ -374,7 +374,7 @@ box-shadow: 0 2px 5px black;
     }
     #botonAuto:active{
         background-color: rgb(0, 0, 0);
-        width: 30%;
+        width: 75%;
     }
     .topside{
         width: 85%;
