@@ -1536,7 +1536,7 @@ const boton = document.getElementById('boton');
 
                             if(listaDiferencias[i] > 0){
                             anteriorPasado = Math.min(anteriorPasado,listaDiferencias[i]);
-                             actual1.textContent = `Servicio de las ${diaRango[listaDiferencias.indexOf(anteriorPasado)].nombre}`
+                             actual1.textContent = `Bondi de las ${diaRango[listaDiferencias.indexOf(anteriorPasado)].nombre}`
                    
                 //  Aqui definimos los mensajes a mostrar en el primer campo         
 
@@ -1596,7 +1596,7 @@ const boton = document.getElementById('boton');
                             if(listaDiferencias2[i] >0){
                             elMasCercano = Math.min(elMasCercano,listaDiferencias2[i]);
                            
-                               futuro1.textContent = ` Servicio de las ${diaRango[listaDiferencias2.indexOf(elMasCercano)].nombre}`;  
+                               futuro1.textContent = ` Próximo bondi a las ${diaRango[listaDiferencias2.indexOf(elMasCercano)].nombre}`;  
                           
                                 if((posicion-1) < 1){
                                     if(elMasCercano>60){

@@ -47,7 +47,7 @@ body{
     display: flex;
     justify-content:center;
     align-items: center;
-    margin: 10px auto;
+    
 }
 #botonManual{
     height:60px;
@@ -61,11 +61,18 @@ body{
     width: 40%;
     font-size: 15px;
 }
+#botonManual:active{
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+}
+#botonManual:hover{
+    cursor: pointer;
+}
 .botonAuto-cont{
     display: none;
     justify-content:center;
     align-items: center;
-    margin: 10px auto;
+   
 }
 #botonAuto{
     width: 40%;
@@ -79,7 +86,13 @@ body{
     padding:0 10px;
     background-color: rgb(65, 117, 181);
     color: white;
-
+}
+#botonAuto:active{
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+}
+#botonAuto:hover{
+    cursor: pointer;
 }
 .topside{
     display: flex;
@@ -90,7 +103,7 @@ body{
     background-color:lightgray;
     box-shadow: 0 2px 10px black;
     border-radius: 10px;
-    margin: 20px auto 0 auto;
+    margin: 15px auto 0 auto;
 }
 .busquedaAuto-cont{
     display: flex;
@@ -232,12 +245,14 @@ body{
     justify-content:center;
     align-items: center;
     height:100px;
+    margin: -5px;
 }
 .boton-cont2{
     display:none;
     justify-content:center;
     align-items: center;
     height:100px;
+    margin: -5px;
 }
 #boton,#boton2{
     height:50px;
@@ -253,9 +268,8 @@ body{
 }
 #boton:active{
     cursor: pointer;
-    background-color:rgb(65, 117, 181);
+    background-color:rgb(0, 0, 0);
     color: white;
-    
 }
 #boton:hover{
     cursor: pointer;
@@ -265,7 +279,7 @@ body{
 }
 #boton2:active{
     cursor: pointer;
-    background-color:rgb(65, 117, 181);
+    background-color:rgb(0, 0, 0);
     color: white;
 
 }
@@ -276,8 +290,8 @@ body{
     justify-content: center;
     align-items: center;
     height:200px;
-    width:100%;
-    margin-top: 10px;    
+    width:100%;  
+    margin: 5px;
 }
 
 .resultados,.resultados2,.resultados3{
@@ -353,6 +367,14 @@ box-shadow: 0 2px 5px black;
     #botonAuto,#botonManual{
         height: 40px;
         width: 85%;
+    }
+    #botonManual:active{
+        background-color: rgb(0, 0, 0);
+        width: 75%;
+    }
+    #botonAuto:active{
+        background-color: rgb(0, 0, 0);
+        width: 30%;
     }
     .topside{
         width: 85%;
