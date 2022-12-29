@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(242, 34, 82);
+    background-color: rgb(187, 28, 65);
 }
 .contenedor{
     max-width:1200px;
@@ -10,7 +10,7 @@ body{
     align-items: center;
     flex-direction: column;
     height:50px;
-    background-color: rgb(242, 34, 82);
+    background-color: rgb(187, 28, 65);
     margin-top: 20px;
     height: 150px;
 }
@@ -23,7 +23,7 @@ body{
 #nombre{
     font-size: 50px;
     margin: 0;
-    background-color: rgb(242, 34, 82);
+    /* background-color: rgb(242, 34, 82); */
     width: 500px;
     text-align: center;
     box-shadow: 0 5px 5px black;
@@ -37,7 +37,7 @@ body{
     align-items: center;
     box-shadow: 0 5px 5px rgb(0, 0, 0);
     font-size: 18px;
-    background-color: rgb(242, 34, 82);
+    /* background-color: rgb(242, 34, 82); */
     height: 50px;
     width: 350px;
     font-weight: bold;
@@ -57,7 +57,7 @@ body{
     color: rgb(255, 255, 255);
     font-weight: bold;
     padding:0 10px;
-    background-color: rgb(65, 117, 181);
+    background-color: rgb(31, 77, 134);
     width: 40%;
     font-size: 15px;
 }
@@ -84,7 +84,7 @@ body{
     color: black;
     font-weight: bold;
     padding:0 10px;
-    background-color: rgb(65, 117, 181);
+    background-color:rgb(31, 77, 134);
     color: white;
 }
 #botonAuto:active{
@@ -180,7 +180,8 @@ body{
     border: none;
     text-align: center;
     width:175px;
-    background-color: rgb(65, 117, 181);
+    /* background-color: rgb(65, 117, 181);  */
+    background-color:rgb(31, 77, 134);
     color: white;
     border-radius: 20px;
     box-shadow: 0 2px 5px black;
@@ -212,7 +213,7 @@ body{
     height: 50px;
     padding: 0;
     font-weight: bold;
-    border: 3px solid rgb(65, 117, 181);
+    border: 3px solid rgb(31, 77, 134);;
 }
 ::placeholder{
     font-family: 'Nunito', sans-serif;
@@ -260,7 +261,7 @@ body{
 #boton,#boton2{
     height:50px;
     width:125px;
-    background-color: rgb(65, 117, 181);
+    background-color:rgb(31, 77, 134);
     border: none;
     border-radius: 20px;
     font-family: 'Nunito', sans-serif;
@@ -385,13 +386,16 @@ box-shadow: 0 2px 5px black;
         width: 85%;
         height: 175px;
         margin: 30px;
-        border: 1px solid white;
+        border: .5px solid white;
     }
     #actual1,#actual2,#actual3,#futuro1,#futuro2,#futuro3,#mostrar1,#mostrar2{
         font-size: 16px;
     }
     #actual1,#actual3,#futuro1,#futuro3{
         margin: 5px 0;
+    }
+    #mostrar1,#mostrar2{
+        margin: 10px 10px;
     }
     .mensaje2{
         display: none;

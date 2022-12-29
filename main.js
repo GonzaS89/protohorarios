@@ -3191,6 +3191,8 @@ let masCercano= 3000;
 let diferencias = [];
 
 
+
+
 for(i=0;i<horariosEnEnteros.length;i++){
     diferencias.push(horariosEnEnteros[i]- horaEnEnteros)
 }
@@ -3205,18 +3207,36 @@ if(diferencias[i]>=0){
     mostrar2.textContent = `Recorrido: ${dia[diferencias.indexOf(masCercano)].recorrido}`
     $('.mensajeError').css('display','none')
     $('.resultados3').css('display','flex')
+    $('.mensaje2').css('display', 'flex')  
+    const mensaje2 = document.querySelector('.mensaje2');
+    mensaje2.addEventListener('click', function(){
+    $('.mensaje2').css('display', 'none')  
+    opcionbase.selected = true;
+    opcionbase2.selected= true;
+    inputHora.value = "";
+})
     
 }
 else{
     mostrar1.textContent = 'No hay bondis cercanos al horario que pusiste';
     mostrar2.textContent = "";
     $('.resultados3').css('display','flex')
+    $('.mensaje2').css('display', 'flex')  
+    const mensaje2 = document.querySelector('.mensaje2');
+    mensaje2.addEventListener('click', function(){
+    $('.mensaje2').css('display', 'none')  
+    opcionbase.selected = true;
+    opcionbase2.selected= true;
+})
 }
 }
+ 
+
 }
 inputHora.addEventListener('click',function(){
     $('.mensajeError').css('display','none')
-})
+ })
+
 
 })
 }
