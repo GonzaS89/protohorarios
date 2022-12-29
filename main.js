@@ -27,11 +27,12 @@ function reloj(){
         hora= "0"+hora;
        }
        let horaImprimible = hora + " : " + minuto + " : " + segundo;  
-    let f = document.getElementById('fecha')   
+    let fechita = document.getElementById('fecha')  
+    let  horita = document.getElementById('hora')
     let diasDeLaSemana = ['Domingo','Lunes','Martes','Miercoles','Jueves','Viernes','Sabado'];
     let mesesDelAño = ['Enero', 'Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre']
-    f.textContent = `${diasDeLaSemana[dia]}, ${fecha} de ${mesesDelAño[mes]} ~~ ${horaImprimible}`;
-   
+    fechita.textContent = `${diasDeLaSemana[dia]}, ${fecha} de ${mesesDelAño[mes]}`;
+    horita.textContent = horaImprimible
     /*MOVER RELOJ A TIEMPO ACTUAL*/
     setTimeout("reloj()",1000)
     /*                          */
