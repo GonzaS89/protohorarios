@@ -798,7 +798,7 @@ const boton = document.getElementById('boton');
                 "recorrido":"Terminal - Banda del Rio Sali - Fortin"
             },
             {
-                "nombre":"09.00",
+                "nombre":"09:00",
                 "valor":9,
                 "recorrido":"Terminal - Autopista - B° La Cancha - Colonia 4 "
             },
@@ -3173,11 +3173,13 @@ boton2.addEventListener('click',function(){
 
           for(let i=0 ; i < listaDelDia.length ; i++){
 
-            let horasEnEnteros = Math.trunc((listaDelDia[i])*60);
-            let minutosEnEnteros = ((listaDelDia[i] - (Math.trunc(listaDelDia[i])))*100);
+            let horasEnEnteros = ((Math.trunc(listaDelDia[i]))*60);
+            let minutosEnEnteros = (listaDelDia[i] - Math.trunc(listaDelDia[i]))*100;
             let horaMinutosEnEnteros = horasEnEnteros + minutosEnEnteros;
-       horariosEnEnteros.push(horaMinutosEnEnteros);
+            horariosEnEnteros.push(horaMinutosEnEnteros);
+         
 }
+
 
 
 const mensajeError = document.getElementById('mensaje');
@@ -3188,8 +3190,8 @@ if(hora < 0 || hora > 23|| hora == "" ){
 }
 else{
     let horaEnEnteros =  hora * 60;
-let masCercano= 3000;
-let diferencias = [];
+    let masCercano= 3000;
+    let diferencias = [];
 
 
 
@@ -3197,6 +3199,7 @@ let diferencias = [];
 for(i=0;i<horariosEnEnteros.length;i++){
     diferencias.push(horariosEnEnteros[i]- horaEnEnteros)
 }
+
 
 for(i=0;i<diferencias.length;i++){
 if(diferencias[i]>=0){
@@ -3212,9 +3215,9 @@ if(diferencias[i]>=0){
     const mensaje2 = document.querySelector('.mensaje2');
     mensaje2.addEventListener('click', function(){
     $('.mensaje2').css('display', 'none')  
-    opcionbase.selected = true;
-    opcionbase2.selected= true;
-    inputHora.value = "";
+    // opcionbase.selected = true;
+    // opcionbase2.selected= true;
+    // inputHora.value = "";
 })
     
 }
@@ -3226,8 +3229,8 @@ else{
     const mensaje2 = document.querySelector('.mensaje2');
     mensaje2.addEventListener('click', function(){
     $('.mensaje2').css('display', 'none')  
-    opcionbase.selected = true;
-    opcionbase2.selected= true;
+    // opcionbase.selected = true;
+    // opcionbase2.selected= true;
 })
 }
 }
