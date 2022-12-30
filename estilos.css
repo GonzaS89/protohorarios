@@ -11,21 +11,19 @@ body{
     flex-direction: column;
     background-color: rgb(187, 28, 65);
 }
-.header p{
-    font-family:'Nunito', sans-serif;
-    font-size: bold;
-    border-radius: 10px;    
-}
+
 #nombre{
-    font-size: 50px;
-    margin: 0;
-    /* background-color: rgb(242, 34, 82); */
-    width: 500px;
-    text-align: center;
-    box-shadow: 0 5px 5px black;
+    font-family:'Nunito', sans-serif;
     text-transform: uppercase;
     color: white;
     font-weight: bold;
+    border-radius: 7px;   
+    text-align: center;
+    margin: 0;
+    font-size: 50px;
+    width: 500px;
+    /* background-color: rgb(242, 34, 82); */
+    box-shadow: 0 5px 5px black;
 }
 .subheader-cont{
     display: flex;
@@ -38,12 +36,11 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 0 5px 5px rgb(0, 0, 0);
-    height: 50px;
+    box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
     margin: 20px 10px;
-    border-radius: 10px;
-    height: 50px;
-    width: 85%;
+    border-radius: 7px;
+    height: 75px;
+    width: 45%;
 }
 
 #fecha{
@@ -64,7 +61,6 @@ body{
     display: flex;
     justify-content:center;
     align-items: center;
-    
 }
 #botonManual{
     height:60px;
@@ -89,7 +85,7 @@ body{
     display: none;
     justify-content:center;
     align-items: center;
-   
+
 }
 #botonAuto{
     width: 40%;
@@ -200,7 +196,7 @@ body{
     /* background-color: rgb(65, 117, 181);  */
     background-color:rgb(31, 77, 134);
     color: white;
-    border-radius: 20px;
+    border-radius: 7px;
     box-shadow: 0 2px 5px black;
     margin: 5px;
     font-weight: bold;
@@ -225,7 +221,7 @@ body{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     margin: 5px;
-    border-radius: 20px;
+    border-radius: 7px;
     box-shadow: 0 2px 5px black;
     height: 50px;
     padding: 0;
@@ -280,11 +276,11 @@ body{
     width:125px;
     background-color:rgb(31, 77, 134);
     border: none;
-    border-radius: 20px;
+    border-radius: 7px;
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
     font-weight: bold;
-    box-shadow: 5px 5px 1px black;
+    box-shadow: 1px 1px 1px black;
     color: white;
 }
 #boton:active{
@@ -315,20 +311,30 @@ body{
     margin: 0px;
 }
 
-.resultados,.resultados2,.resultados3{
-height: 100%;
-width: 60%;
-font-size:12px;
+.resultados,.resultados2{
+height: 250px;
+width: 50%;
 display: none;
 justify-content: center;
 align-items: center;
 flex-direction: column;
 border-radius: 20px;
-margin:5px;
+margin: 15px;
 border:none;
-box-shadow: 0 2px 5px black;
+border: .5px solid white;
 }
-
+.resultados3{
+height: 350px;
+width: 50%;
+display: none;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border-radius: 20px;
+margin: 15px;
+border:none;
+border: .5px solid white;
+}
 #actual1,#futuro1{
     padding: 0 10px;
     border-radius: 10px;
@@ -338,12 +344,12 @@ box-shadow: 0 2px 5px black;
     border-radius: 10px;
 }
 #actual2,#futuro2{
-  
     border-radius: 10px;
     padding: 0 10px;
+    margin: 5px;
 }
 #actual1,#actual2,#actual3{
-    font-size:17px;
+    font-size:22px;
     font-family: 'Nunito', sans-serif;
     text-align: center;
     color: white;
@@ -351,19 +357,40 @@ box-shadow: 0 2px 5px black;
 }
 
 #futuro1,#futuro2,#futuro3{
-    font-size:17px;
+    font-size:22px;
     font-family: 'Nunito', sans-serif;
     text-align: center;
     font-weight: bold;
     color: white;
 }
 #mostrar1,#mostrar2{
-    font-size:17px;
+    font-size:25px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     text-align: center;
-    margin: 5px 5px;
+    margin: 10px;
     color: white;
+}
+.mensaje2{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0; 
+    background-color: rgba(0, 0, 0, 0.864);   
+    height: 100%;
+    width: 100%;    
+}
+#mensaje2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.401);
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    color: whitesmoke;
+    text-align: center;
 }
 @media(max-width:600px){
     .select{
@@ -375,10 +402,18 @@ box-shadow: 0 2px 5px black;
     }
     #nombre{
         font-size: 40px;
-        width: 360px;
+        width: 400px;
     }
-    .fecha{
+    .subheader{
+        width: 80%;
+        height: 60px;
+    }
+    #fecha{
         font-size: 15px;
+        
+    }
+    #hora{
+        font-size: 20px;
     }
     #mensaje{
         width:75%;
@@ -390,7 +425,7 @@ box-shadow: 0 2px 5px black;
     }
     #botonManual:active{
         background-color: rgb(0, 0, 0);
-        width: 75%;
+        width: 50%;
     }
     #botonAuto:active{
         background-color: rgb(0, 0, 0);
@@ -405,8 +440,11 @@ box-shadow: 0 2px 5px black;
         margin: 30px;
         border: .5px solid white;
     }
-    #actual1,#actual2,#actual3,#futuro1,#futuro2,#futuro3,#mostrar1,#mostrar2{
+    #actual1,#actual2,#actual3,#futuro1,#futuro2,#futuro3{
         font-size: 16px;
+    }
+    #mostrar1,#mostrar2{
+        font-size: 20px;
     }
     #actual1,#actual3,#futuro1,#futuro3{
         margin: 5px 0;
@@ -426,18 +464,10 @@ box-shadow: 0 2px 5px black;
         width: 100%;    
     }
     #mensaje2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
         background-color: rgba(0, 0, 0, 0.401);
         width: 85%;
-        height: 200px;
         font-family: 'Nunito', sans-serif;
         font-size: 30px;
-        color: whitesmoke;
-        text-align: center;
-        
-        
     }
     
 }
