@@ -1520,8 +1520,8 @@ const boton = document.getElementById('boton');
        
                           for(let i=0 ; i < listaDelDia.length ; i++){
               
-                      let horasEnEnteros=  (Math.trunc(listaDelDia[i])  * 60);
-                            let minutosEnEnteros = ((listaDelDia[i] - (Math.trunc(listaDelDia[i])))*100);
+                      let horasEnEnteros=  (Math.trunc(listaDelDia[i]))  * 60;
+                            let minutosEnEnteros = (listaDelDia[i] - (Math.trunc(listaDelDia[i])))*100;
                             let horaMinutosEnEnteros = horasEnEnteros + minutosEnEnteros;
                        horariosEnEnteros.push(horaMinutosEnEnteros);
               }
