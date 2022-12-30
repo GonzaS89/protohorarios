@@ -452,6 +452,9 @@ border: .5px solid white;
     #mostrar1,#mostrar2{
         margin: 10px 10px;
     }
+    #actual2,#futuro2{
+        margin: 10px 5px;
+    }
     .mensaje2{
         display: none;
         justify-content: center;
