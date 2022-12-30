@@ -3184,13 +3184,16 @@ boton2.addEventListener('click',function(){
 
 const mensajeError = document.getElementById('mensaje');
 let hora = inputHora.value;
+let hora2 = hora + 1;
 if(hora < 0 || hora > 23|| hora == "" ){
     $('.mensajeError').css('display','flex')
     mensajeError.textContent = 'Ingresa un valor entre 0 y 23';   
 }
 else{
     let horaEnEnteros =  hora * 60;
+    let hora2EnEnteros = horaEnEnteros + 60;
     let masCercano= 3000;
+    let masCercano2 = 4000;
     let diferencias = [];
 
 

@@ -332,7 +332,7 @@ margin: 15px;
 border:none;
 border: .5px solid white;
 }
-.resultados3{
+.resultados3,.resultados4{
 height: 350px;
 width: 50%;
 display: none;
@@ -372,7 +372,7 @@ border: .5px solid white;
     font-weight: bold;
     color: white;
 }
-#mostrar1,#mostrar2{
+#mostrar1,#mostrar2,#mostrar3,#mostrar4{
     font-size:25px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
