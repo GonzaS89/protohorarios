@@ -310,7 +310,7 @@ body{
 
 }
 
-.resultados-cont{
+.resultados-cont,.resultados-manuales{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -332,7 +332,7 @@ margin: 15px;
 border:none;
 border: .5px solid white;
 }
-.resultados3,.resultados4{
+.resultados3,.resultados4,.resultados5{
 height: 350px;
 width: 50%;
 display: none;
@@ -372,7 +372,7 @@ border: .5px solid white;
     font-weight: bold;
     color: white;
 }
-#mostrar1,#mostrar2,#mostrar3,#mostrar4{
+#mostrar1,#mostrar2,#mostrar3,#mostrar4,#mostrar5,#mostrar6{
     font-size:25px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
@@ -443,23 +443,21 @@ border: .5px solid white;
     .topside{
         width: 85%;
     }
-    .resultados,.resultados2,.resultados3{
+    .resultados,.resultados2,.resultados3,.resultados4,.resultados5{
         width: 85%;
-        height: 175px;
         margin: 30px;
         border: .5px solid white;
     }
     #actual1,#actual2,#actual3,#futuro1,#futuro2,#futuro3{
         font-size: 16px;
     }
-    #mostrar1,#mostrar2{
-        font-size: 20px;
-    }
+
     #actual1,#actual3,#futuro1,#futuro3{
         margin: 5px 0;
     }
-    #mostrar1,#mostrar2{
+    #mostrar1,#mostrar2,#mostrar3,#mostrar4,#mostrar5,#mostrar6{
         margin: 10px 10px;
+        font-size: 15px;
     }
     #actual2,#futuro2{
         margin: 10px 5px;

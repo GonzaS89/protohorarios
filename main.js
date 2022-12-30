@@ -3037,10 +3037,6 @@ function busquedaManual(){
     const todosSanMiguel = [todosSmAlderetes,todosSmPosse];
     const todos = [todosFlorida,todosSanMiguel];
 
-
-    
-
-
     const botonAuto = document.getElementById('botonAuto');
 botonAuto.addEventListener('click', function(){
     $('.busquedaManual-cont').css('display', 'none');
@@ -3067,7 +3063,17 @@ botonManual.addEventListener('click', function(){
     $('.resultados-cont').css('height','100')
     opcionbase.selected=true;
     opcionbase2.selected=true;
-})   
+})  
+let resultadosManuales = document.querySelector('.resultados-manuales') 
+let divsResultados = resultadosManuales.children;
+for(i=0;i<divsResultados.length;i++){
+
+}
+
+// for(i=0;i<divsResultados.length;i++){
+    
+// }
+
 const boton2 = document.getElementById('boton2');
 boton2.addEventListener('click',function(){
     
@@ -3085,13 +3091,19 @@ boton2.addEventListener('click',function(){
     let valores2= [];
     let posicion;
     let posicion2;
-    let actual1 = document.getElementById('actual1');
-    let actual3 = document.getElementById('actual3');
+    let mostrar1 = document.getElementById('mostrar1');
+    let mostrar2 = document.getElementById('mostrar2');
+    let mostrar3 = document.getElementById('mostrar3');
+    let mostrar4 = document.getElementById('mostrar4');
+    let mostrar5 = document.getElementById('mostrar5');
+    let mostrar6 = document.getElementById('mostrar6');
+    
 
 
+    // Hacemos un array del contenedor de resultados
+   
      // Definimos la posicion del selector 1
     
-        
         
         for(opcion of selector){
             if(opcion.selected && opcion.disabled == false){
@@ -3192,51 +3204,61 @@ if(hora < 0 || hora > 23|| hora == "" ){
 else{
     let horaEnEnteros =  hora * 60;
     let hora2EnEnteros = horaEnEnteros + 60;
-    let masCercano= 3000;
-    let masCercano2 = 4000;
+    let masCercanos = []
     let diferencias = [];
 
 
 
 
 for(i=0;i<horariosEnEnteros.length;i++){
-    diferencias.push(horariosEnEnteros[i]- horaEnEnteros)
+    if((horariosEnEnteros[i]>= horaEnEnteros) && (horariosEnEnteros[i] < hora2EnEnteros)){
+        masCercanos.push(horariosEnEnteros[i])
+    }
+}
+
+for(i=0;i <masCercanos.length;i++){
+    mostrar1.textContent = `El bondi mas cercano al horario que indicaste es el de las ${dia[horariosEnEnteros.indexOf(masCercanos[0])].nombre}`
+    mostrar2.textContent = `Recorrido: ${dia[horariosEnEnteros.indexOf(masCercanos[0])].recorrido}`
 }
 
 
-for(i=0;i<diferencias.length;i++){
-if(diferencias[i]>=0){
+// for(i=0;i<diferencias.length;i++){
+// if(diferencias[i]>=0){
     
     
-        masCercano= Math.min(masCercano,diferencias[i])
-    mostrar1.textContent = `El bondi mas cercano al horario que indicaste es el de las ${dia[diferencias.indexOf(masCercano)].nombre}`
+//         masCercano= Math.min(masCercano,diferencias[i])
+    
+    // mostrar3.textContent = `El bondi mas cercano al horario que indicaste es el de las ${dia[horariosEnEnteros.indexOf(masCercanos[1])].nombre}`
+    // mostrar4.textContent = `Recorrido: ${dia[horariosEnEnteros.indexOf(masCercanos[1])].recorrido}`
+    // mostrar5.textContent = `El bondi mas cercano al horario que indicaste es el de las ${dia[horariosEnEnteros.indexOf(masCercanos[2])].nombre}`
+    // mostrar6.textContent = `Recorrido: ${dia[horariosEnEnteros.indexOf(masCercanos[2])].recorrido}`
+    
+    
 
-    mostrar2.textContent = `Recorrido: ${dia[diferencias.indexOf(masCercano)].recorrido}`
-    $('.mensajeError').css('display','none')
+//     $('.mensajeError').css('display','none')
+//     $('.resultados3').css('display','flex')
+//     $('.mensaje2').css('display', 'flex')  
+//     const mensaje2 = document.querySelector('.mensaje2');
+//     mensaje2.addEventListener('click', function(){
+//     $('.mensaje2').css('display', 'none')  
+   
+// })
+    
+// }
+// else{
+//     mostrar1.textContent = 'No hay bondis cercanos al horario que pusiste';
+//     mostrar2.textContent = "";
     $('.resultados3').css('display','flex')
+    $('.resultados4').css('display','flex')
+    $('.resultados5').css('display','flex')
     $('.mensaje2').css('display', 'flex')  
     const mensaje2 = document.querySelector('.mensaje2');
     mensaje2.addEventListener('click', function(){
     $('.mensaje2').css('display', 'none')  
-    // opcionbase.selected = true;
-    // opcionbase2.selected= true;
-    // inputHora.value = "";
-})
     
-}
-else{
-    mostrar1.textContent = 'No hay bondis cercanos al horario que pusiste';
-    mostrar2.textContent = "";
-    $('.resultados3').css('display','flex')
-    $('.mensaje2').css('display', 'flex')  
-    const mensaje2 = document.querySelector('.mensaje2');
-    mensaje2.addEventListener('click', function(){
-    $('.mensaje2').css('display', 'none')  
-    // opcionbase.selected = true;
-    // opcionbase2.selected= true;
 })
-}
-}
+// }
+// }
  
 
 }
