@@ -1582,11 +1582,7 @@ const boton = document.getElementById('boton');
                                  }                          
                                 
                         } 
-                        else{
-                            actual1.textContent = "";
-                            actual2.textContent = "No pasado ningún bondi todavía"
-                            actual3.textContent = "";
-                        }
+                      
                     }
                                 
                         //   Aqui en el segundo campo  
