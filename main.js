@@ -1582,6 +1582,11 @@ const boton = document.getElementById('boton');
                                  }                          
                                 
                         } 
+                        else{
+                            actual1.textContent = "";
+                            actual2.textContent = "No pasado ningún bondi todavía"
+                            actual3.textContent = "";
+                        }
                     }
                                 
                         //   Aqui en el segundo campo  
@@ -1650,7 +1655,7 @@ const boton = document.getElementById('boton');
                         } 
                         else{
                             futuro1.textContent = ""
-                            futuro2.textContent = 'No hay mas colectivos por hoy'
+                            futuro2.textContent = 'No hay más colectivos por hoy'
                             futuro3.textContent = ""
                         }         
                     
