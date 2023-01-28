@@ -85,7 +85,6 @@ body{
 }
 #botonManual:active{
     background-color: rgb(0, 0, 0);
-    width: 30%;
 }
 #botonManual:hover{
     cursor: pointer;
@@ -110,7 +109,6 @@ body{
 }
 #botonAuto:active{
     background-color: rgb(0, 0, 0);
-    width: 30%;
 }
 #botonAuto:hover{
     cursor: pointer;
@@ -434,11 +432,11 @@ border: .5px solid white;
     }
     #botonManual:active{
         background-color: rgb(0, 0, 0);
-        width: 50%;
+
     }
     #botonAuto:active{
         background-color: rgb(0, 0, 0);
-        width: 75%;
+
     }
     .topside{
         width: 85%;
