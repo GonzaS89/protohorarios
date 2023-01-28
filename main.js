@@ -1575,7 +1575,7 @@ const boton = document.getElementById('boton');
                                }
                             }
                                  if((posicion-1 < 1) &&(posicion2-1 == 1))    {
-                                    actual3.textContent = `Inicio de reccorido : ${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
+                                    actual3.textContent = `Inicio de recorrido : ${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
                                  }
                                  else{
                                     actual3.textContent = `Recorrido : ${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
