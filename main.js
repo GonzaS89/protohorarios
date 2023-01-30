@@ -139,15 +139,15 @@ const boton = document.getElementById('boton');
                 "recorrido":"1) Fortin - Banda del Rio Sali || 2) Colonia 10 - Autopista"
             },
             {
-                "nombre":"06:25",
+                "nombre":"06:20",
                 "valor":6.25,
                 "recorrido":"Colonia 5 hasta Banda del Rio Sali"
             },
-            {
-                "nombre":"06:40",
-                "valor":6.4,
-                "recorrido":"B° La Cancha - Alternativa"
-            },
+            // {
+            //     "nombre":"06:40",
+            //     "valor":6.4,
+            //     "recorrido":"B° La Cancha - Alternativa"
+            // },
             {
                 "nombre":"06:50",
                 "valor":6.5,
@@ -166,78 +166,93 @@ const boton = document.getElementById('boton');
             {
                 "nombre":"07:50",
                 "valor":7.5,
-                "recorrido":"Colonia 4 - B° La Cancha - Autopista"
+                "recorrido":"1) Colonia 4 - B° La Cancha - Autopista || 2) Alternativa"
             },
             {
                 "nombre":"08:45",
                 "valor":8.45,
-                "recorrido":"1) Colonia 4 - B° La Cancha - Autopista || 2) Alternativa"
+                "recorrido":"Colonia 4 - B° La Cancha - Cochuchal - Autopista"
             },
             {
                 "nombre":"09:20",
                 "valor":9.2,
-                "recorrido":"Fortin - Banda del Rio Sali"
+                "recorrido":"Fortin - Talar - Banda del Rio Sali"
+            },
+            {
+                "nombre":"09:50",
+                "valor":9.5,
+                "recorrido":"Colonia 4 - B° La Cancha -Talar - Autopista"
             },
             {
                 "nombre":"10:30",
                 "valor":10.3,
-                "recorrido":"Fortin - Banda del Rio Sali"
+                "recorrido":"Fortin - Talar - Banda del Rio Sali"
             },
             {
-                "nombre":"11:30",
+                "nombre":"11:40",
                 "valor":11.30,
-                "recorrido":"Fortin - Banda del Rio Sali"
+                "recorrido":"Fortin - Talar - Banda del Rio Sali"
             },
             {
                 "nombre":"12:30",
                 "valor":12.3,
-                "recorrido":"1) Los Perez - Autopista || 2) Fortin - Colonia 4 - Autopista"
+                "recorrido":"Colonia 4 - B° La Cancha -Talar - Autopista"
             },
-            {
-                "nombre":"12:40",
-                "valor":12.4,
-                "recorrido":"Finca Mayo - Talar - Banda del Rio Sali"
-            },
+            // {
+            //     "nombre":"12:40",
+            //     "valor":12.4,
+            //     "recorrido":"Finca Mayo - Talar - Banda del Rio Sali"
+            // },
             {
                 "nombre":"13:15",
                 "valor":13.15,
-                "recorrido":"Colonia 4 - B° La Cancha - Autopista"
+                "recorrido":"Colonia 4 - B° La Cancha - Talar - Autopista"
             },
             {
-                "nombre":"14:00",
-                "valor":14,
+                "nombre":"13:50",
+                "valor":13.5,
                 "recorrido":"B° La Cancha - Cochuchal - Banda del Rio Sali"
             },
             {
-                "nombre":"14:50",
-                "valor":14.5,
-                "recorrido":"1) B° La Cancha - Alternativa || 2)Banda del Rio Sali"
+                "nombre":"14:45",
+                "valor":14.45,
+                "recorrido":"Colonia 4 - B° La Cancha - Talar - Banda del Rio Sali"
             },
             {
                 "nombre":"15:50",
                 "valor":15.5,
                 "recorrido":"1) Fortin - Alternativa || 2) Colonia 4 - B° La Cancha - Autopista"
             },
-            {
-                "nombre":"16:20",
-                "valor":16.2,
-                "recorrido":"La Marta - Colonia 4 - Autopista"
-            },
+            // {
+            //     "nombre":"16:20",
+            //     "valor":16.2,
+            //     "recorrido":"La Marta - Colonia 4 - Autopista"
+            // },
             {
                 "nombre":"16:50",
                 "valor":16.5,
                 "recorrido":"1) Colonia 4 - Autopista || 2) Colonia 3 - Banda del Rio Sali"
             },
+            // {
+            //     "nombre":"17:35",
+            //     "valor":17.35,
+            //     "recorrido":"Colonia 4 - B° La Cancha - Alternativa"
+            // },
+            {
+                "nombre":"17:35",
+                "valor":17.35,
+                "recorrido":"Colonia 4 - B° La Cancha - Alternativa "
+            },
             {
                 "nombre":"17:50",
                 "valor":17.5,
-                "recorrido":"Fortin - Banda del Rio Sali"
+                "recorrido":"Fortin - Talar -  Banda del Rio Sali"
             },
-            {
-                "nombre":"18:10",
-                "valor":18.1,
-                "recorrido":"Colonia 4  - Autopista"
-            },
+            // {
+            //     "nombre":"18:10",
+            //     "valor":18.1,
+            //     "recorrido":"Colonia 4  - Autopista"
+            // },
             {
                 "nombre":"18:30",
                 "valor":18.3,
@@ -248,10 +263,15 @@ const boton = document.getElementById('boton');
                 "valor":19,
                 "recorrido":"La Marta - B° La Cancha - Banda del Rio Sali"
             },
+            // {
+            //     "nombre":"20:55",
+            //     "valor":20.55,
+            //     "recorrido":"Mayo - Colonia 4 - Alderetes - Autopista"
+            // },
             {
-                "nombre":"21:15",
+                "nombre":"21:05",
                 "valor":21.15,
-                "recorrido":"El Fortin / B° La Cancha - Banda del Rio Sali"
+                "recorrido":"Colonia 4 - B° La Cancha - Autopis"
             }
            
         ]
@@ -393,6 +413,11 @@ const boton = document.getElementById('boton');
         const horariosLvFloPo = [
 
             {
+                "nombre":"04:50",
+                "valor":4.5,
+                "recorrido":"B° La Cancha"
+            },
+            {
                 "nombre":"05:50",
                 "valor":5.5,
                 "recorrido":"B° La Cancha"
@@ -424,29 +449,29 @@ const boton = document.getElementById('boton');
             {
                 "nombre":"08:25",
                 "valor":8.25,
-                "recorrido":"B° La Cancha - Banda del Rio Sali"
+                "recorrido":"B° La Cancha"
             },
            
             {
-                "nombre":"09:10",
-                "valor":9.1,
+                "nombre":"09:05",
+                "valor":9.05,
                 "recorrido":"Esquina de Lastra"
             },
            
             {
-                "nombre":"10:05",
-                "valor":10.05,
-                "recorrido":"B° La Cancha - Banda del Rio Sali"
+                "nombre":"09:55",
+                "valor":9.55,
+                "recorrido":"B° La Cancha"
             },
            
             {
                 "nombre":"10:25",
                 "valor":10.25,
-                "recorrido":"B° La Cancha - Banda del Rio Sali"
+                "recorrido":"B° La Cancha"
             },
             {
-                "nombre":"11:00",
-                "valor":11,
+                "nombre":"10:55",
+                "valor":10.55,
                 "recorrido":"B° La Cancha"
             },
             {
@@ -455,33 +480,33 @@ const boton = document.getElementById('boton');
                 "recorrido":"B° La Cancha"
             },
             {
-                "nombre":"12:00",
-                "valor":12,
+                "nombre":"11:55",
+                "valor":11.55,
                 "recorrido":"B° La Cancha"
             },
             {
-                "nombre":"12:10",
-                "valor":12.10,
-                "recorrido":"Esquina de Lastra"
+                "nombre":"12:40",
+                "valor":12.40,
+                "recorrido":"B° La Cancha"
             },
+            // {
+            //     "nombre":"12:25",
+            //     "valor":12.25,
+            //     "recorrido":"Fortin hasta Llona"
+            // },
             {
-                "nombre":"12:25",
-                "valor":12.25,
-                "recorrido":"Fortin hasta Llona"
-            },
-            {
-                "nombre":"13:30",
-                "valor":13.3,
+                "nombre":"13:25",
+                "valor":13.25,
                 "recorrido":"B° La Cancha"
             },
             {
-                "nombre":"14:00",
-                "valor":14,
+                "nombre":"13:50",
+                "valor":13.5,
                 "recorrido":"B° La Cancha"
             },
             {
-                "nombre":"15:00",
-                "valor":15,
+                "nombre":"14:55",
+                "valor":14.55,
                 "recorrido":"Esquina de Lastra"
             },
             {
@@ -505,9 +530,9 @@ const boton = document.getElementById('boton');
                 "recorrido":"B° La Cancha"
             },
             {
-                "nombre":"20:00",
-                "valor":20,
-                "recorrido":"Colonia - B° La Cancha"
+                "nombre":"19:25",
+                "valor":19.25,
+                "recorrido":"B° La Cancha"
             },
             {
                 "nombre":"20:25",
@@ -517,7 +542,7 @@ const boton = document.getElementById('boton');
             {
                 "nombre":"21:20",
                 "valor":21.2,
-                "recorrido":"Fortin - B° La Cancha"
+                "recorrido":"B° La Cancha"
             },
             {
                 "nombre":"22:20",
@@ -772,15 +797,15 @@ const boton = document.getElementById('boton');
                 "valor":5.2,
                 "recorrido":"Terminal - Autopista - B° La Cancha"
             },
-            {
-                "nombre":"06:15",
-                "valor":6.15,
-                "recorrido":"Terminal - Autopista - Los Perez"
-            },
+            // {
+            //     "nombre":"06:15",
+            //     "valor":6.15,
+            //     "recorrido":"Terminal - Autopista - Los Perez"
+            // },
             {
                 "nombre":"06:25",
                 "valor":6.25,
-                "recorrido":"Terminal - Banda del Rio Sali - Mayo"
+                "recorrido":"Terminal - Banda del Rio Sali - Talar - Fortin - Mayo"
             },
             {
                 "nombre":"07:15",
@@ -790,12 +815,12 @@ const boton = document.getElementById('boton');
             {
                 "nombre":"08:00",
                 "valor":8,
-                "recorrido":"Terminal - Banda del Rio Sali - Cochuchal"
+                "recorrido":"Terminal - Catalinas Park - Autopista - Alderetes - Cochuchal - Colonia 4"
             },
             {
                 "nombre":"08:35",
                 "valor":8.35,
-                "recorrido":"Terminal - Banda del Rio Sali - Fortin"
+                "recorrido":"Terminal - Banda del Rio Sali - Talar - Fortin"
             },
             {
                 "nombre":"09:00",
@@ -817,20 +842,20 @@ const boton = document.getElementById('boton');
                 "valor":11.15,
                 "recorrido":"Terminal - Autopista - B° La Cancha - Los Perez"
             },
-            {
-                "nombre":"11:40",
-                "valor":11.4,
-                "recorrido":"Terminal - Autopista - Cochuchal - Mayo"
-            },
-            {
-                "nombre":"12:15",
-                "valor":12.15,
-                "recorrido":"Terminal - Alternativa - B° La Cancha"
-            },
+            // {
+            //     "nombre":"11:40",
+            //     "valor":11.4,
+            //     "recorrido":"Terminal - Autopista - Cochuchal - Mayo"
+            // },
+            // {
+            //     "nombre":"12:15",
+            //     "valor":12.15,
+            //     "recorrido":"Terminal - Alternativa - B° La Cancha"
+            // },
             {
                 "nombre":"12:20",
                 "valor":12.2,
-                "recorrido":"Terminal - Autopista - B° La Cancha - Colonia 4"
+                "recorrido":"Terminal - Catalinas Park - Autopista - B° La Cancha - Colonia 4"
             },
             {
                 "nombre":"12:45",
@@ -855,12 +880,12 @@ const boton = document.getElementById('boton');
             {
                 "nombre":"14:50",
                 "valor":14.5,
-                "recorrido":"1) Terminal - Banda del Rio Sali || 2)Alternativa - B° La Cancha - Colonia 4"
+                "recorrido":"Terminal - Banda del Rio Sali - Alderetes - Talar - B° La Cancha"
             },
             {
                 "nombre":"15:50",
                 "valor":15.5,
-                "recorrido":"1) Terminal - Alternativa Colonia 4 || 2) Banda del Rio Sali - Colonia 3"
+                "recorrido":"Terminal - Banda del Rio Sali - Colonia 3"
             },
             {
                 "nombre":"16:50",
@@ -872,11 +897,11 @@ const boton = document.getElementById('boton');
                 "valor":17.45,
                 "recorrido":"Terminal - Banda del Rio Sali - B° La Cancha"
             },
-            {
-                "nombre":"18:20",
-                "valor":18.2,
-                "recorrido":"Terminal - Alternativa - B° La Cancha - Colonia 4"
-            },
+            // {
+            //     "nombre":"18:20",
+            //     "valor":18.2,
+            //     "recorrido":"Terminal - Alternativa - B° La Cancha - Colonia 4"
+            // },
             {
                 "nombre":"18:30",
                 "valor":18.3,
@@ -890,18 +915,29 @@ const boton = document.getElementById('boton');
             {
                 "nombre":"19:45",
                 "valor":19.45,
-                "recorrido":"1) Terminal - Alternativa - Colonia 4 || 2)Banda del Rio Sali - Mayo"
+                "recorrido":"Terminal - Banda del Rio Sali - Mayo"
             },
             {
-                "nombre":"20:20",
-                "valor":20.2,
+                "nombre":"20:30",
+                "valor":20.3,
                 "recorrido":"Terminal - Banda del Rio Sali - Fortin"
             },
             {
-                "nombre":"21:15",
-                "valor":21.15,
+                "nombre":"21:00",
+                "valor":21,
                 "recorrido":"Terminal - Autopista - B° La Cancha"
+            },
+            {
+                "nombre":"21:30",
+                "valor":21.30,
+                "recorrido":"Terminal - Autopista - B° La Cancha"
+            },
+            {
+                "nombre":"22:30",
+                "valor":22.30,
+                "recorrido":"Terminal - Autopista - Fortin"
             }
+
             
         ]
         const horariosSSMAl = [
@@ -993,6 +1029,16 @@ const boton = document.getElementById('boton');
                 {
                     "nombre":"21:30",
                     "valor":21.30,
+                    "recorrido":"Terminal - Autopista - Fortin - Colonia 4"
+                },
+                // {
+                //     "nombre":"22:00",
+                //     "valor":22,
+                //     "recorrido":"Terminal - Alternativa - Colonia 4"
+                // },
+                {
+                    "nombre":"22:30",
+                    "valor":22.30,
                     "recorrido":"Terminal - Autopista - Fortin - Colonia 4"
                 }
         ]
@@ -1091,11 +1137,11 @@ const boton = document.getElementById('boton');
                     "valor":11,
                     "recorrido":"Terminal - B° La Cancha"
                 },
-                {
-                    "nombre":"11:20",
-                    "valor":11.2,
-                    "recorrido":"Terminal - Fortin"
-                },
+                // {
+                //     "nombre":"11:20",
+                //     "valor":11.2,
+                //     "recorrido":"Terminal - Fortin"
+                // },
                 {
                     "nombre":"11:45",
                     "valor":11.45,
@@ -1106,11 +1152,11 @@ const boton = document.getElementById('boton');
                     "valor":12.3,
                     "recorrido":"Terminal - B° La Cancha"
                 },
-                {
-                    "nombre":"12:40",
-                    "valor":12.4,
-                    "recorrido":"Terminal - Fortin"
-                },
+                // {
+                //     "nombre":"12:40",
+                //     "valor":12.4,
+                //     "recorrido":"Terminal - Fortin"
+                // },
                 {
                     "nombre":"13:00",
                     "valor":13,
@@ -1119,16 +1165,16 @@ const boton = document.getElementById('boton');
                 {
                     "nombre":"13:30",
                     "valor":13.3,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal - Esquina de Lastra"
                 },
+                // {
+                //     "nombre":"14:00",
+                //     "valor":14,
+                //     "recorrido":"Terminal - B° La Cancha"
+                // },
                 {
-                    "nombre":"14:00",
-                    "valor":14,
-                    "recorrido":"Terminal - B° La Cancha"
-                },
-                {
-                    "nombre":"14:15",
-                    "valor":14.15,
+                    "nombre":"14:20",
+                    "valor":14.2,
                     "recorrido":"Terminal - Esquina Lastra"
                 },
                 {
@@ -1146,11 +1192,11 @@ const boton = document.getElementById('boton');
                     "valor":17,
                     "recorrido":"Terminal - B° La Cancha"
                 },
-                {
-                    "nombre":"17:10",
-                    "valor":17.1,
-                    "recorrido":"Terminal - B° La Cancha"
-                },
+                // {
+                //     "nombre":"17:10",
+                //     "valor":17.1,
+                //     "recorrido":"Terminal - B° La Cancha"
+                // },
                 {
                     "nombre":"17:30",
                     "valor":17.3,
@@ -1167,8 +1213,8 @@ const boton = document.getElementById('boton');
                     "recorrido":"Terminal - Fortin"
                 },
                 {
-                    "nombre":"19:10",
-                    "valor":19.1,
+                    "nombre":"19:15",
+                    "valor":19.15,
                     "recorrido":"Terminal - B° La Cancha"
                 },
                 {
