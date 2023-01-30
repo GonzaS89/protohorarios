@@ -1007,7 +1007,7 @@ const boton = document.getElementById('boton');
                     "recorrido":"Terminal - Banda del Rio Sali - Cochuchal - Fortin"
                 },
                 {
-                    "nombre":"Servicio de 17:45",
+                    "nombre":"17:45",
                     "valor":17.45,
                     "recorrido":"Terminal - Banda del Rio Sali - B° La Cancha"
                 },
@@ -1669,8 +1669,11 @@ const boton = document.getElementById('boton');
                                     if(elMasCercano>60){
                                         futuro2.textContent = 'Sale de la terminal en mas de una hora';
                                     }
+                                    if(elMasCercano>120){
+                                        futuro2.textContent = 'Sale de la terminal en un par de horas';
+                                    }
                                     if(elMasCercano == 60){
-                                        futuro2.textContent = 'Sale de la terminal en de una hora';
+                                        futuro2.textContent = 'Sale de la terminal en una hora';
                                     }
                                     if(elMasCercano<60 && elMasCercano >= 5){
                                         futuro2.textContent = `Sale de la terminal en ${Math.floor(elMasCercano)} minutos`
