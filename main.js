@@ -289,12 +289,12 @@ const boton = document.getElementById('boton');
             {
                 "nombre":"06:10",
                 "valor":6.10,
-                "recorrido":"Colonia 10 - B° La Cancha - Autopista"
+                "recorrido":"Colonia 10 - B° La Cancha - Cochuchal- Autopista"
             },
             {
                 "nombre":"06:25",
                 "valor":6.25,
-                "recorrido":"Colonia 5 Florida - Fortin"
+                "recorrido":"Colonia 5 Florida - Fortin(Trasbordo)"
             },
             {
                 "nombre":"06:50",
