@@ -374,7 +374,7 @@ background-color: aliceblue;
     color: rgb(0, 0, 0);
 }
 #mostrar1,#mostrar2,#mostrar3,#mostrar4{
-    font-size:25px;
+    font-size:20px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     text-align: center;
@@ -388,7 +388,7 @@ background-color: aliceblue;
     position: fixed;
     left: 0;
     top: 0; 
-    background-color: rgba(0, 0, 0, 0.864);   
+    background-color: rgba(0, 0, 0, 0.912);   
     height: 100%;
     width: 100%;    
 }
@@ -473,7 +473,7 @@ background-color: aliceblue;
         position: fixed;
         left: 0;
         top: 0; 
-        background-color: rgba(0, 0, 0, 0.864);   
+        background-color: rgba(0, 0, 0, 0.922);   
         height: 100%;
         width: 100%;    
     }

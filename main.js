@@ -3255,7 +3255,7 @@ boton2.addEventListener('click',function(){
       let listaDelDia = [];
       let horariosEnEnteros = [];
 
-    
+   
     
        // Aqui extraemos del array de arriba los valores de cada horario y lo agregamos a la lista del dia
        
@@ -3305,9 +3305,13 @@ if(diferencias[i]>=0){
     
     
         masCercano= Math.min(masCercano,diferencias[i])
-    mostrar1.textContent = `El bondi mas cercano al horario que indicaste es el de las ${dia[diferencias.indexOf(masCercano)].nombre}`
-
-    mostrar2.textContent = `Recorrido: ${dia[diferencias.indexOf(masCercano)].recorrido}`
+    mostrar1.textContent = `El bondi más cercano al horario que indicaste es el de las ${dia[diferencias.indexOf(masCercano)].nombre}`
+    if(posicion == 1 && posicion2 == 2){
+        mostrar2.textContent = `Inicio de recorrido: ${dia[diferencias.indexOf(masCercano)].recorrido}`
+    }
+    else{
+        mostrar2.textContent = `Recorrido: ${dia[diferencias.indexOf(masCercano)].recorrido}`
+    }
     $('.mensajeError').css('display','none')
     $('.resultados3').css('display','flex')
     $('.mensaje2').css('display', 'flex')  
