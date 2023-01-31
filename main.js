@@ -893,7 +893,7 @@ const boton = document.getElementById('boton');
                 "recorrido":"Terminal → Banda del Rio Sali → Cochuchal → Fortin"
             },
             {
-                "nombre":"Servicio de 17:45",
+                "nombre":"17:45",
                 "valor":17.45,
                 "recorrido":"Terminal → Banda del Rio Sali → B° La Cancha"
             },
@@ -1070,7 +1070,7 @@ const boton = document.getElementById('boton');
                     "recorrido":"Terminal → Banda del Rio Sali → Cochuchal → Fortin → Colonia 3"
                 },
                 {
-                    "nombre":"Servicio de 17:45",
+                    "nombre":"17:45",
                     "valor":17.45,
                     "recorrido":"Terminal → Banda del Rio Sali → Mayo"
                 },
@@ -2494,7 +2494,7 @@ function busquedaManual(){
             "recorrido":"Terminal → Banda del Rio Sali → Cochuchal → Fortin"
         },
         {
-            "nombre":"Servicio de 17:45",
+            "nombre":"17:45",
             "valor":17.45,
             "recorrido":"Terminal → Banda del Rio Sali → B° La Cancha"
         },
@@ -2671,7 +2671,7 @@ function busquedaManual(){
                 "recorrido":"Terminal → Banda del Rio Sali → Cochuchal → Fortin → Colonia 3"
             },
             {
-                "nombre":"Servicio de 17:45",
+                "nombre":"17:45",
                 "valor":17.45,
                 "recorrido":"Terminal → Banda del Rio Sali → Mayo"
             },
