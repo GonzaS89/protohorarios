@@ -190,7 +190,7 @@ const boton = document.getElementById('boton');
             },
             {
                 "nombre":"11:40",
-                "valor":11.30,
+                "valor":11.40,
                 "recorrido":"Fortin → Talar → Banda del Rio Sali"
             },
             {
