@@ -379,7 +379,7 @@ background-color: aliceblue;
     font-weight: bold;
     text-align: center;
     margin: 10px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .mensaje2{
     display: none;
@@ -411,8 +411,8 @@ background-color: aliceblue;
         width: 200px;
     }
     #nombre{
-        font-size: 40px;
-        width: 400px;
+        font-size: 35px;
+        width: 350px;
     }
     .subheader{
         width: 80%;
