@@ -3305,7 +3305,7 @@ if(diferencias[i]>=0){
     
     
         masCercano= Math.min(masCercano,diferencias[i])
-    mostrar1.textContent = `El bondi mas cercano al horario que indicaste es el de las ${dia[diferencias.indexOf(masCercano)].nombre}`
+    mostrar1.textContent = `El bondi más cercano al horario que indicaste es el de las ${dia[diferencias.indexOf(masCercano)].nombre}`
     if(posicion == 1 && posicion2 == 2){
         mostrar2.textContent = `Inicio de recorrido: ${dia[diferencias.indexOf(masCercano)].recorrido}`
     }
