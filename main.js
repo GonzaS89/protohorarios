@@ -3136,7 +3136,9 @@ function busquedaManual(){
 
     
 
-
+    const selector3 = document.menu3.selector3;
+    const opcionbase3 = selector3[0]
+    const inputHora = document.getElementById('busquedaInput2');  
     const botonAuto = document.getElementById('botonAuto');
 botonAuto.addEventListener('click', function(){
     $('.busquedaManual-cont').css('display', 'none');
@@ -3149,6 +3151,8 @@ botonAuto.addEventListener('click', function(){
     $('.resultados-cont').css('height','200')
     opcionbase.selected=true;
     opcionbase2.selected=true;
+    opcionbase3.selected=true;
+    inputHora.value = ""
 })
 
 const botonManual = document.getElementById('botonManual');
@@ -3173,7 +3177,7 @@ boton2.addEventListener('click',function(){
     const opcionbase = selector[0]
     const selector2 = document.menu2.selector2;
     const opcionbase2 = selector2[0]
-    const inputHora = document.getElementById('busquedaInput2');    
+      
 
     let valorSelecionado; 
     let valorSelecionado2;
@@ -3222,7 +3226,7 @@ boton2.addEventListener('click',function(){
 
     //  Definimos el dia 
 
-    const selector3 = document.menu3.selector3;
+ 
     let valorSelecionado3;
     let valores3 = [];
     let posicion3;
