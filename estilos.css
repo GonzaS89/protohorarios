@@ -83,6 +83,7 @@ body{
     width: 40%;
     font-size: 15px;
 }
+
 #botonManual:active{
     background-color: rgb(0, 0, 0);
 }
@@ -123,7 +124,7 @@ body{
     background-color:lightgray;
     box-shadow: 0 2px 10px black;
     border-radius: 10px;
-    margin: 15px auto 0 auto;
+    margin: 15px auto;
 }
 .busquedaAuto-cont{
     display: flex;
@@ -329,6 +330,7 @@ border-radius: 20px;
 margin: 15px;
 border:none;
 border: .5px solid white;
+background-color: aliceblue;
 }
 .resultados3,.resultados4{
 height: 350px;
@@ -341,6 +343,7 @@ border-radius: 20px;
 margin: 15px;
 border:none;
 border: .5px solid white;
+background-color: aliceblue;
 }
 #actual1,#futuro1{
     padding: 0 10px;
@@ -359,7 +362,7 @@ border: .5px solid white;
     font-size:22px;
     font-family: 'Nunito', sans-serif;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
 }
 
@@ -368,7 +371,7 @@ border: .5px solid white;
     font-family: 'Nunito', sans-serif;
     text-align: center;
     font-weight: bold;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 #mostrar1,#mostrar2,#mostrar3,#mostrar4{
     font-size:25px;
@@ -440,6 +443,7 @@ border: .5px solid white;
     }
     .topside{
         width: 85%;
+       
     }
     .resultados,.resultados2,.resultados3{
         width: 85%;
