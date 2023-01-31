@@ -126,17 +126,17 @@ const boton = document.getElementById('boton');
             {
                 "nombre":"04:40",
                 "valor":4.4,
-                "recorrido":"Fortin - Banda del Rio Sali"
+                "recorrido":"Fortin → Banda del Rio Sali"
             },
             {
                 "nombre":"05:35",
                 "valor":5.35,
-                "recorrido":"Fortin - Alternativa"
+                "recorrido":"Fortin → Alternativa"
             },
             {
                 "nombre":"06:10",
                 "valor":6.10,
-                "recorrido":"1) Fortin - Banda del Rio Sali || 2) Colonia 10 - Autopista"
+                "recorrido":"1) Fortin → Banda del Rio Sali || 2) Colonia 10 → Autopista"
             },
             {
                 "nombre":"06:20",
@@ -146,132 +146,132 @@ const boton = document.getElementById('boton');
             // {
             //     "nombre":"06:40",
             //     "valor":6.4,
-            //     "recorrido":"B° La Cancha - Alternativa"
+            //     "recorrido":"B° La Cancha → Alternativa"
             // },
             {
                 "nombre":"06:50",
                 "valor":6.5,
-                "recorrido":"Colonia 4 - Fonda - Alternativa"
+                "recorrido":"Colonia 4 → Fonda → Alternativa"
             },
             {
                 "nombre":"07:20",
                 "valor":7.2,
-                "recorrido":"1) Colonia 4 - B° La Cancha - Autopista || 2) Fortin - Banda del Rio Sali"
+                "recorrido":"1) Colonia 4 → B° La Cancha → Autopista || 2) Fortin → Banda del Rio Sali"
             },
             {
                 "nombre":"07:40",
                 "valor":7.4,
-                "recorrido":"Finca Mayo - Cochuchal - Banda del Rio Sali"
+                "recorrido":"Finca Mayo → Cochuchal → Banda del Rio Sali"
             },
             {
                 "nombre":"07:50",
                 "valor":7.5,
-                "recorrido":"1) Colonia 4 - B° La Cancha - Autopista || 2) Alternativa"
+                "recorrido":"1) Colonia 4 → B° La Cancha → Autopista || 2) Alternativa"
             },
             {
                 "nombre":"08:45",
                 "valor":8.45,
-                "recorrido":"Colonia 4 - B° La Cancha - Cochuchal - Autopista"
+                "recorrido":"Colonia 4 → B° La Cancha → Cochuchal → Autopista"
             },
             {
                 "nombre":"09:20",
                 "valor":9.2,
-                "recorrido":"Fortin - Talar - Banda del Rio Sali"
+                "recorrido":"Fortin → Talar → Banda del Rio Sali"
             },
             {
                 "nombre":"09:50",
                 "valor":9.5,
-                "recorrido":"Colonia 4 - B° La Cancha -Talar - Autopista"
+                "recorrido":"Colonia 4 → B° La Cancha →Talar → Autopista"
             },
             {
                 "nombre":"10:30",
                 "valor":10.3,
-                "recorrido":"Fortin - Talar - Banda del Rio Sali"
+                "recorrido":"Fortin → Talar → Banda del Rio Sali"
             },
             {
                 "nombre":"11:40",
                 "valor":11.30,
-                "recorrido":"Fortin - Talar - Banda del Rio Sali"
+                "recorrido":"Fortin → Talar → Banda del Rio Sali"
             },
             {
                 "nombre":"12:30",
                 "valor":12.3,
-                "recorrido":"Colonia 4 - B° La Cancha -Talar - Autopista"
+                "recorrido":"Colonia 4 → B° La Cancha →Talar → Autopista"
             },
             // {
             //     "nombre":"12:40",
             //     "valor":12.4,
-            //     "recorrido":"Finca Mayo - Talar - Banda del Rio Sali"
+            //     "recorrido":"Finca Mayo → Talar → Banda del Rio Sali"
             // },
             {
                 "nombre":"13:15",
                 "valor":13.15,
-                "recorrido":"Colonia 4 - B° La Cancha - Talar - Autopista"
+                "recorrido":"Colonia 4 → B° La Cancha → Talar → Autopista"
             },
             {
                 "nombre":"13:50",
                 "valor":13.5,
-                "recorrido":"B° La Cancha - Cochuchal - Banda del Rio Sali"
+                "recorrido":"B° La Cancha → Cochuchal → Banda del Rio Sali"
             },
             {
                 "nombre":"14:45",
                 "valor":14.45,
-                "recorrido":"Colonia 4 - B° La Cancha - Talar - Banda del Rio Sali"
+                "recorrido":"Colonia 4 → B° La Cancha → Talar → Banda del Rio Sali"
             },
             {
                 "nombre":"15:50",
                 "valor":15.5,
-                "recorrido":"1) Fortin - Alternativa || 2) Colonia 4 - B° La Cancha - Autopista"
+                "recorrido":"1) Fortin → Alternativa || 2) Colonia 4 → B° La Cancha → Autopista"
             },
             // {
             //     "nombre":"16:20",
             //     "valor":16.2,
-            //     "recorrido":"La Marta - Colonia 4 - Autopista"
+            //     "recorrido":"La Marta → Colonia 4 → Autopista"
             // },
             {
                 "nombre":"16:50",
                 "valor":16.5,
-                "recorrido":"1) Colonia 4 - Autopista || 2) Colonia 3 - Banda del Rio Sali"
+                "recorrido":"1) Colonia 4 → Autopista || 2) Colonia 3 → Banda del Rio Sali"
             },
             // {
             //     "nombre":"17:35",
             //     "valor":17.35,
-            //     "recorrido":"Colonia 4 - B° La Cancha - Alternativa"
+            //     "recorrido":"Colonia 4 → B° La Cancha → Alternativa"
             // },
             {
                 "nombre":"17:35",
                 "valor":17.35,
-                "recorrido":"Colonia 4 - B° La Cancha - Alternativa "
+                "recorrido":"Colonia 4 → B° La Cancha → Alternativa "
             },
             {
                 "nombre":"17:50",
                 "valor":17.5,
-                "recorrido":"Fortin - Talar -  Banda del Rio Sali"
+                "recorrido":"Fortin → Talar →  Banda del Rio Sali"
             },
             // {
             //     "nombre":"18:10",
             //     "valor":18.1,
-            //     "recorrido":"Colonia 4  - Autopista"
+            //     "recorrido":"Colonia 4  → Autopista"
             // },
             {
                 "nombre":"18:30",
                 "valor":18.3,
-                "recorrido":"Fortin - Banda del Rio Sali"
+                "recorrido":"Fortin → Banda del Rio Sali"
             },
             {
                 "nombre":"19:00",
                 "valor":19,
-                "recorrido":"La Marta - B° La Cancha - Banda del Rio Sali"
+                "recorrido":"La Marta → B° La Cancha → Banda del Rio Sali"
             },
             // {
             //     "nombre":"20:55",
             //     "valor":20.55,
-            //     "recorrido":"Mayo - Colonia 4 - Alderetes - Autopista"
+            //     "recorrido":"Mayo → Colonia 4 → Alderetes → Autopista"
             // },
             {
                 "nombre":"21:05",
                 "valor":21.15,
-                "recorrido":"Colonia 4 - B° La Cancha - Autopis"
+                "recorrido":"Colonia 4 → B° La Cancha → Autopis"
             }
            
         ]
@@ -279,97 +279,97 @@ const boton = document.getElementById('boton');
             {
                 "nombre":"04:40",
                 "valor":4.4,
-                "recorrido":"Fortin - Banda del Rio Sali"
+                "recorrido":"Fortin → Banda del Rio Sali"
             },
             {
                 "nombre":"05:45",
                 "valor":5.45,
-                "recorrido":"Fortin - Autopista"
+                "recorrido":"Fortin → Autopista"
             },
             {
                 "nombre":"06:10",
                 "valor":6.10,
-                "recorrido":"Colonia 10 - B° La Cancha - Cochuchal- Autopista"
+                "recorrido":"Colonia 10 → B° La Cancha → Cochuchal→ Autopista"
             },
             {
                 "nombre":"06:25",
                 "valor":6.25,
-                "recorrido":"Colonia 5 Florida - Fortin(Trasbordo)"
+                "recorrido":"Colonia 5 Florida → Fortin(Trasbordo)"
             },
             {
                 "nombre":"06:50",
                 "valor":6.5,
-                "recorrido":"Colonia 4 - B° La Cancha - Alternativa"
+                "recorrido":"Colonia 4 → B° La Cancha → Alternativa"
             },
             {
                 "nombre":"07:18",
                 "valor":7.18,
-                "recorrido":"Colonia 4 - B° La Cancha - Autopista"
+                "recorrido":"Colonia 4 → B° La Cancha → Autopista"
             },
             {
                 "nombre":"07:40",
                 "valor":7.4,
-                "recorrido":"Finca Mayo - Talar - Banda del Rio Sali"
+                "recorrido":"Finca Mayo → Talar → Banda del Rio Sali"
             },
             {
                 "nombre":"07:50",
                 "valor":7.5,
-                "recorrido":"Colonia 4 - B° La Cancha - Autopista"
+                "recorrido":"Colonia 4 → B° La Cancha → Autopista"
             },
             {
                 "nombre":"08:45",
                 "valor":8.45,
-                "recorrido":"Colonia 4 - B° La Cancha - Banda del Rio Sali"
+                "recorrido":"Colonia 4 → B° La Cancha → Banda del Rio Sali"
             },
             {
                 "nombre":"09:20",
                 "valor":9.2,
-                "recorrido":"Fortin - Banda del Rio Sali"
+                "recorrido":"Fortin → Banda del Rio Sali"
             },
             {
                 "nombre":"10:30",
                 "valor":10.30,
-                "recorrido":"Fortin - Banda del Rio Sali"
+                "recorrido":"Fortin → Banda del Rio Sali"
             },
             {
                 "nombre":"11:40",
                 "valor":11.40,
-                "recorrido":"Fortin - Banda del Rio Sali"
+                "recorrido":"Fortin → Banda del Rio Sali"
             },
             {
                 "nombre":"12:40",
                 "valor":12.4,
-                "recorrido":"Finca Mayo - Banda del Rio Sali"
+                "recorrido":"Finca Mayo → Banda del Rio Sali"
             },
             {
                 "nombre":"13:15",
                 "valor":13.15,
-                "recorrido":"Colonia 4 - B° La Cancha - Autopista"
+                "recorrido":"Colonia 4 → B° La Cancha → Autopista"
             },
             {
                 "nombre":"14:50",
                 "valor":14.5,
-                "recorrido":"B° La Cancha - Banda del Rio Sali"
+                "recorrido":"B° La Cancha → Banda del Rio Sali"
             },
             {
                 "nombre":"15:50",
                 "valor":15.5,
-                "recorrido":"Colonia 4 - B° La Cancha - Autopista"
+                "recorrido":"Colonia 4 → B° La Cancha → Autopista"
             },
             {
                 "nombre":"16:50",
                 "valor":16.5,
-                "recorrido":"Colonia 3 - Banda del Rio Sali"
+                "recorrido":"Colonia 3 → Banda del Rio Sali"
             },
             {
                 "nombre":"17:50",
                 "valor":17.5,
-                "recorrido":"Fortin - Banda del Rio Sali"
+                "recorrido":"Fortin → Banda del Rio Sali"
             },
             {
                 "nombre":"19:00",
                 "valor":19,
-                "recorrido":"La Marta - B° La Cancha - Banda del Rio Sali"
+                "recorrido":"La Marta → B° La Cancha → Banda del Rio Sali"
             }
         ]
         const horariosDFloAl = [
@@ -377,37 +377,37 @@ const boton = document.getElementById('boton');
             {
                 "nombre":"07:40",
                 "valor":7.4,
-                "recorrido":"Finca Mayo - Talar - Banda del Rio Sali"
+                "recorrido":"Finca Mayo → Talar → Banda del Rio Sali"
             },
             {
                 "nombre":"10:30",
                 "valor":10.30,
-                "recorrido":"Fortin - Banda del Rio Sali"
+                "recorrido":"Fortin → Banda del Rio Sali"
             },
             {
                 "nombre":"12:40",
                 "valor":12.4,
-                "recorrido":"Finca Mayo - Banda del Rio Sali"
+                "recorrido":"Finca Mayo → Banda del Rio Sali"
             },
             {
                 "nombre":"14:50",
                 "valor":14.5,
-                "recorrido":"B° La Cancha - Banda del Rio Sali"
+                "recorrido":"B° La Cancha → Banda del Rio Sali"
             },
             {
                 "nombre":"16:50",
                 "valor":16.5,
-                "recorrido":"Colonia 3 - Banda del Rio Sali"
+                "recorrido":"Colonia 3 → Banda del Rio Sali"
             },
             {
                 "nombre":"17:50",
                 "valor":17.5,
-                "recorrido":"Fortin - Banda del Rio Sali"
+                "recorrido":"Fortin → Banda del Rio Sali"
             },
             {
                 "nombre":"19:10",
                 "valor":19.1,
-                "recorrido":"Colonia 10 - Colonia 3 - B° La Cancha - Banda del Rio Sali"
+                "recorrido":"Colonia 10 → Colonia 3 → B° La Cancha → Banda del Rio Sali"
             }
         ]
         const horariosLvFloPo = [
@@ -795,147 +795,147 @@ const boton = document.getElementById('boton');
             {
                 "nombre":"05:20",
                 "valor":5.2,
-                "recorrido":"Terminal - Autopista - B° La Cancha"
+                "recorrido":"Terminal → Autopista → B° La Cancha"
             },
             // {
             //     "nombre":"06:15",
             //     "valor":6.15,
-            //     "recorrido":"Terminal - Autopista - Los Perez"
+            //     "recorrido":"Terminal → Autopista → Los Perez"
             // },
             {
                 "nombre":"06:25",
                 "valor":6.25,
-                "recorrido":"Terminal - Banda del Rio Sali - Talar - Fortin - Mayo"
+                "recorrido":"Terminal → Banda del Rio Sali → Talar → Fortin → Mayo"
             },
             {
                 "nombre":"07:15",
                 "valor":7.15,
-                "recorrido":"Terminal - Banda del Rio Sali - La Marta"
+                "recorrido":"Terminal → Banda del Rio Sali → La Marta"
             },
             {
                 "nombre":"08:00",
                 "valor":8,
-                "recorrido":"Terminal - Catalinas Park - Autopista - Alderetes - Cochuchal - Colonia 4"
+                "recorrido":"Terminal → Catalinas Park → Autopista → Alderetes → Cochuchal → Colonia 4"
             },
             {
                 "nombre":"08:35",
                 "valor":8.35,
-                "recorrido":"Terminal - Banda del Rio Sali - Talar - Fortin"
+                "recorrido":"Terminal → Banda del Rio Sali → Talar → Fortin"
             },
             {
                 "nombre":"09:00",
                 "valor":9,
-                "recorrido":"Terminal - Autopista - B° La Cancha - Colonia 4 "
+                "recorrido":"Terminal → Autopista → B° La Cancha → Colonia 4 "
             },
             {
                 "nombre":"09:45",
                 "valor":9.45,
-                "recorrido":"Terminal - Banda del Rio Sali - Fortin"
+                "recorrido":"Terminal → Banda del Rio Sali → Fortin"
             },
             {
                 "nombre":"10:45",
                 "valor":10.45,
-                "recorrido":"Terminal - Banda del Rio Sali - Fortin"
+                "recorrido":"Terminal → Banda del Rio Sali → Fortin"
             },
             {
                 "nombre":"11:15",
                 "valor":11.15,
-                "recorrido":"Terminal - Autopista - B° La Cancha - Los Perez"
+                "recorrido":"Terminal → Autopista → B° La Cancha → Los Perez"
             },
             // {
             //     "nombre":"11:40",
             //     "valor":11.4,
-            //     "recorrido":"Terminal - Autopista - Cochuchal - Mayo"
+            //     "recorrido":"Terminal → Autopista → Cochuchal → Mayo"
             // },
             // {
             //     "nombre":"12:15",
             //     "valor":12.15,
-            //     "recorrido":"Terminal - Alternativa - B° La Cancha"
+            //     "recorrido":"Terminal → Alternativa → B° La Cancha"
             // },
             {
                 "nombre":"12:20",
                 "valor":12.2,
-                "recorrido":"Terminal - Catalinas Park - Autopista - B° La Cancha - Colonia 4"
+                "recorrido":"Terminal → Catalinas Park → Autopista → B° La Cancha → Colonia 4"
             },
             {
                 "nombre":"12:45",
                 "valor":12.45,
-                "recorrido":"Terminal - Banda del Rio Sali - Colonia 3"
+                "recorrido":"Terminal → Banda del Rio Sali → Colonia 3"
             },
             {
                 "nombre":"13:15",
                 "valor":13.15,
-                "recorrido":"Terminal - Banda del Rio Sali - Cochuchal - Colonia 4"
+                "recorrido":"Terminal → Banda del Rio Sali → Cochuchal → Colonia 4"
             },
             {
                 "nombre":"13:30",
                 "valor":13.3,
-                "recorrido":"Terminal - Autopista - B° La Cancha - La Marta"
+                "recorrido":"Terminal → Autopista → B° La Cancha → La Marta"
             },
             {
                 "nombre":"14:00",
                 "valor":14,
-                "recorrido":"Terminal - Banda del Rio Sali - B° La Cancha"
+                "recorrido":"Terminal → Banda del Rio Sali → B° La Cancha"
             },
             {
                 "nombre":"14:50",
                 "valor":14.5,
-                "recorrido":"Terminal - Banda del Rio Sali - Alderetes - Talar - B° La Cancha"
+                "recorrido":"Terminal → Banda del Rio Sali → Alderetes → Talar → B° La Cancha"
             },
             {
                 "nombre":"15:50",
                 "valor":15.5,
-                "recorrido":"Terminal - Banda del Rio Sali - Colonia 3"
+                "recorrido":"Terminal → Banda del Rio Sali → Colonia 3"
             },
             {
                 "nombre":"16:50",
                 "valor":16.5,
-                "recorrido":"Terminal - Banda del Rio Sali - Cochuchal - Fortin"
+                "recorrido":"Terminal → Banda del Rio Sali → Cochuchal → Fortin"
             },
             {
                 "nombre":"Servicio de 17:45",
                 "valor":17.45,
-                "recorrido":"Terminal - Banda del Rio Sali - B° La Cancha"
+                "recorrido":"Terminal → Banda del Rio Sali → B° La Cancha"
             },
             // {
             //     "nombre":"18:20",
             //     "valor":18.2,
-            //     "recorrido":"Terminal - Alternativa - B° La Cancha - Colonia 4"
+            //     "recorrido":"Terminal → Alternativa → B° La Cancha → Colonia 4"
             // },
             {
                 "nombre":"18:30",
                 "valor":18.3,
-                "recorrido":"Terminal - Banda del Rio Sali - Colonia 4"
+                "recorrido":"Terminal → Banda del Rio Sali → Colonia 4"
             },
             {
                 "nombre":"19:00",
                 "valor":19,
-                "recorrido":"Terminal - Banda del Rio Sali - Colonia 4"
+                "recorrido":"Terminal → Banda del Rio Sali → Colonia 4"
             },
             {
                 "nombre":"19:45",
                 "valor":19.45,
-                "recorrido":"Terminal - Banda del Rio Sali - Mayo"
+                "recorrido":"Terminal → Banda del Rio Sali → Mayo"
             },
             {
                 "nombre":"20:30",
                 "valor":20.3,
-                "recorrido":"Terminal - Banda del Rio Sali - Fortin"
+                "recorrido":"Terminal → Banda del Rio Sali → Fortin"
             },
             {
                 "nombre":"21:00",
                 "valor":21,
-                "recorrido":"Terminal - Autopista - B° La Cancha"
+                "recorrido":"Terminal → Autopista → B° La Cancha"
             },
             {
                 "nombre":"21:30",
                 "valor":21.30,
-                "recorrido":"Terminal - Autopista - B° La Cancha"
+                "recorrido":"Terminal → Autopista → B° La Cancha"
             },
             {
                 "nombre":"22:30",
                 "valor":22.30,
-                "recorrido":"Terminal - Autopista - Fortin"
+                "recorrido":"Terminal → Autopista → Fortin"
             }
 
             
@@ -944,102 +944,102 @@ const boton = document.getElementById('boton');
                 {
                     "nombre":"05:20",
                     "valor":5.2,
-                    "recorrido":"Terminal - Autopista - B° La Cancha"
+                    "recorrido":"Terminal → Autopista → B° La Cancha"
                 },
                 {
                     "nombre":"06:25",
                     "valor":6.25,
-                    "recorrido":"Terminal - Banda del Rio Sali - Mayo"
+                    "recorrido":"Terminal → Banda del Rio Sali → Mayo"
                 },
                 {
                     "nombre":"07:15",
                     "valor":7.15,
-                    "recorrido":"Terminal - Banda del Rio Sali - La Marta"
+                    "recorrido":"Terminal → Banda del Rio Sali → La Marta"
                 },
                 {
                     "nombre":"08:00",
                     "valor":8,
-                    "recorrido":"Terminal - Autopista - Cochuchal"
+                    "recorrido":"Terminal → Autopista → Cochuchal"
                 },
                 {
                     "nombre":"08:35",
                     "valor":8.35,
-                    "recorrido":"Terminal - Banda del Rio Sali - Fortin"
+                    "recorrido":"Terminal → Banda del Rio Sali → Fortin"
                 },
                 {
                     "nombre":"09:45",
                     "valor":9.45,
-                    "recorrido":"Terminal - Banda del Rio Sali - Fortin"
+                    "recorrido":"Terminal → Banda del Rio Sali → Fortin"
                 },
                 {
                     "nombre":"10:45",
                     "valor":10.45,
-                    "recorrido":"Terminal - Banda del Rio Sali - Fortin"
+                    "recorrido":"Terminal → Banda del Rio Sali → Fortin"
                 },
                 {
                     "nombre":"12:20",
                     "valor":12.2,
-                    "recorrido":"Terminal - Autopista - B° La Cancha - Colonia 4"
+                    "recorrido":"Terminal → Autopista → B° La Cancha → Colonia 4"
                 },
                 {
                     "nombre":"13:30",
                     "valor":13.3,
-                    "recorrido":"Terminal - Autopista - B° La Cancha - La Marta"
+                    "recorrido":"Terminal → Autopista → B° La Cancha → La Marta"
                 },
                 {
                     "nombre":"14:00",
                     "valor":14,
-                    "recorrido":"Terminal - Banda del Rio Sali - B° La Cancha"
+                    "recorrido":"Terminal → Banda del Rio Sali → B° La Cancha"
                 },
                 {
                     "nombre":"14:50",
                     "valor":14.5,
-                    "recorrido":"Terminal - Banda del Rio Sali - B° La Cancha - Colonia 4"
+                    "recorrido":"Terminal → Banda del Rio Sali → B° La Cancha → Colonia 4"
                 },
                 {
                     "nombre":"16:00",
                     "valor":16,
-                    "recorrido":"Terminal - Banda del Rio Sali - Cochuchal - Fortin - Colonia 3"
+                    "recorrido":"Terminal → Banda del Rio Sali → Cochuchal → Fortin → Colonia 3"
                 },
                 {
                     "nombre":"16:50",
                     "valor":16.5,
-                    "recorrido":"Terminal - Banda del Rio Sali - Cochuchal - Fortin"
+                    "recorrido":"Terminal → Banda del Rio Sali → Cochuchal → Fortin"
                 },
                 {
                     "nombre":"17:45",
                     "valor":17.45,
-                    "recorrido":"Terminal - Banda del Rio Sali - B° La Cancha"
+                    "recorrido":"Terminal → Banda del Rio Sali → B° La Cancha"
                 },
                 {
                     "nombre":"19:00",
                     "valor":19,
-                    "recorrido":"Terminal - Banda del Rio Sali - Colonia 4"
+                    "recorrido":"Terminal → Banda del Rio Sali → Colonia 4"
                 },
                 {
                     "nombre":"19:45",
                     "valor":19.45,
-                    "recorrido":"Terminal - Banda del Rio Sali - Mayo"
+                    "recorrido":"Terminal → Banda del Rio Sali → Mayo"
                 },
                 {
                     "nombre":"20:30",
                     "valor":20.3,
-                    "recorrido":"Terminal - Banda del Rio Sali - Fortin"
+                    "recorrido":"Terminal → Banda del Rio Sali → Fortin"
                 },
                 {
                     "nombre":"21:30",
                     "valor":21.30,
-                    "recorrido":"Terminal - Autopista - Fortin - Colonia 4"
+                    "recorrido":"Terminal → Autopista → Fortin → Colonia 4"
                 },
                 // {
                 //     "nombre":"22:00",
                 //     "valor":22,
-                //     "recorrido":"Terminal - Alternativa - Colonia 4"
+                //     "recorrido":"Terminal → Alternativa → Colonia 4"
                 // },
                 {
                     "nombre":"22:30",
                     "valor":22.30,
-                    "recorrido":"Terminal - Autopista - Fortin - Colonia 4"
+                    "recorrido":"Terminal → Autopista → Fortin → Colonia 4"
                 }
         ]
         const horariosDSMAl = [
@@ -1047,42 +1047,42 @@ const boton = document.getElementById('boton');
                 {
                     "nombre":"06:25",
                     "valor":6.25,
-                    "recorrido":"Terminal - Banda del Rio Sali - Mayo"
+                    "recorrido":"Terminal → Banda del Rio Sali → Mayo"
                 },
                 {
                     "nombre":"09:45",
                     "valor":9.45,
-                    "recorrido":"Terminal - Banda del Rio Sali - Fortin - Colonia 2"
+                    "recorrido":"Terminal → Banda del Rio Sali → Fortin → Colonia 2"
                 },
                 {
                     "nombre":"11:40",
                     "valor":11.40,
-                    "recorrido":"Terminal - Banda del Rio Sali - Cochuchal- Fortin - Mayo"
+                    "recorrido":"Terminal → Banda del Rio Sali → Cochuchal → Fortin → Mayo"
                 },
                 {
                     "nombre":"14:00",
                     "valor":14,
-                    "recorrido":"Terminal - Banda del Rio Sali - B° La Cancha"
+                    "recorrido":"Terminal → Banda del Rio Sali → B° La Cancha"
                 },
                 {
                     "nombre":"16:00",
                     "valor":16,
-                    "recorrido":"Terminal - Banda del Rio Sali - Cochuchal - Fortin - Colonia 3"
+                    "recorrido":"Terminal → Banda del Rio Sali → Cochuchal → Fortin → Colonia 3"
                 },
                 {
                     "nombre":"Servicio de 17:45",
                     "valor":17.45,
-                    "recorrido":"Terminal - Banda del Rio Sali - Mayo"
+                    "recorrido":"Terminal → Banda del Rio Sali → Mayo"
                 },
                 {
                     "nombre":"19:45",
                     "valor":19.45,
-                    "recorrido":"Terminal - Banda del Rio Sali - Mayo"
+                    "recorrido":"Terminal → Banda del Rio Sali → Mayo"
                 },
                 {
                     "nombre":"20:30",
                     "valor":20.3,
-                    "recorrido":"Terminal - Banda del Rio Sali - Fortin"
+                    "recorrido":"Terminal → Banda del Rio Sali → Fortin"
                 }
       
         ]
@@ -1090,67 +1090,67 @@ const boton = document.getElementById('boton');
                 {
                     "nombre":"06:00",
                     "valor":6,
-                    "recorrido":"Terminal - Colonia 4"
+                    "recorrido":"Terminal → Colonia 4"
                 },
                 {
                     "nombre":"06:40",
                     "valor":6.1,
-                    "recorrido":"Terminal - b° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"07:00",
                     "valor":7,
-                    "recorrido":"Terminal - Fortin"
+                    "recorrido":"Terminal → Fortin"
                 },
                 {
                     "nombre":"07:30",
                     "valor":7.3,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"08:15",
                     "valor":8.15,
-                    "recorrido":"Terminal - Esquina Lastra"
+                    "recorrido":"Terminal → Esquina Lastra"
                 },
                 {
                     "nombre":"09:00",
                     "valor":9,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"09:30",
                     "valor":9.30,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"10:00",
                     "valor":10,
-                    "recorrido":"Terminal - Colonia 4"
+                    "recorrido":"Terminal → Colonia 4"
                 },
                 {
                     "nombre":"10:30",
                     "valor":10.3,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"11:00",
                     "valor":11,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 // {
                 //     "nombre":"11:20",
                 //     "valor":11.2,
-                //     "recorrido":"Terminal - Fortin"
+                //     "recorrido":"Terminal → Fortin"
                 // },
                 {
                     "nombre":"11:45",
                     "valor":11.45,
-                    "recorrido":"Terminal - Esquina Lastra"
+                    "recorrido":"Terminal → Esquina Lastra"
                 },
                 {
                     "nombre":"12:30",
                     "valor":12.3,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 // {
                 //     "nombre":"12:40",
@@ -1165,362 +1165,362 @@ const boton = document.getElementById('boton');
                 {
                     "nombre":"13:30",
                     "valor":13.3,
-                    "recorrido":"Terminal - Esquina de Lastra"
+                    "recorrido":"Terminal - Esquina Lastra"
                 },
                 // {
                 //     "nombre":"14:00",
                 //     "valor":14,
-                //     "recorrido":"Terminal - B° La Cancha"
+                //     "recorrido":"Terminal → B° La Cancha"
                 // },
                 {
                     "nombre":"14:20",
                     "valor":14.2,
-                    "recorrido":"Terminal - Esquina Lastra"
+                    "recorrido":"Terminal → Esquina Lastra"
                 },
                 {
                     "nombre":"15:00",
                     "valor":15,
-                    "recorrido":"Terminal - Fortin"
+                    "recorrido":"Terminal → Fortin"
                 },
                 {
                     "nombre":"16:00",
                     "valor":16,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"17:00",
                     "valor":17,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 // {
                 //     "nombre":"17:10",
                 //     "valor":17.1,
-                //     "recorrido":"Terminal - B° La Cancha"
+                //     "recorrido":"Terminal → B° La Cancha"
                 // },
                 {
                     "nombre":"17:30",
                     "valor":17.3,
-                    "recorrido":"Terminal - Fortin"
+                    "recorrido":"Terminal → Fortin"
                 },
                 {
                     "nombre":"18:00",
                     "valor":18,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"18:30",
                     "valor":18.3,
-                    "recorrido":"Terminal - Fortin"
+                    "recorrido":"Terminal → Fortin"
                 },
                 {
                     "nombre":"19:15",
                     "valor":19.15,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"19:30",
                     "valor":19.3,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"20:00",
                     "valor":20,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"20:30",
                     "valor":20.3,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"21:00",
                     "valor":21,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"21:30",
                     "valor":21.3,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"22:00",
                     "valor":22.3,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"22:30",
                     "valor":22.3,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"23:30",
                     "valor":23.3,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"00:30",
                     "valor":24.3,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 }
         ]
         const horariosSSMPo = [
                 {
                     "nombre":"06:00",
                     "valor":6,
-                    "recorrido":"Terminal - Colonia 4"
+                    "recorrido":"Terminal → Colonia 4"
                 },
                 {
                     "nombre":"06:40",
                     "valor":6.1,
-                    "recorrido":"Terminal - b° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"07:00",
                     "valor":7,
-                    "recorrido":"Terminal - Fortin"
+                    "recorrido":"Terminal → Fortin"
                 },
                 {
                     "nombre":"07:30",
                     "valor":7.3,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"08:15",
                     "valor":8.15,
-                    "recorrido":"Terminal - Esquina Lastra"
+                    "recorrido":"Terminal → Esquina Lastra"
                 },
                 {
                     "nombre":"09:00",
                     "valor":9,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"09:30",
                     "valor":9.30,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"10:00",
                     "valor":10,
-                    "recorrido":"Terminal - Colonia 4"
+                    "recorrido":"Terminal → Colonia 4"
                 },
                 {
                     "nombre":"10:30",
                     "valor":10.3,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"11:00",
                     "valor":11,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"11:45",
                     "valor":11.45,
-                    "recorrido":"Terminal - Esquina Lastra"
+                    "recorrido":"Terminal → Esquina Lastra"
                 },
                 {
                     "nombre":"12:30",
                     "valor":12.3,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"13:00",
                     "valor":13,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"13:55",
                     "valor":13.55,
-                    "recorrido":"Terminal - Fortin"
+                    "recorrido":"Terminal → Fortin"
                 },
                 {
                     "nombre":"14:15",
                     "valor":14.15,
-                    "recorrido":"Terminal - Esquina Lastra"
+                    "recorrido":"Terminal → Esquina Lastra"
                 },
                 {
                     "nombre":"15:00",
                     "valor":15,
-                    "recorrido":"Terminal - Fortin"
+                    "recorrido":"Terminal → Fortin"
                 },
                 {
                     "nombre":"16:00",
                     "valor":16,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"17:00",
                     "valor":17,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"17:30",
                     "valor":17.3,
-                    "recorrido":"Terminal - Fortin"
+                    "recorrido":"Terminal → Fortin"
                 },
                 {
                     "nombre":"18:00",
                     "valor":18,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"18:30",
                     "valor":18.3,
-                    "recorrido":"Terminal - Fortin"
+                    "recorrido":"Terminal → Fortin"
                 },
                 {
                     "nombre":"19:15",
                     "valor":19.15,
-                    "recorrido":"Terminal - B° La Cancha - Colonia 4"
+                    "recorrido":"Terminal → B° La Cancha → Colonia 4"
                 },
                 {
                     "nombre":"19:30",
                     "valor":19.3,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"20:00",
                     "valor":20,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"20:30",
                     "valor":20.3,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"21:00",
                     "valor":21,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"21:30",
                     "valor":21.3,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"22:30",
                     "valor":22.3,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"23:30",
                     "valor":23.3,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
         ]
         const horariosDSMPo = [
                 {
                     "nombre":"06:00",
                     "valor":6,
-                    "recorrido":"Terminal - Colonia 4"
+                    "recorrido":"Terminal → Colonia 4"
                 },
                 {
                     "nombre":"07:00",
                     "valor":7,
-                    "recorrido":"Terminal - Fortin"
+                    "recorrido":"Terminal → Fortin"
                 },
 
                 {
                     "nombre":"08:00",
                     "valor":8,
-                    "recorrido":"Terminal - Fortin"
+                    "recorrido":"Terminal → Fortin"
                 },
                 {
                     "nombre":"09:00",
                     "valor":9,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"10:00",
                     "valor":10,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"11:00",
                     "valor":11,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"12:00",
                     "valor":12,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"12:30",
                     "valor":12.3,
-                    "recorrido":"Terminal - Esquina Lastra"
+                    "recorrido":"Terminal → Esquina Lastra"
                 },
                 {
                     "nombre":"13:00",
                     "valor":13,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"14:15",
                     "valor":14.15,
-                    "recorrido":"Terminal - Esquina Lastra"
+                    "recorrido":"Terminal → Esquina Lastra"
                 },
                 {
                     "nombre":"15:00",
                     "valor":15,
-                    "recorrido":"Terminal - Fortin"
+                    "recorrido":"Terminal → Fortin"
                 },
                 {
                     "nombre":"16:00",
                     "valor":16,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"17:00",
                     "valor":17,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"18:00",
                     "valor":18,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"18:30",
                     "valor":18.3,
-                    "recorrido":"Terminal - Fortin"
+                    "recorrido":"Terminal → Fortin"
                 },
                 {
                     "nombre":"19:10",
                     "valor":19.1,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"20:00",
                     "valor":20,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"20:30",
                     "valor":20.3,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"21:00",
                     "valor":21,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"21:30",
                     "valor":21.3,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"22:30",
                     "valor":22.3,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 },
                 {
                     "nombre":"23:30",
                     "valor":23.3,
-                    "recorrido":"Terminal - B° La Cancha"
+                    "recorrido":"Terminal → B° La Cancha"
                 }
         ]
         const todosSmAlderetes = [horariosDSMAl,horariosLvSMAl,horariosSSMAl];
@@ -1727,17 +1727,17 @@ function busquedaManual(){
         {
             "nombre":"04:40",
             "valor":4.4,
-            "recorrido":"Fortin - Banda del Rio Sali"
+            "recorrido":"Fortin → Banda del Rio Sali"
         },
         {
             "nombre":"05:35",
             "valor":5.35,
-            "recorrido":"Fortin - Alternativa"
+            "recorrido":"Fortin → Alternativa"
         },
         {
             "nombre":"06:10",
             "valor":6.10,
-            "recorrido":"1) Fortin - Banda del Rio Sali || 2) Colonia 10 - Autopista"
+            "recorrido":"1) Fortin → Banda del Rio Sali || 2) Colonia 10 → Autopista"
         },
         {
             "nombre":"06:20",
@@ -1747,132 +1747,132 @@ function busquedaManual(){
         // {
         //     "nombre":"06:40",
         //     "valor":6.4,
-        //     "recorrido":"B° La Cancha - Alternativa"
+        //     "recorrido":"B° La Cancha → Alternativa"
         // },
         {
             "nombre":"06:50",
             "valor":6.5,
-            "recorrido":"Colonia 4 - Fonda - Alternativa"
+            "recorrido":"Colonia 4 → Fonda → Alternativa"
         },
         {
             "nombre":"07:20",
             "valor":7.2,
-            "recorrido":"1) Colonia 4 - B° La Cancha - Autopista || 2) Fortin - Banda del Rio Sali"
+            "recorrido":"1) Colonia 4 → B° La Cancha → Autopista || 2) Fortin → Banda del Rio Sali"
         },
         {
             "nombre":"07:40",
             "valor":7.4,
-            "recorrido":"Finca Mayo - Cochuchal - Banda del Rio Sali"
+            "recorrido":"Finca Mayo → Cochuchal → Banda del Rio Sali"
         },
         {
             "nombre":"07:50",
             "valor":7.5,
-            "recorrido":"1) Colonia 4 - B° La Cancha - Autopista || 2) Alternativa"
+            "recorrido":"1) Colonia 4 → B° La Cancha → Autopista || 2) Alternativa"
         },
         {
             "nombre":"08:45",
             "valor":8.45,
-            "recorrido":"Colonia 4 - B° La Cancha - Cochuchal - Autopista"
+            "recorrido":"Colonia 4 → B° La Cancha → Cochuchal → Autopista"
         },
         {
             "nombre":"09:20",
             "valor":9.2,
-            "recorrido":"Fortin - Talar - Banda del Rio Sali"
+            "recorrido":"Fortin → Talar → Banda del Rio Sali"
         },
         {
             "nombre":"09:50",
             "valor":9.5,
-            "recorrido":"Colonia 4 - B° La Cancha -Talar - Autopista"
+            "recorrido":"Colonia 4 → B° La Cancha →Talar → Autopista"
         },
         {
             "nombre":"10:30",
             "valor":10.3,
-            "recorrido":"Fortin - Talar - Banda del Rio Sali"
+            "recorrido":"Fortin → Talar → Banda del Rio Sali"
         },
         {
             "nombre":"11:40",
             "valor":11.30,
-            "recorrido":"Fortin - Talar - Banda del Rio Sali"
+            "recorrido":"Fortin → Talar → Banda del Rio Sali"
         },
         {
             "nombre":"12:30",
             "valor":12.3,
-            "recorrido":"Colonia 4 - B° La Cancha -Talar - Autopista"
+            "recorrido":"Colonia 4 → B° La Cancha →Talar → Autopista"
         },
         // {
         //     "nombre":"12:40",
         //     "valor":12.4,
-        //     "recorrido":"Finca Mayo - Talar - Banda del Rio Sali"
+        //     "recorrido":"Finca Mayo → Talar → Banda del Rio Sali"
         // },
         {
             "nombre":"13:15",
             "valor":13.15,
-            "recorrido":"Colonia 4 - B° La Cancha - Talar - Autopista"
+            "recorrido":"Colonia 4 → B° La Cancha → Talar → Autopista"
         },
         {
             "nombre":"13:50",
             "valor":13.5,
-            "recorrido":"B° La Cancha - Cochuchal - Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Cochuchal → Banda del Rio Sali"
         },
         {
             "nombre":"14:45",
             "valor":14.45,
-            "recorrido":"Colonia 4 - B° La Cancha - Talar - Banda del Rio Sali"
+            "recorrido":"Colonia 4 → B° La Cancha → Talar → Banda del Rio Sali"
         },
         {
             "nombre":"15:50",
             "valor":15.5,
-            "recorrido":"1) Fortin - Alternativa || 2) Colonia 4 - B° La Cancha - Autopista"
+            "recorrido":"1) Fortin → Alternativa || 2) Colonia 4 → B° La Cancha → Autopista"
         },
         // {
         //     "nombre":"16:20",
         //     "valor":16.2,
-        //     "recorrido":"La Marta - Colonia 4 - Autopista"
+        //     "recorrido":"La Marta → Colonia 4 → Autopista"
         // },
         {
             "nombre":"16:50",
             "valor":16.5,
-            "recorrido":"1) Colonia 4 - Autopista || 2) Colonia 3 - Banda del Rio Sali"
+            "recorrido":"1) Colonia 4 → Autopista || 2) Colonia 3 → Banda del Rio Sali"
         },
         // {
         //     "nombre":"17:35",
         //     "valor":17.35,
-        //     "recorrido":"Colonia 4 - B° La Cancha - Alternativa"
+        //     "recorrido":"Colonia 4 → B° La Cancha → Alternativa"
         // },
         {
             "nombre":"17:35",
             "valor":17.35,
-            "recorrido":"Colonia 4 - B° La Cancha - Alternativa "
+            "recorrido":"Colonia 4 → B° La Cancha → Alternativa "
         },
         {
             "nombre":"17:50",
             "valor":17.5,
-            "recorrido":"Fortin - Talar -  Banda del Rio Sali"
+            "recorrido":"Fortin → Talar →  Banda del Rio Sali"
         },
         // {
         //     "nombre":"18:10",
         //     "valor":18.1,
-        //     "recorrido":"Colonia 4  - Autopista"
+        //     "recorrido":"Colonia 4  → Autopista"
         // },
         {
             "nombre":"18:30",
             "valor":18.3,
-            "recorrido":"Fortin - Banda del Rio Sali"
+            "recorrido":"Fortin → Banda del Rio Sali"
         },
         {
             "nombre":"19:00",
             "valor":19,
-            "recorrido":"La Marta - B° La Cancha - Banda del Rio Sali"
+            "recorrido":"La Marta → B° La Cancha → Banda del Rio Sali"
         },
         // {
         //     "nombre":"20:55",
         //     "valor":20.55,
-        //     "recorrido":"Mayo - Colonia 4 - Alderetes - Autopista"
+        //     "recorrido":"Mayo → Colonia 4 → Alderetes → Autopista"
         // },
         {
             "nombre":"21:05",
             "valor":21.15,
-            "recorrido":"Colonia 4 - B° La Cancha - Autopis"
+            "recorrido":"Colonia 4 → B° La Cancha → Autopis"
         }
        
     ]
@@ -1880,97 +1880,97 @@ function busquedaManual(){
         {
             "nombre":"04:40",
             "valor":4.4,
-            "recorrido":"Fortin - Banda del Rio Sali"
+            "recorrido":"Fortin → Banda del Rio Sali"
         },
         {
             "nombre":"05:45",
             "valor":5.45,
-            "recorrido":"Fortin - Autopista"
+            "recorrido":"Fortin → Autopista"
         },
         {
             "nombre":"06:10",
             "valor":6.10,
-            "recorrido":"Colonia 10 - B° La Cancha - Cochuchal- Autopista"
+            "recorrido":"Colonia 10 → B° La Cancha → Cochuchal→ Autopista"
         },
         {
             "nombre":"06:25",
             "valor":6.25,
-            "recorrido":"Colonia 5 Florida - Fortin(Trasbordo)"
+            "recorrido":"Colonia 5 Florida → Fortin(Trasbordo)"
         },
         {
             "nombre":"06:50",
             "valor":6.5,
-            "recorrido":"Colonia 4 - B° La Cancha - Alternativa"
+            "recorrido":"Colonia 4 → B° La Cancha → Alternativa"
         },
         {
             "nombre":"07:18",
             "valor":7.18,
-            "recorrido":"Colonia 4 - B° La Cancha - Autopista"
+            "recorrido":"Colonia 4 → B° La Cancha → Autopista"
         },
         {
             "nombre":"07:40",
             "valor":7.4,
-            "recorrido":"Finca Mayo - Talar - Banda del Rio Sali"
+            "recorrido":"Finca Mayo → Talar → Banda del Rio Sali"
         },
         {
             "nombre":"07:50",
             "valor":7.5,
-            "recorrido":"Colonia 4 - B° La Cancha - Autopista"
+            "recorrido":"Colonia 4 → B° La Cancha → Autopista"
         },
         {
             "nombre":"08:45",
             "valor":8.45,
-            "recorrido":"Colonia 4 - B° La Cancha - Banda del Rio Sali"
+            "recorrido":"Colonia 4 → B° La Cancha → Banda del Rio Sali"
         },
         {
             "nombre":"09:20",
             "valor":9.2,
-            "recorrido":"Fortin - Banda del Rio Sali"
+            "recorrido":"Fortin → Banda del Rio Sali"
         },
         {
             "nombre":"10:30",
             "valor":10.30,
-            "recorrido":"Fortin - Banda del Rio Sali"
+            "recorrido":"Fortin → Banda del Rio Sali"
         },
         {
             "nombre":"11:40",
             "valor":11.40,
-            "recorrido":"Fortin - Banda del Rio Sali"
+            "recorrido":"Fortin → Banda del Rio Sali"
         },
         {
             "nombre":"12:40",
             "valor":12.4,
-            "recorrido":"Finca Mayo - Banda del Rio Sali"
+            "recorrido":"Finca Mayo → Banda del Rio Sali"
         },
         {
             "nombre":"13:15",
             "valor":13.15,
-            "recorrido":"Colonia 4 - B° La Cancha - Autopista"
+            "recorrido":"Colonia 4 → B° La Cancha → Autopista"
         },
         {
             "nombre":"14:50",
             "valor":14.5,
-            "recorrido":"B° La Cancha - Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Banda del Rio Sali"
         },
         {
             "nombre":"15:50",
             "valor":15.5,
-            "recorrido":"Colonia 4 - B° La Cancha - Autopista"
+            "recorrido":"Colonia 4 → B° La Cancha → Autopista"
         },
         {
             "nombre":"16:50",
             "valor":16.5,
-            "recorrido":"Colonia 3 - Banda del Rio Sali"
+            "recorrido":"Colonia 3 → Banda del Rio Sali"
         },
         {
             "nombre":"17:50",
             "valor":17.5,
-            "recorrido":"Fortin - Banda del Rio Sali"
+            "recorrido":"Fortin → Banda del Rio Sali"
         },
         {
             "nombre":"19:00",
             "valor":19,
-            "recorrido":"La Marta - B° La Cancha - Banda del Rio Sali"
+            "recorrido":"La Marta → B° La Cancha → Banda del Rio Sali"
         }
     ]
     const horariosDFloAl = [
@@ -1978,37 +1978,37 @@ function busquedaManual(){
         {
             "nombre":"07:40",
             "valor":7.4,
-            "recorrido":"Finca Mayo - Talar - Banda del Rio Sali"
+            "recorrido":"Finca Mayo → Talar → Banda del Rio Sali"
         },
         {
             "nombre":"10:30",
             "valor":10.30,
-            "recorrido":"Fortin - Banda del Rio Sali"
+            "recorrido":"Fortin → Banda del Rio Sali"
         },
         {
             "nombre":"12:40",
             "valor":12.4,
-            "recorrido":"Finca Mayo - Banda del Rio Sali"
+            "recorrido":"Finca Mayo → Banda del Rio Sali"
         },
         {
             "nombre":"14:50",
             "valor":14.5,
-            "recorrido":"B° La Cancha - Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Banda del Rio Sali"
         },
         {
             "nombre":"16:50",
             "valor":16.5,
-            "recorrido":"Colonia 3 - Banda del Rio Sali"
+            "recorrido":"Colonia 3 → Banda del Rio Sali"
         },
         {
             "nombre":"17:50",
             "valor":17.5,
-            "recorrido":"Fortin - Banda del Rio Sali"
+            "recorrido":"Fortin → Banda del Rio Sali"
         },
         {
             "nombre":"19:10",
             "valor":19.1,
-            "recorrido":"Colonia 10 - Colonia 3 - B° La Cancha - Banda del Rio Sali"
+            "recorrido":"Colonia 10 → Colonia 3 → B° La Cancha → Banda del Rio Sali"
         }
     ]
     const horariosLvFloPo = [
@@ -2396,147 +2396,147 @@ function busquedaManual(){
         {
             "nombre":"05:20",
             "valor":5.2,
-            "recorrido":"Terminal - Autopista - B° La Cancha"
+            "recorrido":"Terminal → Autopista → B° La Cancha"
         },
         // {
         //     "nombre":"06:15",
         //     "valor":6.15,
-        //     "recorrido":"Terminal - Autopista - Los Perez"
+        //     "recorrido":"Terminal → Autopista → Los Perez"
         // },
         {
             "nombre":"06:25",
             "valor":6.25,
-            "recorrido":"Terminal - Banda del Rio Sali - Talar - Fortin - Mayo"
+            "recorrido":"Terminal → Banda del Rio Sali → Talar → Fortin → Mayo"
         },
         {
             "nombre":"07:15",
             "valor":7.15,
-            "recorrido":"Terminal - Banda del Rio Sali - La Marta"
+            "recorrido":"Terminal → Banda del Rio Sali → La Marta"
         },
         {
             "nombre":"08:00",
             "valor":8,
-            "recorrido":"Terminal - Catalinas Park - Autopista - Alderetes - Cochuchal - Colonia 4"
+            "recorrido":"Terminal → Catalinas Park → Autopista → Alderetes → Cochuchal → Colonia 4"
         },
         {
             "nombre":"08:35",
             "valor":8.35,
-            "recorrido":"Terminal - Banda del Rio Sali - Talar - Fortin"
+            "recorrido":"Terminal → Banda del Rio Sali → Talar → Fortin"
         },
         {
             "nombre":"09:00",
             "valor":9,
-            "recorrido":"Terminal - Autopista - B° La Cancha - Colonia 4 "
+            "recorrido":"Terminal → Autopista → B° La Cancha → Colonia 4 "
         },
         {
             "nombre":"09:45",
             "valor":9.45,
-            "recorrido":"Terminal - Banda del Rio Sali - Fortin"
+            "recorrido":"Terminal → Banda del Rio Sali → Fortin"
         },
         {
             "nombre":"10:45",
             "valor":10.45,
-            "recorrido":"Terminal - Banda del Rio Sali - Fortin"
+            "recorrido":"Terminal → Banda del Rio Sali → Fortin"
         },
         {
             "nombre":"11:15",
             "valor":11.15,
-            "recorrido":"Terminal - Autopista - B° La Cancha - Los Perez"
+            "recorrido":"Terminal → Autopista → B° La Cancha → Los Perez"
         },
         // {
         //     "nombre":"11:40",
         //     "valor":11.4,
-        //     "recorrido":"Terminal - Autopista - Cochuchal - Mayo"
+        //     "recorrido":"Terminal → Autopista → Cochuchal → Mayo"
         // },
         // {
         //     "nombre":"12:15",
         //     "valor":12.15,
-        //     "recorrido":"Terminal - Alternativa - B° La Cancha"
+        //     "recorrido":"Terminal → Alternativa → B° La Cancha"
         // },
         {
             "nombre":"12:20",
             "valor":12.2,
-            "recorrido":"Terminal - Catalinas Park - Autopista - B° La Cancha - Colonia 4"
+            "recorrido":"Terminal → Catalinas Park → Autopista → B° La Cancha → Colonia 4"
         },
         {
             "nombre":"12:45",
             "valor":12.45,
-            "recorrido":"Terminal - Banda del Rio Sali - Colonia 3"
+            "recorrido":"Terminal → Banda del Rio Sali → Colonia 3"
         },
         {
             "nombre":"13:15",
             "valor":13.15,
-            "recorrido":"Terminal - Banda del Rio Sali - Cochuchal - Colonia 4"
+            "recorrido":"Terminal → Banda del Rio Sali → Cochuchal → Colonia 4"
         },
         {
             "nombre":"13:30",
             "valor":13.3,
-            "recorrido":"Terminal - Autopista - B° La Cancha - La Marta"
+            "recorrido":"Terminal → Autopista → B° La Cancha → La Marta"
         },
         {
             "nombre":"14:00",
             "valor":14,
-            "recorrido":"Terminal - Banda del Rio Sali - B° La Cancha"
+            "recorrido":"Terminal → Banda del Rio Sali → B° La Cancha"
         },
         {
             "nombre":"14:50",
             "valor":14.5,
-            "recorrido":"Terminal - Banda del Rio Sali - Alderetes - Talar - B° La Cancha"
+            "recorrido":"Terminal → Banda del Rio Sali → Alderetes → Talar → B° La Cancha"
         },
         {
             "nombre":"15:50",
             "valor":15.5,
-            "recorrido":"Terminal - Banda del Rio Sali - Colonia 3"
+            "recorrido":"Terminal → Banda del Rio Sali → Colonia 3"
         },
         {
             "nombre":"16:50",
             "valor":16.5,
-            "recorrido":"Terminal - Banda del Rio Sali - Cochuchal - Fortin"
+            "recorrido":"Terminal → Banda del Rio Sali → Cochuchal → Fortin"
         },
         {
             "nombre":"Servicio de 17:45",
             "valor":17.45,
-            "recorrido":"Terminal - Banda del Rio Sali - B° La Cancha"
+            "recorrido":"Terminal → Banda del Rio Sali → B° La Cancha"
         },
         // {
         //     "nombre":"18:20",
         //     "valor":18.2,
-        //     "recorrido":"Terminal - Alternativa - B° La Cancha - Colonia 4"
+        //     "recorrido":"Terminal → Alternativa → B° La Cancha → Colonia 4"
         // },
         {
             "nombre":"18:30",
             "valor":18.3,
-            "recorrido":"Terminal - Banda del Rio Sali - Colonia 4"
+            "recorrido":"Terminal → Banda del Rio Sali → Colonia 4"
         },
         {
             "nombre":"19:00",
             "valor":19,
-            "recorrido":"Terminal - Banda del Rio Sali - Colonia 4"
+            "recorrido":"Terminal → Banda del Rio Sali → Colonia 4"
         },
         {
             "nombre":"19:45",
             "valor":19.45,
-            "recorrido":"Terminal - Banda del Rio Sali - Mayo"
+            "recorrido":"Terminal → Banda del Rio Sali → Mayo"
         },
         {
             "nombre":"20:30",
             "valor":20.3,
-            "recorrido":"Terminal - Banda del Rio Sali - Fortin"
+            "recorrido":"Terminal → Banda del Rio Sali → Fortin"
         },
         {
             "nombre":"21:00",
             "valor":21,
-            "recorrido":"Terminal - Autopista - B° La Cancha"
+            "recorrido":"Terminal → Autopista → B° La Cancha"
         },
         {
             "nombre":"21:30",
             "valor":21.30,
-            "recorrido":"Terminal - Autopista - B° La Cancha"
+            "recorrido":"Terminal → Autopista → B° La Cancha"
         },
         {
             "nombre":"22:30",
             "valor":22.30,
-            "recorrido":"Terminal - Autopista - Fortin"
+            "recorrido":"Terminal → Autopista → Fortin"
         }
 
         
@@ -2545,102 +2545,102 @@ function busquedaManual(){
             {
                 "nombre":"05:20",
                 "valor":5.2,
-                "recorrido":"Terminal - Autopista - B° La Cancha"
+                "recorrido":"Terminal → Autopista → B° La Cancha"
             },
             {
                 "nombre":"06:25",
                 "valor":6.25,
-                "recorrido":"Terminal - Banda del Rio Sali - Mayo"
+                "recorrido":"Terminal → Banda del Rio Sali → Mayo"
             },
             {
                 "nombre":"07:15",
                 "valor":7.15,
-                "recorrido":"Terminal - Banda del Rio Sali - La Marta"
+                "recorrido":"Terminal → Banda del Rio Sali → La Marta"
             },
             {
                 "nombre":"08:00",
                 "valor":8,
-                "recorrido":"Terminal - Autopista - Cochuchal"
+                "recorrido":"Terminal → Autopista → Cochuchal"
             },
             {
                 "nombre":"08:35",
                 "valor":8.35,
-                "recorrido":"Terminal - Banda del Rio Sali - Fortin"
+                "recorrido":"Terminal → Banda del Rio Sali → Fortin"
             },
             {
                 "nombre":"09:45",
                 "valor":9.45,
-                "recorrido":"Terminal - Banda del Rio Sali - Fortin"
+                "recorrido":"Terminal → Banda del Rio Sali → Fortin"
             },
             {
                 "nombre":"10:45",
                 "valor":10.45,
-                "recorrido":"Terminal - Banda del Rio Sali - Fortin"
+                "recorrido":"Terminal → Banda del Rio Sali → Fortin"
             },
             {
                 "nombre":"12:20",
                 "valor":12.2,
-                "recorrido":"Terminal - Autopista - B° La Cancha - Colonia 4"
+                "recorrido":"Terminal → Autopista → B° La Cancha → Colonia 4"
             },
             {
                 "nombre":"13:30",
                 "valor":13.3,
-                "recorrido":"Terminal - Autopista - B° La Cancha - La Marta"
+                "recorrido":"Terminal → Autopista → B° La Cancha → La Marta"
             },
             {
                 "nombre":"14:00",
                 "valor":14,
-                "recorrido":"Terminal - Banda del Rio Sali - B° La Cancha"
+                "recorrido":"Terminal → Banda del Rio Sali → B° La Cancha"
             },
             {
                 "nombre":"14:50",
                 "valor":14.5,
-                "recorrido":"Terminal - Banda del Rio Sali - B° La Cancha - Colonia 4"
+                "recorrido":"Terminal → Banda del Rio Sali → B° La Cancha → Colonia 4"
             },
             {
                 "nombre":"16:00",
                 "valor":16,
-                "recorrido":"Terminal - Banda del Rio Sali - Cochuchal - Fortin - Colonia 3"
+                "recorrido":"Terminal → Banda del Rio Sali → Cochuchal → Fortin → Colonia 3"
             },
             {
                 "nombre":"16:50",
                 "valor":16.5,
-                "recorrido":"Terminal - Banda del Rio Sali - Cochuchal - Fortin"
+                "recorrido":"Terminal → Banda del Rio Sali → Cochuchal → Fortin"
             },
             {
                 "nombre":"17:45",
                 "valor":17.45,
-                "recorrido":"Terminal - Banda del Rio Sali - B° La Cancha"
+                "recorrido":"Terminal → Banda del Rio Sali → B° La Cancha"
             },
             {
                 "nombre":"19:00",
                 "valor":19,
-                "recorrido":"Terminal - Banda del Rio Sali - Colonia 4"
+                "recorrido":"Terminal → Banda del Rio Sali → Colonia 4"
             },
             {
                 "nombre":"19:45",
                 "valor":19.45,
-                "recorrido":"Terminal - Banda del Rio Sali - Mayo"
+                "recorrido":"Terminal → Banda del Rio Sali → Mayo"
             },
             {
                 "nombre":"20:30",
                 "valor":20.3,
-                "recorrido":"Terminal - Banda del Rio Sali - Fortin"
+                "recorrido":"Terminal → Banda del Rio Sali → Fortin"
             },
             {
                 "nombre":"21:30",
                 "valor":21.30,
-                "recorrido":"Terminal - Autopista - Fortin - Colonia 4"
+                "recorrido":"Terminal → Autopista → Fortin → Colonia 4"
             },
             // {
             //     "nombre":"22:00",
             //     "valor":22,
-            //     "recorrido":"Terminal - Alternativa - Colonia 4"
+            //     "recorrido":"Terminal → Alternativa → Colonia 4"
             // },
             {
                 "nombre":"22:30",
                 "valor":22.30,
-                "recorrido":"Terminal - Autopista - Fortin - Colonia 4"
+                "recorrido":"Terminal → Autopista → Fortin → Colonia 4"
             }
     ]
     const horariosDSMAl = [
@@ -2648,42 +2648,42 @@ function busquedaManual(){
             {
                 "nombre":"06:25",
                 "valor":6.25,
-                "recorrido":"Terminal - Banda del Rio Sali - Mayo"
+                "recorrido":"Terminal → Banda del Rio Sali → Mayo"
             },
             {
                 "nombre":"09:45",
                 "valor":9.45,
-                "recorrido":"Terminal - Banda del Rio Sali - Fortin - Colonia 2"
+                "recorrido":"Terminal → Banda del Rio Sali → Fortin → Colonia 2"
             },
             {
                 "nombre":"11:40",
                 "valor":11.40,
-                "recorrido":"Terminal - Banda del Rio Sali - Cochuchal- Fortin - Mayo"
+                "recorrido":"Terminal → Banda del Rio Sali → Cochuchal→ Fortin → Mayo"
             },
             {
                 "nombre":"14:00",
                 "valor":14,
-                "recorrido":"Terminal - Banda del Rio Sali - B° La Cancha"
+                "recorrido":"Terminal → Banda del Rio Sali → B° La Cancha"
             },
             {
                 "nombre":"16:00",
                 "valor":16,
-                "recorrido":"Terminal - Banda del Rio Sali - Cochuchal - Fortin - Colonia 3"
+                "recorrido":"Terminal → Banda del Rio Sali → Cochuchal → Fortin → Colonia 3"
             },
             {
                 "nombre":"Servicio de 17:45",
                 "valor":17.45,
-                "recorrido":"Terminal - Banda del Rio Sali - Mayo"
+                "recorrido":"Terminal → Banda del Rio Sali → Mayo"
             },
             {
                 "nombre":"19:45",
                 "valor":19.45,
-                "recorrido":"Terminal - Banda del Rio Sali - Mayo"
+                "recorrido":"Terminal → Banda del Rio Sali → Mayo"
             },
             {
                 "nombre":"20:30",
                 "valor":20.3,
-                "recorrido":"Terminal - Banda del Rio Sali - Fortin"
+                "recorrido":"Terminal → Banda del Rio Sali → Fortin"
             }
   
     ]
@@ -2691,437 +2691,437 @@ function busquedaManual(){
             {
                 "nombre":"06:00",
                 "valor":6,
-                "recorrido":"Terminal - Colonia 4"
+                "recorrido":"Terminal → Colonia 4"
             },
             {
                 "nombre":"06:40",
                 "valor":6.1,
-                "recorrido":"Terminal - b° La Cancha"
+                "recorrido":"Terminal → b° La Cancha"
             },
             {
                 "nombre":"07:00",
                 "valor":7,
-                "recorrido":"Terminal - Fortin"
+                "recorrido":"Terminal → Fortin"
             },
             {
                 "nombre":"07:30",
                 "valor":7.3,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"08:15",
                 "valor":8.15,
-                "recorrido":"Terminal - Esquina Lastra"
+                "recorrido":"Terminal → Esquina Lastra"
             },
             {
                 "nombre":"09:00",
                 "valor":9,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"09:30",
                 "valor":9.30,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"10:00",
                 "valor":10,
-                "recorrido":"Terminal - Colonia 4"
+                "recorrido":"Terminal → Colonia 4"
             },
             {
                 "nombre":"10:30",
                 "valor":10.3,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"11:00",
                 "valor":11,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             // {
             //     "nombre":"11:20",
             //     "valor":11.2,
-            //     "recorrido":"Terminal - Fortin"
+            //     "recorrido":"Terminal → Fortin"
             // },
             {
                 "nombre":"11:45",
                 "valor":11.45,
-                "recorrido":"Terminal - Esquina Lastra"
+                "recorrido":"Terminal → Esquina Lastra"
             },
             {
                 "nombre":"12:30",
                 "valor":12.3,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             // {
             //     "nombre":"12:40",
             //     "valor":12.4,
-            //     "recorrido":"Terminal - Fortin"
+            //     "recorrido":"Terminal → Fortin"
             // },
             {
                 "nombre":"13:00",
                 "valor":13,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"13:30",
                 "valor":13.3,
-                "recorrido":"Terminal - Esquina de Lastra"
+                "recorrido":"Terminal → Esquina de Lastra"
             },
             // {
             //     "nombre":"14:00",
             //     "valor":14,
-            //     "recorrido":"Terminal - B° La Cancha"
+            //     "recorrido":"Terminal → B° La Cancha"
             // },
             {
                 "nombre":"14:20",
                 "valor":14.2,
-                "recorrido":"Terminal - Esquina Lastra"
+                "recorrido":"Terminal → Esquina Lastra"
             },
             {
                 "nombre":"15:00",
                 "valor":15,
-                "recorrido":"Terminal - Fortin"
+                "recorrido":"Terminal → Fortin"
             },
             {
                 "nombre":"16:00",
                 "valor":16,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"17:00",
                 "valor":17,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             // {
             //     "nombre":"17:10",
             //     "valor":17.1,
-            //     "recorrido":"Terminal - B° La Cancha"
+            //     "recorrido":"Terminal → B° La Cancha"
             // },
             {
                 "nombre":"17:30",
                 "valor":17.3,
-                "recorrido":"Terminal - Fortin"
+                "recorrido":"Terminal → Fortin"
             },
             {
                 "nombre":"18:00",
                 "valor":18,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"18:30",
                 "valor":18.3,
-                "recorrido":"Terminal - Fortin"
+                "recorrido":"Terminal → Fortin"
             },
             {
                 "nombre":"19:15",
                 "valor":19.15,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"19:30",
                 "valor":19.3,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"20:00",
                 "valor":20,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"20:30",
                 "valor":20.3,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"21:00",
                 "valor":21,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"21:30",
                 "valor":21.3,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"22:00",
                 "valor":22.3,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"22:30",
                 "valor":22.3,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"23:30",
                 "valor":23.3,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"00:30",
                 "valor":24.3,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             }
     ]
     const horariosSSMPo = [
             {
                 "nombre":"06:00",
                 "valor":6,
-                "recorrido":"Terminal - Colonia 4"
+                "recorrido":"Terminal → Colonia 4"
             },
             {
                 "nombre":"06:40",
                 "valor":6.1,
-                "recorrido":"Terminal - b° La Cancha"
+                "recorrido":"Terminal → b° La Cancha"
             },
             {
                 "nombre":"07:00",
                 "valor":7,
-                "recorrido":"Terminal - Fortin"
+                "recorrido":"Terminal → Fortin"
             },
             {
                 "nombre":"07:30",
                 "valor":7.3,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"08:15",
                 "valor":8.15,
-                "recorrido":"Terminal - Esquina Lastra"
+                "recorrido":"Terminal → Esquina Lastra"
             },
             {
                 "nombre":"09:00",
                 "valor":9,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"09:30",
                 "valor":9.30,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"10:00",
                 "valor":10,
-                "recorrido":"Terminal - Colonia 4"
+                "recorrido":"Terminal → Colonia 4"
             },
             {
                 "nombre":"10:30",
                 "valor":10.3,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"11:00",
                 "valor":11,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"11:45",
                 "valor":11.45,
-                "recorrido":"Terminal - Esquina Lastra"
+                "recorrido":"Terminal → Esquina Lastra"
             },
             {
                 "nombre":"12:30",
                 "valor":12.3,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"13:00",
                 "valor":13,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"13:55",
                 "valor":13.55,
-                "recorrido":"Terminal - Fortin"
+                "recorrido":"Terminal → Fortin"
             },
             {
                 "nombre":"14:15",
                 "valor":14.15,
-                "recorrido":"Terminal - Esquina Lastra"
+                "recorrido":"Terminal → Esquina Lastra"
             },
             {
                 "nombre":"15:00",
                 "valor":15,
-                "recorrido":"Terminal - Fortin"
+                "recorrido":"Terminal → Fortin"
             },
             {
                 "nombre":"16:00",
                 "valor":16,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"17:00",
                 "valor":17,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"17:30",
                 "valor":17.3,
-                "recorrido":"Terminal - Fortin"
+                "recorrido":"Terminal → Fortin"
             },
             {
                 "nombre":"18:00",
                 "valor":18,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"18:30",
                 "valor":18.3,
-                "recorrido":"Terminal - Fortin"
+                "recorrido":"Terminal → Fortin"
             },
             {
                 "nombre":"19:15",
                 "valor":19.15,
-                "recorrido":"Terminal - B° La Cancha - Colonia 4"
+                "recorrido":"Terminal → B° La Cancha → Colonia 4"
             },
             {
                 "nombre":"19:30",
                 "valor":19.3,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"20:00",
                 "valor":20,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"20:30",
                 "valor":20.3,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"21:00",
                 "valor":21,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"21:30",
                 "valor":21.3,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"22:30",
                 "valor":22.3,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"23:30",
                 "valor":23.3,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
     ]
     const horariosDSMPo = [
             {
                 "nombre":"06:00",
                 "valor":6,
-                "recorrido":"Terminal - Colonia 4"
+                "recorrido":"Terminal → Colonia 4"
             },
             {
                 "nombre":"07:00",
                 "valor":7,
-                "recorrido":"Terminal - Fortin"
+                "recorrido":"Terminal → Fortin"
             },
 
             {
                 "nombre":"08:00",
                 "valor":8,
-                "recorrido":"Terminal - Fortin"
+                "recorrido":"Terminal → Fortin"
             },
             {
                 "nombre":"09:00",
                 "valor":9,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"10:00",
                 "valor":10,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"11:00",
                 "valor":11,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"12:00",
                 "valor":12,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"12:30",
                 "valor":12.3,
-                "recorrido":"Terminal - Esquina Lastra"
+                "recorrido":"Terminal → Esquina Lastra"
             },
             {
                 "nombre":"13:00",
                 "valor":13,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"14:15",
                 "valor":14.15,
-                "recorrido":"Terminal - Esquina Lastra"
+                "recorrido":"Terminal → Esquina Lastra"
             },
             {
                 "nombre":"15:00",
                 "valor":15,
-                "recorrido":"Terminal - Fortin"
+                "recorrido":"Terminal → Fortin"
             },
             {
                 "nombre":"16:00",
                 "valor":16,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"17:00",
                 "valor":17,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"18:00",
                 "valor":18,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"18:30",
                 "valor":18.3,
-                "recorrido":"Terminal - Fortin"
+                "recorrido":"Terminal → Fortin"
             },
             {
                 "nombre":"19:10",
                 "valor":19.1,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"20:00",
                 "valor":20,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"20:30",
                 "valor":20.3,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"21:00",
                 "valor":21,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"21:30",
                 "valor":21.3,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"22:30",
                 "valor":22.3,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             },
             {
                 "nombre":"23:30",
                 "valor":23.3,
-                "recorrido":"Terminal - B° La Cancha"
+                "recorrido":"Terminal → B° La Cancha"
             }
     ]
     const todosSmAlderetes = [horariosDSMAl,horariosLvSMAl,horariosSSMAl];
