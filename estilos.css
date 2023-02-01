@@ -1,5 +1,10 @@
 :root{
-    --fondo : #e2dede;
+    --blanco : #ffffff;
+    --fondo : #fefbfb;
+    --azul : #455ff4;
+    --rojo : #f56e6e;
+    --fondoAzul : rgb(31, 77, 134);
+    --fuentePrincipal : 'Nunito', sans-serif;
 }
 
 body{
@@ -10,32 +15,13 @@ body{
 }
 .header{
     display:flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgb(187, 28, 65);
-    box-shadow: 0 5px 5px black;
-    border-radius: 7px;
+    height: 100px;
+  
+    background-color: var(--blanco);
 }
-
-#nombre{
-    font-family:'Nunito', sans-serif;
-    text-transform: uppercase;
-    color: white;
-    font-weight: bold;
-    border-radius: 7px;   
-    text-align: center;
-    margin: 0;
-    font-size: 50px;
-    /* background-color: rgb(242, 34, 82); */
-}
-#firma{
-    font-family:'Nunito', sans-serif;
-    color: white;
-    font-weight: bold;
-    text-align: right;
-    margin: 0;
-    font-size: 15px;
+.header img{
+    margin: 0 auto;
+    width: 150px;
 }
 
 .subheader-cont{
@@ -49,25 +35,26 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+    box-shadow: 1px 1px 1px 1px var(--rojo);
     margin: 20px 10px;
     border-radius: 7px;
     height: 75px;
     width: 45%;
+    background-color: var(--azul);
 }
 
 #fecha{
-    font-family: 'Nunito', sans-serif;
+    font-family: var(--fuentePrincipal);
     font-size: 18px;
     font-weight: bold;
-    color: white;
+    color: var(--blanco);
     margin: 0;
 }
 #hora{
     font-family: 'Nunito', sans-serif;
     font-size: 25px;
     font-weight: bold;
-    color: white;
+    color: var(--blanco);
     margin: 0;
 }
 .botonManual-cont{
@@ -83,13 +70,13 @@ body{
     color: rgb(255, 255, 255);
     font-weight: bold;
     padding:0 10px;
-    background-color: rgb(31, 77, 134);
+    background-color: var(--azul);
     width: 40%;
     font-size: 15px;
 }
 
 #botonManual:active{
-    background-color: rgb(0, 0, 0);
+    background-color: var(--rojo);
 }
 #botonManual:hover{
     cursor: pointer;
@@ -109,11 +96,11 @@ body{
     color: black;
     font-weight: bold;
     padding:0 10px;
-    background-color:rgb(31, 77, 134);
+    background-color:var(--azul);
     color: white;
 }
 #botonAuto:active{
-    background-color: rgb(0, 0, 0);
+    background-color: var(--rojo);
 }
 #botonAuto:hover{
     cursor: pointer;
@@ -126,7 +113,7 @@ body{
     justify-content:center;
     flex-direction: column;
     background-color:lightgray;
-    box-shadow: 0 2px 10px black;
+    box-shadow: 0 2px 10px var(--rojo);
     border-radius: 10px;
     margin: 15px auto;
 }
@@ -206,10 +193,10 @@ body{
     text-align: center;
     width:175px;
     /* background-color: rgb(65, 117, 181);  */
-    background-color:rgb(31, 77, 134);
+    background-color:var(--azul);
     color: white;
     border-radius: 7px;
-    box-shadow: 0 2px 5px black;
+    box-shadow: 0 2px 5px var(--rojo);
     margin: 5px;
     font-weight: bold;
     height:50px
@@ -234,11 +221,11 @@ body{
     color: rgb(0, 0, 0);
     margin: 5px;
     border-radius: 7px;
-    box-shadow: 0 2px 5px black;
+    box-shadow: 0 2px 5px var(--rojo);
     height: 50px;
     padding: 0;
     font-weight: bold;
-    border: 3px solid rgb(31, 77, 134);;
+    border: 3px solid var(--rojo);
 }
 ::placeholder{
     font-family: 'Nunito', sans-serif;
@@ -255,7 +242,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(0, 0, 0);
+    background-color: var(--rojo);
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
     font-weight: bold;
@@ -286,13 +273,13 @@ body{
 #boton,#boton2{
     height:50px;
     width:125px;
-    background-color:rgb(31, 77, 134);
+    background-color:var(--azul);
     border: none;
     border-radius: 7px;
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
     font-weight: bold;
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px 1px var(--rojo);
     color: white;
 }
 #boton:active{
