@@ -1,5 +1,9 @@
+:root{
+    --fondo : #e2dede;
+}
+
 body{
-    background-color: rgb(187, 28, 65);
+    background-color: var(--fondo);
 }
 .contenedor{
     max-width:1200px;
