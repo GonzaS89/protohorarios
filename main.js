@@ -1725,12 +1725,12 @@ const boton = document.getElementById('boton');
                                  }
                                  
                                  else{
-                                    for (i = 0; i < diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido.length; i++){
-                                        futuro3.textContent = `Recorrido : ${diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido.length[i]}`
+                                    
+                                        futuro3.textContent = `Recorrido : ${diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido}`
                                     }
                                   
-                                 }     
-                                 console.log(diaRango);   
+                                  
+                             
                                    
                         } 
                         else{
