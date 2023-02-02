@@ -24,6 +24,7 @@ body{
     margin: 0 auto 20px;
     width: 350px;
     height: 150px;
+    background-color: bl
 }
 .header img{
     width: 130px;
@@ -52,7 +53,7 @@ body{
     width: 35%;
     height: 100%;
     text-align: center;
-    box-shadow: 1px 1px 1px 1px;
+  
 }
 #dia,#fecha,#mes{
     color: var(--blanco);
@@ -86,7 +87,7 @@ body{
     width: 25%;
     height: 100%;
     text-align: center;
-    box-shadow: 1px 1px 1px 1px;
+  
 }
 #horas,#minutos{
     color: var(--blanco);
@@ -94,7 +95,6 @@ body{
     font-weight: 600;
 }
 #horas{
-    z-index: 30;
     font-size: 70px;
     height: 80%;
    
