@@ -5,9 +5,11 @@
     --rojo : #f56e6e;
     --fondoAzul : rgb(31, 77, 134);
     --fuentePrincipal : 'Nunito', sans-serif;
+    --fuenteSec : 'Dosis', sans-serif;
+   
 }
 p{
-    font-family: var(--fuentePrincipal);
+    font-family: var(--fuenteSec);
 }
 
 body{
@@ -59,6 +61,7 @@ body{
     color: var(--blanco);
     margin: 0;
     font-weight: 600;
+    font-family: var(--fuenteSec);
 }
 #dia{
     font-size: 25px;
@@ -74,7 +77,7 @@ body{
     font-size: 20px;
     background-color: var(--azul);
     height: 20%;
-    border-radius: 50px;
+    border-radius: 10px;
 }
 .logo{
     display: flex;
@@ -94,10 +97,11 @@ body{
     color: var(--blanco);
     margin: 0;
     font-weight: 600;
-    border-radius: 50px;
+    border-radius: 10px;
+    font-family: var(--fuenteSec);
 }
 #horas{
-    font-size: 80px;
+    font-size: 85px;
     height: 60%;
 }
 
@@ -118,7 +122,7 @@ body{
     height:60px;
     border-radius: 10px;
     background-color:lightgray;
-    font-family: 'Nunito', sans-serif;
+    font-family: var(--fuenteSec);
     color: rgb(255, 255, 255);
     font-weight: bold;
     padding:0 10px;
@@ -144,7 +148,7 @@ body{
     height:60px;
     border-radius: 10px;
     background-color:lightgray;
-    font-family: 'Nunito', sans-serif;
+    font-family: var(--fuenteSec);
     color: black;
     font-weight: bold;
     padding:0 10px;
@@ -199,13 +203,11 @@ body{
 }
 .busquedaAuto1 p{
     font-size:15px;
-    font-family: 'Nunito', sans-serif;
     font-weight:bold;
     text-align: center;
 }
 .busquedaAuto2 p{
     font-size:15px;
-    font-family: 'Nunito', sans-serif;
     font-weight:bold;
     width: 100%;
     text-align: center;
@@ -219,7 +221,6 @@ body{
 }
 .busquedaManual1 p{
     font-size:15px;
-    font-family: 'Nunito', sans-serif;
     font-weight:bold;
     padding:  0 20px;
     width: 100%;
@@ -239,7 +240,7 @@ body{
 }
 .select{
     background-color:transparent;
-    font-family: 'Nunito', sans-serif;
+    font-family: var(--fuenteSec);
     font-size:15px;
     border: none;
     text-align: center;
