@@ -101,6 +101,7 @@ body{
 #segundos{
     font-size: 20px;
     height: 20%;
+
 }
 #horas{
     font-size: 70px;
@@ -455,17 +456,7 @@ background-color: aliceblue;
         height:50px;
         width: 200px;
     }
-    .fecha{
-        flex-basis: 33,3%;
-    }
-    .logo{
-        flex-basis: 33,3%;
-    }
-    .hora{
-        flex-basis: 33.3%;
-    }
    
-  
     #mensaje{
         width:75%;
         
