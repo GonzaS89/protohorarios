@@ -6,6 +6,9 @@
     --fondoAzul : rgb(31, 77, 134);
     --fuentePrincipal : 'Nunito', sans-serif;
 }
+p{
+    font-family: var(--fuentePrincipal);
+}
 
 body{
     background-color: var(--rojo);
@@ -15,23 +18,25 @@ body{
 }
 .header{
     display:flex;
-    height: 100px;
     background-color: var(--rojo);
-    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    width: 350px;
+    height: 150px;
 }
 .header img{
-    margin: 0 auto;
-    width: 100px;
-    border-radius: 50px;
+    width: 130px;
+    border-radius: 100px;
 }
 
-.subheader-cont{
+
+/* .subheader-cont{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
-}
-.subheader{
+} */
+/* .subheader{
     display: flex;
     flex-direction: row;
     justify-content:space-around;
@@ -40,21 +45,67 @@ body{
     width: 45%;
     background-color: var(--azul);
     gap: 20px;
+} */
+.fecha{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px;
+}
+#dia,#fecha,#mes{
+    color: var(--blanco);
+    margin: 0;
+    font-weight: 600;
+}
+#dia{
+    font-size: 25px;
+    background-color: var(--rojo);
+    height: 20%;
 }
 #fecha{
-    font-family: var(--fuentePrincipal);
-    font-size: 10px;
-    font-weight: bold;
+    font-size: 60px;
+    background-color:var(--rojo);
+    height: 60%;
+}
+#mes{
+    font-size: 20px;
+    background-color: var(--azul);
+    height: 20%;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.hora{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px;
+}
+#horas,#minutos{
     color: var(--blanco);
     margin: 0;
+    font-weight: 600;
 }
-#hora{
-    font-family: 'Nunito', sans-serif;
+#horas{
+    z-index: 30;
+    font-size: 70px;
+    height: 80%;
+   
+}
+#minutos{
     font-size: 25px;
-    font-weight: bold;
-    color: var(--blanco);
-    margin: 0;
+    background-color:var(--azul);
+    height: 20%;
+   
 }
+
 .botonManual-cont{
     display: flex;
     justify-content:center;
@@ -399,21 +450,17 @@ background-color: aliceblue;
         height:50px;
         width: 200px;
     }
-    #nombre{
-        font-size: 35px;
-        width: 350px;
+    .fecha{
+        flex-basis: 33,3%;
     }
-    .subheader{
-        width: 100%;
-        height: 20px;
+    .logo{
+        flex-basis: 33,3%;
     }
-    #fecha{
-        font-size: 13px;
-        
+    .hora{
+        flex-basis: 33.3%;
     }
-    #hora{
-        font-size: 13px;
-    }
+   
+  
     #mensaje{
         width:75%;
         

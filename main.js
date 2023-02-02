@@ -26,13 +26,23 @@ function reloj(){
        if(hora <= 9){
         hora= "0"+hora;
        }
-       let horaImprimible = hora + " : " + minuto;  
-    let fechita = document.getElementById('fecha')  
-    let  horita = document.getElementById('hora')
+       if(fecha <= 9){
+        fecha= "0"+fecha;
+       }
+        
+    let diaFecha = document.getElementById('dia')  
+    let numeroFecha = document.getElementById('fecha')
+    let mesFecha = document.getElementById('mes')
+    let  horita = document.getElementById('horas')
+    let minutitos = document.getElementById('minutos')
     let diasDeLaSemana = ['Domingo','Lunes','Martes','Miercoles','Jueves','Viernes','Sabado'];
     let mesesDelAño = ['Enero', 'Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre']
-    fechita.textContent = `${diasDeLaSemana[dia]}, ${fecha} de ${mesesDelAño[mes]}`;
-    horita.textContent = horaImprimible
+    diaFecha.textContent = `${diasDeLaSemana[dia]}`
+    numeroFecha.textContent = `${fecha}`;
+    mesFecha.textContent = `${mesesDelAño[mes]}`;
+    horita.textContent = hora;
+    minutitos.textContent = minuto
+
     /*MOVER RELOJ A TIEMPO ACTUAL*/
     setTimeout("reloj()",1000)
     /*                          */
