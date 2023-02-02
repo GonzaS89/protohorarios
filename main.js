@@ -26,7 +26,7 @@ function reloj(){
        if(hora <= 9){
         hora= "0"+hora;
        }
-       let horaImprimible = hora + " : " + minuto + " : " + segundo;  
+       let horaImprimible = hora + " : " + minuto;  
     let fechita = document.getElementById('fecha')  
     let  horita = document.getElementById('hora')
     let diasDeLaSemana = ['Domingo','Lunes','Martes','Miercoles','Jueves','Viernes','Sabado'];
