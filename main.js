@@ -35,13 +35,15 @@ function reloj(){
     let mesFecha = document.getElementById('mes')
     let  horita = document.getElementById('horas')
     let minutitos = document.getElementById('minutos')
+    let segunditos = document.getElementById('segundos')
     let diasDeLaSemana = ['Domingo','Lunes','Martes','Miercoles','Jueves','Viernes','Sabado'];
     let mesesDelAño = ['Enero', 'Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre']
     diaFecha.textContent = `${diasDeLaSemana[dia]}`
     numeroFecha.textContent = `${fecha}`;
     mesFecha.textContent = `${mesesDelAño[mes]}`;
     horita.textContent = hora;
-    minutitos.textContent = minuto
+    minutitos.textContent = minuto;
+    segunditos.textContent = segundo;
 
     /*MOVER RELOJ A TIEMPO ACTUAL*/
     setTimeout("reloj()",1000)
@@ -226,12 +228,13 @@ const boton = document.getElementById('boton');
             {
                 "nombre":"14:45",
                 "valor":14.45,
-                "recorrido":"Colonia 4 → B° La Cancha → Talar → Banda del Rio Sali"
+                "recorrido" : ["Colonia 4","Autopista"]
+                    
             },
             {
                 "nombre":"15:50",
                 "valor":15.5,
-                "recorrido":"1) Fortin → Alternativa || 2) Colonia 4 → B° La Cancha → Autopista"
+                "recorrido":["Fortin" ,"Alternativa"]
             },
             // {
             //     "nombre":"16:20",
@@ -1533,6 +1536,20 @@ const boton = document.getElementById('boton');
                     "recorrido":"Terminal → B° La Cancha"
                 }
         ]
+        const PosseTerminalLaV = [
+            {
+                "nombre":"06:00",
+                "valor":6,
+                "recorrido":"Dispensario,Fila del Medio"
+            },
+            {
+                "nombre":"06:08",
+                "valor":6.08,
+                "recorrido":"[Dispensario, Fila del Medio]",
+            },
+           
+
+        ]
         const todosSmAlderetes = [horariosDSMAl,horariosLvSMAl,horariosSSMAl];
         const todosSmPosse = [horariosDSMPo,horariosLvSMPo,horariosSSMPo];    
         const todosFloridaAlderetes = [horariosDFloAl,horariosLvFloAl,horariosSFloAl];
@@ -1699,20 +1716,29 @@ const boton = document.getElementById('boton');
                                   
                                 }
                                     
-                                 if((posicion-1 < 1) &&(posicion2-1 == 1))    {
-                                    futuro3.textContent = `Inicio de recorrido : ${diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido}`
-                                 }
-                                 else{
-                                    futuro3.textContent = `Recorrido : ${diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido}`
+                                 if((posicion-1 < 1) &&(posicion2-1 == 1)){
+                                    for (i = 0; i < diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido.length; i++){
+                                        futuro3.textContent = `Inicio de recorrido : ${diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido.length[i]}`
+                                    }
+                                   
                                   
-                                 }        
+                                 }
+                                 
+                                 else{
+                                    for (i = 0; i < diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido.length; i++){
+                                        futuro3.textContent = `Recorrido : ${diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido.length[i]}`
+                                    }
+                                  
+                                 }     
+                                 console.log(diaRango);   
                                    
                         } 
                         else{
                             futuro1.textContent = ""
                             futuro2.textContent = 'No hay más colectivos por hoy'
                             futuro3.textContent = ""
-                        }         
+                        }      
+                         
                     
     }           
     
