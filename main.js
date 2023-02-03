@@ -3160,10 +3160,10 @@ function busquedaManual(){
                 "recorrido":"Terminal → B° La Cancha"
             }
     ]
-    const todosSmAlderetes = [horariosDSMAl,horariosLvSMAl,horariosSSMAl];
-    const todosSmPosse = [horariosDSMPo,horariosLvSMPo,horariosSSMPo];    
-    const todosFloridaAlderetes = [horariosDFloAl,horariosLvFloAl,horariosSFloAl];
-    const todosFloridaPosse = [horariosDFloPo,horariosLvFloPo,horariosSFloPo];
+    const todosSmAlderetes = [horariosLvSMAl,horariosSSMAl,horariosDSMAl];
+    const todosSmPosse = [horariosLvSMPo,horariosSSMPo,horariosDSMPo];    
+    const todosFloridaAlderetes = [horariosLvFloAl,horariosSFloAl,horariosDFloAl];
+    const todosFloridaPosse = [horariosLvFloPo,horariosSFloPo,horariosDFloPo];
     const todosFlorida = [todosFloridaAlderetes,todosFloridaPosse];
     const todosSanMiguel = [todosSmAlderetes,todosSmPosse];
     const todos = [todosFlorida,todosSanMiguel];
@@ -3295,13 +3295,14 @@ boton2.addEventListener('click',function(){
       let listaDelDia = [];
       let horariosEnEnteros = [];
 
-   
+   console.log(localidad,camino)
     
        // Aqui extraemos del array de arriba los valores de cada horario y lo agregamos a la lista del dia
        
        for (i=0; i < dia.length; i++){
         listaDelDia.push(dia[i].valor)
 }
+
 
 
 
@@ -3320,16 +3321,13 @@ boton2.addEventListener('click',function(){
 
 const mensajeError = document.getElementById('mensaje');
 let hora = inputHora.value;
-let hora2 = hora + 1;
 if(hora < 0 || hora > 23|| hora == "" ){
     $('.mensajeError').css('display','flex')
     mensajeError.textContent = 'Ingresa un valor entre 0 y 23';   
 }
 else{
     let horaEnEnteros =  hora * 60;
-    let hora2EnEnteros = horaEnEnteros + 60;
     let masCercano= 3000;
-    let masCercano2 = 4000;
     let diferencias = [];
 
 
@@ -3349,9 +3347,10 @@ if(diferencias[i]>=0){
     if(posicion == 1 && posicion2 == 2){
         mostrar2.textContent = `Inicio de recorrido: ${dia[diferencias.indexOf(masCercano)].recorrido}`
     }
-    else{
+    if(posicion == 1 && posicion2 == 1){
         mostrar2.textContent = `Recorrido: ${dia[diferencias.indexOf(masCercano)].recorrido}`
     }
+    console.log(diferencias)
     $('.mensajeError').css('display','none')
     $('.resultados3').css('display','flex')
     $('.mensaje2').css('display', 'flex')  
@@ -3362,7 +3361,6 @@ if(diferencias[i]>=0){
     // opcionbase2.selected= true;
     // inputHora.value = "";
 })
-    
 }
 else{
     mostrar1.textContent = 'No hay bondis cercanos al horario que pusiste';
