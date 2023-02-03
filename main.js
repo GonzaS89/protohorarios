@@ -3124,10 +3124,10 @@ function busquedaManual(){
                 "recorrido":"Terminal → B° La Cancha"
             }
     ]
-    const todosSmAlderetes = [horariosDSMAl,horariosLvSMAl,horariosSSMAl];
-    const todosSmPosse = [horariosDSMPo,horariosLvSMPo,horariosSSMPo];    
-    const todosFloridaAlderetes = [horariosDFloAl,horariosLvFloAl,horariosSFloAl];
-    const todosFloridaPosse = [horariosDFloPo,horariosLvFloPo,horariosSFloPo];
+    const todosSmAlderetes = [horariosLvSMAl,horariosSSMAl,horariosDSMAl];
+    const todosSmPosse = [horariosLvSMPo,horariosSSMPo,horariosDSMPo];    
+    const todosFloridaAlderetes = [horariosLvFloAl,horariosSFloAl,horariosDFloAl];
+    const todosFloridaPosse = [horariosLvFloPo,horariosSFloPo,horariosDFloPo];
     const todosFlorida = [todosFloridaAlderetes,todosFloridaPosse];
     const todosSanMiguel = [todosSmAlderetes,todosSmPosse];
     const todos = [todosFlorida,todosSanMiguel];
