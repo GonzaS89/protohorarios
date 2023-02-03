@@ -130,6 +130,8 @@ const boton = document.getElementById('boton');
     let futuro1 = document.getElementById('futuro1');
     let futuro2 = document.getElementById('futuro2');
     let futuro3 = document.getElementById('futuro3');
+    let textoInicio = document.getElementById('textoInicio');
+    let textoFin = document.getElementById('textoFin')
    
    
 
@@ -138,7 +140,17 @@ const boton = document.getElementById('boton');
             {
                 "nombre":"04:40",
                 "valor":4.4,
-                "recorrido":"Fortin → Banda del Rio Sali"
+                "recorrido": [
+                    {
+                        "nombre":"Fortin",
+                        "valor": 280
+                    },
+                    {
+                        "nombre":"San Miguel",
+                        "valor":350
+                    }
+                ]
+                
             },
             {
                 "nombre":"05:35",
@@ -223,11 +235,13 @@ const boton = document.getElementById('boton');
             {
                 "nombre":"13:50",
                 "valor":13.5,
-                "recorrido":"B° La Cancha → Cochuchal → Banda del Rio Sali"
+                "recorrido":["B° La Cancha","Cochuchal" ,"Banda del Rio Sali"],
+                "fin": 900
             },
             {
                 "nombre":"14:45",
                 "valor":14.45,
+                "fin":945,
                 "recorrido" : ["Colonia 4","Autopista"]
                     
             },
@@ -1600,7 +1614,7 @@ const boton = document.getElementById('boton');
               }
 
                              /*Recorremos el array y buscamos coincidencias con el horario actual*/
-
+                             let inicio;
                            for(i = 0; i < horariosEnEnteros.length; i++){
                 
                                     let difHoraHorarios = horaEnEnteros - horariosEnEnteros[i];
@@ -1610,6 +1624,8 @@ const boton = document.getElementById('boton');
 
                             if(listaDiferencias[i] > 0){
                             anteriorPasado = Math.min(anteriorPasado,listaDiferencias[i]);
+                        
+                         
                              actual1.textContent = `Bondi de las ${diaRango[listaDiferencias.indexOf(anteriorPasado)].nombre}`
                    
                 //  Aqui definimos los mensajes a mostrar en el primer campo         
@@ -1628,8 +1644,11 @@ const boton = document.getElementById('boton');
                                     actual2.textContent = 'Inició su recorrido hace menos de 5 minutos'
                                 }
                             
-                             
+                                
                             }
+                          
+                            
+
                             else{
                                 if(anteriorPasado>60){
                                     actual2.textContent = 'Salió de la terminal hace mas de una hora';
@@ -1647,15 +1666,19 @@ const boton = document.getElementById('boton');
                                     actual2.textContent = 'Está saliendo de la terminal'
                                }
                             }
+                            
+
                                  if((posicion-1 < 1) &&(posicion2-1 == 1))    {
                                     actual3.textContent = `Inicio de recorrido : ${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
                                  }
                                  else{
                                     actual3.textContent = `Recorrido : ${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
-                                 }                          
+                                 }   
+                                                    
                                 
                         } 
-                      
+                        
+                           
                     }
                                 
                         //   Aqui en el segundo campo  
@@ -1717,18 +1740,15 @@ const boton = document.getElementById('boton');
                                 }
                                     
                                  if((posicion-1 < 1) &&(posicion2-1 == 1)){
-                                    for (i = 0; i < diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido.length; i++){
-                                        futuro3.textContent = `Inicio de recorrido : ${diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido.length[i]}`
-                                    }
                                    
-                                  
-                                 }
-                                 
+                                        futuro3.textContent = `Inicio de recorrido : ${diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido}`
+                                }
+                
                                  else{
-                                    
                                         futuro3.textContent = `Recorrido : ${diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido}`
                                     }
-                                  
+                                    textoInicio.textContent ="44"
+                                    textoFin.textContent =  "11"
                                   
                              
                                    
@@ -1762,8 +1782,8 @@ function busquedaManual(){
 
         {
             "nombre":"04:40",
-            "valor":4.4,
-            "recorrido":"Fortin → Banda del Rio Sali"
+                "valor":4.4,
+                "recorrido": ["Fortin","Terminal"]
         },
         {
             "nombre":"05:35",
@@ -3223,6 +3243,8 @@ boton2.addEventListener('click',function(){
     let posicion2;
     let actual1 = document.getElementById('actual1');
     let actual3 = document.getElementById('actual3');
+    let textoInicio = document.getElementById('textoInicio');
+    let textoFin = document.getElementById('textoFin');
 
 
      // Definimos la posicion del selector 1
@@ -3295,7 +3317,7 @@ boton2.addEventListener('click',function(){
       let listaDelDia = [];
       let horariosEnEnteros = [];
 
-   console.log(localidad,camino)
+   
     
        // Aqui extraemos del array de arriba los valores de cada horario y lo agregamos a la lista del dia
        
@@ -3342,15 +3364,22 @@ for(i=0;i<diferencias.length;i++){
 if(diferencias[i]>=0){
     
     
-        masCercano= Math.min(masCercano,diferencias[i])
+    masCercano= Math.min(masCercano,diferencias[i])
+    textoInicio.textContent = dia[diferencias.indexOf(masCercano)].recorrido[0]
+    textoFin.textContent = dia[diferencias.indexOf(masCercano)].recorrido[1]
     mostrar1.textContent = `El bondi más cercano al horario que indicaste es el de las ${dia[diferencias.indexOf(masCercano)].nombre}`
     if(posicion == 1 && posicion2 == 2){
         mostrar2.textContent = `Inicio de recorrido: ${dia[diferencias.indexOf(masCercano)].recorrido}`
     }
     if(posicion == 1 && posicion2 == 1){
         mostrar2.textContent = `Recorrido: ${dia[diferencias.indexOf(masCercano)].recorrido}`
+       
+        
     }
-    console.log(diferencias)
+    
+   
+    
+
     $('.mensajeError').css('display','none')
     $('.resultados3').css('display','flex')
     $('.mensaje2').css('display', 'flex')  
@@ -3361,6 +3390,7 @@ if(diferencias[i]>=0){
     // opcionbase2.selected= true;
     // inputHora.value = "";
 })
+
 }
 else{
     mostrar1.textContent = 'No hay bondis cercanos al horario que pusiste';
@@ -3374,16 +3404,21 @@ else{
     // opcionbase2.selected= true;
 })
 }
+    
+
 }
- 
+
+   
+
 
 }
 inputHora.addEventListener('click',function(){
     $('.mensajeError').css('display','none')
  })
 
-
+ 
 })
+
 }
 
 

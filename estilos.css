@@ -10,6 +10,7 @@
 }
 p{
     font-family: var(--fuenteSec);
+    margin: 0;
 }
 
 body{
@@ -18,6 +19,7 @@ body{
 .contenedor{
     max-width:1200px;
 }
+
 .header{
     display:flex;
     background-color: var(--rojo);
@@ -26,7 +28,6 @@ body{
     margin: 0 auto 20px;
     width: 350px;
     height: 150px;
-    background-color: bl
 }
 .header img{
     width: 130px;
@@ -267,7 +268,7 @@ body{
 }
 #busquedaInput2{
     background-color:transparent;
-    font-family: 'Nunito', sans-serif;
+    font-family: var(--fuenteSec);
     font-size:15px;
     border: none;
     text-align: center;
@@ -283,7 +284,7 @@ body{
     border: 3px solid var(--rojo);
 }
 ::placeholder{
-    font-family: 'Nunito', sans-serif;
+    font-family: var(--fuenteSec);
     text-align: center;
     color: rgb(0, 0, 0);
     font-weight: bold;
@@ -379,7 +380,7 @@ border: .5px solid white;
 background-color: aliceblue;
 }
 .resultados3,.resultados4{
-height: 350px;
+height: 500px;
 width: 50%;
 display: none;
 justify-content: center;
@@ -406,7 +407,7 @@ background-color: aliceblue;
 }
 #actual1,#actual2,#actual3{
     font-size:22px;
-    font-family: 'Nunito', sans-serif;
+    font-family: var(--fuenteSec);
     text-align: center;
     color: rgb(0, 0, 0);
     font-weight: bold;
@@ -414,14 +415,14 @@ background-color: aliceblue;
 
 #futuro1,#futuro2,#futuro3{
     font-size:22px;
-    font-family: 'Nunito', sans-serif;
+    font-family: var(--fuenteSec);
     text-align: center;
     font-weight: bold;
     color: rgb(0, 0, 0);
 }
 #mostrar1,#mostrar2,#mostrar3,#mostrar4{
     font-size:20px;
-    font-family: 'Nunito', sans-serif;
+    font-family: var(--fuenteSec);
     font-weight: bold;
     text-align: center;
     margin: 10px;
@@ -443,10 +444,58 @@ background-color: aliceblue;
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.401);
-    font-family: 'Nunito', sans-serif;
+    font-family: var(--fuenteSec);
     font-size: 50px;
     color: whitesmoke;
     text-align: center;
+}
+.ruta{
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    width: 300px; 
+    margin: 0 auto;
+    height: 30px;
+
+}
+.inicio, .fin{
+    display: flex;
+    flex-direction: column;
+    height: 45px;
+    width: 15px;
+}
+#textoInicio,#textoFin{
+    transform: rotate(330deg);
+}
+#inicioRuta{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid black;
+    border-right:none ;
+    position: static;
+    bottom: 0;
+    
+}
+.cuerpoRutaCont{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 20px;
+}
+#cuerpoRuta{
+    width: 280px;
+    height: 5px;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+}
+#finRuta{
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    border-left: none;
+    border-radius: 50%;
 }
 @media(max-width:600px){
     .select{
@@ -483,6 +532,7 @@ background-color: aliceblue;
         margin: 30px;
         border: .5px solid white;
     }
+    
     #actual1,#actual2,#actual3,#futuro1,#futuro2,#futuro3{
         font-size: 16px;
     }
