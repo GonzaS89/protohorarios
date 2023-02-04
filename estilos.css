@@ -449,54 +449,6 @@ background-color: aliceblue;
     color: whitesmoke;
     text-align: center;
 }
-.ruta{
-    display: flex;
-    align-items: center;   
-    justify-content: center;
-    width: 300px; 
-    margin: 0 auto;
-    height: 30px;
-
-}
-.inicio, .fin{
-    display: flex;
-    flex-direction: column;
-    height: 45px;
-    width: 15px;
-}
-#textoInicio,#textoFin{
-    transform: rotate(330deg);
-}
-#inicioRuta{
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    border: 1px solid black;
-    border-right:none ;
-    position: static;
-    bottom: 0;
-    
-}
-.cuerpoRutaCont{
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    height: 20px;
-}
-#cuerpoRuta{
-    width: 280px;
-    height: 5px;
-    border: 1px solid black;
-    border-left: none;
-    border-right: none;
-}
-#finRuta{
-    width: 15px;
-    height: 15px;
-    border: 1px solid black;
-    border-left: none;
-    border-radius: 50%;
-}
 @media(max-width:600px){
     .select{
         height:50px
