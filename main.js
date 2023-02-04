@@ -281,7 +281,7 @@ const boton = document.getElementById('boton');
             {
                 "nombre":"21:05",
                 "valor":21.15,
-                "recorrido":"Colonia 4 → B° La Cancha → Alderetes → Autopista"
+                "recorrido":"Colonia 4 → B° La Cancha → Talar → Alderetes → Autopista"
             }
            
         ]
