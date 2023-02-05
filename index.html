@@ -35,11 +35,9 @@
     </div>   -->
     
     <main class="contenedor">
-     <div class="botonManual-cont">
-        <button id="botonManual">Cambiar a búsqueda manual</button>
-     </div>
-     <div class="botonAuto-cont">
-        <button id="botonAuto">Cambiar a búsqueda automática</button>
+     
+     <div class="titulo">
+        <h1>Buscar por origen de recorrido</h1>
      </div>
      <div class="topside">
      <div class="busquedaAuto-cont" >
@@ -47,9 +45,9 @@
             <!-- <p>Estas en..</p> -->
             <form class="menu" name=menu action="">
                 <select id="selector" class="select"name="selector">
-                    <option value="default" disabled selected>Estoy en</option>
+                    <option value="default" disabled selected>Estás en</option>
                     <option value="florida" >Florida</option>
-                    <option value="sanM">S.M. de Tucumán</option>
+                    <option value="xposse" >Posse</option>
                 </select>
             </form>
         </div>
@@ -57,9 +55,16 @@
             <!-- <p>Queres viajar por..</p> -->
             <form class="menu2" name=menu2 action="">
                 <select id="selector2" class="select"name="selector2">
-                    <option value="default" disabled selected>Quiero viajar por</option>
+                    <option value="default" disabled selected>Recorrido por</option>
                     <option value="alderetes">Alderetes</option>
                     <option value="posse">Posse</option>
+                </select>
+            </form>
+            <form class="menu3" name=menu3 action="">
+                <select id="selector3" class="select"name="selector3">
+                    <option value="default" disabled selected>Orígen del recorrido</option>
+                    <option value="local">Local</option>
+                    <option value="desdeFlorida">Desde Florida</option>
                 </select>
             </form>
         </div>
@@ -81,7 +86,10 @@
 <div class="mensajeError">
     <p id="mensaje"></p>
 </div>
-
+<h3 id="textoIntermedio">↓</h3>
+<div class="topside">
+    <h3 id="destino">San Miguel de Tucumán</h3>
+</div>
     <div class="boton-cont">
         <button id='boton'>Mostrar</button>   
     </div>
