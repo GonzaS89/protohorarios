@@ -1715,26 +1715,24 @@ const boton = document.getElementById('boton');
 
     const terminalPosseL = [terminalPosseD,terminalPosseLaV,terminalPosseS];
     
-    const botonDeCambio = document.getElementById('botonDeCambio');
-    const botonDeCambio2 = document.getElementById('botonDeCambio2');
+    const botonDeCambio = document.querySelector('.botonDeCambio');
+    const botonDeCambio2 = document.querySelector('.botonDeCambio2');
     botonDeCambio.addEventListener('click', function (){
         $('.menu2').css('display','flex');
         $('.origen').css('display','flex');
-        $('#botonDeCambio2').css('display','flex');
+        $('.botonDeCambio2').css('display','flex');
         $('.destino').css('display','none');
         $('.menu').css('display','none');
-        $('#botonDeCambio').css('display','none');
-        
-
+        $('.botonDeCambio').css('display','none');
         
     })
     botonDeCambio2.addEventListener('click', function (){
         $('.menu2').css('display','none');
         $('.origen').css('display','none');
-        $('#botonDeCambio2').css('display','none');
+        $('.botonDeCambio2').css('display','none');
         $('.destino').css('display','flex');
         $('.menu').css('display','flex');
-        $('#botonDeCambio').css('display','flex');
+        $('.botonDeCambio').css('display','flex');
     })
    
     boton.addEventListener('click',function(){
