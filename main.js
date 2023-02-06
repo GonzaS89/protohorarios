@@ -53,7 +53,6 @@ function reloj(){
 /* Funcion para determinar la localidad de posicion*/
 
 const selector = document.menu.selector;
-const selector2 = document.menu2.selector2;
 
 
 
@@ -62,7 +61,6 @@ const boton = document.getElementById('boton');
 
 
     const opcionbase = selector[0]
-    const opcionbase2 = selector2[0]
     const florida = selector[1];
     const xposse = selector[2]
     const sanM = selector[3];  
@@ -1708,23 +1706,37 @@ const boton = document.getElementById('boton');
         },
     ]
     const terminalPosseD = [];
-    const terminalPosse = [terminalPosseD,terminalPosseLaV,terminalPosseS];
-    const posseTerminal = [posseTerminalD,posseTerminalLaV,posseTerminalS]
-    const todosSmAlderetes = [horariosDSMAl,horariosLvSMAl,horariosSSMAl];
-    const todosSmPosse = [horariosDSMPo,horariosLvSMPo,horariosSSMPo];    
-    const todosFloridaAlderetes = [horariosDFloAl,horariosLvFloAl,horariosSFloAl];
-    const todosFloridaPosse = [horariosDFloPo,horariosLvFloPo,horariosSFloPo];
-    const todosFlorida = [todosFloridaAlderetes,todosFloridaPosse];
-    const todosSanMiguel = [todosSmAlderetes,todosSmPosse];
-    const todosPosse = [posseTerminal,terminalPosse]
-    const todos = [todosFlorida,todosPosse];
-
-
-    let mensajeError = document.getElementById('mensaje')
-   
-
-  
     
+    const floridaAldTucuman = [horariosDFloAl,horariosLvFloAl,horariosSFloAl];
+    const floridaPosseTucuman = [horariosDFloPo,horariosLvFloPo,horariosSFloPo];
+    const posseLTerminal = [posseTerminalD,posseTerminalLaV,posseTerminalS];
+
+    const todosDestinoTucuman = [floridaAldTucuman,floridaPosseTucuman,posseLTerminal];
+
+    const terminalPosseL = [terminalPosseD,terminalPosseLaV,terminalPosseS];
+    
+    const botonDeCambio = document.getElementById('botonDeCambio');
+    const botonDeCambio2 = document.getElementById('botonDeCambio2');
+    botonDeCambio.addEventListener('click', function (){
+        $('.menu2').css('display','flex');
+        $('.origen').css('display','flex');
+        $('#botonDeCambio2').css('display','flex');
+        $('.destino').css('display','none');
+        $('.menu').css('display','none');
+        $('#botonDeCambio').css('display','none');
+        
+
+        
+    })
+    botonDeCambio2.addEventListener('click', function (){
+        $('.menu2').css('display','none');
+        $('.origen').css('display','none');
+        $('#botonDeCambio2').css('display','none');
+        $('.destino').css('display','flex');
+        $('.menu').css('display','flex');
+        $('#botonDeCambio').css('display','flex');
+    })
+   
     boton.addEventListener('click',function(){
 
        
@@ -1743,23 +1755,6 @@ const boton = document.getElementById('boton');
             posicion=valores.indexOf(valorSelecionado)
         }
        
-
-        // Definimos la posicion del selector 2
-
-        for(opcion of selector2){
-            if(opcion.selected&& opcion.disabled == false){
-                   valorSelecionado2 = opcion
-                }
-        }
-        for(i=0; i < selector2.length;i++){
-         valores2.push(selector2[i])
-        }
-      
-        for(i=0; i< valores2.length;i++){
-            posicion2=valores2.indexOf(valorSelecionado2)
-        }
-         
-
         // Definimos las variables globales
         
 
@@ -1772,7 +1767,6 @@ const boton = document.getElementById('boton');
     let anteriorPasado = 3000;
     let diaRango = []
     let localidad = [];
-    let camino = [];
     let listaDelDia = [];
     let horariosEnEnteros=[];
     let listaDiferencias = []
@@ -1784,39 +1778,31 @@ const boton = document.getElementById('boton');
     let futuro2 = document.getElementById('futuro2');
     let futuro3 = document.getElementById('futuro3');
     const mensaje2 = document.querySelector('.mensaje2')
-    let local
+    
 
-    
-    
-    
    
-
+    
                 // Aqui definimos donde localidad de salida y camino
             
-               localidad = todos[(posicion)-1];
-               camino = localidad[(posicion2)-1]
+               localidad = todosDestinoTucuman[(posicion)-1];
+              
                
- 
  //    Aqui definimos el array dependiendo el dia de la semana
         
- 
-        if(posicion == 2){
-            camino = localidad[0]
-    }
     
         if(dia == 0){
-            diaRango = camino[0].slice(0,camino[0].length)
+            diaRango = localidad[0].slice(0,localidad[0].length)
         
         }
         if(dia >= 1 && dia <=5){
-            diaRango = camino[1].slice(0,camino[1].length);
+            diaRango = localidad[1].slice(0,localidad[1].length);
         
         }
         if(dia > 5){
-            diaRango = camino[2].slice(0,camino[2].length);
+            diaRango = localidad[2].slice(0,localidad[2].length);
         }
     
-    console.log(camino)
+    console.log(localidad)
        
 
             
@@ -1945,7 +1931,7 @@ const boton = document.getElementById('boton');
     mensaje2.addEventListener('click', function(){
         $('.mensaje2').css('display', 'none')  
         opcionbase.selected = true;
-        opcionbase2.selected= true;
+
     })
  
 })

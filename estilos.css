@@ -122,15 +122,47 @@ body{
 }
 
 #textoIntermedio{
-    text-align: center;
+    display: flex;
     font-family: var(--fuenteSec);
 }
-#destino{
-    color:var(--roj);
-    font-family: var(--fuenteSec);
+.destino, .origen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#destino,#origen{
+    display: flex;
+    justify-content: center;
+    font-family: var(--fuenteSec);
     border-radius: 10px;
+    background-color: var(--azul);
+    text-align: center;
+    padding: 15px;
+    color: var(--blanco);
+    font-size: 20px;
 }
+.menu, .menu2{
+    padding:15px;
+}
+.origen, .menu2, #botonDeCambio2{
+    display: none;
+}
+.intermedio{
+    display:flex;
+    justify-content: space-evenly;
+}
+#botonDeCambio,#botonDeCambio2{
+    font-family: var(--fuenteSec);
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    background-color: var(--azul);
+    font-size: 17.5px;
+    color: #fefbfb;
+    font-weight: bold;
+}
+
 /* 
 .botonManual-cont{
     display: none;
@@ -183,7 +215,7 @@ body{
 
 .topside{
     display: flex;
-    width:40%;
+    width:85%;
     align-items: center;
     justify-content:center;
     flex-direction: column;
@@ -192,6 +224,7 @@ body{
     border-radius: 10px;
     margin: 30px auto;
 }
+
 .busquedaAuto-cont{
     display: flex;
     align-items: center;
@@ -271,7 +304,8 @@ body{
     box-shadow: 0 2px 5px var(--rojo);
     margin: 5px;
     font-weight: bold;
-    height:50px
+    height:50px;
+    
 }
 .select:hover{
     cursor: pointer;

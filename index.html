@@ -26,54 +26,47 @@
             <p id="horas"></p>
             <p id="minutos"></p>
         </div>
-    </header>  
-    <!-- <div class="subheader-cont">
-        <div class="subheader">
-            
-          
-        </div>
-    </div>   -->
-    
+    </header>      
     <main class="contenedor">
      
      <div class="titulo">
         <h1>Buscar por origen de recorrido</h1>
      </div>
+     
      <div class="topside">
-     <div class="busquedaAuto-cont" >
-        <div class="busquedaAuto1">
-            <!-- <p>Estas en..</p> -->
+        <div class="origen">
+            <h3 id="origen">San Miguel de Tucumán</h3>
+        </div>
             <form class="menu" name=menu action="">
                 <select id="selector" class="select"name="selector">
-                    <option value="default" disabled selected>Queres viajar desde</option>
-                    <option value="florida" >Florida x Alderetes/Alternativa</option>
-                    <option value="florida" >Florida x Posse</option>
-                    <option value="xposse" > Posse ( Local )</option>
+                    <option value="default" disabled selected>Origen</option>
+                    <option value="florida" > Desde Florida x Alderetes/Alternativa</option>
+                    <option value="florida" >Desde Florida x Posse</option>
+                    <option value="xposse" > Desde Posse</option>
                 </select>
             </form>
-        </div>
     </div>
-        <!-- <div class="busquedaManual-cont">
-            <form class="busquedaManual1" name="menu3">
-            <select class="select" name="selector3" id="selector3">
-                <option disabled selected value="default">Elije un día</option>
-                <option value="lunesViernes">Lunes a Viernes</option>
-                <option value="sabado">Sábado</option>
-                <option value="domingo">Domingo</option>
-            </select>
-           </form>
-            <div class="busquedaManual2">
-            <input id="busquedaInput2"type="number" max="23" placeholder="Ingresa un horario">
-            </div>
-        </div> -->
-</div>
 <div class="mensajeError">
     <p id="mensaje"></p>
 </div>
-<h3 id="textoIntermedio">↓</h3>
-<div class="topside">
-    <h3 id="destino">San Miguel de Tucumán</h3>
+<div class="intermedio">
+<button id="botonDeCambio">↑  ↓</button>
+<button id="botonDeCambio2">↑  ↓</button>
 </div>
+<div class="topside">
+    <div class="destino">
+        <h3 id="destino">San Miguel de Tucumán</h3>
+    </div>
+    <form class="menu2" name=menu2 action="">
+        <select id="selector2" class="select"name="selector2">
+            <option value="default" disabled selected>Origen</option>
+            <option value="florida" >Florida x Alderetes/Alternativa</option>
+            <option value="florida" >Florida x Posse</option>
+            <option value="xposse" > Hasta Posse</option>
+        </select>
+    </form>
+</div>
+
     <div class="boton-cont">
         <button id='boton'>Mostrar</button>   
     </div>
