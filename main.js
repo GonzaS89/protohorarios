@@ -1719,20 +1719,22 @@ const boton = document.getElementById('boton');
 
 
     let mensajeError = document.getElementById('mensaje')
-    selector.addEventListener('click', function(){
-        if(florida.selected == true){
-            $('.menu2').css('display','flex');
-            $('.menu3').css('display','none');
-        }
-        if(xposse.selected == true){
-            $('.menu2').css('display','none');
-            $('.menu3').css('display','flex');
-        }
-    })
+   
 
   
     
     boton.addEventListener('click',function(){
+
+        selector.addEventListener('click', function(){
+            if(florida.selected == true){
+                $('.menu2').css('display','flex');
+                $('.menu3').css('display','none');
+            }
+            if(xposse.selected == true){
+                $('.menu2').css('display','none');
+                $('.menu3').css('display','flex');
+            }
+        })
 
         
 
