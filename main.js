@@ -54,35 +54,28 @@ function reloj(){
 
 const selector = document.menu.selector;
 const selector2 = document.menu2.selector2;
-const selector3 = document.menu3.selector3;
+
+
+
 const boton = document.getElementById('boton');
 
-    const opcionbase = selector[0];
-    const opcionbase2 = selector2[0];
+
+
+    const opcionbase = selector[0]
+    const opcionbase2 = selector2[0]
     const florida = selector[1];
     const xposse = selector[2]
     const sanM = selector[3];  
-  
- 
-
-   
-    
- 
-    
-    
+        
     let valorSelecionado; 
     let valorSelecionado2;
+    let valorSelecionado3;
     let valores = [];
     let valores2= [];
     let valores3 = [];
     let posicion;
     let posicion2;
     let posicion3;
-    let momentoActual = new Date();
-    let hora = momentoActual.getHours();
-    let minutos = momentoActual.getMinutes();
-    let horaEnEnteros = (hora * 60) + minutos;
-    let dia = momentoActual.getDay();
 
     const horariosLvFloAl = [
 
@@ -1720,13 +1713,12 @@ const boton = document.getElementById('boton');
     const todosFloridaAlderetes = [horariosDFloAl,horariosLvFloAl,horariosSFloAl];
     const todosFloridaPosse = [horariosDFloPo,horariosLvFloPo,horariosSFloPo];
     const todosFlorida = [todosFloridaAlderetes,todosFloridaPosse];
-    const todosSanMiguel = [todosSmAlderetes,todosSmPosse,terminalPosse];
-    const todosPosse = [posseTerminal,todosFloridaPosse]
-    const todos = [todosFlorida,todosPosse,todosSanMiguel];
+    const todosSanMiguel = [todosSmAlderetes,todosSmPosse];
+    const todosPosse = [posseTerminal]
+    const todos = [todosFlorida,todosPosse];
 
-    
 
- 
+    let mensajeError = document.getElementById('mensaje')
     selector.addEventListener('click', function(){
 
     
@@ -1769,23 +1761,23 @@ const boton = document.getElementById('boton');
                    valorSelecionado2 = opcion
                 }
         }
-        for(i=0; i < selector.length;i++){
+        for(i=0; i < selector2.length;i++){
          valores2.push(selector2[i])
         }
       
-        for(i=0; i< valores.length;i++){
+        for(i=0; i< valores2.length;i++){
             posicion2=valores2.indexOf(valorSelecionado2)
         }
-        
-        console.log(posicion,posicion2)
-
-        
-      
+         
 
         // Definimos las variables globales
         
 
-  
+    let momentoActual = new Date();
+    let hora = momentoActual.getHours();
+    let minutos = momentoActual.getMinutes();
+    let horaEnEnteros = (hora * 60) + minutos;
+    let dia = momentoActual.getDay();
     let elMasCercano=3000;
     let anteriorPasado = 3000;
     let diaRango = []
@@ -1801,31 +1793,55 @@ const boton = document.getElementById('boton');
     let futuro1 = document.getElementById('futuro1');
     let futuro2 = document.getElementById('futuro2');
     let futuro3 = document.getElementById('futuro3');
+    const mensaje2 = document.querySelector('.mensaje2')
+    let local
+
     
+    
+    
+   
 
                 // Aqui definimos donde localidad de salida y camino
+            
+                localidad = todos[(posicion)-1];
+               camino = localidad[posicion2-1]
+ 
+ //    Aqui definimos el array dependiendo el dia de la semana
+ 
+ 
+        if(posicion == 2){
+            
+             local =  localidad[0]
+                if(dia == 0){
+                    console.log('asda')
+                }
+                if(dia >= 1){
+                    diaRango = local[0].slice(0,local[0].length)
+                }
+                if(dia == 6){
+                    diaRango = local[1].slice(0,local[1].length)
+                }
+    }
+    else{
+        if(dia == 0){
+            diaRango = camino[0].slice(0,camino[0].length)
+        
+        }
+        if(dia >= 1 && dia <=5){
+            diaRango = camino[1].slice(0,camino[1].length);
+        
+        }
+        if(dia > 5){
+            diaRango = camino[2].slice(0,camino[2].length);
+        }
+    }
+       
 
             
            
-          localidad = todos[(posicion)-1];
-          camino = localidad[posicion2-1]
-
-
-            //    Aqui definimos el array dependiendo el dia de la semana
-            
-            if(dia == 0){
-                diaRango = camino[0].slice(0,camino[0].length)
-            
-            }
-            if(dia >= 1 && dia <=5){
-                diaRango = camino[1].slice(0,camino[1].length);
-            
-            }
-            if(dia > 5){
-                diaRango = camino[2].slice(0,camino[2].length);
-            
-            }
-
+       
+           
+    
             // Aqui extraemos del array de arriba los valores de cada horario y lo agregamos a la lista del dia
            
                           for (i=0; i < diaRango.length; i++){
@@ -1872,12 +1888,7 @@ const boton = document.getElementById('boton');
                                  if(anteriorPasado < 5){
                                     actual2.textContent = 'Inició su recorrido hace menos de 5 minutos'
                                 }
-                            
-                                
                             }
-                          
-                            
-
                             else{
                                 if(anteriorPasado>60){
                                     actual2.textContent = 'Salió de la terminal hace mas de una hora';
@@ -1988,10 +1999,8 @@ const boton = document.getElementById('boton');
                         }      
                          
                     
-    }         
+    }           
     
-    
-    const mensaje2 = document.querySelector('.mensaje2')
     $('.resultados').css('display','flex')
     $('.resultados2').css('display','flex')     
     $('.mensaje2').css('display', 'flex')   
