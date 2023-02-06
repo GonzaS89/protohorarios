@@ -1720,8 +1720,6 @@ const boton = document.getElementById('boton');
 
     let mensajeError = document.getElementById('mensaje')
     selector.addEventListener('click', function(){
-
-    
         if(florida.selected == true){
             $('.menu2').css('display','flex');
             $('.menu3').css('display','none');
