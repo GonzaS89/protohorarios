@@ -120,9 +120,7 @@ body{
     height: 20%;
     border-radius: 10px;
 }
-.menu2, .menu3{
-    display:none;
-}
+
 #textoIntermedio{
     text-align: center;
     font-family: var(--fuenteSec);

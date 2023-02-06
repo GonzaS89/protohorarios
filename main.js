@@ -1602,6 +1602,7 @@ const boton = document.getElementById('boton');
             "recorrido":"Dispensario → Fila dela orilla → Llona → Cevil Pozo"
         },
     ]
+    const posseTerminalD = [];
     const terminalPosseLaV = [
         {
             "nombre":"05:25",
@@ -1706,15 +1707,16 @@ const boton = document.getElementById('boton');
             "recorrido":"Terminal → Banda del Río Sali → Cevil Pozo → Fila del medio → Boque → Dispensario"
         },
     ]
-    const terminalPosse = [terminalPosseLaV,terminalPosseS];
-    const posseTerminal = [posseTerminalLaV,posseTerminalS]
+    const terminalPosseD = [];
+    const terminalPosse = [terminalPosseD,terminalPosseLaV,terminalPosseS];
+    const posseTerminal = [posseTerminalD,posseTerminalLaV,posseTerminalS]
     const todosSmAlderetes = [horariosDSMAl,horariosLvSMAl,horariosSSMAl];
     const todosSmPosse = [horariosDSMPo,horariosLvSMPo,horariosSSMPo];    
     const todosFloridaAlderetes = [horariosDFloAl,horariosLvFloAl,horariosSFloAl];
     const todosFloridaPosse = [horariosDFloPo,horariosLvFloPo,horariosSFloPo];
     const todosFlorida = [todosFloridaAlderetes,todosFloridaPosse];
     const todosSanMiguel = [todosSmAlderetes,todosSmPosse];
-    const todosPosse = [posseTerminal]
+    const todosPosse = [posseTerminal,terminalPosse]
     const todos = [todosFlorida,todosPosse];
 
 
@@ -1725,19 +1727,7 @@ const boton = document.getElementById('boton');
     
     boton.addEventListener('click',function(){
 
-        selector.addEventListener('click', function(){
-            if(florida.selected == true){
-                $('.menu2').css('display','flex');
-                $('.menu3').css('display','none');
-            }
-            if(xposse.selected == true){
-                $('.menu2').css('display','none');
-                $('.menu3').css('display','flex');
-            }
-        })
-
-        
-
+       
         // Definimos la posicion del selector 1
 
         for(opcion of selector){
@@ -1803,26 +1793,17 @@ const boton = document.getElementById('boton');
 
                 // Aqui definimos donde localidad de salida y camino
             
-                localidad = todos[(posicion)-1];
-               camino = localidad[posicion2-1]
+               localidad = todos[(posicion)-1];
+               camino = localidad[(posicion2)-1]
+               
  
  //    Aqui definimos el array dependiendo el dia de la semana
- 
+        
  
         if(posicion == 2){
-            
-             local =  localidad[0]
-                if(dia == 0){
-                    console.log('asda')
-                }
-                if(dia >= 1){
-                    diaRango = local[0].slice(0,local[0].length)
-                }
-                if(dia == 6){
-                    diaRango = local[1].slice(0,local[1].length)
-                }
+            camino = localidad[0]
     }
-    else{
+    
         if(dia == 0){
             diaRango = camino[0].slice(0,camino[0].length)
         
@@ -1834,7 +1815,8 @@ const boton = document.getElementById('boton');
         if(dia > 5){
             diaRango = camino[2].slice(0,camino[2].length);
         }
-    }
+    
+    console.log(camino)
        
 
             
@@ -1875,7 +1857,7 @@ const boton = document.getElementById('boton');
                    
                 //  Aqui definimos los mensajes a mostrar en el primer campo         
 
-                             if((posicion-1) < 1){
+                            
                                 if(anteriorPasado>60){
                                     actual2.textContent = 'Inició su recorrido hace mas de 1 hora'
                                 }
@@ -1888,26 +1870,7 @@ const boton = document.getElementById('boton');
                                  if(anteriorPasado < 5){
                                     actual2.textContent = 'Inició su recorrido hace menos de 5 minutos'
                                 }
-                            }
-                            else{
-                                if(anteriorPasado>60){
-                                    actual2.textContent = 'Salió de la terminal hace mas de una hora';
-                                }
-                                if(anteriorPasado == 60){
-                                    actual2.textContent = 'Salió de la terminal hace mas de una hora';
-                                }
-                                if(anteriorPasado<60 && anteriorPasado >= 5){
-                                    actual2.textContent = `Salió de la terminal hace ${Math.floor(anteriorPasado)} minutos`
-                                }
-                                if(anteriorPasado < 5){
-                                actual2.textContent = 'Salió de la terminal hace menos de 5 minutos'
-                               }
-                                if(anteriorPasado == 0){
-                                    actual2.textContent = 'Está saliendo de la terminal'
-                               }
-                            }
                             
-
                                  if((posicion-1 < 1) &&(posicion3-1 == 1))    {
                                     actual3.textContent = `Inicio de recorrido : ${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
                                  }
@@ -1936,7 +1899,7 @@ const boton = document.getElementById('boton');
                            
                                futuro1.textContent = ` Próximo bondi a las ${diaRango[listaDiferencias2.indexOf(elMasCercano)].nombre}`;  
                           
-                                if((posicion-1) < 1){
+                               
                                     if(elMasCercano>60){
                                         futuro2.textContent = 'Inicia su recorrido en poco más de 1 hora'
                                     }
@@ -1952,32 +1915,7 @@ const boton = document.getElementById('boton');
                                         if(elMasCercano == 0){
                                             futuro2.textContent = 'Está iniciando su recorrido'
                                         }
-                            }
-                                else{
-                                  
-
-                                    if(elMasCercano>60){
-                                        futuro2.textContent = 'Sale de la terminal en mas de una hora';
-                                    }
-                                    if(elMasCercano>120){
-                                        futuro2.textContent = 'Sale de la terminal en un par de horas';
-                                    }
-                                    if(elMasCercano == 60){
-                                        futuro2.textContent = 'Sale de la terminal en una hora';
-                                    }
-                                    if(elMasCercano<60 && elMasCercano >= 5){
-                                        futuro2.textContent = `Sale de la terminal en ${Math.floor(elMasCercano)} minutos`
-                                    }
-                                   if(elMasCercano < 5){
-                                    futuro2.textContent = 'Sale de la terminal en menos de 5 minutos'
-                                   }
-                                   if(elMasCercano == 0){
-                                    futuro2.textContent = 'Está saliendo de la terminal'
-                                   }
-                                   $('.resultados').css('display','flex')
-                                 $('.resultados2').css('display','flex')  
-                                  
-                                }
+                            
                                     
                                  if((posicion-1 < 1) &&(posicion3-1 == 1)){
                                    
