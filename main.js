@@ -1740,10 +1740,8 @@ const boton = document.getElementById('boton');
         
     })
    
-   
     boton.addEventListener('click',function(){
 
-       
         // Definimos la posicion del selector 1
 
        
@@ -1921,16 +1919,15 @@ const boton = document.getElementById('boton');
                                         if(elMasCercano == 0){
                                             futuro2.textContent = 'Está iniciando su recorrido'
                                         }
-                            
-                                    
-                        
                                         futuro3.textContent = `Recorrido : ${diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido}`
                         } 
-                        else{
-                            futuro1.textContent = ""
-                            futuro2.textContent = 'No hay más colectivos por hoy'
-                            futuro3.textContent = ""
+                        else{  
+                            futuro1.textContent = "";
+                            futuro2.textContent = 'No hay más colectivos por hoy por ésta ruta'
+                            futuro3.textContent = "";
                         }      
+                                           
+                        console.log(elMasCercano)
                          
                     
     }           

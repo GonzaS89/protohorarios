@@ -133,6 +133,7 @@ body{
     height: 90px;
     border-radius: 10px;
     background-color: var(--azul);
+    border: solid 2.5px white;
 }
 
 #destino,#origen{
@@ -317,6 +318,7 @@ body{
     font-weight: bold;
     height:60px;
     text-align-last: center;
+    border:  solid 2.5px white;
     
 }
 .select:hover{
@@ -419,12 +421,15 @@ body{
 
 }
 #fondo{
-    width: 150px;
-    height: 200px;
+width: 150px;
+height: 150px;
 background-image: url('Imagenes/logo\ empresa.jpg');
 background-position: center;
-background-size: 50%;
+background-size:80%;
 background-repeat: no-repeat;
+position: absolute;
+filter: opacity(40%)
+
 }
 
 .resultados-cont{
@@ -435,6 +440,7 @@ background-repeat: no-repeat;
     height:200px;
     width:100%;  
     margin: 0px;
+   
 }
 
 .resultados,.resultados2{
@@ -449,6 +455,7 @@ margin: 15px;
 border:none;
 border: .5px solid white;
 background-color: var(--blanco);
+min-height: 150px;
 }
 .resultados3,.resultados4{
 height: 500px;
@@ -482,6 +489,7 @@ background-color: aliceblue;
     text-align: center;
     color: rgb(0, 0, 0);
     font-weight: bold;
+    z-index: 5;
 }
 
 #futuro1,#futuro2,#futuro3{
@@ -490,6 +498,7 @@ background-color: aliceblue;
     text-align: center;
     font-weight: bold;
     color: rgb(0, 0, 0);
+    z-index: 5;
 }
 #mostrar1,#mostrar2,#mostrar3,#mostrar4{
     font-size:20px;
