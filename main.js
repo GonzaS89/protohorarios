@@ -64,16 +64,12 @@ const boton = document.getElementById('boton');
     const florida = selector[1];
     const xposse = selector[2]
     const sanM = selector[3];  
-        
     let valorSelecionado; 
     let valorSelecionado2;
-    let valorSelecionado3;
     let valores = [];
     let valores2= [];
-    let valores3 = [];
     let posicion;
     let posicion2;
-    let posicion3;
 
     const horariosLvFloAl = [
 
@@ -1708,12 +1704,15 @@ const boton = document.getElementById('boton');
     const terminalPosseD = [];
     
     const floridaAldTucuman = [horariosDFloAl,horariosLvFloAl,horariosSFloAl];
+    const terminalAldFlorida = [horariosDSMAl,horariosSSMAl, horariosLvSMAl];
     const floridaPosseTucuman = [horariosDFloPo,horariosLvFloPo,horariosSFloPo];
+    const terminalPosseFlorida = [horariosDSMPo, horariosSSMPo, horariosLvSMPo];
     const posseLTerminal = [posseTerminalD,posseTerminalLaV,posseTerminalS];
+    const terminalPosseL = [terminalPosseD,terminalPosseLaV,terminalPosseS];
 
     const todosDestinoTucuman = [floridaAldTucuman,floridaPosseTucuman,posseLTerminal];
+    const todosTucumanDestino = [terminalAldFlorida,terminalPosseFlorida, terminalPosseL]
 
-    const terminalPosseL = [terminalPosseD,terminalPosseLaV,terminalPosseS];
     
     const botonDeCambio = document.querySelector('.botonDeCambio');
     const botonDeCambio2 = document.querySelector('.botonDeCambio2');
@@ -1752,6 +1751,21 @@ const boton = document.getElementById('boton');
         for(i=0; i< valores.length;i++){
             posicion=valores.indexOf(valorSelecionado)
         }
+
+        // Definimos la posicion del selector 2
+
+        for(opcion of selector2){
+            if(opcion.selected && opcion.disabled == false){
+                   valorSelecionado2 = opcion
+                }
+        }
+        for(i=0; i < selector2.length;i++){
+         valores2.push(selector2[i])
+        }
+      
+        for(i=0; i< valores.length;i++){
+            posicion2=valores2.indexOf(valorSelecionado2)
+        }
        
         // Definimos las variables globales
         
@@ -1781,8 +1795,13 @@ const boton = document.getElementById('boton');
    
     
                 // Aqui definimos donde localidad de salida y camino
-            
-               localidad = todosDestinoTucuman[(posicion)-1];
+            if(posicion < 0){
+                localidad = todosDestinoTucuman[(posicion2)-1];
+            }
+            else{
+                localidad = todosDestinoTucuman[(posicion)-1];
+            }
+               
               
                
  //    Aqui definimos el array dependiendo el dia de la semana
