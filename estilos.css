@@ -316,7 +316,7 @@ body{
     box-shadow: 0 2px 5px var(--rojo);
     font-weight: bold;
     height:60px;
-    text-align: center;
+    text-align-last: center;
     
 }
 .select:hover{
