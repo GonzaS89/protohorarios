@@ -234,6 +234,7 @@ body{
     height: 60px;
 }
 
+
 .busquedaAuto-cont{
     display: flex;
     align-items: center;
@@ -323,6 +324,7 @@ body{
     font-size: 15px;
     color: white;
     font-weight: bold;
+    text-align: center;
 }
 #busquedaInput2{
     background-color:transparent;
