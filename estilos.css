@@ -129,7 +129,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 250px;
     height: 90px;
     border-radius: 10px;
     background-color: var(--azul);
@@ -308,7 +308,7 @@ body{
     font-size:15px;
     border: none;
     text-align: center;
-    width: 200px;
+    width: 250px;
     /* background-color: rgb(65, 117, 181);  */
     background-color:var(--azul);
     color: white;

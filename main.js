@@ -62,6 +62,7 @@ const boton = document.getElementById('boton');
 
 
     const opcionbase = selector[0]
+    const opcionbase2 = selector2[0]
     const florida = selector[1];
     const xposse = selector[2]
     const sanM = selector[3];  
@@ -1714,9 +1715,11 @@ const boton = document.getElementById('boton');
     const todosDestinoTucuman = [floridaAldTucuman,floridaPosseTucuman,posseLTerminal];
     const todosTucumanDestino = [terminalAldFlorida,terminalPosseFlorida, terminalPosseL]
 
+
     
     const botonDeCambio = document.querySelector('.botonDeCambio');
     const botonDeCambio2 = document.querySelector('.botonDeCambio2');
+    const mensaje2 = document.querySelector('.mensaje2');
     botonDeCambio.addEventListener('click', function (){
         $('.menu2').css('display','flex');
         $('.origen').css('display','flex');
@@ -1724,7 +1727,7 @@ const boton = document.getElementById('boton');
         $('.destino').css('display','none');
         $('.menu').css('display','none');
         $('.botonDeCambio').css('display','none');
-        
+        opcionbase.selected = true;
     })
     botonDeCambio2.addEventListener('click', function (){
         $('.menu2').css('display','none');
@@ -1733,15 +1736,19 @@ const boton = document.getElementById('boton');
         $('.destino').css('display','flex');
         $('.menu').css('display','flex');
         $('.botonDeCambio').css('display','flex');
+        opcionbase2.selected = true;
+        
     })
+   
    
     boton.addEventListener('click',function(){
 
        
         // Definimos la posicion del selector 1
 
+       
         for(opcion of selector){
-            if(opcion.selected && opcion.disabled == false){
+            if(opcion.selected){
                    valorSelecionado = opcion
                 }
         }
@@ -1754,21 +1761,24 @@ const boton = document.getElementById('boton');
         }
 
         // Definimos la posicion del selector 2
+    
+       
 
         for(opcion of selector2){
-            if(opcion.selected && opcion.disabled == false){
-                   valorSelecionado2 = opcion
+            if(opcion.selected){
+                   valorSelecionado2 = opcion;
                 }
         }
         for(i=0; i < selector2.length;i++){
          valores2.push(selector2[i])
         }
       
-        for(i=0; i< valores.length;i++){
+        for(i=0; i< valores2.length;i++){
             posicion2=valores2.indexOf(valorSelecionado2)
         }
+       
 
-        console.log(posicion2)
+              
        
         // Definimos las variables globales
         
@@ -1781,7 +1791,7 @@ const boton = document.getElementById('boton');
     let elMasCercano=3000;
     let anteriorPasado = 3000;
     let diaRango = []
-    let localidad = [];
+    let ruta = [];
     let listaDelDia = [];
     let horariosEnEnteros=[];
     let listaDiferencias = []
@@ -1792,43 +1802,36 @@ const boton = document.getElementById('boton');
     let futuro1 = document.getElementById('futuro1');
     let futuro2 = document.getElementById('futuro2');
     let futuro3 = document.getElementById('futuro3');
-    const mensaje2 = document.querySelector('.mensaje2')
+    
     
 
    
     
-                // Aqui definimos donde localidad de salida y camino
-            if(posicion < 0){
-                localidad = todosTucumanDestino[(posicion2)-1];
-            }
-            else{
-                localidad = todosDestinoTucuman[(posicion)-1];
-            }
-               
+ // Aqui definimos donde localidad de salida y camino
+ 
+          if(opcionbase.selected == true && opcionbase2.selected == false)  {
+          ruta = todosTucumanDestino[posicion2-1]
+          }
+          if(opcionbase2.selected == true && opcionbase.selected == false){
+            ruta = todosDestinoTucuman[posicion-1]
+          }
               
-               
  //    Aqui definimos el array dependiendo el dia de la semana
         
     
         if(dia == 0){
-            diaRango = localidad[0].slice(0,localidad[0].length)
+            diaRango = ruta[0].slice(0,ruta[0].length)
         
         }
         if(dia >= 1 && dia <=5){
-            diaRango = localidad[1].slice(0,localidad[1].length);
+            diaRango = ruta[1].slice(0,ruta[1].length);
         
         }
         if(dia > 5){
-            diaRango = localidad[2].slice(0,localidad[2].length);
+            diaRango = ruta[2].slice(0,ruta[2].length);
         }
     
-    console.log(localidad)
-       
 
-            
-           
-       
-           
     
             // Aqui extraemos del array de arriba los valores de cada horario y lo agregamos a la lista del dia
            
@@ -1940,12 +1943,13 @@ const boton = document.getElementById('boton');
     $('.resultados').css('display','flex')
     $('.resultados2').css('display','flex')     
     $('.mensaje2').css('display', 'flex')   
-    mensaje2.addEventListener('click', function(){
-        $('.mensaje2').css('display', 'none')  
-        opcionbase.selected = true;
-
-    })
- 
+   
+    
+})
+mensaje2.addEventListener('click', function(){
+    $('.mensaje2').css('display', 'none')  
+    opcionbase.selected = true;
+    opcionbase2.selected = true;
 })
 
 
