@@ -1808,7 +1808,7 @@ const boton = document.getElementById('boton');
    
     
  // Aqui definimos donde localidad de salida y camino
- 
+
           if(opcionbase.selected == true && opcionbase2.selected == false)  {
           ruta = todosTucumanDestino[posicion2-1]
           }
@@ -1925,11 +1925,6 @@ const boton = document.getElementById('boton');
                                     
                         
                                         futuro3.textContent = `Recorrido : ${diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido}`
-                                    
-                                   
-                                  
-                             
-                                   
                         } 
                         else{
                             futuro1.textContent = ""
@@ -1943,7 +1938,11 @@ const boton = document.getElementById('boton');
     $('.resultados').css('display','flex')
     $('.resultados2').css('display','flex')     
     $('.mensaje2').css('display', 'flex')   
-   
+   mensaje2.addEventListener('click', function(){
+    $('.mensaje2').css('display', 'none')  
+    opcionbase.selected = true;
+    opcionbase2.selected = true;
+})
     
 })
 mensaje2.addEventListener('click', function(){
