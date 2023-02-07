@@ -53,6 +53,7 @@ function reloj(){
 /* Funcion para determinar la localidad de posicion*/
 
 const selector = document.menu.selector;
+const selector2 = document.menu2.selector2;
 
 
 
@@ -1766,6 +1767,8 @@ const boton = document.getElementById('boton');
         for(i=0; i< valores.length;i++){
             posicion2=valores2.indexOf(valorSelecionado2)
         }
+
+        console.log(posicion2)
        
         // Definimos las variables globales
         
@@ -1796,7 +1799,7 @@ const boton = document.getElementById('boton');
     
                 // Aqui definimos donde localidad de salida y camino
             if(posicion < 0){
-                localidad = todosDestinoTucuman[(posicion2)-1];
+                localidad = todosTucumanDestino[(posicion2)-1];
             }
             else{
                 localidad = todosDestinoTucuman[(posicion)-1];
@@ -1874,12 +1877,9 @@ const boton = document.getElementById('boton');
                                     actual2.textContent = 'Inició su recorrido hace menos de 5 minutos'
                                 }
                             
-                                 if((posicion-1 < 1) &&(posicion3-1 == 1))    {
-                                    actual3.textContent = `Inicio de recorrido : ${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
-                                 }
-                                 else{
+                                        
                                     actual3.textContent = `Recorrido : ${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
-                                 }   
+                                
                                                     
                                 
                         } 
@@ -1920,14 +1920,9 @@ const boton = document.getElementById('boton');
                                         }
                             
                                     
-                                 if((posicion-1 < 1) &&(posicion3-1 == 1)){
-                                   
-                                        futuro3.textContent = `Inicio de recorrido : ${diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido}`
-                                }
-                
-                                 else{
+                        
                                         futuro3.textContent = `Recorrido : ${diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido}`
-                                    }
+                                    
                                    
                                   
                              
