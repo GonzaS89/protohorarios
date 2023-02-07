@@ -418,6 +418,14 @@ body{
     color: white;
 
 }
+#fondo{
+    width: 150px;
+    height: 200px;
+background-image: url('Imagenes/logo\ empresa.jpg');
+background-position: center;
+background-size: 50%;
+background-repeat: no-repeat;
+}
 
 .resultados-cont{
     display: flex;
@@ -440,7 +448,7 @@ border-radius: 20px;
 margin: 15px;
 border:none;
 border: .5px solid white;
-background-color: aliceblue;
+background-color: var(--blanco);
 }
 .resultados3,.resultados4{
 height: 500px;
