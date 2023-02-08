@@ -2728,11 +2728,13 @@ const boton = document.getElementById('boton');
            }
     })
    
-      
+
+
+    
+    boton.addEventListener('click',function(){
+
         // Definimos la posicion del selector 1
 
-        boton.addEventListener('click',function(){
-       
         for(opcion of selector){
             if(opcion.selected){
                    valorSelecionado = opcion
