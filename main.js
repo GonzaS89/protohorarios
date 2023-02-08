@@ -2721,13 +2721,17 @@ const boton = document.getElementById('boton');
         $('.menu').css('display','flex');
         $('.botonDeCambio').css('display','flex');
         opcionbase2.selected = true;
-       
+    })
+    selector.addEventListener('click', function(){
+        if(opcionbase.selected == false){
+            boton.disabled = false;
+           }
     })
    
-    boton.addEventListener('click',function(){
-
+      
         // Definimos la posicion del selector 1
 
+        boton.addEventListener('click',function(){
        
         for(opcion of selector){
             if(opcion.selected){
@@ -2758,9 +2762,7 @@ const boton = document.getElementById('boton');
         for(i=0; i< valores2.length;i++){
             posicion2=valores2.indexOf(valorSelecionado2)
         }
-       
-
-              
+           
        
         // Definimos las variables globales
         
@@ -2786,7 +2788,7 @@ const boton = document.getElementById('boton');
     let futuro3 = document.getElementById('futuro3');
     
     
-
+       
    
     
  // Aqui definimos donde localidad de salida y camino
@@ -2838,6 +2840,8 @@ const boton = document.getElementById('boton');
                                     let difHoraHorarios = horaEnEnteros - horariosEnEnteros[i];
                                   listaDiferencias.push(difHoraHorarios); 
               }
+
+              
                            for(i=0; i < listaDiferencias.length; i++){
 
                             if(listaDiferencias[i] > 0){

@@ -395,7 +395,7 @@ body{
 #boton,#boton2{
     height:80px;
     width:80px;
-    background-color:var(--azul);
+    background-color:gray;
     border-radius: 50%;
     font-family: var(--fuenteSec);
     font-size: 15px;
