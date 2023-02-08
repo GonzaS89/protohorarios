@@ -393,20 +393,18 @@ body{
     margin: -5px;
 }
 #boton,#boton2{
-    height:50px;
-    width:125px;
+    height:80px;
+    width:80px;
     background-color:var(--azul);
-    border: none;
-    border-radius: 7px;
+    border-radius: 50%;
     font-family: var(--fuenteSec);
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
-    box-shadow: 1px 1px 1px var(--rojo);
+    box-shadow: 2px 2px black;
     color: white;
 }
 #boton:active{
     cursor: pointer;
-    background-color:rgb(0, 0, 0);
     color: white;
 }
 #boton:hover{
@@ -417,7 +415,6 @@ body{
 }
 #boton2:active{
     cursor: pointer;
-    background-color:rgb(0, 0, 0);
     color: white;
 
 }
