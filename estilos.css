@@ -517,7 +517,7 @@ background-color: aliceblue;
     top: 0; 
     background-color: rgba(0, 0, 0, 0.912);   
     height: 100%;
-    width: 100%;    
+    width: 100%;   
 }
 #mensaje2{
     display: flex;

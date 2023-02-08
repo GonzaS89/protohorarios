@@ -1704,16 +1704,998 @@ const boton = document.getElementById('boton');
         },
     ]
     const terminalPosseD = [];
+    const ralosTerminalLaV = [
+        {
+            "nombre":"04:40",
+            "valor":4.4,
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"05:25",
+            "valor":5.25,
+            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"05:30",
+            "valor":5.3,
+            "recorrido":"Villa Tercera → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"06:05",
+            "valor":6.05,
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"06:15",
+            "valor":6.15,
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"06:25",
+            "valor":6.25,
+            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"06:40",
+            "valor":6.4,
+            "recorrido":"Villa Tercera → Escuela 330 → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"06:40",
+            "valor":6.4,
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali",
+            "recorrido2":"Lolita → Cerco 2 → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"06:50",
+            "valor":6.5,
+            "recorrido":"Las Vias → Barrio Trigal → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"07:30",
+            "valor":7.3,
+            "recorrido":"Lolita → Los Ralos → Cevil Pozo → Banda del Rio Sali",
+            "recorrido2":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"08:20",
+            "valor":8.2,
+            "recorrido":"Los Ralos → Barrio Trigal → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"08:25",
+            "valor":8.25,
+            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"09;10",
+            "valor":9.1,
+            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"10:20",
+            "valor":10.2,
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali",
+            "recorrido2":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"11:10",
+            "valor":11.1,
+            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"12:00",
+            "valor":12,
+            "recorrido":"Lolita → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"12:15",
+            "valor":12.15,
+            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"12:45",
+            "valor":12.45,
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"13:10",
+            "valor":13.1,
+            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"14:10",
+            "valor":14.1,
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"15:10",
+            "valor":15.1,
+            "recorrido":"Lolita → Los Ralos → Barrio Trigal → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"15:25",
+            "valor":15.25,
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"16:10",
+            "valor":16.1,
+            "recorrido":"Los Ralos → Barrio Trigal → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"16:25",
+            "valor":16.25,
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"16:30",
+            "valor":16.3,
+            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"17:20",
+            "valor":17.2,
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"17:30",
+            "valor":17.3,
+            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"18:15",
+            "valor":18.15,
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"19:00",
+            "valor":19,
+            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"19:05",
+            "valor":19.05,
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"20:00",
+            "valor":20,
+            "recorrido":"Lolita → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"21:10",
+            "valor":21.1,
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"22:00",
+            "valor":22,
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        }
+    ]
+    const ralosTerminalS = [
+        {
+            "nombre":"04:40",
+            "valor":4.4,
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"05:30",
+            "valor":5.3,
+            "recorrido":"Villa Tercera → El Infierno → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"06:25",
+            "valor":6.25,
+            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"06:50",
+            "valor":6.5,
+            "recorrido":"Las Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"07:30",
+            "valor":7.3,
+            "recorrido":"Lolita Sur → Los Ralos → Cevil Pozo → Banda del Rio Sali",
+            "recorrido2":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"08:10",
+            "valor":8.1,
+            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"08:25",
+            "valor":8.25,
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"09;25",
+            "valor":9.25,
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"10:20",
+            "valor":10.2,
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali",
+            "recorrido2":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"11:10",
+            "valor":11.1,
+            "recorrido":"Alabama → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"12:00",
+            "valor":12,
+            "recorrido":"Las Cejas → Lolita → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"12:15",
+            "valor":12.15,
+            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"13:10",
+            "valor":13.1,
+            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"14:10",
+            "valor":14.1,
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"15:00",
+            "valor":15,
+            "recorrido":"Lolita Sur → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"15:25",
+            "valor":15.25,
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"16:25",
+            "valor":16.25,
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"16:30",
+            "valor":16.3,
+            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"17:15",
+            "valor":17.15,
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"17:20",
+            "valor":17.2,
+            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"18:10",
+            "valor":18.1,
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"19:00",
+            "valor":19,
+            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"19:05",
+            "valor":19.05,
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"20:00",
+            "valor":20,
+            "recorrido":"Lolita → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"21:10",
+            "valor":21.1,
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"21:30",
+            "valor":21.3,
+            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        }
+    ]
+    const ralosTerminalD = [
+        {
+            "nombre":"05:00",
+            "valor":5,
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"05:30",
+            "valor":5.3,
+            "recorrido":"Villa Tercera → El Infierno → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"07:00",
+            "valor":7,
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"08:10",
+            "valor":8.1,
+            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"08:30",
+            "valor":8.3,
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"09;25",
+            "valor":9.25,
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"10:30",
+            "valor":10.3,
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali",
+        },
+        {
+            "nombre":"11:10",
+            "valor":11.1,
+            "recorrido":"Alabama → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"12:15",
+            "valor":12.15,
+            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"13:10",
+            "valor":13.1,
+            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"14:10",
+            "valor":14.1,
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"15:25",
+            "valor":15.25,
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"15:50",
+            "valor":15.5,
+            "recorrido":"Las Cejas → Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"17:15",
+            "valor":17.15,
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"18:10",
+            "valor":18.1,
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"19:00",
+            "valor":19,
+            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"19:50",
+            "valor":19.50,
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"20:00",
+            "valor":20,
+            "recorrido":"Lolita → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"20:30",
+            "valor":20.3,
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"21:30",
+            "valor":21.3,
+            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+        }
+    ]
+    const terminalRalosLaV = [
+        {
+            "nombre":"06.00",
+            "valor":6,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos"
+        },
+        {
+            "nombre":"07:00",
+            "valor":7,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama"
+        },
+        {
+            "nombre":"08:00",
+            "valor":8,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo"
+        },
+        {
+            "nombre":"08:30",
+            "valor":8.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos"
+        },
+        {
+            "nombre":"09:15",
+            "valor":9.15,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos"
+        },
+        {
+            "nombre":"09:30",
+            "valor":9.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera"
+        },
+        {
+            "nombre":"10:00",
+            "valor":10,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama"
+        },
+        {
+            "nombre":"10:40",
+            "valor":10.4,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Lolita"
+        },
+        {
+            "nombre":"11:15",
+            "valor":11.15,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo"
+        },
+        {
+            "nombre":"11:50",
+            "valor":11.5,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera"
+        },
+        {
+            "nombre":"12:10",
+            "valor":12.1,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama"
+        },
+        {
+            "nombre":"12:30",
+            "valor":12.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Barrio Trigal"
+        },
+        {
+            "nombre":"13:00",
+            "valor":13,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → VIlla Tercera"
+        },
+        {
+            "nombre":"13:30",
+            "valor":13.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → VIlla Tercera →Lolita"
+        },
+        {
+            "nombre":"13:50",
+            "valor":13.5,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Barrio Trigal"
+        },
+        {
+            "nombre":"14:00",
+            "valor":14,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Lolita"
+        },
+        {
+            "nombre":"14:30",
+            "valor":14.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → VIlla Tercera",
+            "recorrido2": "Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Las Cejas"
+        },
+        {
+            "nombre":"15:15",
+            "valor":15.15,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+        },
+        {
+            "nombre":"15:30",
+            "valor":15.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo",
+        },
+        {
+            "nombre":"16:00",
+            "valor":16,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos",
+        },
+        {
+            "nombre":"16:30",
+            "valor":16.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo",
+        },
+        {
+            "nombre":"17:00",
+            "valor":17,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+        },
+        {
+            "nombre":"17:30",
+            "valor":17.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos",
+        },
+        {
+            "nombre":"17:50",
+            "valor":17.5,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+        },        
+        {
+            "nombre":"18:00",
+            "valor":18,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo",
+        },
+        {
+            "nombre":"18:30",
+            "valor":18.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera"
+        },
+        {
+            "nombre":"19:00",
+            "valor":19,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Lolita Sur",
+        },
+        {
+            "nombre":"19:30",
+            "valor":19.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+        },
+        {
+            "nombre":"20:15",
+            "valor":20.15,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+        },
+        {
+            "nombre":"20:30",
+            "valor":20.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama",
+        },
+        {
+            "nombre":"21:00",
+            "valor":21,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+        },
+        {
+            "nombre":"21:30",
+            "valor":21.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+        },
+        {
+            "nombre":"22:00",
+            "valor":22,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos",
+        },
+        {
+            "nombre":"22:30",
+            "valor":22.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+        },
+        {
+            "nombre":"23:30",
+            "valor":23.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+        }
+    ]
+    const terminalRalosS = [
+        {
+            "nombre":"06.00",
+            "valor":6,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos"
+        },
+        {
+            "nombre":"06.30",
+            "valor":6.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Lolita Sur"
+        },
+        {
+            "nombre":"07:00",
+            "valor":7,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama"
+        },
+        {
+            "nombre":"07:45",
+            "valor":7.45,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos"
+        },
+        {
+            "nombre":"08:30",
+            "valor":8.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos"
+        },
+        {
+            "nombre":"09:30",
+            "valor":9.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos"
+        },
+        {
+            "nombre":"10:00",
+            "valor":10,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama"
+        },
+        {
+            "nombre":"10:40",
+            "valor":10.4,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Lolita → Las Cejas"
+        },
+        {
+            "nombre":"11:00",
+            "valor":11,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo Cruce"
+        },
+        {
+            "nombre":"11:50",
+            "valor":11.5,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera"
+        },
+        {
+            "nombre":"12:10",
+            "valor":12.1,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama"
+        },
+        {
+            "nombre":"12:30",
+            "valor":12.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera"
+        },
+        {
+            "nombre":"13:00",
+            "valor":13,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → VIlla Tercera"
+        },
+        {
+            "nombre":"13:30",
+            "valor":13.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → VIlla Tercera →Lolita"
+        },
+        {
+            "nombre":"13:50",
+            "valor":13.5,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Barrio Trigal"
+        },
+        {
+            "nombre":"14:00",
+            "valor":14,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Lolita"
+        }, 
+        {
+            "nombre":"14:20",
+            "valor":14,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Las Cejas"
+        },
+        {
+            "nombre":"14:30",
+            "valor":14.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → VIlla Tercera"
+        },
+        {
+            "nombre":"15:15",
+            "valor":15.15,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+        },
+        {
+            "nombre":"15:30",
+            "valor":15.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo",
+        },
+        {
+            "nombre":"16:05",
+            "valor":16.05,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos",
+        },
+        {
+            "nombre":"16:15",
+            "valor":16.15,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama",
+        },
+        {
+            "nombre":"17:10",
+            "valor":17.1,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+        },
+        {
+            "nombre":"18:00",
+            "valor":18,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama",
+        },
+        {
+            "nombre":"18:30",
+            "valor":18.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Las Cejas"
+        },
+        {
+            "nombre":"19:00",
+            "valor":19,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Lolita"
+        },
+        {
+            "nombre":"19:30",
+            "valor":19.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+        },
+        {
+            "nombre":"20:00",
+            "valor":20,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Las Cejas",
+        },
+        {
+            "nombre":"20:20",
+            "valor":20.2,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+        },
+        {
+            "nombre":"20:30",
+            "valor":20.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama",
+        },
+        {
+            "nombre":"21:00",
+            "valor":21,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos",
+        },
+        {
+            "nombre":"21:30",
+            "valor":21.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+        },
+        {
+            "nombre":"22:00",
+            "valor":22,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos",
+        },
+        {
+            "nombre":"22:30",
+            "valor":22.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+        },
+        {
+            "nombre":"23:30",
+            "valor":23.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+        }
+    ]
+    const terminalRalosD = [
+        {
+            "nombre":"06.00",
+            "valor":6,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos"
+        },
+        {
+            "nombre":"07:00",
+            "valor":7,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama"
+        },
+        {
+            "nombre":"08:30",
+            "valor":8.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos"
+        },
+        {
+            "nombre":"10:00",
+            "valor":10,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama"
+        },
+        {
+            "nombre":"10:30",
+            "valor":10.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Lolita → Las Cejas"
+        },
+        {
+            "nombre":"11:00",
+            "valor":11,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama"
+        },
+        {
+            "nombre":"12:10",
+            "valor":12.1,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama"
+        },
+        {
+            "nombre":"13:00",
+            "valor":13,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → VIlla Tercera"
+        },
+        {
+            "nombre":"14:30",
+            "valor":14.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → VIlla Tercera"
+        },
+        {
+            "nombre":"15:30",
+            "valor":15.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Las Cejas → 7 de Abril",
+        },
+        {
+            "nombre":"16:15",
+            "valor":16.15,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama",
+        },
+        {
+            "nombre":"17:10",
+            "valor":17.1,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+        },
+        {
+            "nombre":"18:00",
+            "valor":18,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama",
+        },
+        {
+            "nombre":"19:00",
+            "valor":19,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Lolita"
+        },
+        {
+            "nombre":"19:30",
+            "valor":19.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Cruz Alta",
+        },
+        {
+            "nombre":"20:00",
+            "valor":20,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos",
+        },
+        {
+            "nombre":"20:30",
+            "valor":20.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Las Cejas",
+        },
+        {
+            "nombre":"21:30",
+            "valor":21.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+        },
+        {
+            "nombre":"22:30",
+            "valor":22.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+        },
+        {
+            "nombre":"23:30",
+            "valor":23.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+        }
+    ]
+    const ralosCruzAltaTerminalLaV = [
+        {
+            "nombre":"05:30",
+            "valor":5.3,
+            "recorrido":"Los Ralos → Cruz Alta → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"07:20",
+            "valor":7.2,
+            "recorrido":"Los Ralos → Cruz Alta → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"07:45",
+            "valor":7.45,
+            "recorrido":"Britos → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"08:10",
+            "valor":8.1,
+            "recorrido":"Los Ralos → Cruz Alta → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"11:50",
+            "valor":11.5,
+            "recorrido":"Los Ralos → Cruz Alta → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"14:15",
+            "valor":14.15,
+            "recorrido":"Los Ralos → Cruz Alta → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"18:30",
+            "valor":18.3,
+            "recorrido":"Colonia 9 → Los Ralos → Cruz Alta → Cevil Pozo → Banda del Rio Sali"
+        },
+
+    ]
+    const ralosCruzAltaTerminalS = [
+        {
+            "nombre":"05:30",
+            "valor":5.3,
+            "recorrido":"Los Ralos → Cruz Alta → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"07:15",
+            "valor":7.15,
+            "recorrido":"Los Ralos → Cruz Alta → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"08:40",
+            "valor":8.4,
+            "recorrido":"Colonia 9 → Cruz Alta → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"11:50",
+            "valor":11.5,
+            "recorrido":"Los Ralos → Cruz Alta → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"14:15",
+            "valor":14.15,
+            "recorrido":"Los Ralos → Cruz Alta → Cevil Pozo → Banda del Rio Sali"
+        }
+    ]
+    const ralosCruzAltaTerminalD = []
     
+    const terminalCruzAltaRalosLaV = [
+        {
+            "nombre":"07:30",
+            "valor":7.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Cruz Alta → Los Ralos"
+        },
+        {
+            "nombre":"10:45",
+            "valor":10.45,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Cruz Alta → Los Ralos"
+        },
+        {
+            "nombre":"12:00",
+            "valor":12,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Cruz Alta → Los Ralos"
+        },
+        {
+            "nombre":"13:15",
+            "valor":13.15,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Cruz Alta → Los Ralos"
+        },
+        {
+            "nombre":"17:30",
+            "valor":17.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Cruz Alta → Colonia 9"
+        },
+        {
+            "nombre":"20:00",
+            "valor":20,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Cruz Alta → Los Ralos"
+        }
+    ]
+    const terminalCruzAltaRalosS = [
+            {
+                "nombre":"10:45",
+                "valor":10.45,
+                "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Cruz Alta → Los Ralos"
+            },
+            {
+                "nombre":"13:15",
+                "valor":13.15,
+                "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Cruz Alta → Los Ralos"
+            },
+            {
+                "nombre":"19:30",
+                "valor":19.30,
+                "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Cruz Alta → Los Ralos"
+            }
+    ];
+    const terminalCruzAltaRalosD = []
     const floridaAldTucuman = [horariosDFloAl,horariosLvFloAl,horariosSFloAl];
     const terminalAldFlorida = [horariosDSMAl,horariosSSMAl, horariosLvSMAl];
     const floridaPosseTucuman = [horariosDFloPo,horariosLvFloPo,horariosSFloPo];
     const terminalPosseFlorida = [horariosDSMPo, horariosSSMPo, horariosLvSMPo];
     const posseLTerminal = [posseTerminalD,posseTerminalLaV,posseTerminalS];
     const terminalPosseL = [terminalPosseD,terminalPosseLaV,terminalPosseS];
-
-    const todosDestinoTucuman = [floridaAldTucuman,floridaPosseTucuman,posseLTerminal];
-    const todosTucumanDestino = [terminalAldFlorida,terminalPosseFlorida, terminalPosseL]
+    const ralosTerminal = [ ralosTerminalD,ralosTerminalLaV,ralosTerminalS]; 
+    const terminalRalos = [terminalRalosD, terminalRalosLaV, terminalRalosS];
+    const ralosCruzAltaTerminal = [ralosCruzAltaTerminalD,ralosCruzAltaTerminalLaV,ralosCruzAltaTerminalS];
+    const terminalCruzAltaRalos = [terminalCruzAltaRalosD,terminalCruzAltaRalosLaV,terminalCruzAltaRalosS];
+    const todosDestinoTucuman = [floridaAldTucuman,floridaPosseTucuman,posseLTerminal,ralosTerminal,ralosCruzAltaTerminal];
+    const todosTucumanDestino = [terminalAldFlorida,terminalPosseFlorida, terminalPosseL,terminalRalos,terminalCruzAltaRalos];
 
 
     
@@ -1926,10 +2908,6 @@ const boton = document.getElementById('boton');
                             futuro2.textContent = 'No hay más colectivos por hoy por ésta ruta'
                             futuro3.textContent = "";
                         }      
-                                           
-                        console.log(elMasCercano)
-                         
-                    
     }           
     
     $('.resultados').css('display','flex')
