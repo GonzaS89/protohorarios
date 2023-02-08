@@ -2702,6 +2702,7 @@ const boton = document.getElementById('boton');
     const botonDeCambio = document.querySelector('.botonDeCambio');
     const botonDeCambio2 = document.querySelector('.botonDeCambio2');
     const mensaje2 = document.querySelector('.mensaje2');
+    let titulo = document.getElementById('titulo')
     botonDeCambio.addEventListener('click', function (){
         $('.menu2').css('display','flex');
         $('.origen').css('display','flex');
@@ -2710,6 +2711,7 @@ const boton = document.getElementById('boton');
         $('.menu').css('display','none');
         $('.botonDeCambio').css('display','none');
         opcionbase.selected = true;
+
     })
     botonDeCambio2.addEventListener('click', function (){
         $('.menu2').css('display','none');
@@ -2719,7 +2721,7 @@ const boton = document.getElementById('boton');
         $('.menu').css('display','flex');
         $('.botonDeCambio').css('display','flex');
         opcionbase2.selected = true;
-        
+       
     })
    
     boton.addEventListener('click',function(){
