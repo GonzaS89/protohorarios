@@ -3,6 +3,7 @@
     --fondo : #fefbfb;
     --azul : #455ff4;
     --rojo : #f56e6e;
+    --rojo2 : #f93a3a;
     --fondoAzul : rgb(31, 77, 134);
     --fuentePrincipal : 'Nunito', sans-serif;
     --fuenteSec : 'Dosis', sans-serif;
@@ -14,7 +15,7 @@ h1,p{
 }
 
 body{
-    background-color: var(--rojo);
+    background-color: var(--rojo2);
 }
 .contenedor{
     max-width:1200px;
@@ -22,7 +23,7 @@ body{
 
 .header{
     display:flex;
-    background-color: var(--rojo);
+    background-color: var(--rojo2);
     align-items: center;
     justify-content: center;
     margin: 0 auto 20px;
@@ -71,12 +72,12 @@ body{
 }
 #dia{
     font-size: 20px;
-    background-color: var(--rojo);
+    background-color: var(--rojo2);
     height: 20%;
 }
 #fecha{
     font-size: 70px;
-    background-color:var(--rojo);
+    background-color:var(--rojo2);
     height: 60%;
 }
 #mes{
@@ -227,7 +228,7 @@ body{
 }
 .topside{
     display: flex;
-    width:300px;
+    width:250px;
     align-items: center;
     justify-content:center;
     flex-direction: column;
