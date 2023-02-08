@@ -382,9 +382,11 @@ body{
     display:flex;
     justify-content:center;
     align-items: center;
-    height:100px;
+    height:120px;
     margin: -5px;
+    flex-direction: column;
 }
+
 .boton-cont2{
     display:none;
     justify-content:center;
@@ -393,17 +395,15 @@ body{
     margin: -5px;
 }
 #boton,#boton2{
-    height:85px;
-    width:85px;
-    background-color:white;
-    border-radius: 50%;
+    height:60px;
+    width:100px;
+    background-color:var(--azul);
+    border-radius: 10px;
     font-family: var(--fuenteSec);
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
-    box-shadow: 2px px black;
-    color: rgb(0, 0, 0);
-    background-image: url('imagenes/logo\ empresa.jpg');
-    background-size: cover;
+    box-shadow: 2px black;
+    color: var(--blanco);
 
 }
 #boton:active{
