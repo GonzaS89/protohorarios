@@ -2840,10 +2840,9 @@ const boton = document.getElementById('boton');
 
                             if(listaDiferencias[i] > 0){
                             anteriorPasado = Math.min(anteriorPasado,listaDiferencias[i]);
-                        
-                         
+                            
                              actual1.textContent = `Bondi de las ${diaRango[listaDiferencias.indexOf(anteriorPasado)].nombre}`
-                   
+                                
                 //  Aqui definimos los mensajes a mostrar en el primer campo         
 
                             
@@ -2859,15 +2858,15 @@ const boton = document.getElementById('boton');
                                  if(anteriorPasado < 5){
                                     actual2.textContent = 'Inició su recorrido hace menos de 5 minutos'
                                 }
-                            
-                                        
                                     actual3.textContent = `Recorrido : ${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
-                                
-                                                    
-                                
-                        } 
                         
-                           
+                    
+                    }
+                    if(anteriorPasado == 3000){
+                        actual1.textContent = '';
+                        actual2.textContent = 'No pasó ningun bondi aún'
+                        actual3.textContent =''
+                    }
                     }
                                 
                         //   Aqui en el segundo campo  
