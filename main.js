@@ -78,7 +78,7 @@ const boton = document.getElementById('boton');
         {
             "nombre":"04:40",
             "valor":4.4,
-            "recorrido": ["Fortin","Talar","Alderetes","Banda del Rio Sali"]
+            "recorrido": "Fortin → Talar → Alderetes → Banda del Río Salí"
         },
         {
             "nombre":"05:35",
@@ -88,7 +88,7 @@ const boton = document.getElementById('boton');
         {
             "nombre":"06:10",
             "valor":6.10,
-            "recorrido":"Fortin → Talar → Alderetes → Banda del Rio Sali",
+            "recorrido":"Fortin → Talar → Alderetes → Banda del Río Salí",
             "recorrido2":"Colonia 10 → Colonia 4 → B° La Cancha → Cochuchal → Alderetes → Autopista"
         },
         {
@@ -105,12 +105,12 @@ const boton = document.getElementById('boton');
             "nombre":"07:20",
             "valor":7.2,
             "recorrido":"Colonia 4 → B° La Cancha → Talar → Alternativa",
-            "recorrido2":"Fortin → Talar →  Cochuchal → Alderetes → Banda del Rio Sali"
+            "recorrido2":"Fortin → Talar →  Cochuchal → Alderetes → Banda del Río Salí"
         },
         {
             "nombre":"07:40",
             "valor":7.4,
-            "recorrido":"Finca Mayo → Fortin → Cochuchal → Alderetes → Banda del Rio Sali"
+            "recorrido":"Finca Mayo → Fortin → Cochuchal → Alderetes → Banda del Río Salí"
         },
         {
             "nombre":"07:50",
@@ -126,7 +126,7 @@ const boton = document.getElementById('boton');
         {
             "nombre":"09:20",
             "valor":9.2,
-            "recorrido":"Fortin → Talar → Alderetes → Banda del Rio Sali"
+            "recorrido":"Fortin → Talar → Alderetes → Banda del Río Salí"
         },
         {
             "nombre":"09:50",
@@ -136,12 +136,12 @@ const boton = document.getElementById('boton');
         {
             "nombre":"10:30",
             "valor":10.3,
-            "recorrido":"Fortin → Talar → Alderetes → Banda del Rio Sali"
+            "recorrido":"Fortin → Talar → Alderetes → Banda del Río Salí"
         },
         {
             "nombre":"11:40",
             "valor":11.40,
-            "recorrido":"Fortin → Talar → Alderetes → Banda del Rio Sali"
+            "recorrido":"Fortin → Talar → Alderetes → Banda del Río Salí"
         },
         {
             "nombre":"12:30",
@@ -156,7 +156,7 @@ const boton = document.getElementById('boton');
         {
             "nombre":"13:50",
             "valor":13.5,
-            "recorrido":"B° La Cancha → Cochuchal → Alderetes → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Cochuchal → Alderetes → Banda del Río Salí"
         },
         {
             "nombre":"14:45",
@@ -179,7 +179,7 @@ const boton = document.getElementById('boton');
             "nombre":"16:50",
             "valor":16.5,
             "recorrido":"Colonia 4 → B° La Cancha → Talar → Alternativa",
-            "recorrido2":"Colonia 3 → Talar → Alderetes → Banda del Rio Sali"
+            "recorrido2":"Colonia 3 → Talar → Alderetes → Banda del Río Salí"
         },
         // {
         //     "nombre":"17:35",
@@ -194,7 +194,7 @@ const boton = document.getElementById('boton');
         {
             "nombre":"17:50",
             "valor":17.5,
-            "recorrido":"Fortin → Talar →  Alderetes → Banda del Rio Sali"
+            "recorrido":"Fortin → Talar →  Alderetes → Banda del Río Salí"
         },
         // {
         //     "nombre":"18:10",
@@ -204,12 +204,12 @@ const boton = document.getElementById('boton');
         {
             "nombre":"18:30",
             "valor":18.3,
-            "recorrido":"Fortin → Talar → Alderetes → Banda del Rio Sali"
+            "recorrido":"Fortin → Talar → Alderetes → Banda del Río Salí"
         },
         {
             "nombre":"19:00",
             "valor":19,
-            "recorrido":"La Marta → Colonia 3 → B° La Cancha → Talar → Alderetes → Banda del Rio Sali"
+            "recorrido":"La Marta → Colonia 3 → B° La Cancha → Talar → Alderetes → Banda del Río Salí"
         },
         // {
         //     "nombre":"20:55",
@@ -227,7 +227,7 @@ const boton = document.getElementById('boton');
         {
             "nombre":"04:40",
             "valor":4.4,
-            "recorrido":"Fortin → Talar → Alderetes → Banda del Rio Sali"
+            "recorrido":"Fortin → Talar → Alderetes → Banda del Río Salí"
         },
         {
             "nombre":"05:45",
@@ -257,7 +257,7 @@ const boton = document.getElementById('boton');
         {
             "nombre":"07:40",
             "valor":7.4,
-            "recorrido":"Finca Mayo → Talar → Alderetes → Banda del Rio Sali"
+            "recorrido":"Finca Mayo → Talar → Alderetes → Banda del Río Salí"
         },
         {
             "nombre":"07:50",
@@ -267,27 +267,27 @@ const boton = document.getElementById('boton');
         {
             "nombre":"08:45",
             "valor":8.45,
-            "recorrido":"Colonia 4 → B° La Cancha → Talar → Alderetes → Banda del Rio Sali"
+            "recorrido":"Colonia 4 → B° La Cancha → Talar → Alderetes → Banda del Río Salí"
         },
         {
             "nombre":"09:20",
             "valor":9.2,
-            "recorrido":"Fortin →Talar → Alderetes → Banda del Rio Sali"
+            "recorrido":"Fortin →Talar → Alderetes → Banda del Río Salí"
         },
         {
             "nombre":"10:30",
             "valor":10.30,
-            "recorrido":"Fortin → Talar  → Alderetes → Banda del Rio Sali"
+            "recorrido":"Fortin → Talar  → Alderetes → Banda del Río Salí"
         },
         {
             "nombre":"11:40",
             "valor":11.40,
-            "recorrido":"Fortin → Talar → Alderetes → Banda del Rio Sali"
+            "recorrido":"Fortin → Talar → Alderetes → Banda del Río Salí"
         },
         {
             "nombre":"12:40",
             "valor":12.4,
-            "recorrido":"Finca Mayo → Colonia 5 → Colonia 4 → Colonia 3 → Colonia 2 → Fortin → Talar → Alderetes → Banda del Rio Sali"
+            "recorrido":"Finca Mayo → Colonia 5 → Colonia 4 → Colonia 3 → Colonia 2 → Fortin → Talar → Alderetes → Banda del Río Salí"
         },
         {
             "nombre":"13:15",
@@ -297,7 +297,7 @@ const boton = document.getElementById('boton');
         {
             "nombre":"14:50",
             "valor":14.5,
-            "recorrido":"B° La Cancha → Talar →  Alderetes → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Talar →  Alderetes → Banda del Río Salí"
         },
         {
             "nombre":"15:50",
@@ -307,17 +307,17 @@ const boton = document.getElementById('boton');
         {
             "nombre":"16:50",
             "valor":16.5,
-            "recorrido":"Colonia 3 → Talar → Alderetes → Banda del Rio Sali"
+            "recorrido":"Colonia 3 → Talar → Alderetes → Banda del Río Salí"
         },
         {
             "nombre":"17:50",
             "valor":17.5,
-            "recorrido":"Fortin → Banda del Rio Sali"
+            "recorrido":"Fortin → Banda del Río Salí"
         },
         {
             "nombre":"19:00",
             "valor":19,
-            "recorrido":"La Marta → Colonia 3 → B° La Cancha → Talar → Alderetes → Banda del Rio Sali"
+            "recorrido":"La Marta → Colonia 3 → B° La Cancha → Talar → Alderetes → Banda del Río Salí"
         }
     ]
     const horariosDFloAl = [
@@ -325,37 +325,37 @@ const boton = document.getElementById('boton');
         {
             "nombre":"07:40",
             "valor":7.4,
-            "recorrido":"Finca Mayo → Colonia 5 → Colonia 4 → Colonia 3 → Colonia 2 → Fortin → Talar → Alderetes → Banda del Rio Sali"
+            "recorrido":"Finca Mayo → Colonia 5 → Colonia 4 → Colonia 3 → Colonia 2 → Fortin → Talar → Alderetes → Banda del Río Salí"
         },
         {
             "nombre":"10:30",
             "valor":10.30,
-            "recorrido":"Colonia 2 → Fortin → Talar → Alderetes → Banda del Rio Sali"
+            "recorrido":"Colonia 2 → Fortin → Talar → Alderetes → Banda del Río Salí"
         },
         {
             "nombre":"12:40",
             "valor":12.4,
-            "recorrido":"Finca Mayo → Colonia 5 → Colonia 4 → Colonia 3 → Colonia 2 → Fortin → Talar → Alderetes → Banda del Rio Sali"
+            "recorrido":"Finca Mayo → Colonia 5 → Colonia 4 → Colonia 3 → Colonia 2 → Fortin → Talar → Alderetes → Banda del Río Salí"
         },
         {
             "nombre":"14:50",
             "valor":14.5,
-            "recorrido":"B° La Cancha → Talar → Alderetes → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Talar → Alderetes → Banda del Río Salí"
         },
         {
             "nombre":"16:50",
             "valor":16.5,
-            "recorrido":"Colonia 3 → Fortin → Talar → Alderetes → Banda del Rio Sali"
+            "recorrido":"Colonia 3 → Fortin → Talar → Alderetes → Banda del Río Salí"
         },
         {
             "nombre":"17:50",
             "valor":17.5,
-            "recorrido":["B° La Cancha","Talar ","Alderetes","Banda del Rio Sali"]
+            "recorrido":["B° La Cancha","Talar ","Alderetes","Banda del Río Salí"]
         },
         {
             "nombre":"19:10",
             "valor":19.1,
-            "recorrido":"Colonia 10 → Colonia 3 → B° La Cancha → Talar → Alderetes → Banda del Rio Sali"
+            "recorrido":"Colonia 10 → Colonia 3 → B° La Cancha → Talar → Alderetes → Banda del Río Salí"
         }
     ]
     const horariosLvFloPo = [
@@ -363,79 +363,79 @@ const boton = document.getElementById('boton');
         {
             "nombre":"04:50",
             "valor":4.5,
-            "recorrido":"B° La Cancha → Paraiso → Dispensario → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Dispensario → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"05:50",
             "valor":5.5,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"06:20",
             "valor":6.2,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"06:50",
             "valor":6.5,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"07:25",
             "valor":7.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"07:55",
             "valor":7.55,
-            "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"08:25",
             "valor":8.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"09:05",
             "valor":9.05,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"09:55",
             "valor":9.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"10:25",
             "valor":10.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"10:55",
             "valor":10.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"11:25",
             "valor":11.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"11:55",
             "valor":11.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"12:40",
             "valor":12.40,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         // {
         //     "nombre":"12:25",
@@ -445,57 +445,57 @@ const boton = document.getElementById('boton');
         {
             "nombre":"13:25",
             "valor":13.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"13:50",
             "valor":13.5,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"14:55",
             "valor":14.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"15:55",
             "valor":15.55,
-            "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"16:55",
             "valor":16.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"17:55",
             "valor":17.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"18:55",
             "valor":18.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"19:25",
             "valor":19.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"20:25",
             "valor":20.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"21:20",
             "valor":21.2,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"22:20",
             "valor":22.20,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
        
        
@@ -504,80 +504,80 @@ const boton = document.getElementById('boton');
         {
             "nombre":"04:50",
             "valor":4.5,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         
         {
             "nombre":"05:50",
             "valor":5.5,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"06:25",
             "valor":6.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"06:50",
             "valor":6.5,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"07:25",
             "valor":7.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"07:55",
             "valor":7.55,
-            "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"08:25",
             "valor":8.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"09:05",
             "valor":9.05,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"09:55",
             "valor":9.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"10:25",
             "valor":10.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"10:55",
             "valor":10.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"11:25",
             "valor":11.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"11:55",
             "valor":11.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"12:40",
             "valor":12.40,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         // {
         //     "nombre":"12:25",
@@ -587,154 +587,154 @@ const boton = document.getElementById('boton');
         {
             "nombre":"13:25",
             "valor":13.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"13:55",
             "valor":13.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"15:00",
             "valor":15,
-            "recorrido":"Esquina de Lastra → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Esquina de Lastra → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"15:55",
             "valor":15.55,
-            "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"16:55",
             "valor":16.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"18:55",
             "valor":18.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"19:25",
             "valor":19.25,
-            "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"20:25",
             "valor":20.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"20:55",
             "valor":20.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"21:25",
             "valor":21.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"22:20",
             "valor":22.20,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
         },
     ]
     const horariosDFloPo = [
 {
     "nombre":"04:50",
     "valor":4.5,
-    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"05:50",
     "valor":5.5,
-    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
 },   
 {
     "nombre":"06:50",
     "valor":6.5,
-    "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+    "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"07:55",
     "valor":7.55,
-    "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+    "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"08:55",
     "valor":8.55,
-    "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+    "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"09:55",
     "valor":9.55,
-    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"10:55",
     "valor":10.55,
-    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"11:55",
     "valor":11.55,
-    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"12:55",
     "valor":12.55,
-    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"13:55",
     "valor":13.55,
-    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"15:00",
     "valor":15,
-    "recorrido":"Esquina de Lastra → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+    "recorrido":"Esquina de Lastra → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"15:55",
     "valor":15.55,
-    "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+    "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"16:55",
     "valor":16.55,
-    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"17:55",
     "valor":17.55,
-    "recorrido":["B° La Cancha","Paraiso","Dispensario","Llona","Cevil Pozo","Banda del Rio Sali"]
+    "recorrido":["B° La Cancha","Paraiso","Dispensario","Llona","Cevil Pozo","Banda del Río Salí"]
 },
 {
     "nombre":"18:55",
     "valor":18.55,
-    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"19:25",
     "valor":19.25,
-    "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+    "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"20:00",
     "valor":20.00,
-    "recorrido":"Esquina Lastra → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+    "recorrido":"Esquina Lastra → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"20:55",
     "valor":20.55,
-    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"22:20",
     "valor":22.20,
-    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Rio Sali"
+    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
 },
 
     ]
@@ -753,12 +753,12 @@ const boton = document.getElementById('boton');
         {
             "nombre":"06:25",
             "valor":6.25,
-            "recorrido":"Terminal → Banda del Rio Sali → Talar → Fortin → Mayo"
+            "recorrido":"Terminal → Banda del Río Salí → Talar → Fortin → Mayo"
         },
         {
             "nombre":"07:15",
             "valor":7.15,
-            "recorrido":"Terminal → Banda del Rio Sali → La Marta"
+            "recorrido":"Terminal → Banda del Río Salí → La Marta"
         },
         {
             "nombre":"08:00",
@@ -768,7 +768,7 @@ const boton = document.getElementById('boton');
         {
             "nombre":"08:35",
             "valor":8.35,
-            "recorrido":"Terminal → Banda del Rio Sali → Talar → Fortin"
+            "recorrido":"Terminal → Banda del Río Salí → Talar → Fortin"
         },
         {
             "nombre":"09:00",
@@ -778,12 +778,12 @@ const boton = document.getElementById('boton');
         {
             "nombre":"09:45",
             "valor":9.45,
-            "recorrido":"Terminal → Banda del Rio Sali → Fortin"
+            "recorrido":"Terminal → Banda del Río Salí → Fortin"
         },
         {
             "nombre":"10:45",
             "valor":10.45,
-            "recorrido":"Terminal → Banda del Rio Sali → Fortin"
+            "recorrido":"Terminal → Banda del Río Salí → Fortin"
         },
         {
             "nombre":"11:15",
@@ -808,12 +808,12 @@ const boton = document.getElementById('boton');
         {
             "nombre":"12:45",
             "valor":12.45,
-            "recorrido":"Terminal → Banda del Rio Sali → Colonia 3"
+            "recorrido":"Terminal → Banda del Río Salí → Colonia 3"
         },
         {
             "nombre":"13:15",
             "valor":13.15,
-            "recorrido":"Terminal → Banda del Rio Sali → Cochuchal → Colonia 4"
+            "recorrido":"Terminal → Banda del Río Salí → Cochuchal → Colonia 4"
         },
         {
             "nombre":"13:30",
@@ -823,27 +823,27 @@ const boton = document.getElementById('boton');
         {
             "nombre":"14:00",
             "valor":14,
-            "recorrido":"Terminal → Banda del Rio Sali → B° La Cancha"
+            "recorrido":"Terminal → Banda del Río Salí → B° La Cancha"
         },
         {
             "nombre":"14:50",
             "valor":14.5,
-            "recorrido":"Terminal → Banda del Rio Sali → Alderetes → Talar → B° La Cancha"
+            "recorrido":"Terminal → Banda del Río Salí → Alderetes → Talar → B° La Cancha"
         },
         {
             "nombre":"15:50",
             "valor":15.5,
-            "recorrido":"Terminal → Banda del Rio Sali → Colonia 3"
+            "recorrido":"Terminal → Banda del Río Salí → Colonia 3"
         },
         {
             "nombre":"16:50",
             "valor":16.5,
-            "recorrido":"Terminal → Banda del Rio Sali → Cochuchal → Fortin"
+            "recorrido":"Terminal → Banda del Río Salí → Cochuchal → Fortin"
         },
         {
             "nombre":"17:45",
             "valor":17.45,
-            "recorrido":"Terminal → Banda del Rio Sali → B° La Cancha"
+            "recorrido":"Terminal → Banda del Río Salí → B° La Cancha"
         },
         // {
         //     "nombre":"18:20",
@@ -853,22 +853,22 @@ const boton = document.getElementById('boton');
         {
             "nombre":"18:30",
             "valor":18.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Colonia 4"
+            "recorrido":"Terminal → Banda del Río Salí → Colonia 4"
         },
         {
             "nombre":"19:00",
             "valor":19,
-            "recorrido":"Terminal → Banda del Rio Sali → Colonia 4"
+            "recorrido":"Terminal → Banda del Río Salí → Colonia 4"
         },
         {
             "nombre":"19:45",
             "valor":19.45,
-            "recorrido":"Terminal → Banda del Rio Sali → Mayo"
+            "recorrido":"Terminal → Banda del Río Salí → Mayo"
         },
         {
             "nombre":"20:30",
             "valor":20.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Fortin"
+            "recorrido":"Terminal → Banda del Río Salí → Fortin"
         },
         {
             "nombre":"21:00",
@@ -897,12 +897,12 @@ const boton = document.getElementById('boton');
             {
                 "nombre":"06:25",
                 "valor":6.25,
-                "recorrido":"Terminal → Banda del Rio Sali → Mayo"
+                "recorrido":"Terminal → Banda del Río Salí → Mayo"
             },
             {
                 "nombre":"07:15",
                 "valor":7.15,
-                "recorrido":"Terminal → Banda del Rio Sali → La Marta"
+                "recorrido":"Terminal → Banda del Río Salí → La Marta"
             },
             {
                 "nombre":"08:00",
@@ -912,17 +912,17 @@ const boton = document.getElementById('boton');
             {
                 "nombre":"08:35",
                 "valor":8.35,
-                "recorrido":"Terminal → Banda del Rio Sali → Fortin"
+                "recorrido":"Terminal → Banda del Río Salí → Fortin"
             },
             {
                 "nombre":"09:45",
                 "valor":9.45,
-                "recorrido":"Terminal → Banda del Rio Sali → Fortin"
+                "recorrido":"Terminal → Banda del Río Salí → Fortin"
             },
             {
                 "nombre":"10:45",
                 "valor":10.45,
-                "recorrido":"Terminal → Banda del Rio Sali → Fortin"
+                "recorrido":"Terminal → Banda del Río Salí → Fortin"
             },
             {
                 "nombre":"12:20",
@@ -937,42 +937,42 @@ const boton = document.getElementById('boton');
             {
                 "nombre":"14:00",
                 "valor":14,
-                "recorrido":"Terminal → Banda del Rio Sali → B° La Cancha"
+                "recorrido":"Terminal → Banda del Río Salí → B° La Cancha"
             },
             {
                 "nombre":"14:50",
                 "valor":14.5,
-                "recorrido":"Terminal → Banda del Rio Sali → B° La Cancha → Colonia 4"
+                "recorrido":"Terminal → Banda del Río Salí → B° La Cancha → Colonia 4"
             },
             {
                 "nombre":"16:00",
                 "valor":16,
-                "recorrido":"Terminal → Banda del Rio Sali → Cochuchal → Fortin → Colonia 3"
+                "recorrido":"Terminal → Banda del Río Salí → Cochuchal → Fortin → Colonia 3"
             },
             {
                 "nombre":"16:50",
                 "valor":16.5,
-                "recorrido":"Terminal → Banda del Rio Sali → Cochuchal → Fortin"
+                "recorrido":"Terminal → Banda del Río Salí → Cochuchal → Fortin"
             },
             {
                 "nombre":"17:45",
                 "valor":17.45,
-                "recorrido":"Terminal → Banda del Rio Sali → B° La Cancha"
+                "recorrido":"Terminal → Banda del Río Salí → B° La Cancha"
             },
             {
                 "nombre":"19:00",
                 "valor":19,
-                "recorrido":"Terminal → Banda del Rio Sali → Colonia 4"
+                "recorrido":"Terminal → Banda del Río Salí → Colonia 4"
             },
             {
                 "nombre":"19:45",
                 "valor":19.45,
-                "recorrido":"Terminal → Banda del Rio Sali → Mayo"
+                "recorrido":"Terminal → Banda del Río Salí → Mayo"
             },
             {
                 "nombre":"20:30",
                 "valor":20.3,
-                "recorrido":"Terminal → Banda del Rio Sali → Fortin"
+                "recorrido":"Terminal → Banda del Río Salí → Fortin"
             },
             {
                 "nombre":"21:30",
@@ -995,42 +995,42 @@ const boton = document.getElementById('boton');
             {
                 "nombre":"06:25",
                 "valor":6.25,
-                "recorrido":"Terminal → Banda del Rio Sali → Mayo"
+                "recorrido":"Terminal → Banda del Río Salí → Mayo"
             },
             {
                 "nombre":"09:45",
                 "valor":9.45,
-                "recorrido":"Terminal → Banda del Rio Sali → Fortin → Colonia 2"
+                "recorrido":"Terminal → Banda del Río Salí → Fortin → Colonia 2"
             },
             {
                 "nombre":"11:40",
                 "valor":11.40,
-                "recorrido":"Terminal → Banda del Rio Sali → Cochuchal → Fortin → Mayo"
+                "recorrido":"Terminal → Banda del Río Salí → Cochuchal → Fortin → Mayo"
             },
             {
                 "nombre":"14:00",
                 "valor":14,
-                "recorrido":"Terminal → Banda del Rio Sali → B° La Cancha"
+                "recorrido":"Terminal → Banda del Río Salí → B° La Cancha"
             },
             {
                 "nombre":"16:00",
                 "valor":16,
-                "recorrido":"Terminal → Banda del Rio Sali → Cochuchal → Fortin → Colonia 3"
+                "recorrido":"Terminal → Banda del Río Salí → Cochuchal → Fortin → Colonia 3"
             },
             {
                 "nombre":"17:45",
                 "valor":17.45,
-                "recorrido":["Terminal","Banda del Rio Sali" ,"Fortin","Mayo"]
+                "recorrido":["Terminal","Banda del Río Salí" ,"Fortin","Mayo"]
             },
             {
                 "nombre":"19:45",
                 "valor":19.45,
-                "recorrido":"Terminal → Banda del Rio Sali → Mayo"
+                "recorrido":"Terminal → Banda del Río Salí → Mayo"
             },
             {
                 "nombre":"20:30",
                 "valor":20.3,
-                "recorrido":"Terminal → Banda del Rio Sali → Fortin"
+                "recorrido":"Terminal → Banda del Río Salí → Fortin"
             }
   
     ]
@@ -1428,7 +1428,7 @@ const boton = document.getElementById('boton');
             {
                 "nombre":"18:00",
                 "valor":18,
-                "recorrido":["Terminal","Banda del Rio Sali","Cevil Pozo","Llona", "Dispensario","Paraiso","B° La Cancha"]
+                "recorrido":["Terminal","Banda del Río Salí","Cevil Pozo","Llona", "Dispensario","Paraiso","B° La Cancha"]
             },
             {
                 "nombre":"18:30",
@@ -1603,74 +1603,74 @@ const boton = document.getElementById('boton');
         {
             "nombre":"05:25",
             "valor":5.25,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Fila del medio → Bosque → Dispensario"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila del medio → Bosque → Dispensario"
         },
         {
             "nombre":"08:30",
             "valor":8.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Fila del medio → Dispensario"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila del medio → Dispensario"
         },
         {
             "nombre":"13:00",
             "valor":13,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Fila del medio → Bosque"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila del medio → Bosque"
         },
         {
             "nombre":"13:30",
             "valor":13.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Fila del medio → Bosque → Dispensario"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila del medio → Bosque → Dispensario"
         },
         {
             "nombre":"15:00",
             "valor":15,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Fila del medio → Bosque → Dispensario"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila del medio → Bosque → Dispensario"
         },
         {
             "nombre":"15:30",
             "valor":15.3,
-            "recorrido":" Terminal → Banda del Rio Sali → Cevil Pozo → Fila del medio → Bosque → Dispensario"
+            "recorrido":" Terminal → Banda del Río Salí → Cevil Pozo → Fila del medio → Bosque → Dispensario"
         },
         {
             "nombre":"16:30",
             "valor":16.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Fila del medio → Bosque → Dispensario"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila del medio → Bosque → Dispensario"
         },
         {
             "nombre":"17:25",
             "valor":17.25,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Llona → Fila de la orilla → Dispensario"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Llona → Fila de la orilla → Dispensario"
         },
         {
             "nombre":"18:25",
             "valor":18.25,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Llona → Fila de la orilla → Dispensario"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Llona → Fila de la orilla → Dispensario"
         },
         {
             "nombre":"19:00",
             "valor":19,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Fila del medio → Bosque → Dispensario"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila del medio → Bosque → Dispensario"
         },
         {
             "nombre":"20:20",
             "valor":20.2,
-            "recorrido":"Terminal →  Banda del Rio Sali → Cevil Pozo → Fila del medio → Bosque → Dispensario"
+            "recorrido":"Terminal →  Banda del Río Salí → Cevil Pozo → Fila del medio → Bosque → Dispensario"
         },
         {
             "nombre":"21:00",
             "valor":21,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Fila del medio → Bosque → Dispensario"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila del medio → Bosque → Dispensario"
         },
     ]
     const terminalPosseS = [
         {
             "nombre":"05:25",
             "valor":5.25,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Fila de la orilla → Llona → Bosque → Dispensario"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila de la orilla → Llona → Bosque → Dispensario"
         },
         {
             "nombre":"08:30",
             "valor":8.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Fila del medio → Bosque → Dispensario"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila del medio → Bosque → Dispensario"
         },
         {
             "nombre":"11:35",
@@ -1708,900 +1708,900 @@ const boton = document.getElementById('boton');
         {
             "nombre":"04:40",
             "valor":4.4,
-            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"05:25",
             "valor":5.25,
-            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"05:30",
             "valor":5.3,
-            "recorrido":"Villa Tercera → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Villa Tercera → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"06:05",
             "valor":6.05,
-            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"06:15",
             "valor":6.15,
-            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"06:25",
             "valor":6.25,
-            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"06:40",
             "valor":6.4,
-            "recorrido":"Villa Tercera → Escuela 330 → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Villa Tercera → Escuela 330 → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"06:40",
             "valor":6.4,
-            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali",
-            "recorrido2":"Lolita → Cerco 2 → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Río Salí",
+            "recorrido2":"Lolita → Cerco 2 → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"06:50",
             "valor":6.5,
-            "recorrido":"Las Vias → Barrio Trigal → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Las Vias → Barrio Trigal → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"07:30",
             "valor":7.3,
-            "recorrido":"Lolita → Los Ralos → Cevil Pozo → Banda del Rio Sali",
-            "recorrido2":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Lolita → Los Ralos → Cevil Pozo → Banda del Río Salí",
+            "recorrido2":"Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"08:20",
             "valor":8.2,
-            "recorrido":"Los Ralos → Barrio Trigal → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Barrio Trigal → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"08:25",
             "valor":8.25,
-            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"09;10",
             "valor":9.1,
-            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"10:20",
             "valor":10.2,
-            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali",
-            "recorrido2":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Río Salí",
+            "recorrido2":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"11:10",
             "valor":11.1,
-            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"12:00",
             "valor":12,
-            "recorrido":"Lolita → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Lolita → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"12:15",
             "valor":12.15,
-            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"12:45",
             "valor":12.45,
-            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"13:10",
             "valor":13.1,
-            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"14:10",
             "valor":14.1,
-            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"15:10",
             "valor":15.1,
-            "recorrido":"Lolita → Los Ralos → Barrio Trigal → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Lolita → Los Ralos → Barrio Trigal → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"15:25",
             "valor":15.25,
-            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"16:10",
             "valor":16.1,
-            "recorrido":"Los Ralos → Barrio Trigal → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Barrio Trigal → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"16:25",
             "valor":16.25,
-            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"16:30",
             "valor":16.3,
-            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"17:20",
             "valor":17.2,
-            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"17:30",
             "valor":17.3,
-            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"18:15",
             "valor":18.15,
-            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"19:00",
             "valor":19,
-            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"19:05",
             "valor":19.05,
-            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"20:00",
             "valor":20,
-            "recorrido":"Lolita → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Lolita → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"21:10",
             "valor":21.1,
-            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"22:00",
             "valor":22,
-            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Río Salí"
         }
     ]
     const ralosTerminalS = [
         {
             "nombre":"04:40",
             "valor":4.4,
-            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"05:30",
             "valor":5.3,
-            "recorrido":"Villa Tercera → El Infierno → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Villa Tercera → El Infierno → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"06:25",
             "valor":6.25,
-            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"06:50",
             "valor":6.5,
-            "recorrido":"Las Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Las Ralos → Villa Tercera → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"07:30",
             "valor":7.3,
-            "recorrido":"Lolita Sur → Los Ralos → Cevil Pozo → Banda del Rio Sali",
-            "recorrido2":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Lolita Sur → Los Ralos → Cevil Pozo → Banda del Río Salí",
+            "recorrido2":"Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"08:10",
             "valor":8.1,
-            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"08:25",
             "valor":8.25,
-            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"09;25",
             "valor":9.25,
-            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"10:20",
             "valor":10.2,
-            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali",
-            "recorrido2":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Río Salí",
+            "recorrido2":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"11:10",
             "valor":11.1,
-            "recorrido":"Alabama → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Alabama → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"12:00",
             "valor":12,
-            "recorrido":"Las Cejas → Lolita → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Las Cejas → Lolita → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"12:15",
             "valor":12.15,
-            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"13:10",
             "valor":13.1,
-            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"14:10",
             "valor":14.1,
-            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"15:00",
             "valor":15,
-            "recorrido":"Lolita Sur → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Lolita Sur → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"15:25",
             "valor":15.25,
-            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"16:25",
             "valor":16.25,
-            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"16:30",
             "valor":16.3,
-            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"17:15",
             "valor":17.15,
-            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"17:20",
             "valor":17.2,
-            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"18:10",
             "valor":18.1,
-            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"19:00",
             "valor":19,
-            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"19:05",
             "valor":19.05,
-            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"20:00",
             "valor":20,
-            "recorrido":"Lolita → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Lolita → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"21:10",
             "valor":21.1,
-            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"21:30",
             "valor":21.3,
-            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Río Salí"
         }
     ]
     const ralosTerminalD = [
         {
             "nombre":"05:00",
             "valor":5,
-            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"05:30",
             "valor":5.3,
-            "recorrido":"Villa Tercera → El Infierno → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Villa Tercera → El Infierno → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"07:00",
             "valor":7,
-            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"08:10",
             "valor":8.1,
-            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"08:30",
             "valor":8.3,
-            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"09;25",
             "valor":9.25,
-            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"10:30",
             "valor":10.3,
-            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali",
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Río Salí",
         },
         {
             "nombre":"11:10",
             "valor":11.1,
-            "recorrido":"Alabama → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Alabama → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"12:15",
             "valor":12.15,
-            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"13:10",
             "valor":13.1,
-            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"14:10",
             "valor":14.1,
-            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"15:25",
             "valor":15.25,
-            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"15:50",
             "valor":15.5,
-            "recorrido":"Las Cejas → Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Las Cejas → Los Ralos → Villa Tercera → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"17:15",
             "valor":17.15,
-            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"18:10",
             "valor":18.1,
-            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Villa Tercera → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"19:00",
             "valor":19,
-            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Alabama → Mayo → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"19:50",
             "valor":19.50,
-            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"20:00",
             "valor":20,
-            "recorrido":"Lolita → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Lolita → Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"20:30",
             "valor":20.3,
-            "recorrido":"Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"21:30",
             "valor":21.3,
-            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Mayo → Los Ralos → Cevil Pozo → Banda del Río Salí"
         }
     ]
     const terminalRalosLaV = [
         {
             "nombre":"06.00",
             "valor":6,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos"
         },
         {
             "nombre":"07:00",
             "valor":7,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Mayo → Alabama"
         },
         {
             "nombre":"08:00",
             "valor":8,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Mayo"
         },
         {
             "nombre":"08:30",
             "valor":8.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos"
         },
         {
             "nombre":"09:15",
             "valor":9.15,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos"
         },
         {
             "nombre":"09:30",
             "valor":9.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Villa Tercera"
         },
         {
             "nombre":"10:00",
             "valor":10,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Mayo → Alabama"
         },
         {
             "nombre":"10:40",
             "valor":10.4,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Lolita"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Lolita"
         },
         {
             "nombre":"11:15",
             "valor":11.15,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Mayo"
         },
         {
             "nombre":"11:50",
             "valor":11.5,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Villa Tercera"
         },
         {
             "nombre":"12:10",
             "valor":12.1,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Mayo → Alabama"
         },
         {
             "nombre":"12:30",
             "valor":12.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Barrio Trigal"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Barrio Trigal"
         },
         {
             "nombre":"13:00",
             "valor":13,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → VIlla Tercera"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → VIlla Tercera"
         },
         {
             "nombre":"13:30",
             "valor":13.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → VIlla Tercera →Lolita"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Villa Tercera → Lolita"
         },
         {
             "nombre":"13:50",
             "valor":13.5,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Barrio Trigal"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Barrio Trigal"
         },
         {
             "nombre":"14:00",
             "valor":14,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Lolita"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Lolita"
         },
         {
             "nombre":"14:30",
             "valor":14.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → VIlla Tercera",
-            "recorrido2": "Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Las Cejas"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Villa Tercera",
+            "recorrido2": "Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Las Cejas"
         },
         {
             "nombre":"15:15",
             "valor":15.15,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Villa Tercera",
         },
         {
             "nombre":"15:30",
             "valor":15.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Mayo",
         },
         {
             "nombre":"16:00",
             "valor":16,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos",
         },
         {
             "nombre":"16:30",
             "valor":16.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Mayo",
         },
         {
             "nombre":"17:00",
             "valor":17,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Villa Tercera",
         },
         {
             "nombre":"17:30",
             "valor":17.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos",
         },
         {
             "nombre":"17:50",
             "valor":17.5,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Villa Tercera",
         },        
         {
             "nombre":"18:00",
             "valor":18,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Mayo",
         },
         {
             "nombre":"18:30",
             "valor":18.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Villa Tercera"
         },
         {
             "nombre":"19:00",
             "valor":19,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Lolita Sur",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Lolita Sur",
         },
         {
             "nombre":"19:30",
             "valor":19.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Villa Tercera",
         },
         {
             "nombre":"20:15",
             "valor":20.15,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Villa Tercera",
         },
         {
             "nombre":"20:30",
             "valor":20.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Mayo → Alabama",
         },
         {
             "nombre":"21:00",
             "valor":21,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Villa Tercera",
         },
         {
             "nombre":"21:30",
             "valor":21.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Villa Tercera",
         },
         {
             "nombre":"22:00",
             "valor":22,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos",
         },
         {
             "nombre":"22:30",
             "valor":22.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Villa Tercera",
         },
         {
             "nombre":"23:30",
             "valor":23.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Villa Tercera",
         }
     ]
     const terminalRalosS = [
         {
             "nombre":"06.00",
             "valor":6,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos"
         },
         {
             "nombre":"06.30",
             "valor":6.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Lolita Sur"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Lolita Sur"
         },
         {
             "nombre":"07:00",
             "valor":7,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Mayo → Alabama"
         },
         {
             "nombre":"07:45",
             "valor":7.45,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos"
         },
         {
             "nombre":"08:30",
             "valor":8.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos"
         },
         {
             "nombre":"09:30",
             "valor":9.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos"
         },
         {
             "nombre":"10:00",
             "valor":10,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Mayo → Alabama"
         },
         {
             "nombre":"10:40",
             "valor":10.4,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Lolita → Las Cejas"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Lolita → Las Cejas"
         },
         {
             "nombre":"11:00",
             "valor":11,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo Cruce"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Mayo Cruce"
         },
         {
             "nombre":"11:50",
             "valor":11.5,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Villa Tercera"
         },
         {
             "nombre":"12:10",
             "valor":12.1,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Mayo → Alabama"
         },
         {
             "nombre":"12:30",
             "valor":12.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Villa Tercera"
         },
         {
             "nombre":"13:00",
             "valor":13,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → VIlla Tercera"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → VIlla Tercera"
         },
         {
             "nombre":"13:30",
             "valor":13.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → VIlla Tercera →Lolita"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → VIlla Tercera →Lolita"
         },
         {
             "nombre":"13:50",
             "valor":13.5,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Barrio Trigal"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Barrio Trigal"
         },
         {
             "nombre":"14:00",
             "valor":14,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Lolita"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Lolita"
         }, 
         {
             "nombre":"14:20",
             "valor":14,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Las Cejas"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Las Cejas"
         },
         {
             "nombre":"14:30",
             "valor":14.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → VIlla Tercera"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → VIlla Tercera"
         },
         {
             "nombre":"15:15",
             "valor":15.15,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Villa Tercera",
         },
         {
             "nombre":"15:30",
             "valor":15.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Mayo",
         },
         {
             "nombre":"16:05",
             "valor":16.05,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos",
         },
         {
             "nombre":"16:15",
             "valor":16.15,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Mayo → Alabama",
         },
         {
             "nombre":"17:10",
             "valor":17.1,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Villa Tercera",
         },
         {
             "nombre":"18:00",
             "valor":18,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Mayo → Alabama",
         },
         {
             "nombre":"18:30",
             "valor":18.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Las Cejas"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Las Cejas"
         },
         {
             "nombre":"19:00",
             "valor":19,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Lolita"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Lolita"
         },
         {
             "nombre":"19:30",
             "valor":19.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Villa Tercera",
         },
         {
             "nombre":"20:00",
             "valor":20,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Las Cejas",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Las Cejas",
         },
         {
             "nombre":"20:20",
             "valor":20.2,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Villa Tercera",
         },
         {
             "nombre":"20:30",
             "valor":20.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Mayo → Alabama",
         },
         {
             "nombre":"21:00",
             "valor":21,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos",
         },
         {
             "nombre":"21:30",
             "valor":21.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Villa Tercera",
         },
         {
             "nombre":"22:00",
             "valor":22,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos",
         },
         {
             "nombre":"22:30",
             "valor":22.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Villa Tercera",
         },
         {
             "nombre":"23:30",
             "valor":23.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Villa Tercera",
         }
     ]
     const terminalRalosD = [
         {
             "nombre":"06.00",
             "valor":6,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos"
         },
         {
             "nombre":"07:00",
             "valor":7,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Mayo → Alabama"
         },
         {
             "nombre":"08:30",
             "valor":8.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos"
         },
         {
             "nombre":"10:00",
             "valor":10,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Mayo → Alabama"
         },
         {
             "nombre":"10:30",
             "valor":10.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Lolita → Las Cejas"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Lolita → Las Cejas"
         },
         {
             "nombre":"11:00",
             "valor":11,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Mayo → Alabama"
         },
         {
             "nombre":"12:10",
             "valor":12.1,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Mayo → Alabama"
         },
         {
             "nombre":"13:00",
             "valor":13,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → VIlla Tercera"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → VIlla Tercera"
         },
         {
             "nombre":"14:30",
             "valor":14.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → VIlla Tercera"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → VIlla Tercera"
         },
         {
             "nombre":"15:30",
             "valor":15.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Las Cejas → 7 de Abril",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Las Cejas → 7 de Abril",
         },
         {
             "nombre":"16:15",
             "valor":16.15,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Mayo → Alabama",
         },
         {
             "nombre":"17:10",
             "valor":17.1,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Villa Tercera",
         },
         {
             "nombre":"18:00",
             "valor":18,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Alabama",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Mayo → Alabama",
         },
         {
             "nombre":"19:00",
             "valor":19,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Lolita"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Lolita"
         },
         {
             "nombre":"19:30",
             "valor":19.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Cruz Alta",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Cruz Alta",
         },
         {
             "nombre":"20:00",
             "valor":20,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos",
         },
         {
             "nombre":"20:30",
             "valor":20.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Mayo → Las Cejas",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Mayo → Las Cejas",
         },
         {
             "nombre":"21:30",
             "valor":21.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Villa Tercera",
         },
         {
             "nombre":"22:30",
             "valor":22.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Villa Tercera",
         },
         {
             "nombre":"23:30",
             "valor":23.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Los Ralos → Villa Tercera",
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Los Ralos → Villa Tercera",
         }
     ]
     const ralosCruzAltaTerminalLaV = [
         {
             "nombre":"05:30",
             "valor":5.3,
-            "recorrido":"Los Ralos → Cruz Alta → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cruz Alta → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"07:20",
             "valor":7.2,
-            "recorrido":"Los Ralos → Cruz Alta → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cruz Alta → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"07:45",
             "valor":7.45,
-            "recorrido":"Britos → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Britos → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"08:10",
             "valor":8.1,
-            "recorrido":"Los Ralos → Cruz Alta → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cruz Alta → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"11:50",
             "valor":11.5,
-            "recorrido":"Los Ralos → Cruz Alta → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cruz Alta → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"14:15",
             "valor":14.15,
-            "recorrido":"Los Ralos → Cruz Alta → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cruz Alta → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"18:30",
             "valor":18.3,
-            "recorrido":"Colonia 9 → Los Ralos → Cruz Alta → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Colonia 9 → Los Ralos → Cruz Alta → Cevil Pozo → Banda del Río Salí"
         },
 
     ]
@@ -2609,27 +2609,27 @@ const boton = document.getElementById('boton');
         {
             "nombre":"05:30",
             "valor":5.3,
-            "recorrido":"Los Ralos → Cruz Alta → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cruz Alta → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"07:15",
             "valor":7.15,
-            "recorrido":"Los Ralos → Cruz Alta → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cruz Alta → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"08:40",
             "valor":8.4,
-            "recorrido":"Colonia 9 → Cruz Alta → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Colonia 9 → Cruz Alta → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"11:50",
             "valor":11.5,
-            "recorrido":"Los Ralos → Cruz Alta → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cruz Alta → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"14:15",
             "valor":14.15,
-            "recorrido":"Los Ralos → Cruz Alta → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Los Ralos → Cruz Alta → Cevil Pozo → Banda del Río Salí"
         }
     ]
     const ralosCruzAltaTerminalD = []
@@ -2638,49 +2638,49 @@ const boton = document.getElementById('boton');
         {
             "nombre":"07:30",
             "valor":7.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Cruz Alta → Los Ralos"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Cruz Alta → Los Ralos"
         },
         {
             "nombre":"10:45",
             "valor":10.45,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Cruz Alta → Los Ralos"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Cruz Alta → Los Ralos"
         },
         {
             "nombre":"12:00",
             "valor":12,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Cruz Alta → Los Ralos"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Cruz Alta → Los Ralos"
         },
         {
             "nombre":"13:15",
             "valor":13.15,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Cruz Alta → Los Ralos"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Cruz Alta → Los Ralos"
         },
         {
             "nombre":"17:30",
             "valor":17.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Cruz Alta → Colonia 9"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Cruz Alta → Colonia 9"
         },
         {
             "nombre":"20:00",
             "valor":20,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Cruz Alta → Los Ralos"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Cruz Alta → Los Ralos"
         }
     ]
     const terminalCruzAltaRalosS = [
             {
                 "nombre":"10:45",
                 "valor":10.45,
-                "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Cruz Alta → Los Ralos"
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Cruz Alta → Los Ralos"
             },
             {
                 "nombre":"13:15",
                 "valor":13.15,
-                "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Cruz Alta → Los Ralos"
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Cruz Alta → Los Ralos"
             },
             {
                 "nombre":"19:30",
                 "valor":19.30,
-                "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Cruz Alta → Los Ralos"
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Cruz Alta → Los Ralos"
             }
     ];
     const terminalCruzAltaRalosD = []
@@ -2688,94 +2688,94 @@ const boton = document.getElementById('boton');
         {
             "nombre":"04:40",
             "valor":4.4,
-            "recorrido":"7 de Abril → Las Cejas → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"7 de Abril → Las Cejas → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"16:20",
             "valor":16.2,
-            "recorrido":"7 de Abril → Las Cejas → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"7 de Abril → Las Cejas → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         }
     ]
     const sieteDeAbrilTerminalS = [
         {
             "nombre":"05:30",
             "valor":5.3,
-            "recorrido":"7 de Abril → Las Cejas → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"7 de Abril → Las Cejas → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         }
     ]
     const sieteDeAbrilTerminalD = [
         {
             "nombre":"18:00",
             "valor":18,
-            "recorrido":"7 de Abril → Las Cejas → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"7 de Abril → Las Cejas → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         }
     ]
     const terminalSieteDeAbrilLaV = [
         {
             "nombre":"12:30",
             "valor":12.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
         },
         {
             "nombre":"15:45",
             "valor":15.45,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
         }
     ]
     const terminalSieteDeAbrilS = [
         {
             "nombre":"15:45",
             "valor":15.45,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
         }
     ]
     const terminalSieteDeAbrilD = [
         {
             "nombre":"15:00",
             "valor":15,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
         },
         {
             "nombre":"18:30",
             "valor":18.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
         },
         {
             "nombre":"20:30",
             "valor":20.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
         }
     ]
     const lasCejasTerminalLaV = [
         {
             "nombre":"05:30",
             "valor":5.3,
-            "recorrido":"Las Cejas → Lolita → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Las Cejas → Lolita → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"06:30",
             "valor":6.3,
-            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"07:50",
             "valor":7.5,
-            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"12:10",
             "valor":12.1,
-            "recorrido":"Las Cejas → Lolita → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Las Cejas → Lolita → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"15:40",
             "valor":15.4,
-            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"19:50",
             "valor":19.5,
-            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         }
     ]
     const lasCejasTerminalS = [
@@ -2787,110 +2787,110 @@ const boton = document.getElementById('boton');
         {
             "nombre":"12:00",
             "valor":12,
-            "recorrido":"Las Cejas → Lolita → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Las Cejas → Lolita → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"15:40",
             "valor":15.4,
-            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"19:50",
             "valor":19.5,
-            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
     ]
     const lasCejasTerminalD = [
         {
             "nombre":"12:20",
             "valor":12.2,
-            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
     ]
     const terminalLasCejasLaV = [
         {
             "nombre":"06:30",
             "valor":6.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Lolita → Las Cejas"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Lolita → Las Cejas"
         },
         {
             "nombre":"11:00",
             "valor":11,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
         },
         {
             "nombre":"12:30",
             "valor":12.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
         },
         {
             "nombre":"14:30",
             "valor":14.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
         },
         {
             "nombre":"15:45",
             "valor":15.45,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
         },
         {
             "nombre":"18:30",
             "valor":18.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
         },
         {
             "nombre":"20:00",
             "valor":20,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
         },
     ]
     const terminalLasCejasS = [
         {
             "nombre":"10:40",
             "valor":10.4,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Lolita → Las Cejas"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Lolita → Las Cejas"
         },
         {
             "nombre":"14:30",
             "valor":14.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
         },
         {
             "nombre":"15:45",
             "valor":15.45,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
         },
         {
             "nombre":"18:30",
             "valor":18.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
         },
         {
             "nombre":"20:00",
             "valor":20,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
         },
     ]
     const terminalLasCejasD = [
         {
             "nombre":"06:30",
             "valor":6.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
         },
         {
             "nombre":"10:30",
             "valor":10.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
         },
         {
             "nombre":"18:30",
             "valor":18.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
         },
         {
             "nombre":"20:30",
             "valor":20.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
         },
     ]
     const floridaAldTucuman = [horariosDFloAl,horariosLvFloAl,horariosSFloAl];
@@ -2942,8 +2942,6 @@ const boton = document.getElementById('boton');
            }
     })
    
-
-
     
     boton.addEventListener('click',function(){
 
@@ -2999,9 +2997,11 @@ const boton = document.getElementById('boton');
     let actual1 = document.getElementById('actual1');
     let actual2 = document.getElementById('actual2');
     let actual3 = document.getElementById('actual3');
+    let actual4 = document.getElementById('actual4');
     let futuro1 = document.getElementById('futuro1');
     let futuro2 = document.getElementById('futuro2');
     let futuro3 = document.getElementById('futuro3');
+    let futuro4 = document.getElementById('futuro4');
     
     
        
@@ -3032,6 +3032,7 @@ const boton = document.getElementById('boton');
         }
     
 
+       
     
             // Aqui extraemos del array de arriba los valores de cada horario y lo agregamos a la lista del dia
            
@@ -3063,35 +3064,60 @@ const boton = document.getElementById('boton');
                             if(listaDiferencias[i] > 0){
                             anteriorPasado = Math.min(anteriorPasado,listaDiferencias[i]);
                             
-                             actual1.textContent = `Bondi de las ${diaRango[listaDiferencias.indexOf(anteriorPasado)].nombre}`
+                             actual3.textContent = `Recorrido : ${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
                                 
-                //  Aqui definimos los mensajes a mostrar en el primer campo         
+                //  Aqui definimos los mensajes a mostrar en el primer campo       
+                
+                if(Object.keys(diaRango[listaDiferencias.indexOf(anteriorPasado)]).length > 3){
+                    actual4.textContent = `2° Recorrido : ${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido2}`;
+                    actual1.textContent = `Bondis de las ${diaRango[listaDiferencias.indexOf(anteriorPasado)].nombre}`;
 
-                                if(anteriorPasado >= 120){
-                                    actual2.textContent = 'Inició su recorrido hace un par horas'
-                                }
-                                if(anteriorPasado>60 && anteriorPasado < 120){
-                                    actual2.textContent = 'Inició su recorrido hace mas de 1 hora'
-                                }
-                                if(anteriorPasado==60){
-                                    actual2.textContent = 'Inició su recorrido hace 1 hora'
-                                }
-                                if(anteriorPasado < 60 && anteriorPasado>5){
-                                    actual2.textContent = `Inició su recorrido hace ${Math.floor(anteriorPasado)} minutos`
-                                }
-                                 if(anteriorPasado < 5){
-                                    actual2.textContent = 'Inició su recorrido hace menos de 5 minutos'
-                                }
-                                    actual3.textContent = `Recorrido : ${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
-                        
+                    if(anteriorPasado >= 120){
+                        actual2.textContent = 'Iniciaron sus recorridos hace un par horas'
+                    }
+                    if(anteriorPasado>60 && anteriorPasado < 120){
+                        actual2.textContent = 'Iniciaron sus recorridos hace mas de 1 hora'
+                    }
+                    if(anteriorPasado==60){
+                        actual2.textContent = 'Iniciaron sus recorridos hace 1 hora'
+                    }
+                    if(anteriorPasado < 60 && anteriorPasado>5){
+                        actual2.textContent = `Iniciaron sus recorridos hace ${Math.floor(anteriorPasado)} minutos`
+                    }
+                     if(anteriorPasado < 5){
+                        actual2.textContent = 'Iniciaron sus recorridos hace menos de 5 minutos'
+                    }
                     
+                }
+                else{
+                    actual1.textContent = `Bondi de las ${diaRango[listaDiferencias.indexOf(anteriorPasado)].nombre}`
+                    if(anteriorPasado >= 120){
+                        actual2.textContent = 'Inició su recorrido hace un par horas'
+                    }
+                    if(anteriorPasado>60 && anteriorPasado < 120){
+                        actual2.textContent = 'Inició su recorrido hace mas de 1 hora'
+                    }
+                    if(anteriorPasado==60){
+                        actual2.textContent = 'Inició su recorrido hace 1 hora'
+                    }
+                    if(anteriorPasado < 60 && anteriorPasado>5){
+                        actual2.textContent = `Inició su recorrido hace ${Math.floor(anteriorPasado)} minutos`
+                    }
+                     if(anteriorPasado < 5){
+                        actual2.textContent = 'Inició su recorrido hace menos de 5 minutos'
+                    }
+                }
+
+                    
+                                
+                            
                     }
                     if(anteriorPasado == 3000){
                         actual1.textContent = '';
                         actual2.textContent = 'No pasó ningun bondi aún'
                         actual3.textContent =''
                     }
-                    console.log(anteriorPasado)
+            
                     }
                                 
                         //   Aqui en el segundo campo  
@@ -3128,6 +3154,33 @@ const boton = document.getElementById('boton');
                                             futuro2.textContent = 'Está iniciando su recorrido'
                                         }
                                         futuro3.textContent = `Recorrido : ${diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido}`
+                                         
+                                        if(Object.keys(diaRango[listaDiferencias2.indexOf(elMasCercano)]).length > 3){
+
+                                            futuro1.textContent = ` Próximos bondis a las ${diaRango[listaDiferencias2.indexOf(elMasCercano)].nombre}`; 
+
+                                            if(elMasCercano >= 120){
+                                                futuro2.textContent = 'Iniciarán sus recorridos en un par horas'
+                                            }   
+                                            if(elMasCercano>60 && elMasCercano < 120){
+                                                futuro2.textContent = 'Iniciarán sus recorridos en poco más de 1 hora'
+                                            }
+                                            if(elMasCercano==60){
+                                                futuro2.textContent = 'Iniciarán sus recorridos dentro 1 hora'
+                                            }
+                                            if(elMasCercano < 60 && elMasCercano>5){
+                                                futuro2.textContent = `Iniciarán sus recorridos en ${Math.floor(elMasCercano)} minutos`
+                                            }
+                                                if(elMasCercano < 5){
+                                                   futuro2.textContent = 'Iniciarán sus recorridos en menos de 5 minutos'
+                                                }
+                                                if(elMasCercano == 0){
+                                                    futuro2.textContent = 'Están iniciando sus recorridos'
+                                                }
+
+                                                futuro4.textContent = `2° Recorrido : ${diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido2}`
+
+                                        }
                         } 
                         else{  
                             futuro1.textContent = "";
@@ -3171,12 +3224,12 @@ mensaje2.addEventListener('click', function(){
 //         {
 //             "nombre":"06:10",
 //             "valor":6.10,
-//             "recorrido":"1) Fortin → Banda del Rio Sali || 2) Colonia 10 → Autopista"
+//             "recorrido":"1) Fortin → Banda del Río Salí || 2) Colonia 10 → Autopista"
 //         },
 //         {
 //             "nombre":"06:20",
 //             "valor":6.25,
-//             "recorrido":"Colonia 5 hasta Banda del Rio Sali"
+//             "recorrido":"Colonia 5 hasta Banda del Río Salí"
 //         },
 //         // {
 //         //     "nombre":"06:40",
@@ -3191,12 +3244,12 @@ mensaje2.addEventListener('click', function(){
 //         {
 //             "nombre":"07:20",
 //             "valor":7.2,
-//             "recorrido":"1) Colonia 4 → B° La Cancha → Autopista || 2) Fortin → Banda del Rio Sali"
+//             "recorrido":"1) Colonia 4 → B° La Cancha → Autopista || 2) Fortin → Banda del Río Salí"
 //         },
 //         {
 //             "nombre":"07:40",
 //             "valor":7.4,
-//             "recorrido":"Finca Mayo → Cochuchal → Banda del Rio Sali"
+//             "recorrido":"Finca Mayo → Cochuchal → Banda del Río Salí"
 //         },
 //         {
 //             "nombre":"07:50",
@@ -3211,7 +3264,7 @@ mensaje2.addEventListener('click', function(){
 //         {
 //             "nombre":"09:20",
 //             "valor":9.2,
-//             "recorrido":"Fortin → Talar → Banda del Rio Sali"
+//             "recorrido":"Fortin → Talar → Banda del Río Salí"
 //         },
 //         {
 //             "nombre":"09:50",
@@ -3221,12 +3274,12 @@ mensaje2.addEventListener('click', function(){
 //         {
 //             "nombre":"10:30",
 //             "valor":10.3,
-//             "recorrido":"Fortin → Talar → Banda del Rio Sali"
+//             "recorrido":"Fortin → Talar → Banda del Río Salí"
 //         },
 //         {
 //             "nombre":"11:40",
 //             "valor":11.30,
-//             "recorrido":"Fortin → Talar → Banda del Rio Sali"
+//             "recorrido":"Fortin → Talar → Banda del Río Salí"
 //         },
 //         {
 //             "nombre":"12:30",
@@ -3236,7 +3289,7 @@ mensaje2.addEventListener('click', function(){
 //         // {
 //         //     "nombre":"12:40",
 //         //     "valor":12.4,
-//         //     "recorrido":"Finca Mayo → Talar → Banda del Rio Sali"
+//         //     "recorrido":"Finca Mayo → Talar → Banda del Río Salí"
 //         // },
 //         {
 //             "nombre":"13:15",
@@ -3246,12 +3299,12 @@ mensaje2.addEventListener('click', function(){
 //         {
 //             "nombre":"13:50",
 //             "valor":13.5,
-//             "recorrido":"B° La Cancha → Cochuchal → Banda del Rio Sali"
+//             "recorrido":"B° La Cancha → Cochuchal → Banda del Río Salí"
 //         },
 //         {
 //             "nombre":"14:45",
 //             "valor":14.45,
-//             "recorrido":"Colonia 4 → B° La Cancha → Talar → Banda del Rio Sali"
+//             "recorrido":"Colonia 4 → B° La Cancha → Talar → Banda del Río Salí"
 //         },
 //         {
 //             "nombre":"15:50",
@@ -3266,7 +3319,7 @@ mensaje2.addEventListener('click', function(){
 //         {
 //             "nombre":"16:50",
 //             "valor":16.5,
-//             "recorrido":"1) Colonia 4 → Autopista || 2) Colonia 3 → Banda del Rio Sali"
+//             "recorrido":"1) Colonia 4 → Autopista || 2) Colonia 3 → Banda del Río Salí"
 //         },
 //         // {
 //         //     "nombre":"17:35",
@@ -3281,7 +3334,7 @@ mensaje2.addEventListener('click', function(){
 //         {
 //             "nombre":"17:50",
 //             "valor":17.5,
-//             "recorrido":"Fortin → Talar →  Banda del Rio Sali"
+//             "recorrido":"Fortin → Talar →  Banda del Río Salí"
 //         },
 //         // {
 //         //     "nombre":"18:10",
@@ -3291,12 +3344,12 @@ mensaje2.addEventListener('click', function(){
 //         {
 //             "nombre":"18:30",
 //             "valor":18.3,
-//             "recorrido":"Fortin → Banda del Rio Sali"
+//             "recorrido":"Fortin → Banda del Río Salí"
 //         },
 //         {
 //             "nombre":"19:00",
 //             "valor":19,
-//             "recorrido":"La Marta → B° La Cancha → Banda del Rio Sali"
+//             "recorrido":"La Marta → B° La Cancha → Banda del Río Salí"
 //         },
 //         // {
 //         //     "nombre":"20:55",
@@ -3314,7 +3367,7 @@ mensaje2.addEventListener('click', function(){
 //         {
 //             "nombre":"04:40",
 //             "valor":4.4,
-//             "recorrido":"Fortin → Banda del Rio Sali"
+//             "recorrido":"Fortin → Banda del Río Salí"
 //         },
 //         {
 //             "nombre":"05:45",
@@ -3344,7 +3397,7 @@ mensaje2.addEventListener('click', function(){
 //         {
 //             "nombre":"07:40",
 //             "valor":7.4,
-//             "recorrido":"Finca Mayo → Talar → Banda del Rio Sali"
+//             "recorrido":"Finca Mayo → Talar → Banda del Río Salí"
 //         },
 //         {
 //             "nombre":"07:50",
@@ -3354,27 +3407,27 @@ mensaje2.addEventListener('click', function(){
 //         {
 //             "nombre":"08:45",
 //             "valor":8.45,
-//             "recorrido":"Colonia 4 → B° La Cancha → Banda del Rio Sali"
+//             "recorrido":"Colonia 4 → B° La Cancha → Banda del Río Salí"
 //         },
 //         {
 //             "nombre":"09:20",
 //             "valor":9.2,
-//             "recorrido":"Fortin → Banda del Rio Sali"
+//             "recorrido":"Fortin → Banda del Río Salí"
 //         },
 //         {
 //             "nombre":"10:30",
 //             "valor":10.30,
-//             "recorrido":"Fortin → Banda del Rio Sali"
+//             "recorrido":"Fortin → Banda del Río Salí"
 //         },
 //         {
 //             "nombre":"11:40",
 //             "valor":11.40,
-//             "recorrido":"Fortin → Banda del Rio Sali"
+//             "recorrido":"Fortin → Banda del Río Salí"
 //         },
 //         {
 //             "nombre":"12:40",
 //             "valor":12.4,
-//             "recorrido":"Finca Mayo → Banda del Rio Sali"
+//             "recorrido":"Finca Mayo → Banda del Río Salí"
 //         },
 //         {
 //             "nombre":"13:15",
@@ -3384,7 +3437,7 @@ mensaje2.addEventListener('click', function(){
 //         {
 //             "nombre":"14:50",
 //             "valor":14.5,
-//             "recorrido":"B° La Cancha → Banda del Rio Sali"
+//             "recorrido":"B° La Cancha → Banda del Río Salí"
 //         },
 //         {
 //             "nombre":"15:50",
@@ -3394,17 +3447,17 @@ mensaje2.addEventListener('click', function(){
 //         {
 //             "nombre":"16:50",
 //             "valor":16.5,
-//             "recorrido":"Colonia 3 → Banda del Rio Sali"
+//             "recorrido":"Colonia 3 → Banda del Río Salí"
 //         },
 //         {
 //             "nombre":"17:50",
 //             "valor":17.5,
-//             "recorrido":"Fortin → Banda del Rio Sali"
+//             "recorrido":"Fortin → Banda del Río Salí"
 //         },
 //         {
 //             "nombre":"19:00",
 //             "valor":19,
-//             "recorrido":"La Marta → B° La Cancha → Banda del Rio Sali"
+//             "recorrido":"La Marta → B° La Cancha → Banda del Río Salí"
 //         }
 //     ]
 //     const horariosDFloAl = [
@@ -3412,37 +3465,37 @@ mensaje2.addEventListener('click', function(){
 //         {
 //             "nombre":"07:40",
 //             "valor":7.4,
-//             "recorrido":"Finca Mayo → Talar → Banda del Rio Sali"
+//             "recorrido":"Finca Mayo → Talar → Banda del Río Salí"
 //         },
 //         {
 //             "nombre":"10:30",
 //             "valor":10.30,
-//             "recorrido":"Fortin → Banda del Rio Sali"
+//             "recorrido":"Fortin → Banda del Río Salí"
 //         },
 //         {
 //             "nombre":"12:40",
 //             "valor":12.4,
-//             "recorrido":"Finca Mayo → Banda del Rio Sali"
+//             "recorrido":"Finca Mayo → Banda del Río Salí"
 //         },
 //         {
 //             "nombre":"14:50",
 //             "valor":14.5,
-//             "recorrido":"B° La Cancha → Banda del Rio Sali"
+//             "recorrido":"B° La Cancha → Banda del Río Salí"
 //         },
 //         {
 //             "nombre":"16:50",
 //             "valor":16.5,
-//             "recorrido":"Colonia 3 → Banda del Rio Sali"
+//             "recorrido":"Colonia 3 → Banda del Río Salí"
 //         },
 //         {
 //             "nombre":"17:50",
 //             "valor":17.5,
-//             "recorrido":"Fortin → Banda del Rio Sali"
+//             "recorrido":"Fortin → Banda del Río Salí"
 //         },
 //         {
 //             "nombre":"19:10",
 //             "valor":19.1,
-//             "recorrido":"Colonia 10 → Colonia 3 → B° La Cancha → Banda del Rio Sali"
+//             "recorrido":"Colonia 10 → Colonia 3 → B° La Cancha → Banda del Río Salí"
 //         }
 //     ]
 //     const horariosLvFloPo = [
@@ -3840,12 +3893,12 @@ mensaje2.addEventListener('click', function(){
 //         {
 //             "nombre":"06:25",
 //             "valor":6.25,
-//             "recorrido":"Terminal → Banda del Rio Sali → Talar → Fortin → Mayo"
+//             "recorrido":"Terminal → Banda del Río Salí → Talar → Fortin → Mayo"
 //         },
 //         {
 //             "nombre":"07:15",
 //             "valor":7.15,
-//             "recorrido":"Terminal → Banda del Rio Sali → La Marta"
+//             "recorrido":"Terminal → Banda del Río Salí → La Marta"
 //         },
 //         {
 //             "nombre":"08:00",
@@ -3855,7 +3908,7 @@ mensaje2.addEventListener('click', function(){
 //         {
 //             "nombre":"08:35",
 //             "valor":8.35,
-//             "recorrido":"Terminal → Banda del Rio Sali → Talar → Fortin"
+//             "recorrido":"Terminal → Banda del Río Salí → Talar → Fortin"
 //         },
 //         {
 //             "nombre":"09:00",
@@ -3865,12 +3918,12 @@ mensaje2.addEventListener('click', function(){
 //         {
 //             "nombre":"09:45",
 //             "valor":9.45,
-//             "recorrido":"Terminal → Banda del Rio Sali → Fortin"
+//             "recorrido":"Terminal → Banda del Río Salí → Fortin"
 //         },
 //         {
 //             "nombre":"10:45",
 //             "valor":10.45,
-//             "recorrido":"Terminal → Banda del Rio Sali → Fortin"
+//             "recorrido":"Terminal → Banda del Río Salí → Fortin"
 //         },
 //         {
 //             "nombre":"11:15",
@@ -3895,12 +3948,12 @@ mensaje2.addEventListener('click', function(){
 //         {
 //             "nombre":"12:45",
 //             "valor":12.45,
-//             "recorrido":"Terminal → Banda del Rio Sali → Colonia 3"
+//             "recorrido":"Terminal → Banda del Río Salí → Colonia 3"
 //         },
 //         {
 //             "nombre":"13:15",
 //             "valor":13.15,
-//             "recorrido":"Terminal → Banda del Rio Sali → Cochuchal → Colonia 4"
+//             "recorrido":"Terminal → Banda del Río Salí → Cochuchal → Colonia 4"
 //         },
 //         {
 //             "nombre":"13:30",
@@ -3910,27 +3963,27 @@ mensaje2.addEventListener('click', function(){
 //         {
 //             "nombre":"14:00",
 //             "valor":14,
-//             "recorrido":"Terminal → Banda del Rio Sali → B° La Cancha"
+//             "recorrido":"Terminal → Banda del Río Salí → B° La Cancha"
 //         },
 //         {
 //             "nombre":"14:50",
 //             "valor":14.5,
-//             "recorrido":"Terminal → Banda del Rio Sali → Alderetes → Talar → B° La Cancha"
+//             "recorrido":"Terminal → Banda del Río Salí → Alderetes → Talar → B° La Cancha"
 //         },
 //         {
 //             "nombre":"15:50",
 //             "valor":15.5,
-//             "recorrido":"Terminal → Banda del Rio Sali → Colonia 3"
+//             "recorrido":"Terminal → Banda del Río Salí → Colonia 3"
 //         },
 //         {
 //             "nombre":"16:50",
 //             "valor":16.5,
-//             "recorrido":"Terminal → Banda del Rio Sali → Cochuchal → Fortin"
+//             "recorrido":"Terminal → Banda del Río Salí → Cochuchal → Fortin"
 //         },
 //         {
 //             "nombre":"17:45",
 //             "valor":17.45,
-//             "recorrido":"Terminal → Banda del Rio Sali → B° La Cancha"
+//             "recorrido":"Terminal → Banda del Río Salí → B° La Cancha"
 //         },
 //         // {
 //         //     "nombre":"18:20",
@@ -3940,22 +3993,22 @@ mensaje2.addEventListener('click', function(){
 //         {
 //             "nombre":"18:30",
 //             "valor":18.3,
-//             "recorrido":"Terminal → Banda del Rio Sali → Colonia 4"
+//             "recorrido":"Terminal → Banda del Río Salí → Colonia 4"
 //         },
 //         {
 //             "nombre":"19:00",
 //             "valor":19,
-//             "recorrido":"Terminal → Banda del Rio Sali → Colonia 4"
+//             "recorrido":"Terminal → Banda del Río Salí → Colonia 4"
 //         },
 //         {
 //             "nombre":"19:45",
 //             "valor":19.45,
-//             "recorrido":"Terminal → Banda del Rio Sali → Mayo"
+//             "recorrido":"Terminal → Banda del Río Salí → Mayo"
 //         },
 //         {
 //             "nombre":"20:30",
 //             "valor":20.3,
-//             "recorrido":"Terminal → Banda del Rio Sali → Fortin"
+//             "recorrido":"Terminal → Banda del Río Salí → Fortin"
 //         },
 //         {
 //             "nombre":"21:00",
@@ -3984,12 +4037,12 @@ mensaje2.addEventListener('click', function(){
 //             {
 //                 "nombre":"06:25",
 //                 "valor":6.25,
-//                 "recorrido":"Terminal → Banda del Rio Sali → Mayo"
+//                 "recorrido":"Terminal → Banda del Río Salí → Mayo"
 //             },
 //             {
 //                 "nombre":"07:15",
 //                 "valor":7.15,
-//                 "recorrido":"Terminal → Banda del Rio Sali → La Marta"
+//                 "recorrido":"Terminal → Banda del Río Salí → La Marta"
 //             },
 //             {
 //                 "nombre":"08:00",
@@ -3999,17 +4052,17 @@ mensaje2.addEventListener('click', function(){
 //             {
 //                 "nombre":"08:35",
 //                 "valor":8.35,
-//                 "recorrido":"Terminal → Banda del Rio Sali → Fortin"
+//                 "recorrido":"Terminal → Banda del Río Salí → Fortin"
 //             },
 //             {
 //                 "nombre":"09:45",
 //                 "valor":9.45,
-//                 "recorrido":"Terminal → Banda del Rio Sali → Fortin"
+//                 "recorrido":"Terminal → Banda del Río Salí → Fortin"
 //             },
 //             {
 //                 "nombre":"10:45",
 //                 "valor":10.45,
-//                 "recorrido":"Terminal → Banda del Rio Sali → Fortin"
+//                 "recorrido":"Terminal → Banda del Río Salí → Fortin"
 //             },
 //             {
 //                 "nombre":"12:20",
@@ -4024,42 +4077,42 @@ mensaje2.addEventListener('click', function(){
 //             {
 //                 "nombre":"14:00",
 //                 "valor":14,
-//                 "recorrido":"Terminal → Banda del Rio Sali → B° La Cancha"
+//                 "recorrido":"Terminal → Banda del Río Salí → B° La Cancha"
 //             },
 //             {
 //                 "nombre":"14:50",
 //                 "valor":14.5,
-//                 "recorrido":"Terminal → Banda del Rio Sali → B° La Cancha → Colonia 4"
+//                 "recorrido":"Terminal → Banda del Río Salí → B° La Cancha → Colonia 4"
 //             },
 //             {
 //                 "nombre":"16:00",
 //                 "valor":16,
-//                 "recorrido":"Terminal → Banda del Rio Sali → Cochuchal → Fortin → Colonia 3"
+//                 "recorrido":"Terminal → Banda del Río Salí → Cochuchal → Fortin → Colonia 3"
 //             },
 //             {
 //                 "nombre":"16:50",
 //                 "valor":16.5,
-//                 "recorrido":"Terminal → Banda del Rio Sali → Cochuchal → Fortin"
+//                 "recorrido":"Terminal → Banda del Río Salí → Cochuchal → Fortin"
 //             },
 //             {
 //                 "nombre":"17:45",
 //                 "valor":17.45,
-//                 "recorrido":"Terminal → Banda del Rio Sali → B° La Cancha"
+//                 "recorrido":"Terminal → Banda del Río Salí → B° La Cancha"
 //             },
 //             {
 //                 "nombre":"19:00",
 //                 "valor":19,
-//                 "recorrido":"Terminal → Banda del Rio Sali → Colonia 4"
+//                 "recorrido":"Terminal → Banda del Río Salí → Colonia 4"
 //             },
 //             {
 //                 "nombre":"19:45",
 //                 "valor":19.45,
-//                 "recorrido":"Terminal → Banda del Rio Sali → Mayo"
+//                 "recorrido":"Terminal → Banda del Río Salí → Mayo"
 //             },
 //             {
 //                 "nombre":"20:30",
 //                 "valor":20.3,
-//                 "recorrido":"Terminal → Banda del Rio Sali → Fortin"
+//                 "recorrido":"Terminal → Banda del Río Salí → Fortin"
 //             },
 //             {
 //                 "nombre":"21:30",
@@ -4082,42 +4135,42 @@ mensaje2.addEventListener('click', function(){
 //             {
 //                 "nombre":"06:25",
 //                 "valor":6.25,
-//                 "recorrido":"Terminal → Banda del Rio Sali → Mayo"
+//                 "recorrido":"Terminal → Banda del Río Salí → Mayo"
 //             },
 //             {
 //                 "nombre":"09:45",
 //                 "valor":9.45,
-//                 "recorrido":"Terminal → Banda del Rio Sali → Fortin → Colonia 2"
+//                 "recorrido":"Terminal → Banda del Río Salí → Fortin → Colonia 2"
 //             },
 //             {
 //                 "nombre":"11:40",
 //                 "valor":11.40,
-//                 "recorrido":"Terminal → Banda del Rio Sali → Cochuchal→ Fortin → Mayo"
+//                 "recorrido":"Terminal → Banda del Río Salí → Cochuchal→ Fortin → Mayo"
 //             },
 //             {
 //                 "nombre":"14:00",
 //                 "valor":14,
-//                 "recorrido":"Terminal → Banda del Rio Sali → B° La Cancha"
+//                 "recorrido":"Terminal → Banda del Río Salí → B° La Cancha"
 //             },
 //             {
 //                 "nombre":"16:00",
 //                 "valor":16,
-//                 "recorrido":"Terminal → Banda del Rio Sali → Cochuchal → Fortin → Colonia 3"
+//                 "recorrido":"Terminal → Banda del Río Salí → Cochuchal → Fortin → Colonia 3"
 //             },
 //             {
 //                 "nombre":"17:45",
 //                 "valor":17.45,
-//                 "recorrido":"Terminal → Banda del Rio Sali → Mayo"
+//                 "recorrido":"Terminal → Banda del Río Salí → Mayo"
 //             },
 //             {
 //                 "nombre":"19:45",
 //                 "valor":19.45,
-//                 "recorrido":"Terminal → Banda del Rio Sali → Mayo"
+//                 "recorrido":"Terminal → Banda del Río Salí → Mayo"
 //             },
 //             {
 //                 "nombre":"20:30",
 //                 "valor":20.3,
-//                 "recorrido":"Terminal → Banda del Rio Sali → Fortin"
+//                 "recorrido":"Terminal → Banda del Río Salí → Fortin"
 //             }
   
 //     ]
