@@ -2684,6 +2684,215 @@ const boton = document.getElementById('boton');
             }
     ];
     const terminalCruzAltaRalosD = []
+    const sieteDeAbrilTerminalLaV = [
+        {
+            "nombre":"04:40",
+            "valor":4.4,
+            "recorrido":"7 de Abril → Las Cejas → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"16:20",
+            "valor":16.2,
+            "recorrido":"7 de Abril → Las Cejas → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+        }
+    ]
+    const sieteDeAbrilTerminalS = [
+        {
+            "nombre":"05:30",
+            "valor":5.3,
+            "recorrido":"7 de Abril → Las Cejas → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+        }
+    ]
+    const sieteDeAbrilTerminalD = [
+        {
+            "nombre":"18:00",
+            "valor":18,
+            "recorrido":"7 de Abril → Las Cejas → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+        }
+    ]
+    const terminalSieteDeAbrilLaV = [
+        {
+            "nombre":"12:30",
+            "valor":12.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
+        },
+        {
+            "nombre":"15:45",
+            "valor":15.45,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
+        }
+    ]
+    const terminalSieteDeAbrilS = [
+        {
+            "nombre":"15:45",
+            "valor":15.45,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
+        }
+    ]
+    const terminalSieteDeAbrilD = [
+        {
+            "nombre":"15:00",
+            "valor":15,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
+        },
+        {
+            "nombre":"18:30",
+            "valor":18.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
+        },
+        {
+            "nombre":"20:30",
+            "valor":20.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
+        }
+    ]
+    const lasCejasTerminalLaV = [
+        {
+            "nombre":"05:30",
+            "valor":5.3,
+            "recorrido":"Las Cejas → Lolita → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"06:30",
+            "valor":6.3,
+            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"07:50",
+            "valor":7.5,
+            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"12:10",
+            "valor":12.1,
+            "recorrido":"Las Cejas → Lolita → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"15:40",
+            "valor":15.4,
+            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"19:50",
+            "valor":19.5,
+            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+        }
+    ]
+    const lasCejasTerminalS = [
+        {
+            "nombre":"06:25",
+            "valor":6.25,
+            "recorrido":"Las Cejas → Los Ralos → (Trasbordo)"
+        },
+        {
+            "nombre":"12:00",
+            "valor":12,
+            "recorrido":"Las Cejas → Lolita → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"15:40",
+            "valor":15.4,
+            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+        },
+        {
+            "nombre":"19:50",
+            "valor":19.5,
+            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+        },
+    ]
+    const lasCejasTerminalD = [
+        {
+            "nombre":"12:20",
+            "valor":12.2,
+            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Rio Sali"
+        },
+    ]
+    const terminalLasCejasLaV = [
+        {
+            "nombre":"06:30",
+            "valor":6.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Lolita → Las Cejas"
+        },
+        {
+            "nombre":"11:00",
+            "valor":11,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+        },
+        {
+            "nombre":"12:30",
+            "valor":12.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
+        },
+        {
+            "nombre":"14:30",
+            "valor":14.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+        },
+        {
+            "nombre":"15:45",
+            "valor":15.45,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
+        },
+        {
+            "nombre":"18:30",
+            "valor":18.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+        },
+        {
+            "nombre":"20:00",
+            "valor":20,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+        },
+    ]
+    const terminalLasCejasS = [
+        {
+            "nombre":"10:40",
+            "valor":10.4,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Lolita → Las Cejas"
+        },
+        {
+            "nombre":"14:30",
+            "valor":14.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+        },
+        {
+            "nombre":"15:45",
+            "valor":15.45,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
+        },
+        {
+            "nombre":"18:30",
+            "valor":18.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+        },
+        {
+            "nombre":"20:00",
+            "valor":20,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+        },
+    ]
+    const terminalLasCejasD = [
+        {
+            "nombre":"06:30",
+            "valor":6.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+        },
+        {
+            "nombre":"10:30",
+            "valor":10.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+        },
+        {
+            "nombre":"18:30",
+            "valor":18.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
+        },
+        {
+            "nombre":"20:30",
+            "valor":20.3,
+            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
+        },
+    ]
     const floridaAldTucuman = [horariosDFloAl,horariosLvFloAl,horariosSFloAl];
     const terminalAldFlorida = [horariosDSMAl,horariosSSMAl, horariosLvSMAl];
     const floridaPosseTucuman = [horariosDFloPo,horariosLvFloPo,horariosSFloPo];
@@ -2694,8 +2903,13 @@ const boton = document.getElementById('boton');
     const terminalRalos = [terminalRalosD, terminalRalosLaV, terminalRalosS];
     const ralosCruzAltaTerminal = [ralosCruzAltaTerminalD,ralosCruzAltaTerminalLaV,ralosCruzAltaTerminalS];
     const terminalCruzAltaRalos = [terminalCruzAltaRalosD,terminalCruzAltaRalosLaV,terminalCruzAltaRalosS];
-    const todosDestinoTucuman = [floridaAldTucuman,floridaPosseTucuman,posseLTerminal,ralosTerminal,ralosCruzAltaTerminal];
-    const todosTucumanDestino = [terminalAldFlorida,terminalPosseFlorida, terminalPosseL,terminalRalos,terminalCruzAltaRalos];
+    const sieteDeAbrilTerminal = [sieteDeAbrilTerminalD,sieteDeAbrilTerminalLaV,sieteDeAbrilTerminalS]
+    const terminalSieteDeAbril = [terminalSieteDeAbrilD,terminalSieteDeAbrilLaV,terminalSieteDeAbrilS]
+    const lasCejasTerminal = [lasCejasTerminalD,lasCejasTerminalLaV,lasCejasTerminalS]
+    const terminalLasCejas = [terminalLasCejasD,terminalLasCejasLaV,terminalLasCejasS]
+    const todosDestinoTucuman = [floridaAldTucuman,floridaPosseTucuman,posseLTerminal,ralosTerminal,ralosCruzAltaTerminal,sieteDeAbrilTerminal,lasCejasTerminal];
+    const todosTucumanDestino = [terminalAldFlorida,terminalPosseFlorida, terminalPosseL,terminalRalos,terminalCruzAltaRalos,terminalSieteDeAbril,terminalLasCejas];
+    
 
 
     
@@ -2853,8 +3067,10 @@ const boton = document.getElementById('boton');
                                 
                 //  Aqui definimos los mensajes a mostrar en el primer campo         
 
-                            
-                                if(anteriorPasado>60){
+                                if(anteriorPasado >= 120){
+                                    actual2.textContent = 'Inició su recorrido hace un par horas'
+                                }
+                                if(anteriorPasado>60 && anteriorPasado < 120){
                                     actual2.textContent = 'Inició su recorrido hace mas de 1 hora'
                                 }
                                 if(anteriorPasado==60){
@@ -2875,6 +3091,7 @@ const boton = document.getElementById('boton');
                         actual2.textContent = 'No pasó ningun bondi aún'
                         actual3.textContent =''
                     }
+                    console.log(anteriorPasado)
                     }
                                 
                         //   Aqui en el segundo campo  
@@ -2892,8 +3109,10 @@ const boton = document.getElementById('boton');
                            
                                futuro1.textContent = ` Próximo bondi a las ${diaRango[listaDiferencias2.indexOf(elMasCercano)].nombre}`;  
                           
-                               
-                                    if(elMasCercano>60){
+                                    if(elMasCercano >= 120){
+                                        futuro2.textContent = 'Inicia su recorrido en un par horas'
+                                    }   
+                                    if(elMasCercano>60 && elMasCercano < 120){
                                         futuro2.textContent = 'Inicia su recorrido en poco más de 1 hora'
                                     }
                                     if(elMasCercano==60){
