@@ -363,139 +363,139 @@ const boton = document.getElementById('boton');
         {
             "nombre":"04:50",
             "valor":4.5,
-            "recorrido":"B° La Cancha → Paraiso → Dispensario → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Dispensario → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"05:50",
             "valor":5.5,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"06:20",
             "valor":6.2,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"06:50",
             "valor":6.5,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"07:25",
             "valor":7.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"07:55",
             "valor":7.55,
-            "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"Fortin → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"08:25",
             "valor":8.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"09:05",
             "valor":9.05,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"09:55",
             "valor":9.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"10:25",
             "valor":10.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"10:55",
             "valor":10.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"11:25",
             "valor":11.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"11:55",
             "valor":11.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"12:40",
             "valor":12.40,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         // {
         //     "nombre":"12:25",
         //     "valor":12.25,
-        //     "recorrido":"Fortin hasta Llona"
+        //     "recorrido":"Fortin hasta Esquina Esquina Llona"
         // },
         {
             "nombre":"13:25",
             "valor":13.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"13:50",
             "valor":13.5,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"14:55",
             "valor":14.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"15:55",
             "valor":15.55,
-            "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"Fortin → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"16:55",
             "valor":16.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"17:55",
             "valor":17.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"18:55",
             "valor":18.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"19:25",
             "valor":19.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"20:25",
             "valor":20.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"21:20",
             "valor":21.2,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"22:20",
             "valor":22.20,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
        
        
@@ -504,237 +504,237 @@ const boton = document.getElementById('boton');
         {
             "nombre":"04:50",
             "valor":4.5,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         
         {
             "nombre":"05:50",
             "valor":5.5,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"06:25",
             "valor":6.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"06:50",
             "valor":6.5,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"07:25",
             "valor":7.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"07:55",
             "valor":7.55,
-            "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"Fortin → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"08:25",
             "valor":8.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"09:05",
             "valor":9.05,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"09:55",
             "valor":9.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
        
         {
             "nombre":"10:25",
             "valor":10.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"10:55",
             "valor":10.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"11:25",
             "valor":11.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"11:55",
             "valor":11.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"12:40",
             "valor":12.40,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         // {
         //     "nombre":"12:25",
         //     "valor":12.25,
-        //     "recorrido":"Fortin hasta Llona"
+        //     "recorrido":"Fortin hasta Esquina Llona"
         // },
         {
             "nombre":"13:25",
             "valor":13.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"13:55",
             "valor":13.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"15:00",
             "valor":15,
-            "recorrido":"Esquina de Lastra → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"Esquina de Lastra → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"15:55",
             "valor":15.55,
-            "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"Fortin → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"16:55",
             "valor":16.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"18:55",
             "valor":18.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"19:25",
             "valor":19.25,
-            "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"Fortin → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"20:25",
             "valor":20.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"20:55",
             "valor":20.55,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"21:25",
             "valor":21.25,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"22:20",
             "valor":22.20,
-            "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
     ]
     const horariosDFloPo = [
 {
     "nombre":"04:50",
     "valor":4.5,
-    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+    "recorrido":"B° La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"05:50",
     "valor":5.5,
-    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+    "recorrido":"B° La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
 },   
 {
     "nombre":"06:50",
     "valor":6.5,
-    "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+    "recorrido":"Fortin → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"07:55",
     "valor":7.55,
-    "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+    "recorrido":"Fortin → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"08:55",
     "valor":8.55,
-    "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+    "recorrido":"Fortin → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"09:55",
     "valor":9.55,
-    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+    "recorrido":"B° La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"10:55",
     "valor":10.55,
-    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+    "recorrido":"B° La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"11:55",
     "valor":11.55,
-    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+    "recorrido":"B° La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"12:55",
     "valor":12.55,
-    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+    "recorrido":"B° La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"13:55",
     "valor":13.55,
-    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+    "recorrido":"B° La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"15:00",
     "valor":15,
-    "recorrido":"Esquina de Lastra → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+    "recorrido":"Esquina de Lastra → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"15:55",
     "valor":15.55,
-    "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+    "recorrido":"Fortin → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"16:55",
     "valor":16.55,
-    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+    "recorrido":"B° La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"17:55",
     "valor":17.55,
-    "recorrido":["B° La Cancha","Paraiso","Dispensario","Llona","Cevil Pozo","Banda del Río Salí"]
+    "recorrido":["B° La Cancha","Paraiso","Dispensario","Esquina Llona","Cevil Pozo","Banda del Río Salí"]
 },
 {
     "nombre":"18:55",
     "valor":18.55,
-    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+    "recorrido":"B° La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"19:25",
     "valor":19.25,
-    "recorrido":"Fortin → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+    "recorrido":"Fortin → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"20:00",
     "valor":20.00,
-    "recorrido":"Esquina Lastra → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+    "recorrido":"Esquina Lastra → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"20:55",
     "valor":20.55,
-    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+    "recorrido":"B° La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
 },
 {
     "nombre":"22:20",
     "valor":22.20,
-    "recorrido":"B° La Cancha → Paraiso → Llona → Cevil Pozo → Banda del Río Salí"
+    "recorrido":"B° La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
 },
 
     ]
@@ -743,7 +743,7 @@ const boton = document.getElementById('boton');
         {
             "nombre":"05:20",
             "valor":5.2,
-            "recorrido":"Terminal → Autopista → B° La Cancha"
+            "recorrido":"Terminal → Autopista → Talar → B° La Cancha"
         },
         // {
         //     "nombre":"06:15",
@@ -758,7 +758,7 @@ const boton = document.getElementById('boton');
         {
             "nombre":"07:15",
             "valor":7.15,
-            "recorrido":"Terminal → Banda del Río Salí → La Marta"
+            "recorrido":"Terminal → Banda del Río Salí → Talar → La Marta"
         },
         {
             "nombre":"08:00",
@@ -773,22 +773,22 @@ const boton = document.getElementById('boton');
         {
             "nombre":"09:00",
             "valor":9,
-            "recorrido":"Terminal → Autopista → B° La Cancha → Colonia 4 "
+            "recorrido":"Terminal → Autopista → Talar → B° La Cancha → Colonia 4 "
         },
         {
             "nombre":"09:45",
             "valor":9.45,
-            "recorrido":"Terminal → Banda del Río Salí → Fortin"
+            "recorrido":"Terminal → Banda del Río Salí → Talar → Fortin"
         },
         {
             "nombre":"10:45",
             "valor":10.45,
-            "recorrido":"Terminal → Banda del Río Salí → Fortin"
+            "recorrido":"Terminal → Banda del Río Salí → Talar → Fortin"
         },
         {
             "nombre":"11:15",
             "valor":11.15,
-            "recorrido":"Terminal → Autopista → B° La Cancha → Los Perez"
+            "recorrido":"Terminal → Autopista → Talar → B° La Cancha → Los Perez"
         },
         // {
         //     "nombre":"11:40",
@@ -803,12 +803,12 @@ const boton = document.getElementById('boton');
         {
             "nombre":"12:20",
             "valor":12.2,
-            "recorrido":"Terminal → Catalinas Park → Autopista → B° La Cancha → Colonia 4"
+            "recorrido":"Terminal → Catalinas Park → Autopista →Talar →  B° La Cancha → Colonia 4"
         },
         {
             "nombre":"12:45",
             "valor":12.45,
-            "recorrido":"Terminal → Banda del Río Salí → Colonia 3"
+            "recorrido":"Terminal → Banda del Río Salí → Talar → Colonia 3"
         },
         {
             "nombre":"13:15",
@@ -818,12 +818,12 @@ const boton = document.getElementById('boton');
         {
             "nombre":"13:30",
             "valor":13.3,
-            "recorrido":"Terminal → Autopista → B° La Cancha → La Marta"
+            "recorrido":"Terminal → Autopista →Talar →  B° La Cancha → La Marta"
         },
         {
             "nombre":"14:00",
             "valor":14,
-            "recorrido":"Terminal → Banda del Río Salí → B° La Cancha"
+            "recorrido":"Terminal → Banda del Río Salí → Talar → B° La Cancha"
         },
         {
             "nombre":"14:50",
@@ -833,7 +833,7 @@ const boton = document.getElementById('boton');
         {
             "nombre":"15:50",
             "valor":15.5,
-            "recorrido":"Terminal → Banda del Río Salí → Colonia 3"
+            "recorrido":"Terminal → Banda del Río Salí → Talar → Colonia 3"
         },
         {
             "nombre":"16:50",
@@ -843,7 +843,7 @@ const boton = document.getElementById('boton');
         {
             "nombre":"17:45",
             "valor":17.45,
-            "recorrido":"Terminal → Banda del Río Salí → B° La Cancha"
+            "recorrido":"Terminal → Talar → Banda del Río Salí → B° La Cancha"
         },
         // {
         //     "nombre":"18:20",
@@ -853,37 +853,37 @@ const boton = document.getElementById('boton');
         {
             "nombre":"18:30",
             "valor":18.3,
-            "recorrido":"Terminal → Banda del Río Salí → Colonia 4"
+            "recorrido":"Terminal → Banda del Río Salí → Talar → Colonia 4"
         },
         {
             "nombre":"19:00",
             "valor":19,
-            "recorrido":"Terminal → Banda del Río Salí → Colonia 4"
+            "recorrido":"Terminal → Banda del Río Salí → Talar → Colonia 4"
         },
         {
             "nombre":"19:45",
             "valor":19.45,
-            "recorrido":"Terminal → Banda del Río Salí → Mayo"
+            "recorrido":"Terminal → Banda del Río Salí → Talar →  Mayo"
         },
         {
             "nombre":"20:30",
             "valor":20.3,
-            "recorrido":"Terminal → Banda del Río Salí → Fortin"
+            "recorrido":"Terminal → Banda del Río Salí → Talar → Fortin"
         },
         {
             "nombre":"21:00",
             "valor":21,
-            "recorrido":"Terminal → Autopista → B° La Cancha"
+            "recorrido":"Terminal → Autopista → Talar → B° La Cancha"
         },
         {
             "nombre":"21:30",
             "valor":21.30,
-            "recorrido":"Terminal → Autopista → B° La Cancha"
+            "recorrido":"Terminal → Autopista → Talar → B° La Cancha"
         },
         {
             "nombre":"22:30",
             "valor":22.30,
-            "recorrido":"Terminal → Autopista → Fortin"
+            "recorrido":"Terminal → Autopista → Talar → Fortin"
         }
 
         
@@ -892,17 +892,17 @@ const boton = document.getElementById('boton');
             {
                 "nombre":"05:20",
                 "valor":5.2,
-                "recorrido":"Terminal → Autopista → B° La Cancha"
+                "recorrido":"Terminal → Autopista → Talar → B° La Cancha"
             },
             {
                 "nombre":"06:25",
                 "valor":6.25,
-                "recorrido":"Terminal → Banda del Río Salí → Mayo"
+                "recorrido":"Terminal → Banda del Río Salí →  Talar → Mayo"
             },
             {
                 "nombre":"07:15",
                 "valor":7.15,
-                "recorrido":"Terminal → Banda del Río Salí → La Marta"
+                "recorrido":"Terminal → Banda del Río Salí → Talar → La Marta"
             },
             {
                 "nombre":"08:00",
@@ -912,12 +912,12 @@ const boton = document.getElementById('boton');
             {
                 "nombre":"08:35",
                 "valor":8.35,
-                "recorrido":"Terminal → Banda del Río Salí → Fortin"
+                "recorrido":"Terminal → Banda del Río Salí → Talar → Fortin"
             },
             {
                 "nombre":"09:45",
                 "valor":9.45,
-                "recorrido":"Terminal → Banda del Río Salí → Fortin"
+                "recorrido":"Terminal → Banda del Río Salí → Talar → Fortin"
             },
             {
                 "nombre":"10:45",
@@ -1428,7 +1428,7 @@ const boton = document.getElementById('boton');
             {
                 "nombre":"18:00",
                 "valor":18,
-                "recorrido":["Terminal","Banda del Río Salí","Cevil Pozo","Llona", "Dispensario","Paraiso","B° La Cancha"]
+                "recorrido":["Terminal","Banda del Río Salí","Cevil Pozo","Esquina Llona", "Dispensario","Paraiso","B° La Cancha"]
             },
             {
                 "nombre":"18:30",
@@ -1480,7 +1480,7 @@ const boton = document.getElementById('boton');
         {
             "nombre":"06:08",
             "valor":6.08,
-            "recorrido":"Dispensario → Fila de la orilla → Llona → Cevil Pozo"
+            "recorrido":"Dispensario → Fila de la orilla → Esquina Llona → Cevil Pozo"
         },
         {
             "nombre":"06:35",
@@ -1505,7 +1505,7 @@ const boton = document.getElementById('boton');
         {
             "nombre":"08:10",
             "valor":8.1,
-            "recorrido":"Dispensario → Fila de la orilla → Llona → Cevil Pozo"
+            "recorrido":"Dispensario → Fila de la orilla → Esquina Llona → Cevil Pozo"
         },
         {
             "nombre":"09:10",
@@ -1525,12 +1525,12 @@ const boton = document.getElementById('boton');
         {
             "nombre":"15:10",
             "valor":15.1,
-            "recorrido":"Bosque → Fila de la orilla → Llona →Cevil Pozo"
+            "recorrido":"Bosque → Fila de la orilla → Esquina Llona →Cevil Pozo"
         },
         {
             "nombre":"16:00",
             "valor":16,
-            "recorrido":"Dispensario → Fila de la orilla → Llona → Cevil Pozo"
+            "recorrido":"Dispensario → Fila de la orilla → Esquina Llona → Cevil Pozo"
         },
         {
             "nombre":"16:10",
@@ -1540,12 +1540,12 @@ const boton = document.getElementById('boton');
         {
             "nombre":"17:10",
             "valor":17.1,
-            "recorrido":"Dispensario → Fila de la orilla → Llona → Cevil Pozo"
+            "recorrido":"Dispensario → Fila de la orilla → Esquina Llona → Cevil Pozo"
         },
         {
             "nombre":"18:10",
             "valor":18.1,
-            "recorrido":"Bosque → Fila de la orilla → Llona → Cevil Pozo"
+            "recorrido":"Bosque → Fila de la orilla → Esquina Llona → Cevil Pozo"
         },
         
        
@@ -1595,7 +1595,7 @@ const boton = document.getElementById('boton');
         {
             "nombre":"18:05",
             "valor":18.05,
-            "recorrido":"Dispensario → Fila dela orilla → Llona → Cevil Pozo"
+            "recorrido":"Dispensario → Fila dela orilla → Esquina Llona → Cevil Pozo"
         },
     ]
     const posseTerminalD = [];
@@ -1638,12 +1638,12 @@ const boton = document.getElementById('boton');
         {
             "nombre":"17:25",
             "valor":17.25,
-            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Llona → Fila de la orilla → Dispensario"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Fila de la orilla → Dispensario"
         },
         {
             "nombre":"18:25",
             "valor":18.25,
-            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Llona → Fila de la orilla → Dispensario"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Fila de la orilla → Dispensario"
         },
         {
             "nombre":"19:00",
@@ -1665,7 +1665,7 @@ const boton = document.getElementById('boton');
         {
             "nombre":"05:25",
             "valor":5.25,
-            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila de la orilla → Llona → Bosque → Dispensario"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila de la orilla → Esquina Llona → Bosque → Dispensario"
         },
         {
             "nombre":"08:30",
@@ -1675,7 +1675,7 @@ const boton = document.getElementById('boton');
         {
             "nombre":"11:35",
             "valor":11.35,
-            "recorrido":"Terminal → Banda del Río Sali → Cevil Pozo → Fila de la orilla → Llona → Dispensario"
+            "recorrido":"Terminal → Banda del Río Sali → Cevil Pozo → Fila de la orilla → Esquina Llona → Dispensario"
         },
         {
             "nombre":"12:15",
@@ -1704,6 +1704,7 @@ const boton = document.getElementById('boton');
         },
     ]
     const terminalPosseD = [];
+
     const ralosTerminalLaV = [
         {
             "nombre":"04:40",
@@ -2688,94 +2689,94 @@ const boton = document.getElementById('boton');
         {
             "nombre":"04:40",
             "valor":4.4,
-            "recorrido":"7 de Abril → Las Cejas → Esquina Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"7 de Abril → Las Cejas → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"16:20",
             "valor":16.2,
-            "recorrido":"7 de Abril → Las Cejas → Esquina Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"7 de Abril → Las Cejas → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         }
     ]
     const sieteDeAbrilTerminalS = [
         {
             "nombre":"05:30",
             "valor":5.3,
-            "recorrido":"7 de Abril → Las Cejas → Esquina Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"7 de Abril → Las Cejas → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         }
     ]
     const sieteDeAbrilTerminalD = [
         {
             "nombre":"18:00",
             "valor":18,
-            "recorrido":"7 de Abril → Las Cejas → Esquina Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"7 de Abril → Las Cejas → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         }
     ]
     const terminalSieteDeAbrilLaV = [
         {
             "nombre":"12:30",
             "valor":12.3,
-            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Esquina Llona → Las Cejas → 7 de Abril"
         },
         {
             "nombre":"15:45",
             "valor":15.45,
-            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Esquina Llona → Las Cejas → 7 de Abril"
         }
     ]
     const terminalSieteDeAbrilS = [
         {
             "nombre":"15:45",
             "valor":15.45,
-            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Esquina Llona → Las Cejas → 7 de Abril"
         }
     ]
     const terminalSieteDeAbrilD = [
         {
             "nombre":"15:00",
             "valor":15,
-            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Esquina Llona → Las Cejas → 7 de Abril"
         },
         {
             "nombre":"18:30",
             "valor":18.3,
-            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Esquina Llona → Las Cejas → 7 de Abril"
         },
         {
             "nombre":"20:30",
             "valor":20.3,
-            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Esquina Llona → Las Cejas → 7 de Abril"
         }
     ]
     const lasCejasTerminalLaV = [
         {
             "nombre":"05:30",
             "valor":5.3,
-            "recorrido":"Las Cejas → Lolita → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"Las Cejas → Lolita → Los Ralos → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"06:30",
             "valor":6.3,
-            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"Las Cejas → Los Ralos → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"07:50",
             "valor":7.5,
-            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"Las Cejas → Los Ralos → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"12:10",
             "valor":12.1,
-            "recorrido":"Las Cejas → Lolita → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"Las Cejas → Lolita → Los Ralos → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"15:40",
             "valor":15.4,
-            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"Las Cejas → Los Ralos → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"19:50",
             "valor":19.5,
-            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"Las Cejas → Los Ralos → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         }
     ]
     const lasCejasTerminalS = [
@@ -2787,110 +2788,110 @@ const boton = document.getElementById('boton');
         {
             "nombre":"12:00",
             "valor":12,
-            "recorrido":"Las Cejas → Lolita → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"Las Cejas → Lolita → Los Ralos → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"15:40",
             "valor":15.4,
-            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"Las Cejas → Los Ralos → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"19:50",
             "valor":19.5,
-            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"Las Cejas → Los Ralos → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
     ]
     const lasCejasTerminalD = [
         {
             "nombre":"12:20",
             "valor":12.2,
-            "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"Las Cejas → Los Ralos → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
     ]
     const terminalLasCejasLaV = [
         {
             "nombre":"06:30",
             "valor":6.3,
-            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Lolita → Las Cejas"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Esquina Llona → Los Ralos → Lolita → Las Cejas"
         },
         {
             "nombre":"11:00",
             "valor":11,
-            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Esquina Llona → Los Ralos → Las Cejas"
         },
         {
             "nombre":"12:30",
             "valor":12.3,
-            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
         },
         {
             "nombre":"14:30",
             "valor":14.3,
-            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Esquina Llona → Los Ralos → Las Cejas"
         },
         {
             "nombre":"15:45",
             "valor":15.45,
-            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
         },
         {
             "nombre":"18:30",
             "valor":18.3,
-            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Esquina Llona → Los Ralos → Las Cejas"
         },
         {
             "nombre":"20:00",
             "valor":20,
-            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Esquina Llona → Los Ralos → Las Cejas"
         },
     ]
     const terminalLasCejasS = [
         {
             "nombre":"10:40",
             "valor":10.4,
-            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Lolita → Las Cejas"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Esquina Llona → Los Ralos → Lolita → Las Cejas"
         },
         {
             "nombre":"14:30",
             "valor":14.3,
-            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Esquina Llona → Los Ralos → Las Cejas"
         },
         {
             "nombre":"15:45",
             "valor":15.45,
-            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
         },
         {
             "nombre":"18:30",
             "valor":18.3,
-            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Esquina Llona → Los Ralos → Las Cejas"
         },
         {
             "nombre":"20:00",
             "valor":20,
-            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Esquina Llona → Los Ralos → Las Cejas"
         },
     ]
     const terminalLasCejasD = [
         {
             "nombre":"06:30",
             "valor":6.3,
-            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Esquina Llona → Los Ralos → Las Cejas"
         },
         {
             "nombre":"10:30",
             "valor":10.3,
-            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Esquina Llona → Los Ralos → Las Cejas"
         },
         {
             "nombre":"18:30",
             "valor":18.3,
-            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
         },
         {
             "nombre":"20:30",
             "valor":20.3,
-            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
         },
     ]
     const floridaAldTucuman = [horariosDFloAl,horariosLvFloAl,horariosSFloAl];
@@ -3005,8 +3006,6 @@ const boton = document.getElementById('boton');
     
     
        
-   
-    
  // Aqui definimos donde localidad de salida y camino
 
           if(opcionbase.selected == true && opcionbase2.selected == false)  {
@@ -3030,10 +3029,7 @@ const boton = document.getElementById('boton');
         if(dia > 5){
             diaRango = ruta[2].slice(0,ruta[2].length);
         }
-    
-
-       
-    
+        
             // Aqui extraemos del array de arriba los valores de cada horario y lo agregamos a la lista del dia
            
                           for (i=0; i < diaRango.length; i++){
@@ -3063,34 +3059,39 @@ const boton = document.getElementById('boton');
 
                             if(listaDiferencias[i] > 0){
                             anteriorPasado = Math.min(anteriorPasado,listaDiferencias[i]);
-                            
-                             actual3.textContent = `Recorrido : ${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
+                            }
+                        }
+                    
+                             
                                 
                 //  Aqui definimos los mensajes a mostrar en el primer campo       
                 
-                if(Object.keys(diaRango[listaDiferencias.indexOf(anteriorPasado)]).length > 3){
-                    actual4.textContent = `2° Recorrido : ${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido2}`;
-                    actual1.textContent = `Bondis de las ${diaRango[listaDiferencias.indexOf(anteriorPasado)].nombre}`;
+                     
+                        if(Object.keys(diaRango[listaDiferencias.indexOf(anteriorPasado)]).length > 3){
 
-                    if(anteriorPasado >= 120){
-                        actual2.textContent = 'Iniciaron sus recorridos hace un par horas'
-                    }
-                    if(anteriorPasado>60 && anteriorPasado < 120){
-                        actual2.textContent = 'Iniciaron sus recorridos hace mas de 1 hora'
-                    }
-                    if(anteriorPasado==60){
-                        actual2.textContent = 'Iniciaron sus recorridos hace 1 hora'
-                    }
-                    if(anteriorPasado < 60 && anteriorPasado>5){
-                        actual2.textContent = `Iniciaron sus recorridos hace ${Math.floor(anteriorPasado)} minutos`
-                    }
-                     if(anteriorPasado < 5){
-                        actual2.textContent = 'Iniciaron sus recorridos hace menos de 5 minutos'
-                    }
-                    
-                }
-                else{
-                    actual1.textContent = `Bondi de las ${diaRango[listaDiferencias.indexOf(anteriorPasado)].nombre}`
+                            actual1.textContent = `Bondis de las ${diaRango[listaDiferencias.indexOf(anteriorPasado)].nombre}`
+
+                            if(anteriorPasado >= 120){
+                                actual2.textContent = 'Iniciaron sus recorridos hace un par horas'
+                            }
+                            if(anteriorPasado>60 && anteriorPasado < 120){
+                                actual2.textContent = 'Iniciaron sus recorridos hace mas de 1 hora'
+                            }
+                            if(anteriorPasado==60){
+                                actual2.textContent = 'Iniciaron sus recorridos hace 1 hora'
+                            }
+                            if(anteriorPasado < 60 && anteriorPasado>5){
+                                actual2.textContent = `Iniciaron sus recorridos hace ${Math.floor(anteriorPasado)} minutos`
+                            }
+                             if(anteriorPasado < 5){
+                                actual2.textContent = 'Iniciaron sus recorridos hace menos de 5 minutos'
+                            }
+                            actual4.textContent = `2° Recorrido : ${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido2}`
+                            actual3.textContent = `1° Recorrido : ${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
+                        }
+                        else{
+
+                            actual1.textContent = `Bondi de las ${diaRango[listaDiferencias.indexOf(anteriorPasado)].nombre}`
                     if(anteriorPasado >= 120){
                         actual2.textContent = 'Inició su recorrido hace un par horas'
                     }
@@ -3106,20 +3107,16 @@ const boton = document.getElementById('boton');
                      if(anteriorPasado < 5){
                         actual2.textContent = 'Inició su recorrido hace menos de 5 minutos'
                     }
-                }
+                    actual3.textContent = `Recorrido : ${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
+                        }
 
-                    
-                                
-                            
-                    }
                     if(anteriorPasado == 3000){
                         actual1.textContent = '';
                         actual2.textContent = 'No pasó ningun bondi aún'
                         actual3.textContent =''
                     }
-            
-                    }
-                                
+                    
+                
                         //   Aqui en el segundo campo  
                        
 
@@ -3132,62 +3129,71 @@ const boton = document.getElementById('boton');
                         for(i=0; i < listaDiferencias2.length; i++){
                             if(listaDiferencias2[i] >0){
                             elMasCercano = Math.min(elMasCercano,listaDiferencias2[i]);
+                            }
+                        }
+                        if(elMasCercano < 3000){
+
+                            if(Object.keys(diaRango[listaDiferencias2.indexOf(elMasCercano)]).length > 3){
+
+                                futuro1.textContent = ` Próximos bondis a las ${diaRango[listaDiferencias2.indexOf(elMasCercano)].nombre}`;  
+    
+                                if(elMasCercano >= 120){
+                                    futuro2.textContent = 'Iniciarán sus recorridos en un par horas'
+                                }   
+                                if(elMasCercano>60 && elMasCercano < 120){
+                                    futuro2.textContent = 'Iniciarán sus recorridos en poco más de 1 hora'
+                                }
+                                if(elMasCercano==60){
+                                    futuro2.textContent = 'Iniciarán sus recorridos dentro 1 hora'
+                                }
+                                if(elMasCercano < 60 && elMasCercano>5){
+                                    futuro2.textContent = `Iniciarán sus recorridos en ${Math.floor(elMasCercano)} minutos`
+                                }
+                                    if(elMasCercano < 5){
+                                       futuro2.textContent = 'Iniciarán sus recorridos en menos de 5 minutos'
+                                    }
+                                    if(elMasCercano == 0){
+                                        futuro2.textContent = 'Están iniciando sus recorridos'
+                                    }
+                                    futuro3.textContent = `1° Recorrido : ${diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido}`
+                                    futuro4.textContent = `2° Recorrido : ${diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido2}`
+                            }
+    
+                                else{
+                                    futuro1.textContent = ` Próximo bondi a las ${diaRango[listaDiferencias2.indexOf(elMasCercano)].nombre}`;  
+                              
+                                        if(elMasCercano >= 120){
+                                            futuro2.textContent = 'Inicia su recorrido en un par horas'
+                                        }   
+                                        if(elMasCercano>60 && elMasCercano < 120){
+                                            futuro2.textContent = 'Inicia su recorrido en poco más de 1 hora'
+                                        }
+                                        if(elMasCercano==60){
+                                            futuro2.textContent = 'Inicia su recorrido dentro 1 hora'
+                                        }
+                                        if(elMasCercano < 60 && elMasCercano>5){
+                                            futuro2.textContent = `Inicia su recorrido en ${Math.floor(elMasCercano)} minutos`
+                                        }
+                                            if(elMasCercano < 5){
+                                               futuro2.textContent = 'Iniciará su recorrido en menos de 5 minutos'
+                                            }
+                                            if(elMasCercano == 0){
+                                                futuro2.textContent = 'Está iniciando su recorrido'
+                                            }
+                                            futuro3.textContent = `Recorrido : ${diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido}`
+                                }
+                                
+                        }
+                        else{
+                            futuro1.textContent ="";
+                            futuro2.textContent = "No hay más colectivos por hoy por ésta ruta"
+                            futuro3.textContent="";
+                        }
+
+                      
+                                  
                            
-                               futuro1.textContent = ` Próximo bondi a las ${diaRango[listaDiferencias2.indexOf(elMasCercano)].nombre}`;  
-                          
-                                    if(elMasCercano >= 120){
-                                        futuro2.textContent = 'Inicia su recorrido en un par horas'
-                                    }   
-                                    if(elMasCercano>60 && elMasCercano < 120){
-                                        futuro2.textContent = 'Inicia su recorrido en poco más de 1 hora'
-                                    }
-                                    if(elMasCercano==60){
-                                        futuro2.textContent = 'Inicia su recorrido dentro 1 hora'
-                                    }
-                                    if(elMasCercano < 60 && elMasCercano>5){
-                                        futuro2.textContent = `Inicia su recorrido en ${Math.floor(elMasCercano)} minutos`
-                                    }
-                                        if(elMasCercano < 5){
-                                           futuro2.textContent = 'Iniciará su recorrido en menos de 5 minutos'
-                                        }
-                                        if(elMasCercano == 0){
-                                            futuro2.textContent = 'Está iniciando su recorrido'
-                                        }
-                                        futuro3.textContent = `Recorrido : ${diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido}`
-                                         
-                                        if(Object.keys(diaRango[listaDiferencias2.indexOf(elMasCercano)]).length > 3){
-
-                                            futuro1.textContent = ` Próximos bondis a las ${diaRango[listaDiferencias2.indexOf(elMasCercano)].nombre}`; 
-
-                                            if(elMasCercano >= 120){
-                                                futuro2.textContent = 'Iniciarán sus recorridos en un par horas'
-                                            }   
-                                            if(elMasCercano>60 && elMasCercano < 120){
-                                                futuro2.textContent = 'Iniciarán sus recorridos en poco más de 1 hora'
-                                            }
-                                            if(elMasCercano==60){
-                                                futuro2.textContent = 'Iniciarán sus recorridos dentro 1 hora'
-                                            }
-                                            if(elMasCercano < 60 && elMasCercano>5){
-                                                futuro2.textContent = `Iniciarán sus recorridos en ${Math.floor(elMasCercano)} minutos`
-                                            }
-                                                if(elMasCercano < 5){
-                                                   futuro2.textContent = 'Iniciarán sus recorridos en menos de 5 minutos'
-                                                }
-                                                if(elMasCercano == 0){
-                                                    futuro2.textContent = 'Están iniciando sus recorridos'
-                                                }
-
-                                                futuro4.textContent = `2° Recorrido : ${diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido2}`
-
-                                        }
-                        } 
-                        else{  
-                            futuro1.textContent = "";
-                            futuro2.textContent = 'No hay más colectivos por hoy por ésta ruta'
-                            futuro3.textContent = "";
-                        }      
-    }           
+         
     
     $('.resultados').css('display','flex')
     $('.resultados2').css('display','flex')     
@@ -3580,7 +3586,7 @@ mensaje2.addEventListener('click', function(){
 //         // {
 //         //     "nombre":"12:25",
 //         //     "valor":12.25,
-//         //     "recorrido":"Fortin hasta Llona"
+//         //     "recorrido":"Fortin hasta Esquina Esquina Llona"
 //         // },
 //         {
 //             "nombre":"13:25",
@@ -3722,7 +3728,7 @@ mensaje2.addEventListener('click', function(){
 //         {
 //             "nombre":"12:25",
 //             "valor":12.25,
-//             "recorrido":"Fortin hasta Llona"
+//             "recorrido":"Fortin hasta Esquina Esquina Llona"
 //         },
 //         {
 //             "nombre":"13:25",
