@@ -156,7 +156,8 @@ const boton = document.getElementById('boton');
         {
             "nombre":"13:50",
             "valor":13.5,
-            "recorrido":"B° La Cancha → Cochuchal → Alderetes → Banda del Río Salí"
+            "recorrido":"B° La Cancha → Cochuchal → Alderetes → Banda del Río Salí",
+            "fin":14.5
         },
         {
             "nombre":"14:45",
@@ -3067,7 +3068,7 @@ const boton = document.getElementById('boton');
                 //  Aqui definimos los mensajes a mostrar en el primer campo       
                 if(anteriorPasado < 3000){
 
-                    if(Object.keys(diaRango[listaDiferencias.indexOf(anteriorPasado)]).length > 3){
+                    if(Object.keys(diaRango[listaDiferencias.indexOf(anteriorPasado)]).length > 4){
 
                         actual1.textContent = `Bondis de las ${diaRango[listaDiferencias.indexOf(anteriorPasado)].nombre}`
 
@@ -3136,7 +3137,7 @@ const boton = document.getElementById('boton');
                         }
                         if(elMasCercano < 3000){
 
-                            if(Object.keys(diaRango[listaDiferencias2.indexOf(elMasCercano)]).length > 3){
+                            if(Object.keys(diaRango[listaDiferencias2.indexOf(elMasCercano)]).length > 4){
 
                                 futuro1.textContent = ` Próximos bondis a las ${diaRango[listaDiferencias2.indexOf(elMasCercano)].nombre}`;  
     
@@ -3206,6 +3207,9 @@ const boton = document.getElementById('boton');
     opcionbase.selected = true;
     opcionbase2.selected = true;
 })
+
+    const progreso = document.getElementById('progreso')
+    progreso.style.width = anteriorPasado - 60 / 60 + '%'
     
 })
 mensaje2.addEventListener('click', function(){
