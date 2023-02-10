@@ -3065,52 +3065,55 @@ const boton = document.getElementById('boton');
                              
                                 
                 //  Aqui definimos los mensajes a mostrar en el primer campo       
-                
+                if(anteriorPasado < 3000){
+
+                    if(Object.keys(diaRango[listaDiferencias.indexOf(anteriorPasado)]).length > 3){
+
+                        actual1.textContent = `Bondis de las ${diaRango[listaDiferencias.indexOf(anteriorPasado)].nombre}`
+
+                        if(anteriorPasado >= 120){
+                            actual2.textContent = 'Iniciaron sus recorridos hace un par horas'
+                        }
+                        if(anteriorPasado>60 && anteriorPasado < 120){
+                            actual2.textContent = 'Iniciaron sus recorridos hace mas de 1 hora'
+                        }
+                        if(anteriorPasado==60){
+                            actual2.textContent = 'Iniciaron sus recorridos hace 1 hora'
+                        }
+                        if(anteriorPasado < 60 && anteriorPasado>5){
+                            actual2.textContent = `Iniciaron sus recorridos hace ${Math.floor(anteriorPasado)} minutos`
+                        }
+                         if(anteriorPasado < 5){
+                            actual2.textContent = 'Iniciaron sus recorridos hace menos de 5 minutos'
+                        }
+                        actual4.textContent = `2° Recorrido : ${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido2}`
+                        actual3.textContent = `1° Recorrido : ${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
+                    }
+                    else{
+
+                        actual1.textContent = `Bondi de las ${diaRango[listaDiferencias.indexOf(anteriorPasado)].nombre}`
+                if(anteriorPasado >= 120){
+                    actual2.textContent = 'Inició su recorrido hace un par horas'
+                }
+                if(anteriorPasado>60 && anteriorPasado < 120){
+                    actual2.textContent = 'Inició su recorrido hace mas de 1 hora'
+                }
+                if(anteriorPasado==60){
+                    actual2.textContent = 'Inició su recorrido hace 1 hora'
+                }
+                if(anteriorPasado < 60 && anteriorPasado>5){
+                    actual2.textContent = `Inició su recorrido hace ${Math.floor(anteriorPasado)} minutos`
+                }
+                 if(anteriorPasado < 5){
+                    actual2.textContent = 'Inició su recorrido hace menos de 5 minutos'
+                }
+                actual3.textContent = `Recorrido : ${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
+                    }
+                }
                      
-                        if(Object.keys(diaRango[listaDiferencias.indexOf(anteriorPasado)]).length > 3){
+                        
 
-                            actual1.textContent = `Bondis de las ${diaRango[listaDiferencias.indexOf(anteriorPasado)].nombre}`
-
-                            if(anteriorPasado >= 120){
-                                actual2.textContent = 'Iniciaron sus recorridos hace un par horas'
-                            }
-                            if(anteriorPasado>60 && anteriorPasado < 120){
-                                actual2.textContent = 'Iniciaron sus recorridos hace mas de 1 hora'
-                            }
-                            if(anteriorPasado==60){
-                                actual2.textContent = 'Iniciaron sus recorridos hace 1 hora'
-                            }
-                            if(anteriorPasado < 60 && anteriorPasado>5){
-                                actual2.textContent = `Iniciaron sus recorridos hace ${Math.floor(anteriorPasado)} minutos`
-                            }
-                             if(anteriorPasado < 5){
-                                actual2.textContent = 'Iniciaron sus recorridos hace menos de 5 minutos'
-                            }
-                            actual4.textContent = `2° Recorrido : ${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido2}`
-                            actual3.textContent = `1° Recorrido : ${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
-                        }
-                        else{
-
-                            actual1.textContent = `Bondi de las ${diaRango[listaDiferencias.indexOf(anteriorPasado)].nombre}`
-                    if(anteriorPasado >= 120){
-                        actual2.textContent = 'Inició su recorrido hace un par horas'
-                    }
-                    if(anteriorPasado>60 && anteriorPasado < 120){
-                        actual2.textContent = 'Inició su recorrido hace mas de 1 hora'
-                    }
-                    if(anteriorPasado==60){
-                        actual2.textContent = 'Inició su recorrido hace 1 hora'
-                    }
-                    if(anteriorPasado < 60 && anteriorPasado>5){
-                        actual2.textContent = `Inició su recorrido hace ${Math.floor(anteriorPasado)} minutos`
-                    }
-                     if(anteriorPasado < 5){
-                        actual2.textContent = 'Inició su recorrido hace menos de 5 minutos'
-                    }
-                    actual3.textContent = `Recorrido : ${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
-                        }
-
-                    if(anteriorPasado == 3000){
+                    else{
                         actual1.textContent = '';
                         actual2.textContent = 'No pasó ningun bondi aún'
                         actual3.textContent =''
