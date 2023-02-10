@@ -133,20 +133,14 @@ body{
     width: 250px;
     height: 90px;
     border-radius: 10px;
-    background-color: var(--azul);
-    border: solid 1px white;
+    background-color: var(--blanco);
 }
 
 #destino,#origen{
     display: flex;
     justify-content: center;
     font-family: var(--fuenteSec);
-   
-    
     text-align: center;
-    
-    
-    color: var(--blanco);
     font-size: 17px;
 }
 .menu, .menu2{
@@ -169,7 +163,7 @@ body{
     height: 60px;
     background-color: var(--azul);
     font-size: 20px;
-    color: #fefbfb;
+    color: var(--blanco);
     font-weight: bold;
 }
 
@@ -312,14 +306,13 @@ body{
     text-align: center;
     width: 250px;
     /* background-color: rgb(65, 117, 181);  */
-    background-color:var(--azul);
-    color: white;
+    background-color:var(--blanco);
     border-radius: 10px;
     box-shadow: 0 2px 5px var(--rojo);
     font-weight: bold;
     height:60px;
     text-align-last: center;
-    border:  solid 1px white;
+    border:  solid 1px black;
 }
 .select:hover{
     cursor: pointer;
@@ -421,14 +414,14 @@ body{
 
 }
 #fondo{
-width: 150px;
-height: 150px;
+width: 225px;
+height: 180px;
 background-image: url('Imagenes/logo\ empresa.jpg');
 background-position: center;
-background-size:80%;
+background-size:cover;
 background-repeat: no-repeat;
 position: absolute;
-filter: opacity(40%)
+filter: opacity(20%)
 
 }
 
