@@ -3209,7 +3209,7 @@ const boton = document.getElementById('boton');
 })
 
     const progreso = document.getElementById('progreso')
-    progreso.style.width = anteriorPasado - 60 / 60 + '%'
+    progreso.style.width = ((595 / 655) * 100) + '%'
     
 })
 mensaje2.addEventListener('click', function(){
