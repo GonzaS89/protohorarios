@@ -229,7 +229,8 @@ const boton = document.getElementById('boton');
         {
             "nombre":"04:40",
             "salida":4.4,
-            "recorrido":"Fortin → Talar → Alderetes → Banda del Río Salí"
+            "recorrido":"Fortin → Talar → Alderetes → Banda del Río Salí",
+            "llegada":5.2
         },
         {
             "nombre":"05:45",
@@ -305,12 +306,14 @@ const boton = document.getElementById('boton');
         {
             "nombre":"15:50",
             "salida":15.5,
-            "recorrido":"Colonia 4 → B° La Cancha → Talar → Alderetes → Autopista"
+            "recorrido":"Colonia 4 → B° La Cancha → Talar → Alderetes → Autopista",
+            "llegada":16.3
         },
         {
             "nombre":"16:50",
             "salida":16.5,
-            "recorrido":"Colonia 3 → Talar → Alderetes → Banda del Río Salí"
+            "recorrido":"Colonia 3 → Talar → Alderetes → Banda del Río Salí",
+            "llegada":17.3
         },
         {
             "nombre":"17:50",
