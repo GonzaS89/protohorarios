@@ -119,6 +119,16 @@ body{
     height: 20%;
     border-radius: 10px;
 }
+.b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.a{
+    display: flex;
+    flex-direction: column;
+}
 
 #textoIntermedio{
     display: flex;
@@ -141,9 +151,6 @@ body{
     text-align: center;
     font-size: 17px;
 }
-.menu, .menu2{
-    padding:15px;
-}
 .botonDeCambio{
     display: flex;
 }
@@ -153,16 +160,17 @@ body{
 .intermedio{
     display:flex;
    justify-content: center;
+   
 }
 #botonDeCambio,#botonDeCambio2{
-    font-family: var(--fuenteSec);
-    border-radius: 10px;
+    border-radius: 50%;
     width: 60px;
     height: 60px;
-    background-color: var(--azul);
-    font-size: 20px;
-    color: var(--blanco);
-    font-weight: bold;
+    background-image: url('Imagenes/pngegg.png');
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position:center;
+    rotate: 90deg;
 }
 
 /* 
@@ -400,6 +408,7 @@ body{
 #boton:active{
     cursor: pointer;
     color: white;
+    background-color: black;
 }
 #boton:hover{
     cursor: pointer;
@@ -410,6 +419,7 @@ body{
 #boton2:active{
     cursor: pointer;
     color: white;
+    background-color: black;
 
 }
 #fondo{
@@ -432,7 +442,6 @@ filter: opacity(20%)
     height:200px;
     width:100%;  
     margin: 0px;
-   
 }
 
 .resultados,.resultados2{
@@ -502,6 +511,7 @@ background-color: aliceblue;
 }
 .mensaje2{
     display: none;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -511,7 +521,15 @@ background-color: aliceblue;
     height: 100%;
     width: 100%;   
 }
-#mensaje2{
+#tituloResultado{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+/* #mensaje2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -520,7 +538,7 @@ background-color: aliceblue;
     font-size: 50px;
     color: whitesmoke;
     text-align: center;
-}
+} */
 
 @media(max-width:600px){
     .input-reloj{

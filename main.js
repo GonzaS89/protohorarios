@@ -55,11 +55,7 @@ function reloj(){
 const selector = document.menu.selector;
 const selector2 = document.menu2.selector2;
 
-
-
 const boton = document.getElementById('boton');
-
-
 
     const opcionbase = selector[0]
     const opcionbase2 = selector2[0]
@@ -1001,42 +997,42 @@ const boton = document.getElementById('boton');
             {
                 "nombre":"06:25",
                 "salida":6.25,
-                "recorrido":"Terminal → Banda del Río Salí → Mayo"
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Mayo"
             },
             {
                 "nombre":"09:45",
                 "salida":9.45,
-                "recorrido":"Terminal → Banda del Río Salí → Fortin → Colonia 2"
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Talar → Fortin → Colonia 2"
             },
             {
                 "nombre":"11:40",
                 "salida":11.40,
-                "recorrido":"Terminal → Banda del Río Salí → Cochuchal → Fortin → Mayo"
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Cochuchal → Fortin → Mayo"
             },
             {
                 "nombre":"14:00",
                 "salida":14,
-                "recorrido":"Terminal → Banda del Río Salí → B° La Cancha"
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Talar → B° La Cancha"
             },
             {
                 "nombre":"16:00",
                 "salida":16,
-                "recorrido":"Terminal → Banda del Río Salí → Cochuchal → Fortin → Colonia 3"
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Cochuchal → Fortin → Colonia 3"
             },
             {
                 "nombre":"17:45",
                 "salida":17.45,
-                "recorrido":["Terminal","Banda del Río Salí" ,"Fortin","Mayo"]
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Talar → Fortin → Mayo"
             },
             {
                 "nombre":"19:45",
                 "salida":19.45,
-                "recorrido":"Terminal → Banda del Río Salí → Mayo"
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Talar → Mayo"
             },
             {
                 "nombre":"20:30",
                 "salida":20.3,
-                "recorrido":"Terminal → Banda del Río Salí → Fortin"
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Talar → Fortin"
             }
   
     ]
@@ -2950,7 +2946,6 @@ const boton = document.getElementById('boton');
            }
     })
    
-    
     boton.addEventListener('click',function(){
 
         // Definimos la posicion del selector 1
@@ -2970,8 +2965,6 @@ const boton = document.getElementById('boton');
 
         // Definimos la posicion del selector 2
     
-       
-
         for(opcion of selector2){
             if(opcion.selected){
                    salidaSelecionado2 = opcion;
@@ -2985,15 +2978,15 @@ const boton = document.getElementById('boton');
             posicion2=salidaes2.indexOf(salidaSelecionado2)
         }
            
-       
         // Definimos las variables globales
         
-
     let momentoActual = new Date();
     let hora = momentoActual.getHours();
     let minutos = momentoActual.getMinutes();
     let horaEnEnteros = (hora * 60) + minutos;
     let dia = momentoActual.getDay();
+    let diasDeLaSemana = ['Domingo','Lunes','Martes','Miercoles','Jueves','Viernes','Sabado'];
+    let diaSemana = diasDeLaSemana[dia]
     let elMasCercano=3000;
     let anteriorPasado = 3000;
     let diaRango = []
@@ -3010,9 +3003,10 @@ const boton = document.getElementById('boton');
     let futuro2 = document.getElementById('futuro2');
     let futuro3 = document.getElementById('futuro3');
     let futuro4 = document.getElementById('futuro4');
+    let tituloResultado = document.getElementById('tituloResultado')
+
+    tituloResultado.textContent  =`Hoy, ${diaSemana}, tenés éstos servicios`
     
-    
-       
  // Aqui definimos donde localidad de salida y camino
 
           if(opcionbase.selected == true && opcionbase2.selected == false)  {
@@ -3024,14 +3018,11 @@ const boton = document.getElementById('boton');
               
  //    Aqui definimos el array dependiendo el dia de la semana
         
-    
         if(dia == 0){
-            diaRango = ruta[0].slice(0,ruta[0].length)
-        
+            diaRango = ruta[0].slice(0,ruta[0].length);
         }
         if(dia >= 1 && dia <=5){
             diaRango = ruta[1].slice(0,ruta[1].length);
-        
         }
         if(dia > 5){
             diaRango = ruta[2].slice(0,ruta[2].length);
@@ -3040,7 +3031,7 @@ const boton = document.getElementById('boton');
             // Aqui extraemos del array de arriba los salidaes de cada horario y lo agregamos a la lista del dia
            
                           for (i=0; i < diaRango.length; i++){
-                        listaDelDia.push(diaRango[i].salida)
+                        listaDelDia.push(diaRango[i].salida);
             }
 
                 // Aqui usamos la lista con los salidaes y las pasamos a numero enteros junto con los minutos
@@ -3224,7 +3215,7 @@ let avance = (Math.floor(anteriorPasado) / difSalidaLlegada) * 100;
 console.log(salidaEnEnteros,llegadaEnEnteros)
     const progreso = document.getElementById('progreso')
     progreso.style.width = `${avance}%`;
-    titulo.textContent = `${avance}%`
+ 
 })
 mensaje2.addEventListener('click', function(){
     $('.mensaje2').css('display', 'none')  

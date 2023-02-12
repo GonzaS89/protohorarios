@@ -31,64 +31,70 @@
      <div class="titulo">
         <h1 id="titulo">Consultá todos nuestros servicios aquí</h1>
      </div>
-     <div class="topside">
-        <div class="origen">
-            <h3 id="origen">Desde Terminal</h3>
-        </div>
-            <form class="menu" name=menu action="">
-                <select id="selector" class="select"name="selector">
-                    <div class="options">
-                        <option value="default" disabled selected>¿Desde dónde quéres viajar?</option>
-                        <option value="florida" > Desde Florida ( por Alderetes/Alternativa )</option>
-                        <option value="florida" >Desde Florida ( por Posse )</option>
-                        <option value="xposse" > Desde Posse</option>
-                        <option value="ralos" > Desde Ralos</option>
-                        <option value="ralos" > Desde Ralos ( por Cruz Alta )</option>
-                        <option value="7abril" > Desde 7 Abril</option>
-                        <option value="cejas" > Desde Las Cejas</option>
-                    </div>
-                </select>
-            </form>
-    </div>
+        <div class="a">
+            <div class="topside">
+                <div class="origen">
+                    <h3 id="origen">Desde Terminal</h3>
+                </div>  
+                    <form class="menu" name=menu action="">
+                        <select id="selector" class="select"name="selector">
+                            <div class="options">
+                                <option value="default" disabled selected>¿Desde dónde quéres viajar?</option>
+                                <option value="florida" > Desde Florida ( por Alderetes/Alternativa )</option>
+                                <option value="florida" >Desde Florida ( por Posse )</option>
+                                <option value="xposse" > Desde Posse</option>
+                                <option value="ralos" > Desde Ralos</option>
+                                <option value="ralos" > Desde Ralos ( por Cruz Alta )</option>
+                                <option value="7abril" > Desde 7 Abril</option>
+                                <option value="cejas" > Desde Las Cejas</option>
+                            </div>
+                        </select>
+                    </form>
+            </div>
+            <div class="intermedio">
+                <div class="botonDeCambio">
+                    <button id="botonDeCambio"></button>
+                </div>
+                <div class="botonDeCambio2">
+                    <button id="botonDeCambio2"></button>
+                </div>
+         </div>
+            <div class="topside">
+                <div class="destino">
+                    <h3 id="destino">Hasta San Miguel de Tucumán</h3>
+                </div>
+                <form class="menu2" name=menu2 action="">
+                    <select id="selector2" class="select"name="selector2">
+                        <option value="default" disabled selected>¿Hasta dónde querés ir?</option>
+                        <option value="florida" >Hasta Florida (por Alderetes/Alternativa)</option>
+                        <option value="florida" >Hasta Florida (por Posse)</option>
+                        <option value="xposse" > Hasta Posse</option>
+                        <option value="xralos" > Hasta Ralos</option>
+                        <option value="xralosC" > Hasta Ralos (por Cruz Alta)</option>
+                        <option value="x7deabril" > Hasta 7 de Abril</option>
+                        <option value="xcejas" > Hasta Las Cejas</option>
+                    </select>
+                </form>
+            </div>
+         </div>
+     
+    
 <div class="mensajeError">
     <p id="mensaje"></p>
 </div>
 
-<div class="intermedio">
-    <div class="botonDeCambio">
-        <button id="botonDeCambio">↑  ↓</button>
-    </div>
-    <div class="botonDeCambio2">
-        <button id="botonDeCambio2">↑  ↓</button>
-    </div>
-</div>
-<div class="topside">
-    <div class="destino">
-        <h3 id="destino">Hasta San Miguel de Tucumán</h3>
-    </div>
-    <form class="menu2" name=menu2 action="">
-        <select id="selector2" class="select"name="selector2">
-            <option value="default" disabled selected>¿Hasta dónde querés ir?</option>
-            <option value="florida" >Hasta Florida (por Alderetes/Alternativa)</option>
-            <option value="florida" >Hasta Florida (por Posse)</option>
-            <option value="xposse" > Hasta Posse</option>
-            <option value="xralos" > Hasta Ralos</option>
-            <option value="xralosC" > Hasta Ralos (por Cruz Alta)</option>
-            <option value="x7deabril" > Hasta 7 de Abril</option>
-            <option value="xcejas" > Hasta Las Cejas</option>
-        </select>
-    </form>
-</div>
+
     <div class="boton-cont">
         <button  id='boton'>Mostrar horarios</button>   
     </div>
-    <div class="barra-cont">
+    <!-- <div class="barra-cont">
         <div class="barra">
             <div id="progreso"></div>
         </div>
-    </div>
+    </div> -->
     <div class="mensaje2">
         <div class="resultados-cont">
+            <h1 id="tituloResultado"></h1>
             <div class="resultados">
                <p id="fondo"></p>
                 <p id="actual1"></p>
