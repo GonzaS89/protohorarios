@@ -199,7 +199,7 @@ body{
     font-family: 'Nunito', sans-serif;
     font-size:15px;
     border: none;
-    text-align: center;
+    text-align-last: center;
     width:175px;
     /* background-color: rgb(65, 117, 181);  */
     background-color:rgb(31, 77, 134);
@@ -218,6 +218,7 @@ body{
     font-size: 15px;
     color: white;
     font-weight: bold;
+    text-align-last:center ;
 }
 #busquedaInput2{
     background-color:transparent;
