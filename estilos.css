@@ -173,10 +173,10 @@ body{
     transform: rotate(90deg);
 }
 #botonDeCambio:active{
-    transform: rotate(130deg)
+    transform: rotate(220deg)
 }
 #botonDeCambio2:active{
-    transform: rotate(130deg)
+    transform: rotate(220deg)
 }
 
 /* 
