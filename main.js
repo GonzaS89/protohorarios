@@ -3111,19 +3111,14 @@ const boton = document.getElementById('boton');
                 actual3.textContent = `Recorrido : ${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
                     }
                 }
-                     
-                        
-
                     else{
                         actual1.textContent = '';
                         actual2.textContent = 'No pasó ningun bondi aún'
                         actual3.textContent =''
                     }
                     
-                
                         //   Aqui en el segundo campo  
                        
-
                        for(i = 0; i < horariosEnEnteros.length; i++){
                 
                         let difHorariosHora = horariosEnEnteros[i] - horaEnEnteros;;
