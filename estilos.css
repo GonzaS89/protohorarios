@@ -185,60 +185,11 @@ body{
     transform: rotate(220deg)
 }
 
-
-/* 
-.botonManual-cont{
-    display: none;
-    justify-content:center;
-    align-items: center;
-}
-#botonManual{
-    height:60px;
-    border-radius: 10px;
-    background-color:lightgray;
-    font-family: var(--fuenteSec);
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    padding:0 10px;
-    background-color: var(--azul);
-    width: 40%;
-    font-size: 15px;
-}
-
-#botonManual:active{
-    background-color: var(--rojo);
-}
-#botonManual:hover{
-    cursor: pointer;
-}
-.botonAuto-cont{
-    display: none;
-    justify-content:center;
-    align-items: center;
-}
-#botonAuto{
-    width: 40%;
-    font-size: 15px;
-    height:60px;
-    border-radius: 10px;
-    background-color:lightgray;
-    font-family: var(--fuenteSec);
-    color: black;
-    font-weight: bold;
-    padding:0 10px;
-    background-color:var(--azul);
-    color: white;
-}
-#botonAuto:active{
-    background-color: var(--rojo);
-}
-#botonAuto:hover{
-    cursor: pointer;
-} */
 .options{
     display: flex;
     justify-content: center;
 }
+
 .topside{
     display: flex;
     width:250px;
@@ -250,9 +201,49 @@ body{
     margin: 20px auto;
     height: 60px;
 }
+.topside2{
+    display: flex;
+    width:300px;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    box-shadow: 0 2px 10px var(--rojo);
+    border-radius: 10px;
+    margin: 20px auto;
+    background-color: rgb(40, 34, 76);
+    padding: 10px;
+}
+#selector3, #selector4, #selector5, #ingHora{
+    display: none;
+}
+.botonesManual{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+
+}
+#origenCapital, #capitalDestino{
+    font-family: var(--fuenteSec);
+    height: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--blanco);
+}
+#ingHora{
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-align: center;
+    font-family: var(--fuenteSec);
+    font-size: 17px;
+}
+::placeholder{
+   font-size: 15px;
+}
 
 
-.busquedaAuto-cont{
+.busquedaAutomatica{
     display: flex;
     align-items: center;
     justify-content:center;
@@ -332,6 +323,7 @@ body{
     height:60px;
     text-align-last: center;
     border:  solid 1px black;
+    margin: 5px;
 }
 .select:hover{
     cursor: pointer;
@@ -397,6 +389,7 @@ body{
     height:120px;
     margin: -5px;
     flex-direction: column;
+
 }
 
 .boton-cont2{
@@ -416,7 +409,9 @@ body{
     font-weight: bold;
     box-shadow: 2px black;
     color: var(--blanco);
-
+}
+#boton{
+    display: none;
 }
 #boton:active{
     cursor: pointer;
@@ -539,6 +534,7 @@ background-color: aliceblue;
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
+    font-family: var(--fuenteSec);
     margin-bottom: 15px;
     padding: 10px;
 }
