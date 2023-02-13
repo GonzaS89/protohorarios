@@ -3215,6 +3215,8 @@ let avance = (Math.floor(anteriorPasado) / difSalidaLlegada) * 100;
 console.log(salidaEnEnteros,llegadaEnEnteros)
     const progreso = document.getElementById('progreso')
     progreso.style.width = `${avance}%`;
+
+    
  
 })
 mensaje2.addEventListener('click', function(){

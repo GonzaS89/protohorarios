@@ -163,14 +163,14 @@ body{
    
 }
 #botonDeCambio,#botonDeCambio2{
-    border-radius: 50%;
+    border-radius: 25%;
     width: 60px;
     height: 60px;
     background-image: url('Imagenes/pngegg.png');
     background-size: 75%;
     background-repeat: no-repeat;
     background-position:center;
-    rotate: 90deg;
+    transform: rotate(90deg);
 }
 
 /* 
