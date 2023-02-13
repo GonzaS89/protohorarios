@@ -172,6 +172,12 @@ body{
     background-position:center;
     transform: rotate(90deg);
 }
+#botonDeCambio:active{
+    transform: rotate(130deg)
+}
+#botonDeCambio2:active{
+    transform: rotate(130deg)
+}
 
 /* 
 .botonManual-cont{
