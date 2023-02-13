@@ -3065,7 +3065,7 @@ const boton = document.getElementById('boton');
                 //  Aqui definimos los mensajes a mostrar en el primer campo       
                 if(anteriorPasado < 3000){
 
-                    if(Object.keys(diaRango[listaDiferencias.indexOf(anteriorPasado)]).length > 4){
+                    if(Object.keys(diaRango[listaDiferencias.indexOf(anteriorPasado)]).length > 3){
 
                         actual1.textContent = `Bondis de las ${diaRango[listaDiferencias.indexOf(anteriorPasado)].nombre}`
 
@@ -3134,7 +3134,7 @@ const boton = document.getElementById('boton');
                         }
                         if(elMasCercano < 3000){
 
-                            if(Object.keys(diaRango[listaDiferencias2.indexOf(elMasCercano)]).length > 4){
+                            if(Object.keys(diaRango[listaDiferencias2.indexOf(elMasCercano)]).length > 3){
 
                                 futuro1.textContent = ` Próximos bondis a las ${diaRango[listaDiferencias2.indexOf(elMasCercano)].nombre}`;  
     

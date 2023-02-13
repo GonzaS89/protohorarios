@@ -173,11 +173,18 @@ body{
     transform: rotate(90deg);
 }
 #botonDeCambio:active{
-    transform: rotate(220deg)
+    transform: rotate(220deg);
+}
+#botonDeCambio:hover{
+    cursor: pointer;
+}
+#botonDeCambio2:hover{
+    cursor: pointer;
 }
 #botonDeCambio2:active{
     transform: rotate(220deg)
 }
+
 
 /* 
 .botonManual-cont{
