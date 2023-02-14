@@ -6190,6 +6190,7 @@ function busquedaManual(){
         if(opcionbase3.selected == true && opcionbase4.selected == false){
             ruta2 = todosTucumanDestino[posicion4-1]
         }
+        
       
         //    Aqui definimos el array dependiendo el dia de la semana
         
@@ -6202,6 +6203,7 @@ function busquedaManual(){
         if((posicion5 - 1) == 2){
             diaRango2 = ruta2[0].slice(0,ruta2[0].length);
         }
+       
 
         // / Aqui extraemos del array de arriba los salidaes de cada horario y lo agregamos a la lista del dia
 
@@ -6211,7 +6213,7 @@ function busquedaManual(){
                         listaDelDia2.push(diaRango2[i].salida);
             }
            
-
+            console.log(listaDelDia2)
                 // Aqui usamos la lista con los salidaes y las pasamos a numero enteros junto con los minutos
        
                           for(let i=0 ; i < listaDelDia2.length ; i++){
@@ -6242,7 +6244,7 @@ function busquedaManual(){
         mostrar1.textContent = `El bondi mas cercano al horario a la hora que indicaste, es él de las ${diaRango2[listaDiferencias3.indexOf(proximo)].nombre}Hrs`;
         mostrar2.textContent = `Recorrido: ${diaRango2[listaDiferencias3.indexOf(proximo)].recorrido}`
 
-        console.log(listaDiferencias3)
+      
 
          $('.resultados3').css('display','flex')     
     $('.mensaje2').css('display', 'flex')   
@@ -6253,7 +6255,9 @@ function busquedaManual(){
         mensaje2.addEventListener('click', function(){
             $('.mensaje2').css('display', 'none')  
             opcionbase3.selected = true;
+            posicion3 = 0;
             opcionbase4.selected = true;
+            posicion4 = 0;
             opcionbase5.selected = true;
             ingHora.value = '';
             })
