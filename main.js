@@ -2940,11 +2940,7 @@ const boton = document.getElementById('boton');
         $('.botonDeCambio').css('display','flex');
         opcionbase2.selected = true;
     })
-    selector.addEventListener('click', function(){
-        if(opcionbase.selected == false){
-            boton.disabled = false;
-           }
-    })
+  
    
     boton.addEventListener('click',function(){
 
@@ -6081,18 +6077,28 @@ function busquedaManual(){
     const selector3 = document.menu3.selector3;
     const selector4 = document.menu4.selector4;
     const selector5 = document.menu5.selector5;
-    const inputHora = document.getElementById('ingHora')
+    const ingHora = document.getElementById('ingHora')
     const boton2 = document.getElementById('boton2')
+    let mostrar1 = document.getElementById('mostrar1')
+    let mostrar2 = document.getElementById('mostrar2')
     const opcionbase3 = selector3[0];
     const opcionbase4 = selector4[0];
+    const opcionbase5 = selector5[0];
     let posicion3;
     let posicion4;
     let posicion5;
-    let ruta;
+    let ruta2 =[]
     let valorSelecionado3;
     let valorSelecionado4;
+    let valorSelecionado5;
     let valores3 = []
     let valores4 = []
+    let valores5 = []
+    let diaRango2;
+    let listaDelDia2 = []
+    let listaDiferencias3 = [];
+    let horariosEnEnteros2 = []
+    let proximo = 3000;
   
   
     botonOrigenCapital.addEventListener('click', function(){
@@ -6117,6 +6123,7 @@ function busquedaManual(){
         $('#origenCapital').css('color', 'var(--black');
     })
 
+    boton2.addEventListener('click', function(){
 
     // Definimos la posicion del selector 3
 
@@ -6147,23 +6154,90 @@ function busquedaManual(){
     for(i=0; i< valores4.length;i++){
         posicion4=valores4.indexOf(valorSelecionado4)
     }
+    // Definimos la posicion del selector 5
+
+    for(opcion of selector5){
+        if(opcion.selected){
+               valorSelecionado5 = opcion;
+            }
+    }
+    for(i=0; i < selector5.length;i++){
+     valores5.push(selector5[i])
+    }
+  
+    for(i=0; i< valores5.length;i++){
+        posicion5=valores5.indexOf(valorSelecionado5)
+    }
     // Aqui definimos donde localidad de salida y camino
 
     if(opcionbase4.selected == true && opcionbase3.selected == false)  {
-        ruta = todosTucumanDestino[posicion4-1]
+        ruta2 = todosDestinoTucuman[posicion3-1]
+        
         }
         if(opcionbase3.selected == true && opcionbase4.selected == false){
-          ruta = todosDestinoTucuman[posicion3-1]
+            ruta2 = todosTucumanDestino[posicion4-1]
         }
+      
+        //    Aqui definimos el array dependiendo el dia de la semana
         
-        boton2.addEventListener('click', function(){
-            console.log(posicion3)
-        })
+        if((posicion5 - 1) == 0){
+            diaRango2 = ruta2[1].slice(0,ruta2[1].length);
+        }
+        if((posicion5-1) == 1){
+            diaRango2 = ruta2[2].slice(0,ruta2[2].length);
+        }
+        if((posicion5 - 1) == 2){
+            diaRango2 = ruta2[0].slice(0,ruta2[0].length);
+        }
 
+        // / Aqui extraemos del array de arriba los salidaes de cada horario y lo agregamos a la lista del dia
 
+        
+           
+                          for (i=0; i < diaRango2.length; i++){
+                        listaDelDia2.push(diaRango2[i].salida);
+            }
+           
+
+                // Aqui usamos la lista con los salidaes y las pasamos a numero enteros junto con los minutos
        
+                          for(let i=0 ; i < listaDelDia2.length ; i++){
+              
+                      let horasEnEnteros=  (Math.trunc(listaDelDia2[i]))  * 60;
+                            let minutosEnEnteros = (listaDelDia2[i] - (Math.trunc(listaDelDia2[i])))*100;
+                            let horaMinutosEnEnteros = horasEnEnteros + minutosEnEnteros;
+                       horariosEnEnteros2.push(horaMinutosEnEnteros);
+              }
 
 
+        let horaInputAMinutos = ingHora.value * 60;
+              
+              for(let i = 0; i < horariosEnEnteros2.length; i++){
+                    listaDiferencias3.push (horariosEnEnteros2[i] - horaInputAMinutos)
+              }
+              for(let i = 0; i < listaDiferencias3.length; i++){
+                if(listaDiferencias3[i] > 0){
+                proximo = Math.min(proximo, listaDiferencias3[i])
+              }
+            }
+              console.log(diaRango2[listaDiferencias3.indexOf(proximo)])
+
+            mostrar1.textContent = `El bondi mas cercano al horario a la hora que indicaste, es él de las ${diaRango2[listaDiferencias3.indexOf(proximo)].nombre}Hrs`;
+            mostrar2.textContent = `Recorrido: ${diaRango2[listaDiferencias3.indexOf(proximo)].recorrido}`
+
+            const mensaje2 = document.querySelector('.mensaje2');
+
+    $('.resultados3').css('display','flex')     
+    $('.mensaje2').css('display', 'flex')   
+   mensaje2.addEventListener('click', function(){
+    $('.mensaje2').css('display', 'none')  
+    opcionbase3.selected = true;
+    opcionbase4.selected = true;
+    opcionbase5.selected = true;
+    ingHora.value = '';
+})
+
+        })
 }
 
 
