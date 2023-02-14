@@ -202,15 +202,13 @@ body{
     height: 60px;
 }
 .topside2{
-    display: flex;
+    display:none;
     width:300px;
     align-items: center;
     justify-content:center;
     flex-direction: column;
-    box-shadow: 0 2px 10px var(--rojo);
     border-radius: 10px;
     margin: 20px auto;
-    background-color: rgb(40, 34, 76);
     padding: 10px;
 }
 #selector3, #selector4, #selector5, #ingHora{
@@ -241,7 +239,32 @@ body{
 ::placeholder{
    font-size: 15px;
 }
+.botonesBusquedaCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
 
+#busquedaManual, #busquedaAuto{
+   background-color: var(--azul);
+   color: var(--blanco);
+   height: 50px;
+   width: 300px;
+   padding: 10px;
+   border-radius: 10px;
+   font-size: 15px;
+   font-weight: bold;
+   font-family: var(--fuenteSec);
+   text-align-last: center;
+}
+#busquedaAuto{
+    display: none;
+}
+.busquedaAuto{
+    display: flex;
+    flex-direction: column;
+}
 
 .busquedaAutomatica{
     display: flex;
@@ -393,7 +416,7 @@ body{
 }
 
 .boton-cont2{
-    display:none;
+    display:flex;
     justify-content:center;
     align-items: center;
     height:100px;
@@ -411,6 +434,9 @@ body{
     color: var(--blanco);
 }
 #boton{
+    display: flex;
+}
+#boton2{
     display: none;
 }
 #boton:active{

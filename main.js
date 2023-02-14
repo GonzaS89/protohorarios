@@ -6074,6 +6074,8 @@ function busquedaManual(){
 
     const botonOrigenCapital = document.getElementById('origenCapital');
     const botonCapitalDestino = document. getElementById('capitalDestino')
+    const botonManual = document.getElementById('busquedaManual')
+    const botonAuto = document.getElementById('busquedaAuto')
     const selector3 = document.menu3.selector3;
     const selector4 = document.menu4.selector4;
     const selector5 = document.menu5.selector5;
@@ -6095,14 +6097,29 @@ function busquedaManual(){
     let valores4 = []
     let valores5 = []
     let diaRango2 = []
-    const listaDelDia2 = []
-    let listaDiferencias3 = [];
-    let horariosEnEnteros2 = []
-    let proximo = 3000;
     let horaInputAMinutos
     const mensaje2 = document.querySelector('.mensaje2');
   
-  
+    botonManual.addEventListener('click', function(){
+        $('#busquedaAuto').css('display','flex');
+        $('#busquedaManual').css('display','none');
+        $('.topside2').css('display', 'flex');
+        $('.busquedaAuto').css('display', 'none')
+        $('#boton').css('display','none');
+        $('#boton2').css('display','flex');
+
+    })
+    botonAuto.addEventListener('click', function(){
+        $('#busquedaAuto').css('display','none');
+        $('#busquedaManual').css('display','flex')
+        $('.busquedaAuto').css('display', 'flex')
+        $('.topside2').css('display', 'none');
+        $('#boton').css('display','flex');
+        $('#boton2').css('display','none');
+        
+    })
+
+
     botonOrigenCapital.addEventListener('click', function(){
         $('#selector3').css('display', 'flex');
         $('#selector5').css('display', 'flex');
@@ -6128,6 +6145,11 @@ function busquedaManual(){
     })
 
     boton2.addEventListener('click', function(){
+
+        let listaDelDia2 = []
+    let listaDiferencias3 = [];
+    let horariosEnEnteros2 = [];
+    let proximo = 3000;
 
     // Definimos la posicion del selector 3
     if(opcionbase3.selected == true){
