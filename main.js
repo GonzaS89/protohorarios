@@ -6095,7 +6095,7 @@ function busquedaManual(){
     let valores4 = []
     let valores5 = []
     let diaRango2 = []
-    let listaDelDia2 = []
+    const listaDelDia2 = []
     let listaDiferencias3 = [];
     let horariosEnEnteros2 = []
     let proximo = 3000;
@@ -6213,7 +6213,7 @@ function busquedaManual(){
                         listaDelDia2.push(diaRango2[i].salida);
             }
            
-            
+            console.log(listaDelDia2)
                 // Aqui usamos la lista con los salidaes y las pasamos a numero enteros junto con los minutos
        
                           for(let i=0 ; i < listaDelDia2.length ; i++){
