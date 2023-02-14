@@ -6130,6 +6130,9 @@ function busquedaManual(){
     boton2.addEventListener('click', function(){
 
     // Definimos la posicion del selector 3
+    if(opcionbase3.selected == true){
+        posicion3=0
+    }
 
     for(opcion of selector3){
         if(opcion.selected){
@@ -6146,6 +6149,9 @@ function busquedaManual(){
 
     // Definimos la posicion del selector 4
 
+    if(opcionbase4.selected == true){
+        posicion4 = 0;
+    }    
     for(opcion of selector4){
         if(opcion.selected){
                valorSelecionado4 = opcion;
@@ -6160,6 +6166,9 @@ function busquedaManual(){
     }
     // Definimos la posicion del selector 5
 
+    if(opcionbase5.selected == true){
+        posicion5 = 0;
+    }    
     for(opcion of selector5){
         if(opcion.selected){
                valorSelecionado5 = opcion;
@@ -6228,12 +6237,12 @@ function busquedaManual(){
             proximo = Math.min(proximo, listaDiferencias3[i])
           }
         }
-          console.log(horariosEnEnteros2,horaInputAMinutos)
+          
 
         mostrar1.textContent = `El bondi mas cercano al horario a la hora que indicaste, es él de las ${diaRango2[listaDiferencias3.indexOf(proximo)].nombre}Hrs`;
         mostrar2.textContent = `Recorrido: ${diaRango2[listaDiferencias3.indexOf(proximo)].recorrido}`
 
-        
+        console.log(listaDiferencias3)
 
          $('.resultados3').css('display','flex')     
     $('.mensaje2').css('display', 'flex')   
