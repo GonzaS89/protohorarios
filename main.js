@@ -6099,6 +6099,8 @@ function busquedaManual(){
     let listaDiferencias3 = [];
     let horariosEnEnteros2 = []
     let proximo = 3000;
+    let horaInputAMinutos
+    const mensaje2 = document.querySelector('.mensaje2');
   
   
     botonOrigenCapital.addEventListener('click', function(){
@@ -6110,6 +6112,7 @@ function busquedaManual(){
         $('#origenCapital').css('color', 'var(--rojo2');
         $('#capitalDestino').css('background-color', 'var(--blanco');
         $('#capitalDestino').css('color', 'var(--black');
+        opcionbase4.selected = true;
         
     })
     botonCapitalDestino.addEventListener('click', function(){
@@ -6121,6 +6124,7 @@ function busquedaManual(){
         $('#capitalDestino').css('color', 'var(--rojo2');
         $('#origenCapital').css('background-color', 'var(--blanco');
         $('#origenCapital').css('color', 'var(--black');
+        opcionbase3.selected = true;
     })
 
     boton2.addEventListener('click', function(){
@@ -6209,35 +6213,41 @@ function busquedaManual(){
                        horariosEnEnteros2.push(horaMinutosEnEnteros);
               }
 
-
-        let horaInputAMinutos = ingHora.value * 60;
               
-              for(let i = 0; i < horariosEnEnteros2.length; i++){
-                    listaDiferencias3.push (horariosEnEnteros2[i] - horaInputAMinutos)
-              }
-              for(let i = 0; i < listaDiferencias3.length; i++){
-                if(listaDiferencias3[i] > 0){
-                proximo = Math.min(proximo, listaDiferencias3[i])
-              }
-            }
-              console.log(diaRango2[listaDiferencias3.indexOf(proximo)])
+         if(ingHora.value == ''){
+            console.log(44)
+         }
+          else{
+            horaInputAMinutos = (ingHora.value) * 60
+            
+            for(let i = 0; i < horariosEnEnteros2.length; i++){
+                listaDiferencias3.push (horariosEnEnteros2[i] - horaInputAMinutos)
+          }
+          for(let i = 0; i < listaDiferencias3.length; i++){
+            if(listaDiferencias3[i] > 0){
+            proximo = Math.min(proximo, listaDiferencias3[i])
+          }
+        }
+          console.log(horariosEnEnteros2,horaInputAMinutos)
 
-            mostrar1.textContent = `El bondi mas cercano al horario a la hora que indicaste, es él de las ${diaRango2[listaDiferencias3.indexOf(proximo)].nombre}Hrs`;
-            mostrar2.textContent = `Recorrido: ${diaRango2[listaDiferencias3.indexOf(proximo)].recorrido}`
+        mostrar1.textContent = `El bondi mas cercano al horario a la hora que indicaste, es él de las ${diaRango2[listaDiferencias3.indexOf(proximo)].nombre}Hrs`;
+        mostrar2.textContent = `Recorrido: ${diaRango2[listaDiferencias3.indexOf(proximo)].recorrido}`
 
-            const mensaje2 = document.querySelector('.mensaje2');
+        
 
-    $('.resultados3').css('display','flex')     
+         $('.resultados3').css('display','flex')     
     $('.mensaje2').css('display', 'flex')   
-   mensaje2.addEventListener('click', function(){
-    $('.mensaje2').css('display', 'none')  
-    opcionbase3.selected = true;
-    opcionbase4.selected = true;
-    opcionbase5.selected = true;
-    ingHora.value = '';
-})
 
+
+    }
         })
+        mensaje2.addEventListener('click', function(){
+            $('.mensaje2').css('display', 'none')  
+            opcionbase3.selected = true;
+            opcionbase4.selected = true;
+            opcionbase5.selected = true;
+            ingHora.value = '';
+            })
 }
 
 
