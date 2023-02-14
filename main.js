@@ -3267,7 +3267,7 @@ boton2.addEventListener('click',function(){
         listaDelDia.push(dia[i].valor)
 }
 
-
+    
 
 // Aqui usamos la lista con los valores y las pasamos a numero enteros junto con los minutos
 
