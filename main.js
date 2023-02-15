@@ -982,6 +982,12 @@ const boton = document.getElementById('boton');
                     "recorrido":"Terminal → Banda del Rio Sali → Fortin"
                 },
                 {
+                    "nombre":"11:45",
+                    "valor":11.45,
+                    "recorrido":"Terminal → Banda del Rio Sali → Alderetes → Cochuchal→ Fortin"
+                },
+
+                {
                     "nombre":"12:20",
                     "valor":12.2,
                     "recorrido":"Terminal → Autopista → B° La Cancha → Colonia 4"
