@@ -3196,9 +3196,12 @@ const boton = document.getElementById('boton');
     $('.resultados2').css('display','flex')     
     $('.mensaje2').css('display', 'flex')   
    mensaje2.addEventListener('click', function(){
-    $('.mensaje2').css('display', 'none')  
+    $('.mensaje2').css('display', 'none') 
+    $('.resultados').css('display','none')
+    $('.resultados2').css('display','none')   
     opcionbase.selected = true;
     opcionbase2.selected = true;
+
 })
 // let salidaHEnteros = Math.trunc(diaRango[listaDiferencias.indexOf(anteriorPasado)].salida)  * 60;
 // let salidaMEnteros = ((diaRango[listaDiferencias.indexOf(anteriorPasado)].salida) - (Math.trunc(diaRango[listaDiferencias.indexOf(anteriorPasado)].salida)))  * 100;
@@ -3657,6 +3660,11 @@ function busquedaManual(){
             "salida":22.20,
             "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
+        {
+            "nombre":"23:15",
+            "salida":23.15,
+            "recorrido":"B° La Cancha → Paraiso → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
+        }
        
        
     ]
@@ -6101,21 +6109,21 @@ function busquedaManual(){
     const mensaje2 = document.querySelector('.mensaje2');
   
     botonManual.addEventListener('click', function(){
-        $('#busquedaAuto').css('display','flex');
-        $('#busquedaManual').css('display','none');
+        $('.botonesBusquedaCont2').css('display','flex');
+        $('.botonesBusquedaCont').css('display','none');
         $('.topside2').css('display', 'flex');
         $('.busquedaAuto').css('display', 'none')
-        $('#boton').css('display','none');
-        $('#boton2').css('display','flex');
+        $('.boton-cont').css('display','none');
+        $('.boton-cont2').css('display','flex');
 
     })
     botonAuto.addEventListener('click', function(){
-        $('#busquedaAuto').css('display','none');
-        $('#busquedaManual').css('display','flex')
+        $('.botonesBusquedaCont2').css('display','none');
+        $('.botonesBusquedaCont').css('display','flex');
         $('.busquedaAuto').css('display', 'flex')
         $('.topside2').css('display', 'none');
-        $('#boton').css('display','flex');
-        $('#boton2').css('display','none');
+        $('.boton-cont').css('display','flex');
+        $('.boton-cont2').css('display','none');
         
     })
 
@@ -6130,6 +6138,8 @@ function busquedaManual(){
         $('#capitalDestino').css('background-color', 'var(--blanco');
         $('#capitalDestino').css('color', 'var(--black');
         opcionbase4.selected = true;
+        opcionbase5.selected = true;
+        ingHora.value =  ''
         
     })
     botonCapitalDestino.addEventListener('click', function(){
@@ -6142,6 +6152,8 @@ function busquedaManual(){
         $('#origenCapital').css('background-color', 'var(--blanco');
         $('#origenCapital').css('color', 'var(--black');
         opcionbase3.selected = true;
+        opcionbase5.selected = true;
+        ingHora.value =  ''
     })
 
     boton2.addEventListener('click', function(){
@@ -6263,7 +6275,7 @@ function busquedaManual(){
         }
           
 
-        mostrar1.textContent = `El bondi mas cercano al horario a la hora que indicaste, es él de las ${diaRango2[listaDiferencias3.indexOf(proximo)].nombre}Hrs`;
+        mostrar1.textContent = `El bondi más cercano al horario a la hora que indicaste, es él de las ${diaRango2[listaDiferencias3.indexOf(proximo)].nombre}Hrs`;
         mostrar2.textContent = `Recorrido: ${diaRango2[listaDiferencias3.indexOf(proximo)].recorrido}`
 
       
@@ -6275,13 +6287,22 @@ function busquedaManual(){
     }
         })
         mensaje2.addEventListener('click', function(){
-            $('.mensaje2').css('display', 'none')  
+            $('.mensaje2').css('display', 'none') 
+            $('.resultados3').css('display','none')
+            $('#selector3').css('display','none')      
+            $('#selector4').css('display','none') 
+            $('#selector5').css('display','none') 
+            $('#ingHora').css('display','none')
+            $('#capitalDestino').css('background-color', 'var(--blanco');
+            $('#capitalDestino').css('color', 'var(--black');
+            $('#origenCapital').css('background-color', 'var(--blanco');
+            $('#origenCapital').css('color', 'var(--black'); 
             opcionbase3.selected = true;
-            posicion3 = 0;
             opcionbase4.selected = true;
-            posicion4 = 0;
             opcionbase5.selected = true;
             ingHora.value = '';
+            botonOrigenCapital.selected = false;
+            botonCapitalDestino.selected = false;
             })
 }
 

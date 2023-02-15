@@ -235,12 +235,19 @@ body{
     text-align: center;
     font-family: var(--fuenteSec);
     font-size: 17px;
+    font-weight: bold;
 }
 ::placeholder{
-   font-size: 15px;
+   font-size: 17px;
 }
 .botonesBusquedaCont{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.botonesBusquedaCont2{
+    display: none;
     justify-content: center;
     align-items: center;
     margin-bottom: 15px;
@@ -258,9 +265,7 @@ body{
    font-family: var(--fuenteSec);
    text-align-last: center;
 }
-#busquedaAuto{
-    display: none;
-}
+
 .busquedaAuto{
     display: flex;
     flex-direction: column;
@@ -416,13 +421,16 @@ body{
 }
 
 .boton-cont2{
-    display:flex;
+    display:none;
     justify-content:center;
     align-items: center;
     height:100px;
     margin: -5px;
 }
 #boton,#boton2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height:60px;
     width:100px;
     background-color:var(--azul);
@@ -437,7 +445,7 @@ body{
     display: flex;
 }
 #boton2{
-    display: none;
+    display: flex;
 }
 #boton:active{
     cursor: pointer;
@@ -493,17 +501,18 @@ background-color: var(--blanco);
 min-height: 180px;
 }
 .resultados3,.resultados4{
-height: 500px;
-width: 50%;
-display: none;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-border-radius: 20px;
-margin: 15px;
-border:none;
-border: .5px solid white;
-background-color: aliceblue;
+    height: 300px;
+    width: 50%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 15px;
+    border:none;
+    border: .5px solid white;
+    background-color: var(--blanco);
+    min-height: 180px;
 }
 #actual1,#futuro1{
     padding: 0 10px;
@@ -607,9 +616,6 @@ background-color: aliceblue;
     
     #actual1,#actual2,#actual3,#actual4,#futuro1,#futuro2,#futuro3,#futuro4{
         font-size: 16px; padding: 0 10px;
-    }
-    #mostrar1,#mostrar2{
-        font-size: 20px;
     }
     #actual1,#actual3,#futuro1,#futuro3{
         margin: 5px 0;
