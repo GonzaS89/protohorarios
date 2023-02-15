@@ -549,6 +549,11 @@ const boton = document.getElementById('boton');
                 "valor":22.20,
                 "recorrido":"B° La Cancha"
             },
+            {
+                "nombre":"23:15",
+                "valor":23.15,
+                "recorrido":"B° La Cancha"
+            }
            
            
         ]
@@ -2150,6 +2155,11 @@ function busquedaManual(){
             "valor":22.20,
             "recorrido":"B° La Cancha"
         },
+        {
+            "nombre":"23:15",
+            "valor":23.15,
+            "recorrido":"B° La Cancha"
+        }
        
        
     ]
