@@ -6272,21 +6272,22 @@ function busquedaManual(){
             if(listaDiferencias3[i] > 0){
             proximo = Math.min(proximo, listaDiferencias3[i])
           }
+
+          if(proximo < 3000){
+            
+            mostrar1.textContent = `El bondi más cercano al horario a la hora que indicaste, es él de las ${diaRango2[listaDiferencias3.indexOf(proximo)].nombre}Hrs`;
+            mostrar2.textContent = `Recorrido: ${diaRango2[listaDiferencias3.indexOf(proximo)].recorrido}`
+    }
+        else{
+            console.log(proximo)
+            mostrar1.textContent = 'No hay más bondis en el horario ni en lo que resta del día';
+        }
+        $('.resultados3').css('display','flex')     
+        $('.mensaje2').css('display', 'flex')
+
         }
     }
-        if(proximo < 3000){
-            
-                mostrar1.textContent = `El bondi más cercano al horario a la hora que indicaste, es él de las ${diaRango2[listaDiferencias3.indexOf(proximo)].nombre}Hrs`;
-                mostrar2.textContent = `Recorrido: ${diaRango2[listaDiferencias3.indexOf(proximo)].recorrido}`
         
-                  
-        }
-            else{
-                console.log(proximo)
-                mostrar1.textContent = 'No hay más bondis en el horario ni en lo que resta del día';
-            }
-            $('.resultados3').css('display','flex')     
-            $('.mensaje2').css('display', 'flex')
         })
         mensaje2.addEventListener('click', function(){
             $('.mensaje2').css('display', 'none') 
