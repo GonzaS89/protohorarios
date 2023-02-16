@@ -6158,7 +6158,7 @@ function busquedaManual(){
 
     boton2.addEventListener('click', function(){
 
-        let listaDelDia2 = []
+    let listaDelDia2 = []
     let listaDiferencias3 = [];
     let horariosEnEnteros2 = [];
     let proximo = 3000;
@@ -6247,20 +6247,20 @@ function busquedaManual(){
                         listaDelDia2.push(diaRango2[i].salida);
             }
            
-            console.log(listaDelDia2)
+ 
                 // Aqui usamos la lista con los salidaes y las pasamos a numero enteros junto con los minutos
        
                           for(let i=0 ; i < listaDelDia2.length ; i++){
               
                       let horasEnEnteros=  (Math.trunc(listaDelDia2[i]))  * 60;
-                            let minutosEnEnteros = (listaDelDia2[i] - (Math.trunc(listaDelDia2[i])))*100;
-                            let horaMinutosEnEnteros = horasEnEnteros + minutosEnEnteros;
+                      let minutosEnEnteros = (listaDelDia2[i] - (Math.trunc(listaDelDia2[i])))*100;
+                      let horaMinutosEnEnteros = horasEnEnteros + minutosEnEnteros;
                        horariosEnEnteros2.push(horaMinutosEnEnteros);
               }
 
               
          if(ingHora.value == ''){
-            console.log(44)
+
          }
           else{
             horaInputAMinutos = (ingHora.value) * 60
@@ -6273,18 +6273,20 @@ function busquedaManual(){
             proximo = Math.min(proximo, listaDiferencias3[i])
           }
         }
-          
-
-        mostrar1.textContent = `El bondi más cercano al horario a la hora que indicaste, es él de las ${diaRango2[listaDiferencias3.indexOf(proximo)].nombre}Hrs`;
-        mostrar2.textContent = `Recorrido: ${diaRango2[listaDiferencias3.indexOf(proximo)].recorrido}`
-
-      
-
-         $('.resultados3').css('display','flex')     
-    $('.mensaje2').css('display', 'flex')   
-
-        
     }
+        if(proximo < 3000){
+            
+                mostrar1.textContent = `El bondi más cercano al horario a la hora que indicaste, es él de las ${diaRango2[listaDiferencias3.indexOf(proximo)].nombre}Hrs`;
+                mostrar2.textContent = `Recorrido: ${diaRango2[listaDiferencias3.indexOf(proximo)].recorrido}`
+        
+                  
+        }
+            else{
+                console.log(proximo)
+                mostrar1.textContent = 'No hay más bondis en el horario ni en lo que resta del día';
+            }
+            $('.resultados3').css('display','flex')     
+            $('.mensaje2').css('display', 'flex')
         })
         mensaje2.addEventListener('click', function(){
             $('.mensaje2').css('display', 'none') 
