@@ -1,5 +1,10 @@
+:root{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(121,9,113,1) 100%, rgba(0,212,255,1) 100%);
+}
 body{
-    background-color: rgb(187, 28, 65);
+    margin: 0;
+    
 }
 .contenedor{
     max-width:1200px;
@@ -9,7 +14,9 @@ body{
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(187, 28, 65);
+    /* background-color: rgb(187, 28, 65); */
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(121,9,113,1) 98%, rgba(0,212,255,1) 100%);
     box-shadow: 0 5px 5px black;
     border-radius: 7px;
 }
@@ -79,7 +86,9 @@ body{
     color: rgb(255, 255, 255);
     font-weight: bold;
     padding:0 10px;
-    background-color: rgb(31, 77, 134);
+    /* background-color: rgb(31, 77, 134); */
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(0,0,0,1) 100%);
     width: 40%;
     font-size: 15px;
 }
@@ -105,7 +114,9 @@ body{
     color: black;
     font-weight: bold;
     padding:0 10px;
-    background-color:rgb(31, 77, 134);
+    /* background-color:rgb(31, 77, 134); */
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(0,0,0,1) 100%);
     color: white;
 }
 #botonAuto:active{
@@ -283,7 +294,9 @@ body{
 #boton,#boton2{
     height:50px;
     width:125px;
-    background-color:rgb(31, 77, 134);
+    /* background-color:rgb(31, 77, 134); */
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(0,0,0,1) 100%);
     border: none;
     border-radius: 7px;
     font-family: 'Nunito', sans-serif;
