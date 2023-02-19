@@ -1714,9 +1714,7 @@ const boton = document.getElementById('boton');
                             futuro2.textContent = 'No hay más colectivos por hoy'
                             futuro3.textContent = ""
                         }         
-                    
     }           
-    
     $('.resultados').css('display','flex')
     $('.resultados2').css('display','flex')     
     $('.mensaje2').css('display', 'flex')   
