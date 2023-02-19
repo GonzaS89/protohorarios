@@ -309,7 +309,11 @@ body{
     color: white;
 
 }
-
+#titulo-resultados{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
 .resultados-cont{
     display: flex;
     flex-direction: column;

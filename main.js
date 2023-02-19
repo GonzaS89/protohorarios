@@ -51,17 +51,17 @@ const boton = document.getElementById('boton');
     const opcionbase2 = selector2[0]
     const florida = selector[1];
     const sanM = selector[2];  
-    let valorSelecionado; 
-    let valorSelecionado2;
-    let valores = [];
-    let valores2= []
-    let posicion;
-    let posicion2;
+    
 
    
     boton.addEventListener('click',function(){
 
-        
+         let valorSelecionado; 
+         let valorSelecionado2;
+         let valores = [];
+         let valores2= []
+         let posicion;
+         let posicion2;
 
         // Definimos la posicion del selector 1
 
@@ -103,6 +103,9 @@ const boton = document.getElementById('boton');
     let minutos = momentoActual.getMinutes();
     let horaEnEnteros = (hora * 60) + minutos;
     let dia = momentoActual.getDay();
+    let fecha = momentoActual.getDate();
+    let mes = momentoActual.getMonth()
+    let diasDeLaSemana = ['Domingo','Lunes','Martes','Miercoles','Jueves','Viernes','Sabado'];
     let elMasCercano=3000;
     let anteriorPasado = 3000;
     let diaRango = []
@@ -118,6 +121,7 @@ const boton = document.getElementById('boton');
     let futuro1 = document.getElementById('futuro1');
     let futuro2 = document.getElementById('futuro2');
     let futuro3 = document.getElementById('futuro3');
+    let tituloResultados = document.getElementById('titulo-resultados')
    
    
 
@@ -778,11 +782,11 @@ const boton = document.getElementById('boton');
         "valor":19.25,
         "recorrido":"Fortin"
     },
-    {
-        "nombre":"20:00",
-        "valor":20.00,
-        "recorrido":"Esquina Lastra"
-    },
+    // {
+    //     "nombre":"20:00",
+    //     "valor":20.00,
+    //     "recorrido":"Esquina Lastra"
+    // },
     {
         "nombre":"20:55",
         "valor":20.55,
@@ -1553,6 +1557,13 @@ const boton = document.getElementById('boton');
 
 
             //    Aqui definimos el array dependiendo el dia de la semana
+
+            if((fecha == 20 || fecha == 21)  && mes == 1){
+                diaRango = camino[0];
+                tituloResultados.textContent = `${diasDeLaSemana[dia]} feriado (horarios reducidos)`
+            }
+            else{
+
             
             if(dia == 0){
                 diaRango = camino[0].slice(0,camino[0].length)
@@ -1566,6 +1577,7 @@ const boton = document.getElementById('boton');
                 diaRango = camino[2].slice(0,camino[2].length);
             
             }
+        }
 
             // Aqui extraemos del array de arriba los valores de cada horario y lo agregamos a la lista del dia
            
