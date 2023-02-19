@@ -1721,6 +1721,8 @@ const boton = document.getElementById('boton');
     const mensaje2 = document.querySelector('.mensaje2');
     mensaje2.addEventListener('click', function(){
         $('.mensaje2').css('display', 'none')  
+        $('.resultados').css('display','none')
+        $('.resultados2').css('display','none')  
         opcionbase.selected = true;
         opcionbase2.selected= true;
     })
