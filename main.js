@@ -51,16 +51,17 @@ const boton = document.getElementById('boton');
     const opcionbase2 = selector2[0]
     const florida = selector[1];
     const sanM = selector[2];  
-    let valorSelecionado; 
-    let valorSelecionado2;
-    let valores = [];
-    let valores2= []
-    let posicion;
-    let posicion2;
+   
 
    
     boton.addEventListener('click',function(){
 
+        let valorSelecionado; 
+        let valorSelecionado2;
+        let valores = [];
+        let valores2= []
+        let posicion;
+        let posicion2;
         
 
         // Definimos la posicion del selector 1
