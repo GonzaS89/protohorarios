@@ -2981,6 +2981,8 @@ const boton = document.getElementById('boton');
     let minutos = momentoActual.getMinutes();
     let horaEnEnteros = (hora * 60) + minutos;
     let dia = momentoActual.getDay();
+    let fecha = momentoActual.getDate();
+    let mes = momentoActual.getMonth();
     let diasDeLaSemana = ['Domingo','Lunes','Martes','Miercoles','Jueves','Viernes','Sabado'];
     let diaSemana = diasDeLaSemana[dia]
     let elMasCercano=3000;
@@ -3001,17 +3003,23 @@ const boton = document.getElementById('boton');
     let futuro4 = document.getElementById('futuro4');
     let tituloResultado = document.getElementById('tituloResultado')
 
-    tituloResultado.textContent =`Hoy, ${diaSemana}, tenés éstos servicios`
-    
- // Aqui definimos donde localidad de salida y camino
+     // Aqui definimos donde localidad de salida y camino
 
-          if(opcionbase.selected == true && opcionbase2.selected == false)  {
-          ruta = todosTucumanDestino[posicion2-1]
-          }
-          if(opcionbase2.selected == true && opcionbase.selected == false){
-            ruta = todosDestinoTucuman[posicion-1]
-          }
-              
+    if(opcionbase.selected == true && opcionbase2.selected == false)  {
+        ruta = todosTucumanDestino[posicion2-1]
+        }
+        if(opcionbase2.selected == true && opcionbase.selected == false){
+          ruta = todosDestinoTucuman[posicion-1]
+        }
+
+    if((fecha == 20 || fecha == 21)  && mes == 1){
+        tituloResultado.textContent =`${diasDeLaSemana[dia]} feriado ( horarios reducidos )`;
+        diaRango = ruta[0];
+    }
+    else{
+
+        tituloResultado.textContent =`Hoy, ${diaSemana}, tenés éstos servicios`
+    
  //    Aqui definimos el array dependiendo el dia de la semana
         
         if(dia == 0){
@@ -3023,6 +3031,9 @@ const boton = document.getElementById('boton');
         if(dia > 5){
             diaRango = ruta[2].slice(0,ruta[2].length);
         }
+    }   
+
+    
         
             // Aqui extraemos del array de arriba los salidaes de cada horario y lo agregamos a la lista del dia
            
