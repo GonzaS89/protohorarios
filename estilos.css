@@ -141,7 +141,7 @@ body{
     width: 250px;
     height: 90px;
     border-radius: 10px;
-    background-color: var(--blanco);
+    /* background-color: var(--blanco); */
 }
 
 #destino,#origen{
@@ -149,7 +149,9 @@ body{
     justify-content: center;
     font-family: var(--fuenteSec);
     text-align: center;
-    font-size: 17px;
+    font-size: 20px;
+    color: var(--blanco);
+    text-shadow: 1px 0px black;
 }
 .botonDeCambio{
     display: flex;
@@ -196,7 +198,7 @@ body{
     align-items: center;
     justify-content:center;
     flex-direction: column;
-    box-shadow: 0 2px 10px var(--rojo);
+    /* box-shadow: 0 2px 10px var(--rojo); */
     border-radius: 10px;
     margin: 20px auto;
     height: 60px;
