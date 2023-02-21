@@ -2810,6 +2810,11 @@ const boton = document.getElementById('boton');
             "salida":12.2,
             "recorrido":"Las Cejas → Los Ralos → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
+        {
+            "nombre":"18:00",
+            "salida":18,
+            "recorrido":"7 de Abril → Las Cejas → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
+        }
     ]
     const terminalLasCejasLaV = [
         {
@@ -5982,11 +5987,17 @@ function busquedaManual(){
         },
     ]
     const lasCejasTerminalD = [
+        
         {
             "nombre":"12:20",
             "salida":12.2,
             "recorrido":"Las Cejas → Los Ralos → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
+        {
+            "nombre":"18:00",
+            "salida":18,
+            "recorrido":"7 de Abril → Las Cejas → Esquina Esquina Llona → Cevil Pozo → Banda del Río Salí"
+        }
     ]
     const terminalLasCejasLaV = [
         {
