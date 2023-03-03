@@ -586,6 +586,52 @@ min-height: 180px;
     text-align: center;
 } */
 
+.alerta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 350px;
+}
+#texto-alerta{
+    color: var(--blanco);
+    font-weight: 11;
+}
+.engranajes{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+#engranaje{
+    width: 100px;
+    animation: rodar 7s ease-in-out alternate infinite;
+    height: 100px;
+}
+#engranaje2{
+    width: 100px;
+    animation: rodarRevez 7s ease-in-out alternate-reverse infinite;
+    margin-left: -20px;
+    transform: rotate(15deg);
+    height: 100px;
+}
+@keyframes rodar{
+    to{
+        transform: rotate(0deg);
+    }
+    from{
+        transform: rotate(360deg);
+    }
+} 
+@keyframes rodarRevez{
+    to{
+        transform: rotate(15deg);
+    }
+    from{
+        transform: rotate(375deg);
+    }
+}
+
 @media(max-width:600px){
     .input-reloj{
         height:50px;
