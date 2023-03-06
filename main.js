@@ -3353,11 +3353,6 @@ const boton = document.getElementById('boton');
                             futuro3.textContent="";
                         }
 
-                      
-                                  
-                           
-         
-    
     $('.resultados').css('display','flex')
     $('.resultados2').css('display','flex')     
     $('.mensaje2').css('display', 'flex')   
@@ -6423,6 +6418,7 @@ function busquedaManual(){
     let diaRango2 = []
     let horaInputAMinutos
     const mensaje2 = document.querySelector('.mensaje2');
+    let mensajeError = document.getElementById('mensajeError')
   
     botonManual.addEventListener('click', function(){
         $('.botonesBusquedaCont2').css('display','flex');
@@ -6575,8 +6571,13 @@ function busquedaManual(){
               }
 
               
-         if(ingHora.value == ''){
-
+         if(ingHora.value == '' || ingHora.value > 23){
+            mensajeError.textContent = 'Ingresa un número entre 0 y 23'
+            $('#mensajeError').css('display', 'flex')
+            setTimeout(()=>{
+                mensajeError.remove(),ingHora.value = '';
+            },2000)
+            
          }
           else{
             horaInputAMinutos = (ingHora.value) * 60
@@ -6591,20 +6592,22 @@ function busquedaManual(){
 
           if(proximo < 3000){
             
-            mostrar1.textContent = `El bondi más cercano al horario a la hora que indicaste, es él de las ${diaRango2[listaDiferencias3.indexOf(proximo)].nombre}Hrs`;
+            mostrar1.textContent = `El bondi más cercano al horario que indicaste, es él de las ${diaRango2[listaDiferencias3.indexOf(proximo)].nombre}Hrs`;
             mostrar2.textContent = `Recorrido: ${diaRango2[listaDiferencias3.indexOf(proximo)].recorrido}`
     }
         else{
             console.log(proximo)
             mostrar1.textContent = 'No hay más bondis en el horario ni en lo que resta del día';
         }
+        
+         
+        }
         $('.resultados3').css('display','flex')     
         $('.mensaje2').css('display', 'flex')
-
         }
-    }
-        
         })
+       
+
         mensaje2.addEventListener('click', function(){
             $('.mensaje2').css('display', 'none') 
             $('.resultados3').css('display','none')
