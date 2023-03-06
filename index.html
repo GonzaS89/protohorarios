@@ -5,15 +5,174 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
+    <!-- <link rel="stylesheet" href="normalize.css"> -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dosis:wght@300&family=Gloria+Hallelujah&family=Indie+Flower&family=Milonga&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Horarios - Empresa Florida</title>
 </head>
 <body>
 
+    <header class="header">
+        <div class="fecha">
+            <p id="dia"></p>
+            <p id="fecha"></p>
+            <p id="mes"></p>
+        </div>
+        <div class="logo">
+            <img id ="logo" src="imagenes/logo empresa.jpg" alt="" srcset="">
+        </div>
+        <div class="hora">
+            <p id="segundos"></p>
+            <p id="horas"></p>
+            <p id="minutos"></p>
+        </div>
+    </header>      
+    <div class="botonesBusquedaCont">
+            <button id="busquedaManual">Cambiar a búsqueda manual</button>
+    </div>
+    <div class="botonesBusquedaCont2">
+        <button id="busquedaAuto">Cambiar a búsqueda automática</button>
+    </div>
+    <main class="contenedor">
+     <!-- <div class="titulo">
+        <h1 id="titulo">Consultá todos nuestros servicios aquí</h1>
+     </div> -->
+     <div class="busquedaAuto">
+        <div class="topside">
+            <div class="origen">
+                <h3 id="origen">Desde Terminal</h3>
+            </div>
+                <form class="menu" name=menu action="">
+                    <select id="selector" class="select"name="selector">
+                        <div class="options">
+                            <option value="default" disabled selected>¿Desde dónde quéres viajar?</option>
+                            <option value="florida" > Desde Florida ( por Alderetes/Alternativa )</option>
+                            <option value="florida" >Desde Florida ( por Posse )</option>
+                            <option value="xposse" > Desde Posse</option>
+                            <option value="ralos" > Desde Ralos</option>
+                            <option value="ralos" > Desde Ralos ( por Cruz Alta )</option>
+                            <option value="7abril" > Desde 7 Abril</option>
+                            <option value="cejas" > Desde Las Cejas</option>
+                        </div>
+                    </select>
+                </form>
+        </div>
+    <div class="mensajeError">
+        <p id="mensaje"></p>
+    </div>
     
-    
-    </body>
+    <div class="intermedio">
+        <div class="botonDeCambio">
+            <button id="botonDeCambio"></button>
+        </div>
+        <div class="botonDeCambio2">
+            <button id="botonDeCambio2"></button>
+        </div>
+    </div>
+    <div class="topside">
+        <div class="destino">
+            <h3 id="destino">Hasta San Miguel de Tucumán</h3>
+        </div>
+        <form class="menu2" name=menu2 action="">
+            <select id="selector2" class="select"name="selector2">
+                <option value="default" disabled selected>¿Hasta dónde querés ir?</option>
+                <option value="florida" >Hasta Florida (por Alderetes/Alternativa)</option>
+                <option value="florida" >Hasta Florida (por Posse)</option>
+                <option value="xposse" > Hasta Posse</option>
+                <option value="xralos" > Hasta Ralos</option>
+                <option value="xralosC" > Hasta Ralos (por Cruz Alta)</option>
+                <option value="x7deabril"> Hasta 7 de Abril</option>
+                <option value="xcejas" > Hasta Las Cejas</option>
+            </select>
+        </form>
+    </div>
+     </div>
+    <div class="busquedaManual">
+        <div class="topside2">
+            <div class="botonesManual">
+                <button id="origenCapital">Desde Origen a Capital</button>
+                <button id="capitalDestino">Desde Capital a Destino</button>
+            </div>
+            <form class="menu3" name=menu3 action="">
+                <select id="selector3" class="select"name="selector3">
+                    <div class="options">
+                        <option value="default" disabled selected>¿Desde dónde quéres viajar?</option>
+                        <option value="florida" > Desde Florida ( por Alderetes/Alternativa )</option>
+                        <option value="florida" >Desde Florida ( por Posse )</option>
+                        <option value="xposse" > Desde Posse</option>
+                        <option value="ralos" > Desde Ralos</option>
+                        <option value="ralos" > Desde Ralos ( por Cruz Alta )</option>
+                        <option value="7abril" > Desde 7 Abril</option>
+                        <option value="cejas" > Desde Las Cejas</option>
+                    </div>
+                </select>
+            </form>
+            <form class="menu4" name=menu4 action="">
+                <select id="selector4" class="select"name="selector4">
+                    <option value="default" disabled selected>¿Hasta dónde querés ir?</option>
+                    <option value="florida" >Hasta Florida (por Alderetes/Alternativa)</option>
+                    <option value="florida" >Hasta Florida (por Posse)</option>
+                    <option value="xposse" > Hasta Posse</option>
+                    <option value="xralos" > Hasta Ralos</option>
+                    <option value="xralosC" > Hasta Ralos (por Cruz Alta)</option>
+                    <option value="x7deabril" > Hasta 7 de Abril</option>
+                    <option value="xcejas" > Hasta Las Cejas</option>
+                </select>
+            </form>
+            <form class="menu5" name=menu5 action="">
+                <select id="selector5" class="select"name="selector5">
+                    <option value="default" disabled selected>Días de la semana</option>
+                    <option value="lunesViernes">Lunes a Viernes</option>
+                    <option value="sabado">Sábados</option>
+                    <option value="domingo">Domingos</option>
+                </select>
+            </form>
+            <form>
+                <input id="ingHora" type="number" placeholder="Ingresa un horario">
+            </form>
+        </div>
+    </div>
+        <div class="boton-cont">
+            <button id='boton'>Mostrar horarios</button>  
+        </div>
+        <div class="boton-cont2">
+            <button id='boton2'>Mostrar horarios</button> 
+        </div>
+    </div>
+    <!-- <div class="barra-cont">
+        <div class="barra">
+            <div id="progreso"></div>
+        </div>
+    </div> -->
+    <div class="mensaje2">
+        <div class="resultados-cont">
+            <div id="tituloResultado"></div>
+        <div class="resultados">
+           <p id="fondo"></p>
+            <p id="actual1"></p>
+            <p id="actual2"></p>
+            <p id="actual3"></p>
+            <p id="actual4"></p>
+            </div>
+        <div class="resultados2">
+            <p id="fondo"></p>
+            <p id="futuro1"></p>   
+            <p id="futuro2"></p>   
+            <p id="futuro3"></p>
+            <p id="futuro4"></p>
+        </div>
+            <div class="resultados3">
+                <p id="fondo"></p>
+                <p id="mostrar1"></p>
+                <p id="mostrar2"></p>
+            </div>
+        </div>
+    </div>
+     </div>
+    </main>
 
+    </body>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script src="main.js"></script>
 </html>
