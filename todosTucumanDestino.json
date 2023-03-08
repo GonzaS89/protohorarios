@@ -1,0 +1,1544 @@
+[
+    [
+        [
+            {
+                "nombre":"06:25",
+                "salida":6.25,
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Mayo"
+            },
+            {
+                "nombre":"09:45",
+                "salida":9.45,
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Talar → Fortin → Colonia 2"
+            },
+            {
+                "nombre":"11:40",
+                "salida":11.40,
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Cochuchal → Fortin → Mayo"
+            },
+            {
+                "nombre":"14:00",
+                "salida":14,
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Talar → Barrio La Cancha"
+            },
+            {
+                "nombre":"16:00",
+                "salida":16,
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Cochuchal → Fortin → Colonia 3"
+            },
+            {
+                "nombre":"17:45",
+                "salida":17.45,
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Talar → Fortin → Mayo"
+            },
+            {
+                "nombre":"19:45",
+                "salida":19.45,
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Talar → Mayo"
+            },
+            {
+                "nombre":"20:30",
+                "salida":20.3,
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Talar → Fortin"
+            }
+        ],
+        [
+            {
+                "nombre":"05:20",
+                "salida":5.2,
+                "recorrido":"Terminal → Catalinas Park → Autopista → Alderetes → Talar → Barrio La Cancha"
+            },
+            {
+                "nombre":"06:25",
+                "salida":6.25,
+                "recorrido":"Terminal → Banda del Río Salí → Talar → Fortin → Mayo(por abajo)"
+            },
+            {
+                "nombre":"07:00",
+                "salida":7,
+                "recorrido":"Terminal → Alternativa → Talar → Colonia 4 → La Marta"
+            },
+            {
+                "nombre":"07:15",
+                "salida":7.15,
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Talar → Fonda → Colonia 4 → Los Perez"
+            },
+            {
+                "nombre":"08:00",
+                "salida":8,
+                "recorrido":"Terminal → Catalinas Park → Autopista → Alderetes → Cochuchal → Colonia 4"
+            },
+            {
+                "nombre":"08:35",
+                "salida":8.35,
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Talar → Fortin"
+            },
+            {
+                "nombre":"09:00",
+                "salida":9,
+                "recorrido":"Terminal → Catalinas Park → Autopista → Talar → Barrio La Cancha → Colonia 4 "
+            },
+            {
+                "nombre":"09:45",
+                "salida":9.45,
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Talar → Fortin"
+            },
+            {
+                "nombre":"10:45",
+                "salida":10.45,
+                "recorrido":"Terminal → Alternativa → Talar → Fortin"
+            },
+            {
+                "nombre":"11:15",
+                "salida":11.15,
+                "recorrido":"Terminal → Catalinas Park → Autopista → Talar → Barrio La Cancha → La Marta"
+            },
+            {
+                "nombre":"12:15",
+                "salida":12.15,
+                "recorrido":"Terminal → Catalinas Park → Alternativa → Barrio La Cancha → Colonia 4"
+            },
+            {
+                "nombre":"12:20",
+                "salida":12.2,
+                "recorrido":"Terminal → Catalinas Park → Autopista → Talar → Barrio La Cancha → Colonia 4"
+            },
+            {
+                "nombre":"12:45",
+                "salida":12.45,
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Talar → Colonia 3"
+            },
+            {
+                "nombre":"13:15",
+                "salida":13.15,
+                "recorrido":"Terminal → Banda del Río Salí →  Alderetes → Cochuchal → Barrio La Cancha → Colonia 4"
+            },
+            {
+                "nombre":"13:30",
+                "salida":13.3,
+                "recorrido":"Terminal → Catalinas Park → Autopista → Alderetes → Talar → Barrio La Cancha → Mayo → La Marta"
+            },
+            {
+                "nombre":"14:00",
+                "salida":14,
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Talar → Barrio La Cancha"
+            },
+            {
+                "nombre":"14:50",
+                "salida":14.5,
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Talar → Barrio La Cancha",
+                "recorrido2":"Terminal → Alternativa → Talar → Fortin"
+            },
+            {
+                "nombre":"15:50",
+                "salida":15.5,
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Talar → Barrio La Cancha → Colonia 4",
+                "recorrido2":"Terminal → Banda del Río Salí → Alderetes → Talar → Fortin → Colonia 4"
+            },
+            {
+                "nombre":"16:50",
+                "salida":16.5,
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Cochuchal → Fortin",
+                "recorrido2":"Terminal → Alternativa → Talar → Barrio La Cancha → Colonia 4"
+            },
+            {
+                "nombre":"17:40",
+                "salida":17.4,
+                "recorrido":"Terminal → Alternativa → Talar → Barrio La Cancha → Colonia 4"
+            },
+            {
+                "nombre":"17:45",
+                "salida":17.45,
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Talar → Barrio La Cancha → Mayo → La Marta"
+            },
+            {
+                "nombre":"18:20",
+                "salida":18.2,
+                "recorrido":"Terminal → Alternativa → Barrio La Cancha → Colonia 4"
+            },
+            {
+                "nombre":"18:30",
+                "salida":18.3,
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Talar → Barrio La Cancha → Colonia 4"
+            },
+            {
+                "nombre":"19:00",
+                "salida":19,
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Talar → Barrio La Cancha → Colonia 4"
+            },
+            {
+                "nombre":"19:45",
+                "salida":19.45,
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Talar → Mayo(por abajo)"
+            },
+            {
+                "nombre":"20:30",
+                "salida":20.3,
+                "recorrido":"Terminal → Banda del Río Salí → Alderetes → Talar → Fortin"
+            },
+            {
+                "nombre":"21:00",
+                "salida":21,
+                "recorrido":"Terminal → Autopista → Alderetes → Talar → Barrio La Cancha"
+            },
+            {
+                "nombre":"21:30",
+                "salida":21.30,
+                "recorrido":"Terminal → Autopista → Alderetes → Talar → Barrio La Cancha → Colonia 4"
+            },
+            {
+                "nombre":"22:30",
+                "salida":22.30,
+                "recorrido":"Terminal → Autopista → Alderetes → Talar → Barrio La Cancha → Colonia 4"
+            },
+            {
+                "nombre":"23:30",
+                "salida":23.30,
+                "recorrido":"Terminal → Autopista → Alderetes → Talar → Barrio La Cancha → Colonia 4"
+            }
+        ],
+        [
+            {
+                "nombre":"05:20",
+                "salida":5.2,
+                "recorrido":"Terminal → Autopista → Talar → Barrio La Cancha"
+            },
+            {
+                "nombre":"06:25",
+                "salida":6.25,
+                "recorrido":"Terminal → Banda del Río Salí →  Talar → Mayo"
+            },
+            {
+                "nombre":"07:15",
+                "salida":7.15,
+                "recorrido":"Terminal → Banda del Río Salí → Talar → La Marta"
+            },
+            {
+                "nombre":"08:00",
+                "salida":8,
+                "recorrido":"Terminal → Autopista → Cochuchal"
+            },
+            {
+                "nombre":"08:35",
+                "salida":8.35,
+                "recorrido":"Terminal → Banda del Río Salí → Talar → Fortin"
+            },
+            {
+                "nombre":"09:45",
+                "salida":9.45,
+                "recorrido":"Terminal → Banda del Río Salí → Talar → Fortin"
+            },
+            {
+                "nombre":"10:45",
+                "salida":10.45,
+                "recorrido":"Terminal → Banda del Río Salí → Fortin"
+            },
+            {
+                "nombre":"12:20",
+                "salida":12.2,
+                "recorrido":"Terminal → Autopista → Barrio La Cancha → Colonia 4"
+            },
+            {
+                "nombre":"13:30",
+                "salida":13.3,
+                "recorrido":"Terminal → Autopista → Barrio La Cancha → La Marta"
+            },
+            {
+                "nombre":"14:00",
+                "salida":14,
+                "recorrido":"Terminal → Banda del Río Salí → Barrio La Cancha"
+            },
+            {
+                "nombre":"14:50",
+                "salida":14.5,
+                "recorrido":"Terminal → Banda del Río Salí → Barrio La Cancha → Colonia 4"
+            },
+            {
+                "nombre":"16:00",
+                "salida":16,
+                "recorrido":"Terminal → Banda del Río Salí → Cochuchal → Fortin → Colonia 3"
+            },
+            {
+                "nombre":"16:50",
+                "salida":16.5,
+                "recorrido":"Terminal → Banda del Río Salí → Cochuchal → Fortin"
+            },
+            {
+                "nombre":"17:45",
+                "salida":17.45,
+                "recorrido":"Terminal → Banda del Río Salí → Barrio La Cancha"
+            },
+            {
+                "nombre":"19:00",
+                "salida":19,
+                "recorrido":"Terminal → Banda del Río Salí → Colonia 4"
+            },
+            {
+                "nombre":"19:45",
+                "salida":19.45,
+                "recorrido":"Terminal → Banda del Río Salí → Mayo"
+            },
+            {
+                "nombre":"20:30",
+                "salida":20.3,
+                "recorrido":"Terminal → Banda del Río Salí → Fortin"
+            },
+            {
+                "nombre":"21:30",
+                "salida":21.30,
+                "recorrido":"Terminal → Autopista → Fortin → Colonia 4"
+            },
+            {
+                "nombre":"22:30",
+                "salida":22.30,
+                "recorrido":"Terminal → Autopista → Fortin → Colonia 4"
+            }
+        ]
+    ],
+    [
+        [
+            {
+                "nombre":"06:00",
+                "salida":6,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha → Colonia 4"
+            },
+            {
+                "nombre":"07:00",
+                "salida":7,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Fortin"
+            },
+
+            {
+                "nombre":"08:00",
+                "salida":8,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Fortin"
+            },
+            {
+                "nombre":"09:00",
+                "salida":9,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"10:00",
+                "salida":10,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"11:00",
+                "salida":11,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"12:00",
+                "salida":12,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"12:30",
+                "salida":12.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Esquina Lastra"
+            },
+            {
+                "nombre":"13:00",
+                "salida":13,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"14:15",
+                "salida":14.15,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Esquina Lastra"
+            },
+            {
+                "nombre":"15:00",
+                "salida":15,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Fortin"
+            },
+            {
+                "nombre":"16:00",
+                "salida":16,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"17:00",
+                "salida":17,
+                "recorrido":["Terminal","Barrio La Cancha"]
+            },
+            {
+                "nombre":"18:00",
+                "salida":18,
+                "recorrido":["Terminal","Banda del Río Salí","Cevil Pozo","Esquina Llona", "Dispensario","Paraiso","Barrio La Cancha"]
+            },
+            {
+                "nombre":"18:30",
+                "salida":18.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Fortin"
+            },
+            {
+                "nombre":"19:10",
+                "salida":19.1,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"20:00",
+                "salida":20,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"20:30",
+                "salida":20.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"21:00",
+                "salida":21,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"21:30",
+                "salida":21.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"22:30",
+                "salida":22.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"23:30",
+                "salida":23.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            }
+        ],
+        [
+            {
+                "nombre":"06:00",
+                "salida":6,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha → Colonia 4"
+            },
+            {
+                "nombre":"06:30",
+                "salida":6.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"07:00",
+                "salida":7,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Fortin"
+            },
+            {
+                "nombre":"07:30",
+                "salida":7.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"08:15",
+                "salida":8.15,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Esquina Lastra"
+            },
+            {
+                "nombre":"09:00",
+                "salida":9,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"09:30",
+                "salida":9.30,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"10:00",
+                "salida":10,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha → Colonia 4"
+            },
+            {
+                "nombre":"10:30",
+                "salida":10.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"11:00",
+                "salida":11,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"11:20",
+                "salida":11.2,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Fortin"
+            },
+            {
+                "nombre":"11:45",
+                "salida":11.45,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"12:25",
+                "salida":12.25,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Fortin"
+            },
+            {
+                "nombre":"12:30",
+                "salida":12.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"13:00",
+                "salida":13,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"13:30",
+                "salida":13.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Esquina Lastra"
+            },
+            {
+                "nombre":"14:05",
+                "salida":14.05,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"14:30",
+                "salida":14.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Esquina Lastra"
+            },
+            {
+                "nombre":"15:00",
+                "salida":15,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Fortin"
+            },
+            {
+                "nombre":"16:00",
+                "salida":16,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"17:00",
+                "salida":17,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"17:30",
+                "salida":17.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Fortin"
+            },
+            {
+                "nombre":"18:00",
+                "salida":18,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"18:30",
+                "salida":18.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Fortin"
+            },
+            {
+                "nombre":"19:10",
+                "salida":19.1,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha → Colonia 4"
+            },
+            {
+                "nombre":"19:30",
+                "salida":19.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"20:00",
+                "salida":20,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"20:30",
+                "salida":20.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"20:45",
+                "salida":20.45,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"21:00",
+                "salida":21,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila del Medio → Bosque → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"21:30",
+                "salida":21.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"22:00",
+                "salida":22.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"22:30",
+                "salida":22.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"23:30",
+                "salida":23.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha → Fortin → Colonia 4"
+            },
+            {
+                "nombre":"00:30",
+                "salida":24.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            }
+        ],
+        [
+            {
+                "nombre":"06:00",
+                "salida":6,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha → Colonia 4"
+            },
+            {
+                "nombre":"06:40",
+                "salida":6.1,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"07:00",
+                "salida":7,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Fortin"
+            },
+            {
+                "nombre":"07:30",
+                "salida":7.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"08:15",
+                "salida":8.15,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Esquina Lastra"
+            },
+            {
+                "nombre":"09:00",
+                "salida":9,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"09:30",
+                "salida":9.30,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"10:00",
+                "salida":10,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha → Colonia 4"
+            },
+            {
+                "nombre":"10:30",
+                "salida":10.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"11:00",
+                "salida":11,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"11:45",
+                "salida":11.45,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Esquina Lastra"
+            },
+            {
+                "nombre":"12:30",
+                "salida":12.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"13:00",
+                "salida":13,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"13:55",
+                "salida":13.55,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Fortin"
+            },
+            {
+                "nombre":"14:15",
+                "salida":14.15,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Esquina Lastra"
+            },
+            {
+                "nombre":"15:00",
+                "salida":15,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Fortin"
+            },
+            {
+                "nombre":"16:00",
+                "salida":16,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"17:00",
+                "salida":17,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"17:30",
+                "salida":17.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Fortin"
+            },
+            {
+                "nombre":"18:00",
+                "salida":18,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"18:30",
+                "salida":18.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Fortin"
+            },
+            {
+                "nombre":"19:15",
+                "salida":19.15,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha → Colonia 4"
+            },
+            {
+                "nombre":"19:30",
+                "salida":19.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"20:00",
+                "salida":20,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"20:30",
+                "salida":20.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"21:00",
+                "salida":21,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"21:30",
+                "salida":21.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"22:30",
+                "salida":22.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            },
+            {
+                "nombre":"23:30",
+                "salida":23.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+            }
+        ]
+    ],
+    [
+        [
+            {
+                "nombre":"21:20",
+                "salida":21.2,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila de la orilla → Esquina Llona → Dispensario"
+            },
+            {
+                "nombre":"22:20",
+                "salida":22.2,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila de la orilla → Esquina Llona → Dispensario"
+            }
+        ],
+        [
+            {
+                "nombre":"05:25",
+                "salida":5.25,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila del medio → Bosque → Dispensario"
+            },
+            {
+                "nombre":"08:30",
+                "salida":8.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila del medio → Dispensario"
+            },
+            {
+                "nombre":"13:00",
+                "salida":13,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila del medio → Bosque"
+            },
+            {
+                "nombre":"13:30",
+                "salida":13.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila del medio → Bosque → Dispensario"
+            },
+            {
+                "nombre":"15:00",
+                "salida":15,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila del medio → Bosque → Dispensario"
+            },
+            {
+                "nombre":"15:30",
+                "salida":15.3,
+                "recorrido":" Terminal → Banda del Río Salí → Cevil Pozo → Fila del medio → Bosque → Dispensario"
+            },
+            {
+                "nombre":"16:30",
+                "salida":16.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila del medio → Bosque → Dispensario"
+            },
+            {
+                "nombre":"17:25",
+                "salida":17.25,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila del medio → Bosque → Dispensario"
+            },
+            {
+                "nombre":"19:00",
+                "salida":19,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila del medio → Bosque → Dispensario"
+            },
+            {
+                "nombre":"21:00",
+                "salida":21,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila del medio → Bosque → Florida"
+            }
+        ],
+        [
+            {
+                "nombre":"05:25",
+                "salida":5.25,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila de la orilla → Esquina Llona → Bosque → Dispensario"
+            },
+            {
+                "nombre":"08:30",
+                "salida":8.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila del medio → Bosque → Dispensario"
+            },
+            {
+                "nombre":"11:35",
+                "salida":11.35,
+                "recorrido":"Terminal → Banda del Río Sali → Cevil Pozo → Fila de la orilla → Esquina Llona → Dispensario"
+            },
+            {
+                "nombre":"12:15",
+                "salida":12.15,
+                "recorrido":"Terminal → Banda del Río Sali → Cevil Pozo → Fila del medio → Bosque → Dispensario"
+            },
+            {
+                "nombre":"13:30",
+                "salida":13.3,
+                "recorrido":"Terminal → Banda del Río Sali → Cevil Pozo → Fila del medio → Boque → Dispensario"
+            },
+            {
+                "nombre":"15:30",
+                "salida":15.3,
+                "recorrido":"Terminal → Banda del Río Sali → Cevil Pozo → Fila del medio → Boque → Dispensario"
+            },
+            {
+                "nombre":"16:30",
+                "salida":16.3,
+                "recorrido":"Terminal → Banda del Río Sali → Cevil Pozo → Fila del medio → Boque → Dispensario"
+            },
+            {
+                "nombre":"21:00",
+                "salida":21,
+                "recorrido":"Terminal → Banda del Río Sali → Cevil Pozo → Fila del medio → Boque → Dispensario"
+            }
+        ]
+    ],
+    [
+        [
+            {
+                "nombre":"06.00",
+                "salida":6,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos"
+            },
+            {
+                "nombre":"07:00",
+                "salida":7,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo → Alabama"
+            },
+            {
+                "nombre":"08:30",
+                "salida":8.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos"
+            },
+            {
+                "nombre":"10:00",
+                "salida":10,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo → Alabama"
+            },
+            {
+                "nombre":"10:30",
+                "salida":10.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Lolita → Las Cejas"
+            },
+            {
+                "nombre":"11:00",
+                "salida":11,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo → Alabama"
+            },
+            {
+                "nombre":"12:10",
+                "salida":12.1,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo → Alabama"
+            },
+            {
+                "nombre":"13:00",
+                "salida":13,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → VIlla Tercera"
+            },
+            {
+                "nombre":"14:30",
+                "salida":14.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → VIlla Tercera"
+            },
+            {
+                "nombre":"15:30",
+                "salida":15.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
+            },
+            {
+                "nombre":"16:15",
+                "salida":16.15,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo → Alabama"
+            },
+            {
+                "nombre":"17:10",
+                "salida":17.1,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercera"
+            },
+            {
+                "nombre":"18:00",
+                "salida":18,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo → Alabama"
+            },
+            {
+                "nombre":"19:00",
+                "salida":19,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Lolita"
+            },
+            {
+                "nombre":"19:30",
+                "salida":19.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Cruz Alta"
+            },
+            {
+                "nombre":"20:00",
+                "salida":20,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos"
+            },
+            {
+                "nombre":"20:30",
+                "salida":20.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo → Las Cejas"
+            },
+            {
+                "nombre":"21:30",
+                "salida":21.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercera"
+            },
+            {
+                "nombre":"22:30",
+                "salida":22.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercera"
+            },
+            {
+                "nombre":"23:30",
+                "salida":23.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercera"
+            }
+        ],
+        [
+            {
+                "nombre":"06.00",
+                "salida":6,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos"
+            },
+            {
+                "nombre":"06.30",
+                "salida":6.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Lolita Norte → Lolita Sur"
+            },
+            {
+                "nombre":"07:00",
+                "salida":7,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo → La Marta"
+            },
+            {
+                "nombre":"08:00",
+                "salida":8,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo"
+            },
+            {
+                "nombre":"08:30",
+                "salida":8.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos"
+            },
+            {
+                "nombre":"09:15",
+                "salida":9.15,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercera"
+            },
+            {
+                "nombre":"09:30",
+                "salida":9.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos"
+            },
+            {
+                "nombre":"10:00",
+                "salida":10,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo → Alabama"
+            },
+            {
+                "nombre":"10:30",
+                "salida":10.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            },
+            {
+                "nombre":"10:40",
+                "salida":10.4,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Lolita Sur"
+            },
+            {
+                "nombre":"11:00",
+                "salida":11,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → Piedrabuena"
+            },
+            {
+                "nombre":"11:15",
+                "salida":11.15,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo"
+            },
+            {
+                "nombre":"11:30",
+                "salida":11.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo"
+            },
+            {
+                "nombre":"11:45",
+                "salida":11.45,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercera → Lolita Sur"
+            },
+            {
+                "nombre":"12:10",
+                "salida":12.1,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo → Alabama"
+            },
+            {
+                "nombre":"12:30",
+                "salida":12.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Barrio Trigal"
+            },
+            {
+                "nombre":"13:00",
+                "salida":13,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos"
+            },
+            {
+                "nombre":"13:30",
+                "salida":13.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercera → Lolita Sur",
+                "recorrido2":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos"
+            },
+            {
+                "nombre":"14:00",
+                "salida":14,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Barrio Trigal"
+            },
+            {
+                "nombre":"14:30",
+                "salida":14.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercera",
+                "recorrido2": "Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            },
+            {
+                "nombre":"15:00",
+                "salida":15,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos"
+            },
+            {
+                "nombre":"15:15",
+                "salida":15.15,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercera"
+            },
+            {
+                "nombre":"15:30",
+                "salida":15.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo → Cruce"
+            },
+            {
+                "nombre":"16:00",
+                "salida":16,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos"
+            },
+            {
+                "nombre":"16:15",
+                "salida":16.15,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo → Alabama"
+            },
+            {
+                "nombre":"16:30",
+                "salida":16.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos"
+            },
+            {
+                "nombre":"16:50",
+                "salida":16.5,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos"
+            },
+            {
+                "nombre":"17:10",
+                "salida":17.1,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercera"
+            },
+            {
+                "nombre":"17:30",
+                "salida":17.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos"
+            },
+            {
+                "nombre":"17:50",
+                "salida":17.5,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercera"
+            },        
+            {
+                "nombre":"18:00",
+                "salida":18,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo → Alabama"
+            },
+            {
+                "nombre":"18:30",
+                "salida":18.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercera",
+                "recorrido2":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            },
+            {
+                "nombre":"19:00",
+                "salida":19,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Lolita Sur",
+                "recorrido2":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos"
+            },
+            {
+                "nombre":"19:30",
+                "salida":19.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Barrio Trigal"
+            },
+            {
+                "nombre":"20:00",
+                "salida":20,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas",
+                "recorrido2":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos"
+            },
+            {
+                "nombre":"20:20",
+                "salida":20.2,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercera"
+            },
+            {
+                "nombre":"20:30",
+                "salida":20.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo → Alabama"
+            },
+            {
+                "nombre":"21:00",
+                "salida":21,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Barrio Trigal"
+            },
+            {
+                "nombre":"21:20",
+                "salida":21.2,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos"
+            },
+            {
+                "nombre":"21:30",
+                "salida":21.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercera"
+            },
+            {
+                "nombre":"22:00",
+                "salida":22,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos"
+            },
+            {
+                "nombre":"22:30",
+                "salida":22.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercera → Barrio Trigal"
+            },
+            {
+                "nombre":"23:30",
+                "salida":23.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercer → Barrio Trigal"
+            }
+        ],
+        [
+            {
+                "nombre":"06.00",
+                "salida":6,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos"
+            },
+            {
+                "nombre":"06.30",
+                "salida":6.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Lolita Sur"
+            },
+            {
+                "nombre":"07:00",
+                "salida":7,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo → Alabama"
+            },
+            {
+                "nombre":"07:45",
+                "salida":7.45,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos"
+            },
+            {
+                "nombre":"08:30",
+                "salida":8.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos"
+            },
+            {
+                "nombre":"09:30",
+                "salida":9.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos"
+            },
+            {
+                "nombre":"10:00",
+                "salida":10,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo → Alabama"
+            },
+            {
+                "nombre":"10:40",
+                "salida":10.4,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Lolita → Las Cejas"
+            },
+            {
+                "nombre":"11:00",
+                "salida":11,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo Cruce",
+                "llegada":14
+            },
+            {
+                "nombre":"11:50",
+                "salida":11.5,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercera"
+            },
+            {
+                "nombre":"12:10",
+                "salida":12.1,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo → Alabama"
+            },
+            {
+                "nombre":"12:30",
+                "salida":12.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercera"
+            },
+            {
+                "nombre":"13:00",
+                "salida":13,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercera"
+            },
+            {
+                "nombre":"13:30",
+                "salida":13.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercera →Lolita"
+            },
+            {
+                "nombre":"13:50",
+                "salida":13.5,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Barrio Trigal"
+            },
+            {
+                "nombre":"14:00",
+                "salida":14,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Lolita"
+            }, 
+            {
+                "nombre":"14:20",
+                "salida":14,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            },
+            {
+                "nombre":"14:30",
+                "salida":14.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercera"
+            },
+            {
+                "nombre":"15:15",
+                "salida":15.15,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercera"
+            },
+            {
+                "nombre":"15:30",
+                "salida":15.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo"
+            },
+            {
+                "nombre":"16:05",
+                "salida":16.05,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos"
+            },
+            {
+                "nombre":"16:15",
+                "salida":16.15,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo → Alabama"
+            },
+            {
+                "nombre":"17:10",
+                "salida":17.1,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercera"
+            },
+            {
+                "nombre":"18:00",
+                "salida":18,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo → Alabama"
+            },
+            {
+                "nombre":"18:30",
+                "salida":18.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            },
+            {
+                "nombre":"19:00",
+                "salida":19,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Lolita"
+            },
+            {
+                "nombre":"19:30",
+                "salida":19.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercera"
+            },
+            {
+                "nombre":"20:00",
+                "salida":20,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            },
+            {
+                "nombre":"20:20",
+                "salida":20.2,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercera"
+            },
+            {
+                "nombre":"20:30",
+                "salida":20.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo → Alabama"
+            },
+            {
+                "nombre":"21:00",
+                "salida":21,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos"
+            },
+            {
+                "nombre":"21:30",
+                "salida":21.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercera"
+            },
+            {
+                "nombre":"22:00",
+                "salida":22,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos"
+            },
+            {
+                "nombre":"22:30",
+                "salida":22.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercera"
+            },
+            {
+                "nombre":"23:30",
+                "salida":23.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Villa Tercera"
+            }
+        ]
+    ],
+    [
+        [
+            {
+                "nombre":"19:30",
+                "valor":19.3,
+                "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Cruz Alta → Los Ralos"
+            }
+        ],
+        [
+            {
+                "nombre":"06:50",
+                "salida":6.5,
+                "recorrido":"Terminal → Banda del Río Salí → Esquina Llona → Cevil Pozo → Cruz Alta → Los Ralos"
+            },
+            {
+                "nombre":"10:45",
+                "salida":10.45,
+                "recorrido":"Terminal → Banda del Río Salí → Esquina Llona → Cevil Pozo → Cruz Alta → Los Ralos"
+            },
+            {
+                "nombre":"12:00",
+                "salida":12,
+                "recorrido":"Terminal → Banda del Río Salí → Esquina Llona → Cevil Pozo → Cruz Alta → Los Ralos"
+            },
+            {
+                "nombre":"13:15",
+                "salida":13.15,
+                "recorrido":"Terminal → Banda del Río Salí → Esquina Llona → Cevil Pozo → Cruz Alta → Los Ralos"
+            },
+            {
+                "nombre":"17:30",
+                "salida":17.3,
+                "recorrido":"Terminal → Banda del Río Salí → Esquina Llona → Cevil Pozo → Cruz Alta → Colonia 9"
+            },
+            {
+                "nombre":"20:00",
+                "salida":20,
+                "recorrido":"Terminal → Banda del Río Salí → Esquina Llona → Cevil Pozo → Cruz Alta → Los Ralos"
+            }
+        ],
+        [
+            {
+                "nombre":"10:45",
+                "salida":10.45,
+                "recorrido":"Terminal → Banda del Río Salí →  Cevil Pozo → Esquina Llona  → Cruz Alta → Los Ralos"
+            },
+            {
+                "nombre":"13:15",
+                "salida":13.15,
+                "recorrido":"Terminal → Banda del Río Salí →  Cevil Pozo → Esquina Llona  → Cruz Alta → Los Ralos"
+            },
+            {
+                "nombre":"19:30",
+                "salida":19.30,
+                "recorrido":"Terminal → Banda del Río Salí →  Cevil Pozo → Esquina Llona  → Cruz Alta → Los Ralos"
+            }
+        ]
+    ],
+    [
+        [
+            {
+                "nombre":"15:00",
+                "salida":15,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
+            },
+            {
+                "nombre":"18:30",
+                "salida":18.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
+            },
+            {
+                "nombre":"20:30",
+                "salida":20.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
+            }
+        ],
+        [
+            {
+                "nombre":"06:15",
+                "salida":6.15,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
+            },
+            {
+                "nombre":"12:30",
+                "salida":12.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
+            },
+            {
+                "nombre":"15:45",
+                "salida":15.45,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
+            }
+        ],
+        [
+            {
+                "nombre":"15:45",
+                "salida":15.45,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Las Cejas → 7 de Abril"
+            }
+        ]
+    ],
+    [
+        [
+            {
+                "nombre":"06:30",
+                "salida":6.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            },
+            {
+                "nombre":"10:30",
+                "salida":10.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            },
+            {
+                "nombre":"18:30",
+                "salida":18.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
+            },
+            {
+                "nombre":"20:30",
+                "salida":20.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
+            }
+        ],
+        [
+            {
+                "nombre":"06:15",
+                "salida":6.15,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Lolita → Las Cejas → 7 de Abril"
+            },
+            {
+                "nombre":"10:30",
+                "salida":10.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            },
+            {
+                "nombre":"11:00",
+                "salida":11,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → Piedrabuena"
+            },
+            {
+                "nombre":"12:30",
+                "salida":12.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas",
+                "recorrido2":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
+            },
+            {
+                "nombre":"14:30",
+                "salida":14.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            },
+            {
+                "nombre":"15:45",
+                "salida":15.45,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
+            },
+            {
+                "nombre":"18:30",
+                "salida":18.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            },
+            {
+                "nombre":"20:00",
+                "salida":20,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            }
+        ],
+        [
+            {
+                "nombre":"10:40",
+                "salida":10.4,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Lolita → Las Cejas"
+            },
+            {
+                "nombre":"14:30",
+                "salida":14.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            },
+            {
+                "nombre":"15:45",
+                "salida":15.45,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
+            },
+            {
+                "nombre":"18:30",
+                "salida":18.3,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            },
+            {
+                "nombre":"20:00",
+                "salida":20,
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas"
+            }
+        ]
+    ]
+]

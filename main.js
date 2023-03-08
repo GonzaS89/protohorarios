@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function(){
 function iniciarApp(){
     reloj();
     busquedaManual();
+    // llamado()
 };
 
 function reloj(){
@@ -18,18 +19,18 @@ function reloj(){
     let dia = momentoActual.getDay()
     let mes = momentoActual.getMonth()
 
-       if(minuto <=9){
+    if(minuto <=9){
         minuto = "0"+minuto
-       } 
-       if(segundo <= 9){
+    } 
+    if(segundo <= 9){
         segundo= "0"+segundo;
-       }
-       if(hora <= 9){
+    }
+    if(hora <= 9){
         hora= "0"+hora;
-       }
-       if(fecha <= 9){
+    }
+    if(fecha <= 9){
         fecha= "0"+fecha;
-       }
+    }
         
     let diaFecha = document.getElementById('dia')  
     let numeroFecha = document.getElementById('fecha')
@@ -160,7 +161,7 @@ const boton = document.getElementById('boton');
         {
             "nombre":"13:50",
             "salida":13.5,
-            "recorrido":"Barrio La Cancha → Cochuchal → Alderetes → Banda del Río Salí",
+            "recorrido":"Barrio La Cancha → Cochuchal → Alderetes → Banda del Río Salí"
         },
         {
             "nombre":"14:45",
@@ -186,7 +187,7 @@ const boton = document.getElementById('boton');
         {
             "nombre":"17:35",
             "salida":17.35,
-            "recorrido":"Colonia 4 → Barrio La Cancha → Talar → Alternativa "
+            "recorrido":"Colonia 4 → Barrio La Cancha → Talar → Alternativa"
         },
         {
             "nombre":"17:50",
@@ -3050,7 +3051,7 @@ const boton = document.getElementById('boton');
             "nombre":"20:30",
             "salida":20.3,
             "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Las Cejas → 7 de Abril"
-        },
+        }
     ]
     const floridaAldTucuman = [horariosDFloAl,horariosLvFloAl,horariosSFloAl];
     const terminalAldFlorida = [horariosDSMAl,horariosSSMAl, horariosLvSMAl];
@@ -3824,17 +3825,16 @@ function busquedaManual(){
         {
             "nombre":"04:50",
             "salida":4.5,
-            "recorrido":"Barrio La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
+            "recorrido":"Barrio La Cancha → Paraiso → Dispensario → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
-        
         {
             "nombre":"05:50",
             "salida":5.5,
             "recorrido":"Barrio La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
-            "nombre":"06:25",
-            "salida":6.25,
+            "nombre":"06:20",
+            "salida":6.2,
             "recorrido":"Barrio La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
        
@@ -3843,10 +3843,9 @@ function busquedaManual(){
             "salida":6.5,
             "recorrido":"Barrio La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
-       
         {
-            "nombre":"07:25",
-            "salida":7.25,
+            "nombre":"07:20",
+            "salida":7.2,
             "recorrido":"Barrio La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
        
@@ -3857,8 +3856,8 @@ function busquedaManual(){
         },
        
         {
-            "nombre":"08:25",
-            "salida":8.25,
+            "nombre":"08:20",
+            "salida":8.2,
             "recorrido":"Barrio La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
        
@@ -3875,23 +3874,23 @@ function busquedaManual(){
         },
        
         {
-            "nombre":"10:25",
-            "salida":10.25,
+            "nombre":"10:20",
+            "salida":10.2,
             "recorrido":"Barrio La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
-            "nombre":"10:55",
-            "salida":10.55,
+            "nombre":"10:50",
+            "salida":10.5,
             "recorrido":"Barrio La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
-            "nombre":"11:25",
-            "salida":11.25,
+            "nombre":"11:20",
+            "salida":11.2,
             "recorrido":"Barrio La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
-            "nombre":"11:55",
-            "salida":11.55,
+            "nombre":"11:50",
+            "salida":11.5,
             "recorrido":"Barrio La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
@@ -3899,25 +3898,20 @@ function busquedaManual(){
             "salida":12.40,
             "recorrido":"Barrio La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
-        // {
-        //     "nombre":"12:25",
-        //     "salida":12.25,
-        //     "recorrido":"Fortin hasta Esquina Llona"
-        // },
         {
-            "nombre":"13:25",
-            "salida":13.25,
+            "nombre":"13:20",
+            "salida":13.2,
             "recorrido":"Barrio La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
-            "nombre":"13:55",
-            "salida":13.55,
+            "nombre":"13:50",
+            "salida":13.5,
             "recorrido":"Barrio La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
-            "nombre":"15:00",
-            "salida":15,
-            "recorrido":"Esquina de Lastra → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
+            "nombre":"14:50",
+            "salida":14.5,
+            "recorrido":"Barrio La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
             "nombre":"15:55",
@@ -3925,33 +3919,38 @@ function busquedaManual(){
             "recorrido":"Fortin → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
-            "nombre":"16:55",
-            "salida":16.55,
+            "nombre":"16:50",
+            "salida":16.5,
             "recorrido":"Barrio La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
-            "nombre":"18:55",
-            "salida":18.55,
+            "nombre":"17:55",
+            "salida":17.55,
             "recorrido":"Barrio La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
-            "nombre":"19:25",
-            "salida":19.25,
-            "recorrido":"Fortin → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
-        },
-        {
-            "nombre":"20:25",
-            "salida":20.25,
+            "nombre":"18:50",
+            "salida":18.5,
             "recorrido":"Barrio La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
-            "nombre":"20:55",
-            "salida":20.55,
+            "nombre":"19:20",
+            "salida":19.2,
             "recorrido":"Barrio La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
-            "nombre":"21:25",
-            "salida":21.25,
+            "nombre":"19:50",
+            "salida":19.5,
+            "recorrido":"Colonia 4 → Barrio La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
+        },
+        {
+            "nombre":"20:50",
+            "salida":20.5,
+            "recorrido":"Barrio La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
+        },
+        {
+            "nombre":"21:20",
+            "salida":21.2,
             "recorrido":"Barrio La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
         {
@@ -3959,6 +3958,11 @@ function busquedaManual(){
             "salida":22.20,
             "recorrido":"Barrio La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         },
+        {
+            "nombre":"23:20",
+            "salida":23.2,
+            "recorrido":"Barrio La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
+        }
     ]
     const horariosDFloPo = [
 {
@@ -4953,7 +4957,7 @@ function busquedaManual(){
             "nombre":"18:05",
             "salida":18.05,
             "recorrido":"Dispensario → Fila dela orilla → Esquina Llona → Cevil Pozo"
-        },
+        }
     ]
     const posseTerminalD = [
         {
@@ -6268,7 +6272,7 @@ function busquedaManual(){
             "nombre":"19:50",
             "salida":19.5,
             "recorrido":"Las Cejas → Los Ralos → Esquina Llona → Cevil Pozo → Banda del Río Salí"
-        },
+        }
     ]
     const lasCejasTerminalD = [
         {
@@ -6632,16 +6636,12 @@ function busquedaManual(){
 
 
 
+// function llamado(){
+//    const horarios = fetch('todosDestinoTucuman.json')
+//     .then(respuesta => respuesta.json())
+//     .then(respuesta => console.log(respuesta))
+// }
 
 
-
-    
-    
-
-
-
-
-
-
-
-
+const destinoTucuman = new Request("./todosDestinoTucuman.json");
+console.log(destinoTucuman[0])

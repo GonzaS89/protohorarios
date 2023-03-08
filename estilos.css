@@ -5,11 +5,10 @@
     --fondoAzul : #455ff4;
     --rojo : #f56e6e;
     --rojo2 : #f93a3a;
-    --fondoAzul : rgb(31, 77, 134);
+        --fondoAzul : rgb(31, 77, 134);
     --azul : rgb(39, 106, 231);
     --fuentePrincipal : 'Nunito', sans-serif;
     --fuenteSec : 'Dosis', sans-serif;
-   
 }
 h1,p{
     font-family: var(--fuenteSec);
