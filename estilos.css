@@ -27,6 +27,7 @@ body{
         justify-content: center;
         align-items: center;
         height: 800px;
+        gap: 10px;
     }
     .bb{
         display: flex;
