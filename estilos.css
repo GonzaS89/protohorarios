@@ -2,10 +2,11 @@
 :root{
     --blanco : #ffffff;
     --fondo : #fefbfb;
-    --azul : #455ff4;
+    --fondoAzul : #455ff4;
     --rojo : #f56e6e;
     --rojo2 : #f93a3a;
     --fondoAzul : rgb(31, 77, 134);
+    --azul : rgb(39, 106, 231);
     --fuentePrincipal : 'Nunito', sans-serif;
     --fuenteSec : 'Dosis', sans-serif;
    
@@ -16,21 +17,123 @@ h1,p{
 }
 
 body{
-    background-color: black;
+    background-color: var(--fondoAzul);
     
 }
+
 @media(min-width:600px){
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 800px;
+    }
+    .bb{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-basis: 30%;
+        margin: 0 auto;
+    }
+    #aa{
+        color: var(--blanco);
+        text-align: center;
+        font-size: 25px;
+    }
+    .engranajes{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-top: 10px;
+        height: 150px;
+    }
+    #engranaje{
+        background-image: url(imagenes/Engranajes.png);
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-size: cover;
+        filter: blur(.5px);
+        animation: rodar 3s ease-in-out alternate infinite;
+    }
+   
+    #engranaje2{
+        background-image: url(imagenes/Engranajes.png);
+        width: 100px;
+        background-size: cover;
+        animation: rodarRevez 3s ease-in-out alternate-reverse infinite;
+        margin-left: -12px;
+        height: 100px;
+        border-radius:50%;
+        position: relative;
+        top:30px
+
+    }
+    @keyframes rodar{
+        to{
+            transform: rotate(0deg);
+        }
+        from{
+            transform: rotate(360deg);
+        }
+    } 
+    @keyframes rodarRevez{
+        to{
+            transform: rotate(15deg);
+        }
+        from{
+            transform: rotate(375deg);
+        }
+    }
+    
     .cont-consultas{
         display: flex;
         flex-direction: column;
         justify-content:center;
         align-items: center;
         /* box-shadow: 5px 0px 30px 10px black; */
-        max-width: 40%;
+        width: 750px;
         margin: 75px auto;
         border-radius: 30px;
         padding: 20px;
         background-color: var(--rojo2);
+    }
+}
+
+@media (min-width: 900px){
+    #aa{
+        color: var(--blanco);
+        text-align: center;
+        font-size: 40px;
+    }
+    .engranajes{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-top: 10px;
+        height: 150px;
+    }
+    #engranaje{
+        background-image: url(imagenes/Engranajes.png);
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        background-size: cover;
+        filter: blur(.5px);
+        animation: rodar 3s ease-in-out alternate infinite;
+    }
+   
+    #engranaje2{
+        background-image: url(imagenes/Engranajes.png);
+        width: 130px;
+        background-size: cover;
+        animation: rodarRevez 3s ease-in-out alternate-reverse infinite;
+        margin-left: -15px;
+        height: 130px;
+        border-radius:50%;
+        position: relative;
+        top:40px
+
     }
 }
 
@@ -604,40 +707,7 @@ min-height: 180px;
     color: var(--blanco);
     font-weight: 11;
 }
-.engranajes{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    
-}
-#engranaje{
-    width: 100px;
-    animation: rodar 7s ease-in-out alternate infinite;
-    height: 100px;
-}
-#engranaje2{
-    width: 100px;
-    animation: rodarRevez 7s ease-in-out alternate-reverse infinite;
-    margin-left: -20px;
-    transform: rotate(15deg);
-    height: 100px;
-}
-@keyframes rodar{
-    to{
-        transform: rotate(0deg);
-    }
-    from{
-        transform: rotate(360deg);
-    }
-} 
-@keyframes rodarRevez{
-    to{
-        transform: rotate(15deg);
-    }
-    from{
-        transform: rotate(375deg);
-    }
-}
+
 
 @media(max-width:600px){
     body{
@@ -650,6 +720,9 @@ min-height: 180px;
     .input-reloj{
         height:50px;
         width: 200px;
+    }
+    .bb{
+        display: none;
     }
    
     #mensaje{
