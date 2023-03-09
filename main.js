@@ -1,12 +1,12 @@
 
 document.addEventListener('DOMContentLoaded', function(){
-    iniciarApp();
+iniciarApp();
 })
 
 function iniciarApp(){
-    reloj();
-    busquedaManual();
-    // llamado()
+reloj();
+busquedaManual();
+llamado();
 };
 
 function reloj(){
@@ -59,19 +59,19 @@ const selector2 = document.menu2.selector2;
 
 const boton = document.getElementById('boton');
 
-    const opcionbase = selector[0]
-    const opcionbase2 = selector2[0]
-    const florida = selector[1];
-    const xposse = selector[2]
-    const sanM = selector[3];  
-    let valorSelecionado; 
-    let valorSelecionado2;
-    let valores = [];
-    let valores2= [];
-    let posicion;
-    let posicion2;
+const opcionbase = selector[0]
+const opcionbase2 = selector2[0]
+const florida = selector[1];
+const xposse = selector[2]
+const sanM = selector[3];  
+let valorSelecionado; 
+let valorSelecionado2;
+let valores = [];
+let valores2= [];
+let posicion;
+let posicion2;
 
-    const horariosLvFloAl = [
+const horariosLvFloAl = [
 
         {
             "nombre":"04:40",
@@ -215,8 +215,8 @@ const boton = document.getElementById('boton');
             "recorrido":"Colonia 4 → Barrio La Cancha → Talar → Alderetes → Autopista"
         }
        
-    ]
-    const horariosSFloAl = [
+]
+const horariosSFloAl = [
         {
             "nombre":"04:40",
             "salida":4.4,
@@ -316,8 +316,8 @@ const boton = document.getElementById('boton');
             "salida":19,
             "recorrido":"La Marta → Colonia 3 → Barrio La Cancha → Talar → Alderetes → Banda del Río Salí"
         }
-    ]
-    const horariosDFloAl = [
+]
+const horariosDFloAl = [
 
         {
             "nombre":"07:40",
@@ -354,8 +354,8 @@ const boton = document.getElementById('boton');
             "salida":19.1,
             "recorrido":"Colonia 10 → Colonia 3 → Barrio La Cancha → Talar → Alderetes → Banda del Río Salí"
         }
-    ]
-    const horariosLvFloPo = [
+]
+const horariosLvFloPo = [
 
         {
             "nombre":"04:50",
@@ -498,8 +498,8 @@ const boton = document.getElementById('boton');
             "salida":23.2,
             "recorrido":"Barrio La Cancha → Paraiso → Esquina Llona → Cevil Pozo → Banda del Río Salí"
         }
-    ]
-    const horariosSFloPo = [
+]
+const horariosSFloPo = [
         {
             "nombre":"04:50",
             "salida":4.5,
@@ -3096,21 +3096,21 @@ const boton = document.getElementById('boton');
         $('.botonDeCambio').css('display','flex');
         opcionbase2.selected = true;
     })
-  
-   
-    boton.addEventListener('click',function(){
 
-        // Definimos la posicion del selector 1
+    
 
-        for(opcion of selector){
-            if(opcion.selected){
-                   valorSelecionado = opcion
-                }
+boton.addEventListener('click',function(){
+
+// Definimos la posicion del selector 1
+
+for(opcion of selector){
+        if(opcion.selected){
+        valorSelecionado = opcion
+    }
+}
+for(i=0; i < selector.length;i++){
+            valores.push(selector[i])
         }
-        for(i=0; i < selector.length;i++){
-         valores.push(selector[i])
-        }
-      
         for(i=0; i< valores.length;i++){
             posicion=valores.indexOf(valorSelecionado)
         }
@@ -3119,17 +3119,17 @@ const boton = document.getElementById('boton');
     
         for(opcion of selector2){
             if(opcion.selected){
-                   valorSelecionado2 = opcion;
-                }
+                valorSelecionado2 = opcion;
+            }
         }
         for(i=0; i < selector2.length;i++){
-         valores2.push(selector2[i])
+        valores2.push(selector2[i])
         }
-      
+
         for(i=0; i< valores2.length;i++){
             posicion2=valores2.indexOf(valorSelecionado2)
         }
-           
+
         // Definimos las variables globales
         
     let momentoActual = new Date();
@@ -3165,8 +3165,14 @@ const boton = document.getElementById('boton');
         ruta = todosTucumanDestino[posicion2-1]
         }
         if(opcionbase2.selected == true && opcionbase.selected == false){
-          ruta = todosDestinoTucuman[posicion-1]
+        ruta = todosDestinoTucuman[posicion-1]
         }
+
+        // function llamado(){
+        // fetch('todosDestinoTucuman.json')
+        // .then(respuesta => respuesta.json())
+        // .then(horarios => console.log(horarios))
+        // }
 
     if((fecha == 20 || fecha == 21)  && mes == 1){
         tituloResultado.textContent =`${diasDeLaSemana[dia]} feriado ( horarios reducidos )`;
@@ -3192,8 +3198,8 @@ const boton = document.getElementById('boton');
     
         
             // Aqui extraemos del array de arriba los salidaes de cada horario y lo agregamos a la lista del dia
-           
-                          for (i=0; i < diaRango.length; i++){
+        
+                        for (i=0; i < diaRango.length; i++){
                         listaDelDia.push(diaRango[i].salida);
             }
 
@@ -6582,19 +6588,19 @@ function busquedaManual(){
                 mensajeError.remove(),ingHora.value = '';
             },2000)
             
-         }
-          else{
+        }
+        else{
             horaInputAMinutos = (ingHora.value) * 60
             
             for(let i = 0; i < horariosEnEnteros2.length; i++){
                 listaDiferencias3.push (horariosEnEnteros2[i] - horaInputAMinutos)
-          }
-          for(let i = 0; i < listaDiferencias3.length; i++){
+        }
+        for(let i = 0; i < listaDiferencias3.length; i++){
             if(listaDiferencias3[i] > 0){
             proximo = Math.min(proximo, listaDiferencias3[i])
-          }
+        }
 
-          if(proximo < 3000){
+        if(proximo < 3000){
             
             mostrar1.textContent = `El bondi más cercano al horario que indicaste, es él de las ${diaRango2[listaDiferencias3.indexOf(proximo)].nombre}Hrs`;
             mostrar2.textContent = `Recorrido: ${diaRango2[listaDiferencias3.indexOf(proximo)].recorrido}`
@@ -6603,14 +6609,12 @@ function busquedaManual(){
             console.log(proximo)
             mostrar1.textContent = 'No hay más bondis en el horario ni en lo que resta del día';
         }
-        
-         
         }
         $('.resultados3').css('display','flex')     
         $('.mensaje2').css('display', 'flex')
         }
         })
-       
+
 
         mensaje2.addEventListener('click', function(){
             $('.mensaje2').css('display', 'none') 
@@ -6636,12 +6640,6 @@ function busquedaManual(){
 
 
 
-// function llamado(){
-//    const horarios = fetch('todosDestinoTucuman.json')
-//     .then(respuesta => respuesta.json())
-//     .then(respuesta => console.log(respuesta))
-// }
 
 
-const destinoTucuman = new Request("./todosDestinoTucuman.json");
-console.log(destinoTucuman[0])
+
