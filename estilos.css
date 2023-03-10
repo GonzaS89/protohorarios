@@ -419,6 +419,7 @@ background-color: aliceblue;
     font-weight: bold;
     font-size: 15px;
     font-family: 'Nunito', sans-serif;
+    text-align: center;
 }
 @media(max-width:600px){
     .select{
