@@ -134,8 +134,8 @@ const boton = document.getElementById('boton');
         {
             "nombre":"10:30",
             "salida":10.3,
-            "recorrido":"Fortin → Talar → Alderetes → Banda del Río Salí",
-            "llegada":11.3
+            "recorrido":"Fortin → Talar → Alderetes → Banda del Río Salí"
+            
         },
         {
             "nombre":"11:40",
@@ -219,8 +219,8 @@ const boton = document.getElementById('boton');
         {
             "nombre":"04:40",
             "salida":4.4,
-            "recorrido":"Fortin → Talar → Alderetes → Banda del Río Salí",
-            "llegada":5.2
+            "recorrido":"Fortin → Talar → Alderetes → Banda del Río Salí"
+            
         },
         {
             "nombre":"05:45",
@@ -275,8 +275,8 @@ const boton = document.getElementById('boton');
         {
             "nombre":"11:40",
             "salida":11.40,
-            "recorrido":"Fortin → Talar → Alderetes → Banda del Río Salí",
-            "llegada":12.2
+            "recorrido":"Fortin → Talar → Alderetes → Banda del Río Salí"
+            
         },
         {
             "nombre":"12:40",
@@ -296,14 +296,14 @@ const boton = document.getElementById('boton');
         {
             "nombre":"15:50",
             "salida":15.5,
-            "recorrido":"Colonia 4 → Barrio La Cancha → Talar → Alderetes → Autopista",
-            "llegada":16.3
+            "recorrido":"Colonia 4 → Barrio La Cancha → Talar → Alderetes → Autopista"
+            
         },
         {
             "nombre":"16:50",
             "salida":16.5,
-            "recorrido":"Colonia 3 → Talar → Alderetes → Banda del Río Salí",
-            "llegada":17.3
+            "recorrido":"Colonia 3 → Talar → Alderetes → Banda del Río Salí"
+            
         },
         {
             "nombre":"17:50",
@@ -2453,8 +2453,8 @@ const boton = document.getElementById('boton');
         {
             "nombre":"11:00",
             "salida":11,
-            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo Cruce",
-            "llegada":14
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo Cruce"
+            
         },
         {
             "nombre":"11:50",
@@ -3227,9 +3227,9 @@ const boton = document.getElementById('boton');
                 //  Aqui definimos los mensajes a mostrar en el primer campo       
                 if(anteriorPasado < 3000){
 
-                    if(Object.keys(diaRango[listaDiferencias.indexOf(anteriorPasado)]).length > 4){
+                    if(Object.keys(diaRango[listaDiferencias.indexOf(anteriorPasado)]).length > 3){
 
-                        actual1.textContent = `Bondis de las ${diaRango[listaDiferencias.indexOf(anteriorPasado)].nombre}`
+                        actual1.textContent = `Servicios de las ${diaRango[listaDiferencias.indexOf(anteriorPasado)].nombre}`
 
                         if(anteriorPasado >= 120){
                             actual2.textContent = 'Iniciaron sus recorridos hace un par horas'
@@ -3251,7 +3251,7 @@ const boton = document.getElementById('boton');
                     }
                     else{
 
-                        actual1.textContent = `Bondi de las ${diaRango[listaDiferencias.indexOf(anteriorPasado)].nombre}`
+                        actual1.textContent = `Servicio de las ${diaRango[listaDiferencias.indexOf(anteriorPasado)].nombre}`
                 if(anteriorPasado >= 120){
                     actual2.textContent = 'Inició su recorrido hace un par horas'
                 }
@@ -3275,7 +3275,7 @@ const boton = document.getElementById('boton');
 
                     else{
                         actual1.textContent = '';
-                        actual2.textContent = 'No pasó ningun bondi aún'
+                        actual2.textContent = 'Ninguna unidad inició su recorrido aún'
                         actual3.textContent =''
                     }
                     
@@ -3296,9 +3296,9 @@ const boton = document.getElementById('boton');
                         }
                         if(elMasCercano < 3000){
 
-                            if(Object.keys(diaRango[listaDiferencias2.indexOf(elMasCercano)]).length > 4){
+                            if(Object.keys(diaRango[listaDiferencias2.indexOf(elMasCercano)]).length > 3){
 
-                                futuro1.textContent = ` Próximos bondis a las ${diaRango[listaDiferencias2.indexOf(elMasCercano)].nombre}`;  
+                                futuro1.textContent = ` Próximos servicios a las ${diaRango[listaDiferencias2.indexOf(elMasCercano)].nombre}`;  
     
                                 if(elMasCercano >= 120){
                                     futuro2.textContent = 'Iniciarán sus recorridos en un par horas'
@@ -3323,7 +3323,7 @@ const boton = document.getElementById('boton');
                             }
     
                                 else{
-                                    futuro1.textContent = ` Próximo bondi a las ${diaRango[listaDiferencias2.indexOf(elMasCercano)].nombre}`;  
+                                    futuro1.textContent = ` Próximo servicio a las ${diaRango[listaDiferencias2.indexOf(elMasCercano)].nombre}`;  
                               
                                         if(elMasCercano >= 120){
                                             futuro2.textContent = 'Inicia su recorrido en un par horas'
@@ -3349,7 +3349,7 @@ const boton = document.getElementById('boton');
                         }
                         else{
                             futuro1.textContent ="";
-                            futuro2.textContent = "No hay más colectivos por hoy por ésta ruta"
+                            futuro2.textContent = "No hay más unidades por hoy, al menos por ésta ruta"
                             futuro3.textContent="";
                         }
 
@@ -3456,8 +3456,8 @@ function busquedaManual(){
         {
             "nombre":"10:30",
             "salida":10.3,
-            "recorrido":"Fortin → Talar → Alderetes → Banda del Río Salí",
-            "llegada":11.3
+            "recorrido":"Fortin → Talar → Alderetes → Banda del Río Salí"
+          
         },
         {
             "nombre":"11:40",
@@ -3541,8 +3541,8 @@ function busquedaManual(){
         {
             "nombre":"04:40",
             "salida":4.4,
-            "recorrido":"Fortin → Talar → Alderetes → Banda del Río Salí",
-            "llegada":5.2
+            "recorrido":"Fortin → Talar → Alderetes → Banda del Río Salí"
+           
         },
         {
             "nombre":"05:45",
@@ -3597,8 +3597,8 @@ function busquedaManual(){
         {
             "nombre":"11:40",
             "salida":11.40,
-            "recorrido":"Fortin → Talar → Alderetes → Banda del Río Salí",
-            "llegada":12.2
+            "recorrido":"Fortin → Talar → Alderetes → Banda del Río Salí"
+        
         },
         {
             "nombre":"12:40",
@@ -3618,14 +3618,14 @@ function busquedaManual(){
         {
             "nombre":"15:50",
             "salida":15.5,
-            "recorrido":"Colonia 4 → Barrio La Cancha → Talar → Alderetes → Autopista",
-            "llegada":16.3
+            "recorrido":"Colonia 4 → Barrio La Cancha → Talar → Alderetes → Autopista"
+            
         },
         {
             "nombre":"16:50",
             "salida":16.5,
-            "recorrido":"Colonia 3 → Talar → Alderetes → Banda del Río Salí",
-            "llegada":17.3
+            "recorrido":"Colonia 3 → Talar → Alderetes → Banda del Río Salí"
+            
         },
         {
             "nombre":"17:50",
@@ -5775,8 +5775,8 @@ function busquedaManual(){
         {
             "nombre":"11:00",
             "salida":11,
-            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo Cruce",
-            "llegada":14
+            "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Los Ralos → Mayo Cruce"
+            
         },
         {
             "nombre":"11:50",
@@ -6592,16 +6592,15 @@ function busquedaManual(){
 
           if(proximo < 3000){
             
-            mostrar1.textContent = `El bondi más cercano al horario que indicaste, es él de las ${diaRango2[listaDiferencias3.indexOf(proximo)].nombre}Hrs`;
+            mostrar1.textContent = `El servicio más cercano al horario que indicaste, es él de las ${diaRango2[listaDiferencias3.indexOf(proximo)].nombre}Hrs`;
             mostrar2.textContent = `Recorrido: ${diaRango2[listaDiferencias3.indexOf(proximo)].recorrido}`
     }
         else{
             console.log(proximo)
-            mostrar1.textContent = 'No hay más bondis en el horario ni en lo que resta del día';
+            mostrar1.textContent = 'No hay más servicios en éste horario ni en lo que resta del día';
         }
-        
-         
         }
+
         $('.resultados3').css('display','flex')     
         $('.mensaje2').css('display', 'flex')
         }
