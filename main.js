@@ -214,7 +214,7 @@ const horariosLvFloAl = [
             "salida":21.15,
             "recorrido":"Colonia 4 → Barrio La Cancha → Talar → Alderetes → Autopista"
         }
-       
+    
 ]
 const horariosSFloAl = [
         {
@@ -1345,12 +1345,14 @@ const horariosSFloPo = [
             {
                 "nombre":"21:00",
                 "salida":21,
-                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha",
+                "llegada":22
             },
             {
                 "nombre":"21:30",
                 "salida":21.3,
-                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha",
+                "llegada":22.3
             },
             {
                 "nombre":"22:30",
@@ -3097,7 +3099,11 @@ const horariosSFloPo = [
         opcionbase2.selected = true;
     })
 
-    
+    function llamado(){
+        fetch('./todosDestinoTucuman.json')
+        .then(respuesta => respuesta.json())
+        .then(respuesta => console.log(respuesta))
+    }
 
 boton.addEventListener('click',function(){
 
@@ -3157,7 +3163,8 @@ for(i=0; i < selector.length;i++){
     let futuro2 = document.getElementById('futuro2');
     let futuro3 = document.getElementById('futuro3');
     let futuro4 = document.getElementById('futuro4');
-    let tituloResultado = document.getElementById('tituloResultado')
+    let tituloResultado = document.getElementById('tituloResultado');
+    let llegadaEnMinutos;
 
      // Aqui definimos donde localidad de salida y camino
 
@@ -3183,6 +3190,8 @@ for(i=0; i < selector.length;i++){
         tituloResultado.textContent =`Hoy, ${diaSemana}, tenés éstos servicios`
     
  //    Aqui definimos el array dependiendo el dia de la semana
+
+        
         
         if(dia == 0){
             diaRango = ruta[0].slice(0,ruta[0].length);
@@ -3204,32 +3213,32 @@ for(i=0; i < selector.length;i++){
             }
 
                 // Aqui usamos la lista con los salidaes y las pasamos a numero enteros junto con los minutos
-       
-                          for(let i=0 ; i < listaDelDia.length ; i++){
-              
+    
+                        for(let i=0 ; i < listaDelDia.length ; i++){
+            
                       let horasEnEnteros=  (Math.trunc(listaDelDia[i]))  * 60;
                             let minutosEnEnteros = (listaDelDia[i] - (Math.trunc(listaDelDia[i])))*100;
                             let horaMinutosEnEnteros = horasEnEnteros + minutosEnEnteros;
-                       horariosEnEnteros.push(horaMinutosEnEnteros);
-              }
+                    horariosEnEnteros.push(horaMinutosEnEnteros);
+            }
 
-                             /*Recorremos el array y buscamos coincidencias con el horario actual*/
+                            /*Recorremos el array y buscamos coincidencias con el horario actual*/
                             
-                           for(i = 0; i < horariosEnEnteros.length; i++){
+                        for(i = 0; i < horariosEnEnteros.length; i++){
                 
                                     let difHoraHorarios = horaEnEnteros - horariosEnEnteros[i];
-                                  listaDiferencias.push(difHoraHorarios); 
-              }
+                                listaDiferencias.push(difHoraHorarios); 
+            }
 
-              
-                           for(i=0; i < listaDiferencias.length; i++){
+            
+                        for(i=0; i < listaDiferencias.length; i++){
 
                             if(listaDiferencias[i] > 0){
                             anteriorPasado = Math.min(anteriorPasado,listaDiferencias[i]);
                             }
                         }
                     
-                             
+                            
                                 
                 //  Aqui definimos los mensajes a mostrar en el primer campo       
                 if(anteriorPasado < 3000){
@@ -3250,7 +3259,7 @@ for(i=0; i < selector.length;i++){
                         if(anteriorPasado < 60 && anteriorPasado>5){
                             actual2.textContent = `Iniciaron sus recorridos hace ${Math.floor(anteriorPasado)} minutos`
                         }
-                         if(anteriorPasado < 5){
+                        if(anteriorPasado < 5){
                             actual2.textContent = 'Iniciaron sus recorridos hace menos de 5 minutos'
                         }
                         actual4.textContent = `2° Recorrido : ${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido2}`
@@ -3271,13 +3280,15 @@ for(i=0; i < selector.length;i++){
                 if(anteriorPasado < 60 && anteriorPasado>5){
                     actual2.textContent = `Inició su recorrido hace ${Math.floor(anteriorPasado)} minutos`
                 }
-                 if(anteriorPasado < 5){
+                if(anteriorPasado < 5){
                     actual2.textContent = 'Inició su recorrido hace menos de 5 minutos'
                 }
                 actual3.textContent = `Recorrido : ${diaRango[listaDiferencias.indexOf(anteriorPasado)].recorrido}`
-                    }
+            }
                 }
-                     
+
+                
+                    
                         
 
                     else{
@@ -3288,13 +3299,13 @@ for(i=0; i < selector.length;i++){
                     
                 
                         //   Aqui en el segundo campo  
-                       
+                    
 
-                       for(i = 0; i < horariosEnEnteros.length; i++){
+                    for(i = 0; i < horariosEnEnteros.length; i++){
                 
                         let difHorariosHora = horariosEnEnteros[i] - horaEnEnteros;;
-                         listaDiferencias2.push(difHorariosHora); 
-               }
+                        listaDiferencias2.push(difHorariosHora); 
+            }
             
                         for(i=0; i < listaDiferencias2.length; i++){
                             if(listaDiferencias2[i] >0){
@@ -3320,7 +3331,7 @@ for(i=0; i < selector.length;i++){
                                     futuro2.textContent = `Iniciarán sus recorridos en ${Math.floor(elMasCercano)} minutos`
                                 }
                                     if(elMasCercano < 5){
-                                       futuro2.textContent = 'Iniciarán sus recorridos en menos de 5 minutos'
+                                    futuro2.textContent = 'Iniciarán sus recorridos en menos de 5 minutos'
                                     }
                                     if(elMasCercano == 0){
                                         futuro2.textContent = 'Están iniciando sus recorridos'
@@ -3330,8 +3341,8 @@ for(i=0; i < selector.length;i++){
                             }
     
                                 else{
-                                    futuro1.textContent = ` Próximo bondi a las ${diaRango[listaDiferencias2.indexOf(elMasCercano)].nombre}`;  
-                              
+                                        futuro1.textContent = `Próximo bondi a las ${diaRango[listaDiferencias2.indexOf(elMasCercano)].nombre}`;  
+                            
                                         if(elMasCercano >= 120){
                                             futuro2.textContent = 'Inicia su recorrido en un par horas'
                                         }   
@@ -3345,13 +3356,14 @@ for(i=0; i < selector.length;i++){
                                             futuro2.textContent = `Inicia su recorrido en ${Math.floor(elMasCercano)} minutos`
                                         }
                                             if(elMasCercano < 5){
-                                               futuro2.textContent = 'Iniciará su recorrido en menos de 5 minutos'
+                                            futuro2.textContent = 'Iniciará su recorrido en menos de 5 minutos'
                                             }
                                             if(elMasCercano == 0){
                                                 futuro2.textContent = 'Está iniciando su recorrido'
                                             }
                                             futuro3.textContent = `Recorrido : ${diaRango[listaDiferencias2.indexOf(elMasCercano)].recorrido}`
                                 }
+                                
                                 
                         }
                         else{
@@ -3363,7 +3375,7 @@ for(i=0; i < selector.length;i++){
     $('.resultados').css('display','flex')
     $('.resultados2').css('display','flex')     
     $('.mensaje2').css('display', 'flex')   
-   mensaje2.addEventListener('click', function(){
+    mensaje2.addEventListener('click', function(){
     $('.mensaje2').css('display', 'none') 
     $('.resultados').css('display','none')
     $('.resultados2').css('display','none')   
@@ -3371,17 +3383,19 @@ for(i=0; i < selector.length;i++){
     opcionbase2.selected = true;
 
 })
-// let salidaHEnteros = Math.trunc(diaRango[listaDiferencias.indexOf(anteriorPasado)].salida)  * 60;
-// let salidaMEnteros = ((diaRango[listaDiferencias.indexOf(anteriorPasado)].salida) - (Math.trunc(diaRango[listaDiferencias.indexOf(anteriorPasado)].salida)))  * 100;
-// let llegadaHEnteros = Math.trunc(diaRango[listaDiferencias.indexOf(anteriorPasado)].llegada)  * 60;
-// let llegadaMEnteros = ((diaRango[listaDiferencias.indexOf(anteriorPasado)].llegada) - (Math.trunc(diaRango[listaDiferencias.indexOf(anteriorPasado)].llegada)))  * 100;
-// let salidaEnEnteros = salidaHEnteros + salidaMEnteros;
-// let llegadaEnEnteros = llegadaHEnteros + llegadaMEnteros;
-// let difSalidaLlegada = llegadaEnEnteros - salidaEnEnteros;
-// let avance = (Math.floor(anteriorPasado) / difSalidaLlegada) * 100;
-// console.log(salidaEnEnteros,llegadaEnEnteros)
-//     const progreso = document.getElementById('progreso')
-//     progreso.style.width = `${avance}%`;
+let salidaHEnteros = Math.trunc(diaRango[listaDiferencias.indexOf(anteriorPasado)].salida)  * 60;
+let salidaMEnteros = ((diaRango[listaDiferencias.indexOf(anteriorPasado)].salida) - (Math.trunc(diaRango[listaDiferencias.indexOf(anteriorPasado)].salida)))  * 100;
+let llegadaHEnteros = Math.trunc(diaRango[listaDiferencias.indexOf(anteriorPasado)].llegada)  * 60;
+let llegadaMEnteros = ((diaRango[listaDiferencias.indexOf(anteriorPasado)].llegada) - (Math.trunc(diaRango[listaDiferencias.indexOf(anteriorPasado)].llegada)))  * 100;
+let salidaEnEnteros = salidaHEnteros + salidaMEnteros;
+let llegadaEnEnteros = llegadaHEnteros + llegadaMEnteros;
+let difSalidaLlegada = llegadaEnEnteros - salidaEnEnteros;
+let avance = (Math.floor(anteriorPasado) / difSalidaLlegada) * 100;
+let texto = document.getElementById('texto')
+console.log(salidaEnEnteros,llegadaEnEnteros)
+const progreso = document.getElementById('progreso')
+progreso.style.width = `${avance}%`;
+texto.textContent = `${Math.trunc(avance)}%`
 
     
     
@@ -3391,8 +3405,6 @@ mensaje2.addEventListener('click', function(){
     opcionbase.selected = true;
     opcionbase2.selected = true;
 })
-
-
 
 
 function busquedaManual(){
@@ -3542,7 +3554,7 @@ function busquedaManual(){
             "salida":21.15,
             "recorrido":"Colonia 4 → Barrio La Cancha → Talar → Alderetes → Autopista"
         }
-       
+    
     ]
     const horariosSFloAl = [
         {
@@ -4519,32 +4531,38 @@ function busquedaManual(){
             {
                 "nombre":"21:00",
                 "salida":21,
-                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila del Medio → Bosque → Posse → Paraiso → Barrio La Cancha"
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Fila del Medio → Bosque → Posse → Paraiso → Barrio La Cancha",
+                "llegada":22
             },
             {
                 "nombre":"21:30",
                 "salida":21.3,
-                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha",
+                "llegada":22.3
             },
             {
                 "nombre":"22:00",
                 "salida":22.3,
-                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha",
+                "llegada":23.3
             },
             {
                 "nombre":"22:30",
                 "salida":22.3,
-                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha",
+                "llegada":23.3
             },
             {
                 "nombre":"23:30",
                 "salida":23.3,
-                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha → Fortin → Colonia 4"
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha → Fortin → Colonia 4",
+                "llegada":24.3
             },
             {
                 "nombre":"00:30",
                 "salida":24.3,
-                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha",
+                "llegada":25.3
             }
     ]
     const horariosSSMPo = [
@@ -6429,7 +6447,7 @@ function busquedaManual(){
     let horaInputAMinutos
     const mensaje2 = document.querySelector('.mensaje2');
     let mensajeError = document.getElementById('mensajeError')
-  
+
     botonManual.addEventListener('click', function(){
         $('.botonesBusquedaCont2').css('display','flex');
         $('.botonesBusquedaCont').css('display','none');
@@ -6492,13 +6510,13 @@ function busquedaManual(){
 
     for(opcion of selector3){
         if(opcion.selected){
-               valorSelecionado3 = opcion
+            valorSelecionado3 = opcion
             }
     }
     for(i=0; i < selector3.length;i++){
-     valores3.push(selector3[i])
+    valores3.push(selector3[i])
     }
-  
+
     for(i=0; i< valores3.length;i++){
         posicion3=valores3.indexOf(valorSelecionado3)
     }
@@ -6510,13 +6528,13 @@ function busquedaManual(){
     }    
     for(opcion of selector4){
         if(opcion.selected){
-               valorSelecionado4 = opcion;
-            }
+    valorSelecionado4 = opcion;
+    }
     }
     for(i=0; i < selector4.length;i++){
-     valores4.push(selector4[i])
+    valores4.push(selector4[i])
     }
-  
+
     for(i=0; i< valores4.length;i++){
         posicion4=valores4.indexOf(valorSelecionado4)
     }
@@ -6527,13 +6545,13 @@ function busquedaManual(){
     }    
     for(opcion of selector5){
         if(opcion.selected){
-               valorSelecionado5 = opcion;
+            valorSelecionado5 = opcion;
             }
     }
     for(i=0; i < selector5.length;i++){
-     valores5.push(selector5[i])
+    valores5.push(selector5[i])
     }
-  
+
     for(i=0; i< valores5.length;i++){
         posicion5=valores5.indexOf(valorSelecionado5)
     }
@@ -6547,7 +6565,7 @@ function busquedaManual(){
             ruta2 = todosTucumanDestino[posicion4-1]
         }
         
-      
+    
         //    Aqui definimos el array dependiendo el dia de la semana
         
         if((posicion5 - 1) == 0){
@@ -6559,37 +6577,35 @@ function busquedaManual(){
         if((posicion5 - 1) == 2){
             diaRango2 = ruta2[0].slice(0,ruta2[0].length);
         }
-       
+    
 
         // / Aqui extraemos del array de arriba los salidaes de cada horario y lo agregamos a la lista del dia
 
         
-           
-                          for (i=0; i < diaRango2.length; i++){
-                        listaDelDia2.push(diaRango2[i].salida);
+    
+            for (i=0; i < diaRango2.length; i++){
+            listaDelDia2.push(diaRango2[i].salida);
             }
-           
- 
-                // Aqui usamos la lista con los salidaes y las pasamos a numero enteros junto con los minutos
-       
-                          for(let i=0 ; i < listaDelDia2.length ; i++){
-              
-                      let horasEnEnteros=  (Math.trunc(listaDelDia2[i]))  * 60;
-                      let minutosEnEnteros = (listaDelDia2[i] - (Math.trunc(listaDelDia2[i])))*100;
-                      let horaMinutosEnEnteros = horasEnEnteros + minutosEnEnteros;
-                       horariosEnEnteros2.push(horaMinutosEnEnteros);
-              }
 
-              
-         if(ingHora.value == '' || ingHora.value > 23){
+                // Aqui usamos la lista con los salidaes y las pasamos a numero enteros junto con los minutos
+    
+            for(let i=0 ; i < listaDelDia2.length ; i++){
+            
+            let horasEnEnteros=  (Math.trunc(listaDelDia2[i]))  * 60;
+            let minutosEnEnteros = (listaDelDia2[i] - (Math.trunc(listaDelDia2[i])))*100;
+            let horaMinutosEnEnteros = horasEnEnteros + minutosEnEnteros;
+            horariosEnEnteros2.push(horaMinutosEnEnteros);
+            }
+
+            if(ingHora.value == '' || ingHora.value > 23){
             mensajeError.textContent = 'Ingresa un número entre 0 y 23'
             $('#mensajeError').css('display', 'flex')
             setTimeout(()=>{
                 mensajeError.remove(),ingHora.value = '';
             },2000)
             
-        }
-        else{
+            }
+            else{
             horaInputAMinutos = (ingHora.value) * 60
             
             for(let i = 0; i < horariosEnEnteros2.length; i++){

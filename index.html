@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Empresa Florida</title>
 </head>
+
 <body class="container">
     <div class="bb">
         <p id="aa">Sitio en construcción</p>
@@ -32,7 +33,10 @@
                 <p id="horas"></p>
                 <p id="minutos"></p>
             </div>
-        </header>      
+        </header>    
+        <div class="titulo">
+            <p id="texto"></p>
+        </div>  
         <div class="botonesBusquedaCont">
                 <button id="busquedaManual">Cambiar a búsqueda manual</button>
         </div>
@@ -40,10 +44,10 @@
             <button id="busquedaAuto">Cambiar a búsqueda automática</button>
         </div>
         <main class="contenedor">
-         <!-- <div class="titulo">
+        <!-- <div class="titulo">
             <h1 id="titulo">Consultá todos nuestros servicios aquí</h1>
-         </div> -->
-         <div class="busquedaAuto">
+        </div> -->
+        <div class="busquedaAuto">
             <div class="topside">
                 <div class="origen">
                     <h3 id="origen">Desde Terminal</h3>
@@ -63,7 +67,6 @@
                         </select>
                     </form>
             </div>
-       
         
         <div class="intermedio">
             <div class="botonDeCambio">
@@ -90,7 +93,7 @@
                 </select>
             </form>
         </div>
-         </div>
+        </div>
         <div class="busquedaManual">
             <div class="topside2">
                 <div class="botonesManual">
@@ -137,6 +140,7 @@
                 <span class="mensajeError-cont">
                     <p id="mensajeError"></p>
                 </span>
+            </div>    
         </div>
             <div class="boton-cont">
                 <button id='boton'>Mostrar horarios</button>  
@@ -144,7 +148,11 @@
             <div class="boton-cont2">
                 <button id='boton2'>Mostrar horarios</button> 
             </div>
-        </div>
+            <div class="barra-cont">
+                <div class="barra">
+                    <div id="progreso"></div>
+                </div>
+            </div>
         <!-- <div class="barra-cont">
             <div class="barra">
                 <div id="progreso"></div>
@@ -154,7 +162,7 @@
             <div class="resultados-cont">
                 <div id="tituloResultado"></div>
             <div class="resultados">
-               <p id="fondo"></p>
+            <p id="fondo"></p>
                 <p id="actual1"></p>
                 <p id="actual2"></p>
                 <p id="actual3"></p>
@@ -182,9 +190,9 @@
             <span id="engranaje2"></span>
         </div>
     </div>
-    </main>
 
-    </body>
+
+</body>
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script src="main.js"></script>
 </html>

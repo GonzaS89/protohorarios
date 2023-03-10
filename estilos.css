@@ -253,6 +253,13 @@ body{
     color: var(--blanco);
     text-shadow: 1px 0px black;
 }
+
+#texto{
+    color:var(--blanco);
+    text-align: center;
+    padding: 10px;
+    font-size:25px
+}
 .botonDeCambio{
     display: flex;
 }
@@ -261,8 +268,8 @@ body{
 }
 .intermedio{
     display:flex;
-   justify-content: center;
-   
+    justify-content: center;
+
 }
 #botonDeCambio,#botonDeCambio2{
     border-radius: 25%;
@@ -291,7 +298,6 @@ body{
     display: flex;
     justify-content: center;
 }
-
 .topside{
     display: flex;
     width:250px;
@@ -353,7 +359,7 @@ body{
 }
 
 ::placeholder{
-   font-size: 15px;
+font-size: 15px;
 }
 .botonesBusquedaCont{
     display: flex;
@@ -369,16 +375,16 @@ body{
 }
 
 #busquedaManual, #busquedaAuto{
-   background-color: var(--azul);
-   color: var(--blanco);
-   height: 50px;
-   width: 300px;
-   padding: 10px;
-   border-radius: 10px;
-   font-size: 15px;
-   font-weight: bold;
-   font-family: var(--fuenteSec);
-   text-align-last: center;
+background-color: var(--azul);
+color: var(--blanco);
+height: 50px;
+width: 300px;
+padding: 10px;
+border-radius: 10px;
+font-size: 15px;
+font-weight: bold;
+font-family: var(--fuenteSec);
+text-align-last: center;
 }
 
 .busquedaAuto{
@@ -587,13 +593,13 @@ filter: opacity(20%)
 }
 
 .resultados-cont{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height:200px;
-    width:100%;  
-    margin: 0px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height:200px;
+width:100%;  
+margin: 0px;
 }
 
 .resultados,.resultados2{
@@ -781,15 +787,19 @@ min-height: 180px;
 .barra-cont{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .barra{
-    height: 50px;
+    height: 25px;
     width: 200px;
     border: 1px solid var(--blanco);
     background-color: var(--blanco);
+    overflow: hidden;
+
 }
 #progreso{
+    background-color: rgb(46, 161, 46);
     height: 100%;
-    background-color: rgb(32, 210, 32);
+    width: 0%;
 }
 
