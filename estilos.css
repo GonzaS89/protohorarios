@@ -407,6 +407,19 @@ background-color: aliceblue;
     color: whitesmoke;
     text-align: center;
 }
+.anuncio-cont{
+    display: flex;
+    justify-content: center;
+}
+#anuncio{
+    background-color: rgba(0, 0, 0, 0.431);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+}
 @media(max-width:600px){
     .select{
         height:50px
