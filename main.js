@@ -1265,7 +1265,8 @@ const horariosSFloPo = [
             {
                 "nombre":"11:00",
                 "salida":11,
-                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Canchal",
+                "llegada":11.55
             },
             {
                 "nombre":"11:45",
