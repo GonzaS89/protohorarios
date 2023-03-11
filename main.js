@@ -3236,7 +3236,7 @@ for(i=0; i < selector.length;i++){
 
                     if(Object.keys(diaRango[listaDiferencias.indexOf(anteriorPasado)]).length > 4){
 
-                        actual1.textContent = `Bondis de las ${diaRango[listaDiferencias.indexOf(anteriorPasado)].nombre}`
+                        actual1.textContent = `Servicios de las ${diaRango[listaDiferencias.indexOf(anteriorPasado)].nombre}`
 
                         if(anteriorPasado >= 120){
                             actual2.textContent = 'Iniciaron sus recorridos hace un par horas'
@@ -3258,7 +3258,7 @@ for(i=0; i < selector.length;i++){
                     }
                     else{
 
-                        actual1.textContent = `Bondi de las ${diaRango[listaDiferencias.indexOf(anteriorPasado)].nombre}`
+                        actual1.textContent = `Servicio de las ${diaRango[listaDiferencias.indexOf(anteriorPasado)].nombre}`
                 if(anteriorPasado >= 120){
                     actual2.textContent = 'Inició su recorrido hace un par horas'
                 }
@@ -3282,7 +3282,7 @@ for(i=0; i < selector.length;i++){
 
                     else{
                         actual1.textContent = '';
-                        actual2.textContent = 'No pasó ningun bondi aún'
+                        actual2.textContent = 'No pasó ningun Servicio aún'
                         actual3.textContent =''
                     }
                     
@@ -3305,7 +3305,7 @@ for(i=0; i < selector.length;i++){
 
                             if(Object.keys(diaRango[listaDiferencias2.indexOf(elMasCercano)]).length > 4){
 
-                                futuro1.textContent = ` Próximos bondis a las ${diaRango[listaDiferencias2.indexOf(elMasCercano)].nombre}`;  
+                                futuro1.textContent = ` Próximos Servicios a las ${diaRango[listaDiferencias2.indexOf(elMasCercano)].nombre}`;  
     
                                 if(elMasCercano >= 120){
                                     futuro2.textContent = 'Iniciarán sus recorridos en un par horas'
@@ -3330,7 +3330,7 @@ for(i=0; i < selector.length;i++){
                             }
     
                                 else{
-                                    futuro1.textContent = ` Próximo bondi a las ${diaRango[listaDiferencias2.indexOf(elMasCercano)].nombre}`;  
+                                    futuro1.textContent = ` Próximo Servicio a las ${diaRango[listaDiferencias2.indexOf(elMasCercano)].nombre}`;  
                               
                                         if(elMasCercano >= 120){
                                             futuro2.textContent = 'Inicia su recorrido en un par horas'
@@ -6602,12 +6602,12 @@ function busquedaManual(){
 
         if(proximo < 3000){
             
-            mostrar1.textContent = `El bondi más cercano al horario que indicaste, es él de las ${diaRango2[listaDiferencias3.indexOf(proximo)].nombre}Hrs`;
+            mostrar1.textContent = `El Servicio más cercano al horario que indicaste, es él de las ${diaRango2[listaDiferencias3.indexOf(proximo)].nombre}Hrs`;
             mostrar2.textContent = `Recorrido: ${diaRango2[listaDiferencias3.indexOf(proximo)].recorrido}`
     }
         else{
             console.log(proximo)
-            mostrar1.textContent = 'No hay más bondis en el horario ni en lo que resta del día';
+            mostrar1.textContent = 'No hay más servicios en el horario indicado, ni en lo que resta del día';
         }
         }
         $('.resultados3').css('display','flex')     
