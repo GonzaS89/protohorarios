@@ -643,7 +643,7 @@ min-height: 180px;
     padding: 0 10px;
     margin: 5px;
 }
-#actual1,#actual2,#actual3,#actual4{
+#actual1,#actual2,#actual3,#actual4,#actual5{
     font-size:22px;
     font-family: var(--fuenteSec);
     text-align: center;
@@ -728,7 +728,7 @@ min-height: 180px;
     .bb{
         display: none;
     }
-   
+
     #mensaje{
         width:75%;
         
@@ -753,7 +753,7 @@ min-height: 180px;
         border: .5px solid white;
     }
     
-    #actual1,#actual2,#actual3,#actual4,#futuro1,#futuro2,#futuro3,#futuro4{
+    #actual1,#actual2,#actual3,#actual4,#actual5,#futuro1,#futuro2,#futuro3,#futuro4{
         font-size: 16px; padding: 0 10px;
     }
     #actual1,#actual3,#futuro1,#futuro3{
@@ -763,6 +763,9 @@ min-height: 180px;
         margin: 10px 10px;
     }
     #actual2,#futuro2{
+        margin: 10px 5px;
+    }
+    #actual5{
         margin: 10px 5px;
     }
     .mensaje2{
@@ -784,7 +787,7 @@ min-height: 180px;
     }
     
 }
-.barra-cont{
+/* .barra-cont{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -801,5 +804,5 @@ min-height: 180px;
     background-color: rgb(46, 161, 46);
     height: 100%;
     width: 0%;
-}
+} */
 

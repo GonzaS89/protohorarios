@@ -1358,13 +1358,79 @@ const horariosSFloPo = [
             {
                 "nombre":"22:30",
                 "salida":22.3,
-                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+                "recorrido":[
+                    {
+                        "parada":"Terminal",
+                        "horaDeLlegada":22.3
+                    },
+                    {
+                        "parada":"Banda del Rio Sali",
+                        "horaDeLlegada":22.4
+                    },
+                    {
+                        "parada":"Cevil Pozo",
+                        "horaDeLlegada":22.5
+                    },
+                    {
+                        "parada":"Esquina Llona",
+                        "horaDeLlegada":22.55
+                    },
+                    {
+                        "parada":"Posse",
+                        "horaDeLlegada":23
+                    },
+                    {
+                        "parada":"Paraiso",
+                        "horaDeLlegada":23.05
+                    },
+                    {
+                        "parada":" Florida",
+                        "horaDeLlegada":23.10
+                    },
+                    {
+                        "parada":"Barrio La Cancha",
+                        "horaDeLlegada":23.20
+                    }
+                ]
             },
             {
                 "nombre":"23:30",
                 "salida":23.3,
-                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
-            },
+                "recorrido":[
+                    {
+                        "parada":"Terminal",
+                        "horaDeLlegada":23.3
+                    },
+                    {
+                        "parada":"Banda del Rio Sali",
+                        "horaDeLlegada":23.4
+                    },
+                    {
+                        "parada":"Cevil Pozo",
+                        "horaDeLlegada":23.5
+                    },
+                    {
+                        "parada":"Esquina Llona",
+                        "horaDeLlegada":23.55
+                    },
+                    {
+                        "parada":"Posse",
+                        "horaDeLlegada":24
+                    },
+                    {
+                        "parada":"Paraiso",
+                        "horaDeLlegada":24.05
+                    },
+                    {
+                        "parada":" Florida",
+                        "horaDeLlegada":24.10
+                    },
+                    {
+                        "parada":"Barrio La Cancha",
+                        "horaDeLlegada":24.20
+                    }
+                ]
+            }
     ]
     const horariosDSMPo = [
             {
@@ -3059,7 +3125,7 @@ const horariosSFloPo = [
     const floridaAldTucuman = [horariosDFloAl,horariosLvFloAl,horariosSFloAl];
     const terminalAldFlorida = [horariosDSMAl,horariosSSMAl, horariosLvSMAl];
     const floridaPosseTucuman = [horariosDFloPo,horariosLvFloPo,horariosSFloPo];
-    const terminalPosseFlorida = [horariosDSMPo, horariosSSMPo, horariosLvSMPo];
+    const terminalPosseFlorida = [horariosDSMPo, horariosLvSMPo,horariosSSMPo];
     const posseLTerminal = [posseTerminalD,posseTerminalLaV,posseTerminalS];
     const terminalPosseL = [terminalPosseD,terminalPosseLaV,terminalPosseS];
     const ralosTerminal = [ ralosTerminalD,ralosTerminalLaV,ralosTerminalS]; 
@@ -3384,19 +3450,19 @@ for(i=0; i < selector.length;i++){
     opcionbase2.selected = true;
 
 })
-let salidaHEnteros = Math.trunc(diaRango[listaDiferencias.indexOf(anteriorPasado)].salida)  * 60;
-let salidaMEnteros = ((diaRango[listaDiferencias.indexOf(anteriorPasado)].salida) - (Math.trunc(diaRango[listaDiferencias.indexOf(anteriorPasado)].salida)))  * 100;
-let llegadaHEnteros = Math.trunc(diaRango[listaDiferencias.indexOf(anteriorPasado)].llegada)  * 60;
-let llegadaMEnteros = ((diaRango[listaDiferencias.indexOf(anteriorPasado)].llegada) - (Math.trunc(diaRango[listaDiferencias.indexOf(anteriorPasado)].llegada)))  * 100;
-let salidaEnEnteros = salidaHEnteros + salidaMEnteros;
-let llegadaEnEnteros = llegadaHEnteros + llegadaMEnteros;
-let difSalidaLlegada = llegadaEnEnteros - salidaEnEnteros;
-let avance = (Math.floor(anteriorPasado) / difSalidaLlegada) * 100;
-let texto = document.getElementById('texto')
-console.log(salidaEnEnteros,llegadaEnEnteros)
-const progreso = document.getElementById('progreso')
-progreso.style.width = `${avance}%`;
-texto.textContent = `${Math.trunc(avance)}%`
+// let salidaHEnteros = Math.trunc(diaRango[listaDiferencias.indexOf(anteriorPasado)].salida)  * 60;
+// let salidaMEnteros = ((diaRango[listaDiferencias.indexOf(anteriorPasado)].salida) - (Math.trunc(diaRango[listaDiferencias.indexOf(anteriorPasado)].salida)))  * 100;
+// let llegadaHEnteros = Math.trunc(diaRango[listaDiferencias.indexOf(anteriorPasado)].llegada)  * 60;
+// let llegadaMEnteros = ((diaRango[listaDiferencias.indexOf(anteriorPasado)].llegada) - (Math.trunc(diaRango[listaDiferencias.indexOf(anteriorPasado)].llegada)))  * 100;
+// let salidaEnEnteros = salidaHEnteros + salidaMEnteros;
+// let llegadaEnEnteros = llegadaHEnteros + llegadaMEnteros;
+// let difSalidaLlegada = llegadaEnEnteros - salidaEnEnteros;
+// let avance = (Math.floor(anteriorPasado) / difSalidaLlegada) * 100;
+// let texto = document.getElementById('texto')
+// console.log(salidaEnEnteros,llegadaEnEnteros)
+// const progreso = document.getElementById('progreso')
+// progreso.style.width = `${avance}%`;
+// texto.textContent = `${Math.trunc(avance)}%`
 
     
     
