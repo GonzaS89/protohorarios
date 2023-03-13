@@ -6391,7 +6391,7 @@ function busquedaManual(){
     const floridaAldTucuman = [horariosDFloAl,horariosLvFloAl,horariosSFloAl];
     const terminalAldFlorida = [horariosDSMAl,horariosSSMAl, horariosLvSMAl];
     const floridaPosseTucuman = [horariosDFloPo,horariosLvFloPo,horariosSFloPo];
-    const terminalPosseFlorida = [horariosDSMPo, horariosSSMPo, horariosLvSMPo];
+    const terminalPosseFlorida = [horariosDSMPo,horariosLvSMPo,horariosSSMPo];
     const posseLTerminal = [posseTerminalD,posseTerminalLaV,posseTerminalS];
     const terminalPosseL = [terminalPosseD,terminalPosseLaV,terminalPosseS];
     const ralosTerminal = [ ralosTerminalD,ralosTerminalLaV,ralosTerminalS]; 
