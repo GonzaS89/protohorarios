@@ -1196,7 +1196,7 @@ const boton = document.getElementById('boton');
             },
             {
                 "nombre":"22:00",
-                "salida":22.3,
+                "salida":22,
                 "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
             },
             {
