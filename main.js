@@ -1157,17 +1157,116 @@ const horariosLvSMPo = [
             {
                 "nombre":"07:30",
                 "salida":7.3,
-                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+                "recorrido":[
+                    {
+                        "parada":"Terminal",
+                        "horaDeLlegada":7.3
+                    },
+                    {
+                        "parada":"Banda del Rio Sali",
+                        "horaDeLlegada":7.4
+                    },
+                    {
+                        "parada":"Cevil Pozo",
+                        "horaDeLlegada":7.5
+                    },
+                    {
+                        "parada":"Esquina Llona",
+                        "horaDeLlegada":7.55
+                    },
+                    {
+                        "parada":"Posse",
+                        "horaDeLlegada":8
+                    },
+                    {
+                        "parada":"Paraiso",
+                        "horaDeLlegada":8.05
+                    }, 
+                    {
+                        "parada":"Florida",
+                        "horaDeLlegada":8.1
+                    },
+                    {
+                        "parada":"Barrio La Cancha",
+                        "horaDeLlegada":8.15
+                    },
+                ]
             },
             {
                 "nombre":"08:15",
                 "salida":8.15,
-                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Esquina Lastra"
+                "recorrido":[
+                    {
+                        "parada":"Terminal",
+                        "horaDeLlegada":8.15
+                    },
+                    {
+                        "parada":"Banda del Rio Sali",
+                        "horaDeLlegada":8.25
+                    },
+                    {
+                        "parada":"Cevil Pozo",
+                        "horaDeLlegada":8.35
+                    },
+                    {
+                        "parada":"Esquina Llona",
+                        "horaDeLlegada":8.4
+                    },
+                    {
+                        "parada":"Posse",
+                        "horaDeLlegada":8.45
+                    },
+                    {
+                        "parada":"Paraiso",
+                        "horaDeLlegada":8.5
+                    }, 
+                    {
+                        "parada":"Florida",
+                        "horaDeLlegada":8.55
+                    },
+                    {
+                        "parada":"Esquina Lastra",
+                        "horaDeLlegada":9.05
+                    },
+                ]
             },
             {
                 "nombre":"09:00",
                 "salida":9,
-                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+                "recorrido":[
+                    {
+                        "parada":"Terminal",
+                        "horaDeLlegada":9
+                    },
+                    {
+                        "parada":"Banda del Rio Sali",
+                        "horaDeLlegada":9.1
+                    },
+                    {
+                        "parada":"Cevil Pozo",
+                        "horaDeLlegada":9.2
+                    },
+                    {
+                        "parada":"Esquina Llona",
+                        "horaDeLlegada":9.25
+                    },
+                    {
+                        "parada":"Posse",
+                        "horaDeLlegada":9.3
+                    },
+                    {
+                        "parada":"Paraiso",
+                        "horaDeLlegada":9.35
+                    }, 
+                    {
+                        "parada":"Florida",
+                        "horaDeLlegada":9.4
+                    },
+                    {
+                        "parada":"Barrio La Cancha",
+                        "horaDeLlegada":9.45
+                    },
+                ]
             },
             {
                 "nombre":"09:30",
@@ -1197,12 +1296,82 @@ const horariosLvSMPo = [
             {
                 "nombre":"11:45",
                 "salida":11.45,
-                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Barrio La Cancha"
+                "recorrido":[
+                    {
+                        "parada":"Terminal",
+                        "horaDeLlegada":11.45
+                    },
+                    {
+                        "parada":"Banda del Rio Sali",
+                        "horaDeLlegada":11.55
+                    },
+                    {
+                        "parada":"Cevil Pozo",
+                        "horaDeLlegada":12.05
+                    },
+                    {
+                        "parada":"Esquina Llona",
+                        "horaDeLlegada":12.1
+                    },
+                    {
+                        "parada":"Posse",
+                        "horaDeLlegada":12.15
+                    },
+                    {
+                        "parada":"Paraiso",
+                        "horaDeLlegada":12.2
+                    }, 
+                    {
+                        "parada":"Florida",
+                        "horaDeLlegada":12.25
+                    },
+                    {
+                        "parada":"Barrio La Cancha",
+                        "horaDeLlegada":12.3
+                    },
+                ]
             },
             {
                 "nombre":"12:25",
                 "salida":12.25,
-                "recorrido":"Terminal → Banda del Río Salí → Cevil Pozo → Esquina Llona → Posse → Paraiso → Fortin"
+                "recorrido":[
+                    {
+                        "parada":"Terminal",
+                        "horaDeLlegada":12.25
+                    },
+                    {
+                        "parada":"Banda del Rio Sali",
+                        "horaDeLlegada":12.35
+                    },
+                    {
+                        "parada":"Cevil Pozo",
+                        "horaDeLlegada":12.45
+                    },
+                    {
+                        "parada":"Esquina Llona",
+                        "horaDeLlegada":12.5
+                    },
+                    {
+                        "parada":"Posse",
+                        "horaDeLlegada":12.55
+                    },
+                    {
+                        "parada":"Paraiso",
+                        "horaDeLlegada":13
+                    }, 
+                    {
+                        "parada":"Florida",
+                        "horaDeLlegada":13.05
+                    },
+                    {
+                        "parada":"Esquina Lastra",
+                        "horaDeLlegada":13.15
+                    },
+                    {
+                        "parada":"Fortin",
+                        "horaDeLlegada":13.2
+                    }
+                ]
             },
             {
                 "nombre":"12:30",
