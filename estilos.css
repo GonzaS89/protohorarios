@@ -717,14 +717,20 @@ min-height: 180px;
     justify-content:center;
     align-items: center;
     height: 50px;
-    width:95%;
+    width:100%;
     z-index: 5;
+    background-image: url(imagenes/ruta.jpg);
+    background-size: cover;
+    background-position: center bottom;
     margin: 10px;
     gap: 5px;
+    margin-top: 20px;
 }
+
+
 #img-bondi{
-    width:250px;
-    height:40px;
+    width:300px;
+    height:45px;
     background-size:contain;
     background-repeat: no-repeat;
     background-image: url(imagenes/bus.webp);
@@ -732,8 +738,10 @@ min-height: 180px;
     filter: opacity(75%),saturate(25%);
     background-color: transparent;
     border-radius: 1px;
-    flex-basis: 40%;
     animation: mover .5s linear infinite;
+    position: relative;
+    top: -15px;
+    flex-basis: 75%;
 }
 @keyframes mover{
     0%,100%{
@@ -803,7 +811,7 @@ min-height: 180px;
     }
     #actual5,#actual6{
         margin: 10px 5px;
-        flex-basis: 30%;
+        flex-basis: 12.5%;
     }
     .mensaje2{
         display: none;
