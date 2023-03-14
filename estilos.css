@@ -743,7 +743,7 @@ min-height: 180px;
     animation: mover .5s linear infinite;
     position: relative;
     top: -15px;
-    flex-basis: 75%;
+    flex-basis: 50%;
 }
 @keyframes mover{
     0%,100%{
@@ -757,12 +757,29 @@ min-height: 180px;
     display: flex;
     flex-basis: 25%;
 }
+.ciudadLlegada{
+    display: flex;
+    flex-basis: 25%;
+}
 #señal{
-    width: 100px;
-    height: 200px;
+    width: 75px;
+    height: 75px;
     background-image: url(Imagenes/señalciudad.png);
-    background-size:contain;
+    background-size:cover;
     background-position: center;
+    z-index: 5;
+    transform: scaleX(-1);
+    position: absolute;
+}
+#señal2{
+    width: 75px;
+    height: 60px;
+    background-image: url(Imagenes/señalciudad.png);
+    background-size: cover;
+    background-position: center;
+    z-index: 5;
+    transform: scaleX(-1);
+    position: absolute;
 }
 
 
