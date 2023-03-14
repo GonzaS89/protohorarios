@@ -1036,7 +1036,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":6
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":6.1
                     },
                     {
@@ -1078,7 +1078,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":6.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":6.4
                     },
                     {
@@ -1116,7 +1116,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":6
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":6.1
                     },
                     {
@@ -1158,7 +1158,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":7.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":7.4
                     },
                     {
@@ -1196,7 +1196,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":8.15
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":8.25
                     },
                     {
@@ -1234,7 +1234,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":9
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":9.1
                     },
                     {
@@ -1272,7 +1272,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":9.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":9.4
                     },
                     {
@@ -1310,7 +1310,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":10
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":10.1
                     },
                     {
@@ -1348,7 +1348,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":10.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":10.4
                     },
                     {
@@ -1386,7 +1386,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":11
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":11.1
                     },
                     {
@@ -1424,7 +1424,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":11.2
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":11.3
                     },
                     {
@@ -1466,7 +1466,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":11.45
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":11.55
                     },
                     {
@@ -1504,7 +1504,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":12.25
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":12.35
                     },
                     {
@@ -1546,7 +1546,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":12.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":12.4
                     },
                     {
@@ -1584,7 +1584,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":13
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":13.1
                     },
                     {
@@ -1622,7 +1622,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":13.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":13.4
                     },
                     {
@@ -1659,7 +1659,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":14.05
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":14.15
                     },
                     {
@@ -1697,7 +1697,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":14.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":14.4
                     },
                     {
@@ -1735,7 +1735,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":15
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":15.1
                     },
                     {
@@ -1777,7 +1777,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":16
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":16.1
                     },
                     {
@@ -1819,7 +1819,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":17
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":17.1
                     },
                     {
@@ -1857,7 +1857,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":17.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":17.4
                     },
                     {
@@ -1899,7 +1899,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":18
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":18.1
                     },
                     {
@@ -1937,7 +1937,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":18.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":18.4
                     },
                     {
@@ -1979,7 +1979,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":19.1
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":19.2
                     },
                     {
@@ -2021,7 +2021,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":19.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":19.4
                     },
                     {
@@ -2059,7 +2059,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":20
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":20.1
                     },
                     {
@@ -2097,7 +2097,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":20.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":20.4
                     },
                     {
@@ -2135,7 +2135,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":20.45
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":20.55
                     },
                     {
@@ -2173,7 +2173,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":21
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":21.1
                     },
                     {
@@ -2211,7 +2211,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":21.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":21.40
                     },
                     {
@@ -2249,7 +2249,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":22
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":22.1
                     },
                     {
@@ -2287,7 +2287,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":22.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":22.4
                     },
                     {
@@ -2325,7 +2325,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":23.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":23.4
                     },
                     {
@@ -2367,7 +2367,7 @@ const horariosLvSMPo = [
                         "horaDeLlegada":24.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":24.4
                     },
                     {
@@ -2407,7 +2407,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":6
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":6.1
                     },
                     {
@@ -2449,7 +2449,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":6.4
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":6.50
                     },
                     {
@@ -2487,7 +2487,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":7
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":7.1
                     },
                     {
@@ -2529,7 +2529,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":7.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":7.4
                     },
                     {
@@ -2567,7 +2567,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":8.15
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":8.25
                     },
                     {
@@ -2605,7 +2605,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":9
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":9.1
                     },
                     {
@@ -2643,7 +2643,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":9.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":9.4
                     },
                     {
@@ -2681,7 +2681,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":10
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":10.1
                     },
                     {
@@ -2719,7 +2719,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":10.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":10.4
                     },
                     {
@@ -2757,7 +2757,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":11
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":11.1
                     },
                     {
@@ -2795,7 +2795,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":11.45
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":11.55
                     },
                     {
@@ -2833,7 +2833,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":12.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":12.4
                     },
                     {
@@ -2871,7 +2871,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":13
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":13.1
                     },
                     {
@@ -2909,7 +2909,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":13.55
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":14.05
                     },
                     {
@@ -2951,7 +2951,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":14.15
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":14.25
                     },
                     {
@@ -2989,7 +2989,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":15
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":15.1
                     },
                     {
@@ -3031,7 +3031,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":16
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":16.1
                     },
                     {
@@ -3069,7 +3069,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":17
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":17.1
                     },
                     {
@@ -3107,7 +3107,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":17.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":17.4
                     },
                     {
@@ -3149,7 +3149,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":18
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":18.1
                     },
                     {
@@ -3187,7 +3187,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":18.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":18.4
                     },
                     {
@@ -3229,7 +3229,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":19.15
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":19.25
                     },
                     {
@@ -3271,7 +3271,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":19.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":19.4
                     },
                     {
@@ -3309,7 +3309,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":20
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":20.1
                     },
                     {
@@ -3347,7 +3347,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":20.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":20.4
                     },
                     {
@@ -3385,7 +3385,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":21
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":21.1
                     },
                     {
@@ -3423,7 +3423,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":21.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":21.4
                     },
                     {
@@ -3461,7 +3461,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":22.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":22.4
                     },
                     {
@@ -3499,7 +3499,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":23.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":23.4
                     },
                     {
@@ -3577,7 +3577,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":7
                     },
                     {
-                        "parada":"Banda Del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":7.1
                     },
                     {
@@ -3615,7 +3615,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":8
                     },
                     {
-                        "parada":"Banda Del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":8.1
                     },
                     {
@@ -3653,7 +3653,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":9
                     },
                     {
-                        "parada":"Banda Del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":9.1
                     },
                     {
@@ -3691,7 +3691,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":10
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":10.1
                     },
                     {
@@ -3729,7 +3729,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":11
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":11.1
                     },
                     {
@@ -3767,7 +3767,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":12
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":12.1
                     },
                     {
@@ -3805,7 +3805,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":12.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":12.4
                     },
                     {
@@ -3843,7 +3843,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":13
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":13.1
                     },
                     {
@@ -3881,7 +3881,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":14.15       
                     },
                     {
-                        "parada":"Banda Del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":14.25
                     },
                     {
@@ -3919,7 +3919,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":15     
                     },
                     {
-                        "parada":"Banda Del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":15.1
                     },
                     {
@@ -3961,7 +3961,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":16     
                     },
                     {
-                        "parada":"Banda Del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":16.1
                     },
                     {
@@ -3999,7 +3999,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":17     
                     },
                     {
-                        "parada":"Banda Del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":17.1
                     },
                     {
@@ -4037,7 +4037,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":18     
                     },
                     {
-                        "parada":"Banda Del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":18.1
                     },
                     {
@@ -4075,7 +4075,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":18.3    
                     },
                     {
-                        "parada":"Banda Del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":18.4
                     },
                     {
@@ -4117,7 +4117,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":19.1
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":19.2
                     },
                     {
@@ -4155,7 +4155,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":20
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":20.1
                     },
                     {
@@ -4193,7 +4193,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":20.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":20.4
                     },
                     {
@@ -4231,7 +4231,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":21
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":21.1
                     },
                     {
@@ -4269,7 +4269,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":21.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":21.4
                     },
                     {
@@ -4307,7 +4307,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":22.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":22.4
                     },
                     {
@@ -4345,7 +4345,7 @@ const horariosSSMPo = [
                         "horaDeLlegada":23.3
                     },
                     {
-                        "parada":"Banda del Rio Sali",
+                        "parada":"Banda",
                         "horaDeLlegada":23.4
                     },
                     {
@@ -5709,7 +5709,7 @@ const horariosSSMPo = [
         {
             "nombre":"19:30",
             "valor":19.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Cruz Alta → Los Ralos"
+            "recorrido":"Terminal → Banda → Cevil Pozo → Cruz Alta → Los Ralos"
         }
     ]
     const sieteDeAbrilTerminalLaV = [
@@ -9085,7 +9085,7 @@ function busquedaManual(){
         {
             "nombre":"19:30",
             "valor":19.3,
-            "recorrido":"Terminal → Banda del Rio Sali → Cevil Pozo → Cruz Alta → Los Ralos"
+            "recorrido":"Terminal → Banda → Cevil Pozo → Cruz Alta → Los Ralos"
         }
     ]
     const sieteDeAbrilTerminalLaV = [

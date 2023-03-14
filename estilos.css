@@ -597,7 +597,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-height:400px;
+height:600px;
 width:100%;  
 margin: 0px;
 }
@@ -723,18 +723,24 @@ min-height: 180px;
     gap: 5px;
 }
 #img-bondi{
-    width:160px;
+    width:250px;
     height:60px;
     background-size: cover;
-    background-image: url(imagenes/DB35.gif);
+    background-image: url(imagenes/bus.webp);
     background-position: center center;
-    filter: opacity(50%),saturate(25%);
-    transform: scaleX(-1);
+    filter: opacity(75%),saturate(25%);
     background-color: transparent;
-    border-radius: 25%;
-
-    
-    
+    border-radius: 1px;
+    flex-basis: 40%;
+    animation: mover .5s linear infinite;
+}
+@keyframes mover{
+    0%,100%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-2px);
+    }
 }
 
 
@@ -771,11 +777,15 @@ min-height: 180px;
 
     }
     
-    .resultados,.resultados2,.resultados3{
+    .resultados2,.resultados3{
         width: 90%;
-        height: 100%;
         margin: 30px;
         border: .5px solid white;
+    }
+    .resultados{
+        width: 90%;
+        height: 500px;
+        margin: 30px;
     }
     
     #actual1,#actual2,#actual3,#actual4,#actual5,#actual6,#futuro1,#futuro2,#futuro3,#futuro4{
@@ -792,6 +802,7 @@ min-height: 180px;
     }
     #actual5,#actual6{
         margin: 10px 5px;
+        flex-basis: 30%;
     }
     .mensaje2{
         display: none;
