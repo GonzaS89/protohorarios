@@ -742,7 +742,7 @@ min-height: 180px;
     border-radius: 1px;
     animation: mover .5s linear infinite;
     position: relative;
-    top: -10px;
+    top: -15px;
     flex-basis: 75%;
 }
 @keyframes mover{
@@ -752,6 +752,17 @@ min-height: 180px;
     50%{
         transform: translateY(-.5px);
     }
+}
+.ciudadIda{
+    display: flex;
+    flex-basis: 25%;
+}
+#señal{
+    width: 100px;
+    height: 200px;
+    background-image: url(Imagenes/señalciudad.png);
+    background-size:contain;
+    background-position: center;
 }
 
 
